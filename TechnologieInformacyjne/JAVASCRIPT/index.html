@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Rejestracja</title>
-    <script>
-        console.log("Hello World!");
-    </script>
 </head>
-<body>
-    <h1>Rejestracja</h1>
+<body onload="test()">
+    <h1 id="header">Rejestracja</h1>
 
-    <form>
-        <label>Imie: </label><input type="text">
-        <label>Nazwisko: </label><input type="text">
-        <label>Email: </label><input type="email">
-        <label>Hasło: </label><input type="password">
-        <label>Potwierdź hasło: </label><input type="password">
-        <input type="submit">
+    <form name="myForm">
+        <label>Imie: </label><input id="fname" type="text" name="fname">
+        <label>Nazwisko: </label><input id="lname" type="text">
+        <label>Email: </label><input id="email" type="email">
+        <label>Hasło: </label><input id="passwd" type="password">
+        <label>Potwierdź hasło: </label><input id="secpasswd" type="password">
+        <input id="button" type="button" value="Zarejestruj">
     </form>
+
+    <p id="error"></p>
+
+    <p id="data"></p>
+
 </body>
+<script src="index.js"></script>
+
 </html>
