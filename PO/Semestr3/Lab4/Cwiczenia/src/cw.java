@@ -40,7 +40,7 @@ public class cw extends JFrame{
         KProgramowanie.add(PK5);
 
         //poziom 2
-        DefaultMutableTreeNode PGrafika = new DefaultMutableTreeNode("Grafika Komputeriwa");
+        DefaultMutableTreeNode PGrafika = new DefaultMutableTreeNode("Grafika Komputerowa");
         DefaultMutableTreeNode PP1 = new DefaultMutableTreeNode("Adobe Photoshop");
         DefaultMutableTreeNode PP2 = new DefaultMutableTreeNode("Paint");
         DefaultMutableTreeNode PP3 = new DefaultMutableTreeNode("Krita");
