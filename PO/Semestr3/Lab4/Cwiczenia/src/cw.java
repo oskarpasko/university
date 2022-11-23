@@ -1,6 +1,8 @@
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class cw extends JFrame{
     private JPanel panel1;
@@ -20,6 +22,45 @@ public class cw extends JFrame{
         this.setContentPane(this.panel1); // wyswietlanie okienka na ekranie
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(400, 400);
+        tree1.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                super.mouseClicked(e);
+                DefaultMutableTreeNode root = (DefaultMutableTreeNode) tree1.getSelectionPath().getLastPathComponent();
+                textField1.setText(root.getUserObject().toString());
+
+                switch(String.format(textField1.getText()))
+                {
+                    case "Python":
+                        textField2.setText("50");
+                        break;
+                    case "C++":
+                        textField2.setText("20");
+                        break;
+                    case "C#":
+                        textField2.setText("40");
+                        break;
+                    case "Java":
+                        textField2.setText("50");
+                        break;
+                    case "ASP.NET":
+                        textField2.setText("10");
+                        break;
+                    case "Paint":
+                        textField2.setText("5");
+                        break;
+                    case "Krita":
+                        textField2.setText("50");
+                        break;
+                    case "Adobe Photoshop":
+                        textField2.setText("100");
+                        break;
+                    case "AutoCAD":
+                        textField2.setText("200");
+                        break;
+                }
+            }
+        });
     }
 
     private void createUIComponents() {
