@@ -94,7 +94,7 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <component id="41880" class="javax.swing.JTree" binding="tree1" default-binding="true">
+                  <component id="41880" class="javax.swing.JTree" binding="tree1" custom-create="true" default-binding="true">
                     <constraints/>
                     <properties/>
                   </component>
