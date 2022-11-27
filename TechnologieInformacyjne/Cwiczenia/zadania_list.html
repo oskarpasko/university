@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cwiceznia z html</title>
+    <style>
+        body{
+            background-color: gray;
+            margin: 50px 20px;
+        }
+        table, th, td{
+            background-color: white;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 100%;
+            text-align: center;
+        }
+        .links{
+            padding: 0;
+        }
+        ul.links li{
+            list-style-type:none;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .menu, .ads{
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3">Główna - wstat obrazek z nazwą i logo</td>
+        </tr>
+        <tr class="main">
+            <td class="menu">
+                <ul class="links">
+                    <li><a href="zadania_form.html">Formularz</a></li>
+                    <li><a href="zadania.table.html">Tabela</a></li>
+                    <li><a href="zadania_list.html">Lista</a></li>
+                </ul>
+            </td>
+            <td>
+                <ol type="A">
+                    <li>Pozycja Pierwsza
+                        <ol type="a">
+                            <li>Pozycja pierwsza
+                                <ol>
+                                    <li value="7">Pozycja pierwsza</li>
+                                    <li>Pozycja druga
+                                        <ul>
+                                            <li>Pozycja pierwsza
+                                                <ol tpye="I">
+                                                    <li>Pozycja pierwsza</li>
+                                                    <li>Pozycja druga</li>
+                                                </ol>
+                                            </li>
+                                            <li>Pozycja druga</li>
+                                        </ul>
+                                    </li>
+                                    <li value="11">Pozycja trzecia</li>
+                                </ol>
+                            </li>
+                            <li>Pozycja druga</li>
+                            <li>Pozycja trzecia</li>
+                        </ol>
+                    </li>
+                    <li>Pozycja druga</li>
+                    <li>Pozycja trzecia</li>
+                </ol>
+            </td>
+            <td class="ads">Miejce na reklamy</td>
+        </tr>
+        <tr>
+            <td colspan="3">Stopka strony z powtórzony linkami(Formularz, Tabela, Lista), które otwierają się tam gdzie boczne (środek strony)</td>
+        </tr>
+    </table>
+</body>
+</html>
