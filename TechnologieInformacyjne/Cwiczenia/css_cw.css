@@ -1,0 +1,89 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(lucy.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 1920px;
+    height: 1080px;
+}
+
+.first_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 10px;
+}
+.second_p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200px;
+    margin: 0;
+}
+
+table{
+    background-color: white;
+}
+
+table, td{
+    border: 4px dashed black;
+    border-collapse:collapse;
+}
+
+td{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+}
+
+.main{
+    padding: 20px;
+}
+
+.second_table{
+    margin: auto;
+    border-collapse: separate;
+    border: 2px solid black;
+}
+
+.second_table td{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+
+ol li{
+    color: red;
+}
+
+ul li{
+    color: lightskyblue;
+}
+.first_a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+.first_a:hover{
+    font-size: 100px;
+    color: blue;
+}
+.first_a:visited{
+    color: gray;
+    text-decoration: none;
+}
+.second_a{
+    font-size: 100px;
+    color:blue
+}
+.second_a:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color:green
+}
+.second_a:visited{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:gray;
+    text-decoration: none;
+}
