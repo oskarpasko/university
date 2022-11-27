@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cwiceznia z html</title>
+    <style>
+        body{
+            background-color: gray;
+            margin: 50px 20px;
+        }
+        table, th, td{
+            background-color: white;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 100%;
+            text-align: center;
+        }
+        ul{
+            padding: 0;
+        }
+        li{
+            list-style-type:none;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        .menu, .ads{
+            width: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3">Główna - wstat obrazek z nazwą i logo</td>
+        </tr>
+        <tr class="main">
+            <td class="menu">
+                <ul>
+                    <li><a href="zadania_form.html">Formularz</a></li>
+                    <li><a href="zadania.table.html">Tabela</a></li>
+                    <li><a href="zadania_list.html">Lista</a></li>
+                </ul>
+            </td>
+            <td>
+                <fieldset>
+                    <legend> Formluarz</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>dane identyfikacyjne</legend>
+                                    <form>
+                                        <label>Firma*</label><input required><br />
+                                        <label>Ulica </label><input><br />
+                                        <label>Mijesocwość </label><input><br />
+                                        <label>Kod pocztowy </label><input><br />
+                                        <label>NIP </label><input><br />
+                                        <label>WWW </label><input><br />
+                                    </form>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <legend>osoba kontaktowa</legend>
+                                    <form>
+                                        <label>Nazwisko*</label><input required><br />
+                                        <label>Imie*</label><input required><br />
+                                        <label>Telefon*</label><input required><br />
+                                        <label>Kraj*</label><select>
+                                            <option>Polska</option>
+                                            <option>Japonia</option>
+                                        </select><br />
+                                        <label>Tel kom.</label><input><br />
+                                        <label>Faks</label><input ><br />
+                                        <label>Email*</label><input required><br />
+                                    </form>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>informacje dodatkowe</legend>
+                                    <form>
+                                        <label>Zakupy</label>
+                                        <input type="radio"><label>detaliczne</label><br />
+                                        <input type="radio"><label>hurtowe</label><br />
+            
+                                        <label>Prowdzę</label>
+                                        <input type="checkbox"><label>hurtownie</label><br />
+                                        <input type="checkbox"><label>salon</label><br />
+                                        <input type="checkbox"><label>sklep</label><br />
+                                        <input type="checkbox"><label>punkt</label><br />
+                                        <input type="checkbox"><label>inny</label><input><br />
+                                    </form>
+                                </fieldset>
+                            </td>
+                            <td>
+                                <fieldset>
+                                    <legend>moja główna branza to:</legend>
+                                    <form>
+                                        <input type="radio"><label>GSM</label><br />
+                                        <input type="radio"><label>RTV</label><br />
+                                        <input type="radio"><label>komputera</label><br />
+                                        <input type="radio"><label>materiały eksploatacyjne do drukarek</label><br />
+                                        <input type="radio"><label>inna</label><input><br />
+                                    </form>
+                                </fieldset>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <fieldset>
+                                    <legend>dane konfiguracyjne</legend>
+                                    <form>
+                                        <label>Login*</label><input><br />
+                                        <label>Hasło*</label><input><br />
+                                        <label>Powtórz hasło*</label><input><br />
+                                    </form>
+                                </fieldset>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+            <td class="ads">Miejce na reklamy</td>
+        </tr>
+        <tr>
+            <td colspan="3">Stopka strony z powtórzony linkami(Formularz, Tabela, Lista), które otwierają się tam gdzie boczne (środek strony)</td>
+        </tr>
+    </table>
+</body>
+</html>
