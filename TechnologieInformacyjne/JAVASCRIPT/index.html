@@ -11,12 +11,12 @@
     <h1 id="header">Rejestracja</h1>
 
     <form action="hello.html" method="get" name="myForm">
-        <label>Imie: </label><input id="fname" type="text" name="fname">
-        <label>Nazwisko: </label><input id="lname" type="text">
-        <label>Email: </label><input id="email" type="email">
-        <label>Hasło: </label><input id="passwd" type="password">
-        <label>Potwierdź hasło: </label><input id="secpasswd" type="password">
-        <input id="button" type="button" value="Zarejestruj">
+        <label>Imie: </label><input id="fname" type="text" name="fname" required>
+        <label>Nazwisko: </label><input id="lname" type="text" required>
+        <label>Email: </label><input id="email" type="email" required>
+        <label>Hasło: </label><input id="passwd" type="password" required>
+        <label>Potwierdź hasło: </label><input id="secpasswd" type="password" required>
+        <input id="button" type="button" value="Zarejestruj" required>
     </form>
 
     <p id="error"></p>

@@ -26,13 +26,13 @@ function validation()
         if(email.charAt(i) == "@") CHECK_AT = true;
     }
 
-    if(pattern.test(fname) == true) 
+    if(pattern.test(fname) == true || fname == "") 
     {
         document.getElementById("error").innerHTML = "Błędne imie!";
-    }else if(pattern.test(lname) == true)
+    }else if(pattern.test(lname) == true || fname == "")
     {
         document.getElementById("error").innerHTML = "Błędne Nazwisko";
-    }else if(CHECK_AT == false)
+    }else if(CHECK_AT == false || fname == "")
     {
         document.getElementById("error").innerHTML = "Błędny adres email!";
     }else if(user_password == "" || sec_user_password == "")
