@@ -5,8 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stare Kolokwium</title>
+
+<style>
+    body{
+        background-color: gray;
+        margin: 50px 50px 20px 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        color: yellow;
+    }
+
+    table, tr, td{
+        border: 1px dashed black;
+        border-collapse: collapse;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    table{
+        color: black;
+        height: 400px;
+        width: 400px;
+    }
+
+    .redcolor{
+        background-color: red;
+    }
+    .yellowcolor{
+        background-color: yellow;
+    }
+
+    .second-table{
+        height: 50px;
+        width: 50px;
+    }
+
+    .second-table, .second-table td{
+        margin: auto;
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    ol{
+        color: black;
+        list-style-type: upper-alpha;
+        font-weight: 800;
+    }
+
+    .druga-lista{
+        list-style-type: decimal;
+        color: red;
+        font-weight: 100;
+    }
+
+    .trzecia-lista{
+        list-style-type:lower-roman;
+        color: blue;
+        font-style: italic;
+        font-weight: 100;
+    }
+
+    .last{
+        color: black;
+    }
+</style>
+
 </head>
 <body>
     
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td class="yellowcolor" rowspan="5">5</td>
+        </tr>
+        <tr>
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td colspan="2">8</td>
+        </tr>
+        <tr>
+            <td class="redcolor" colspan="2">9</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td colspan="2">
+                <table class="second-table"> 
+                    <tr>
+                        <td>a</td>
+                        <td>b</td>
+                    </tr>
+                    <tr>
+                        <td>c</td>
+                        <td>d</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">13</td>
+        </tr>
+    </table>
+
+    <ol>
+        <li>Pozycja pierwsza</li>
+        <li>Druga pierwsza
+            <ol class="druga-lista">
+                <li value="7">Pierwsza pozycja</li>
+                <li value="9">Druga pozycja
+                    <ol class="trzecia-lista">
+                        <li>Pozycja pierwsza</li>
+                        <li>Pozycja druga
+                            <ul>
+                                <li class="last">Pozycja pierwsza</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </li>
+                <li value="11">Pozycja trzcia</li>
+            </ol>
+        </li>
+        <li>Pozycja trzcia</li>
+    </ol>
+
 </body>
 </html>
