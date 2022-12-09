@@ -1,3 +1,5 @@
+package com.company;
+
 public class Epidemia_PD {
     public static void main(String[] args) {
         final int populacja = 100000;
