@@ -1,4 +1,4 @@
-package com.company;
+package com.company.DZ_PD;
 
 public class Newton_PD {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.DZ_PD;
 
 import java.util.Random;
 
