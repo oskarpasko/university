@@ -14,6 +14,7 @@ public class Lody_MC {
         };
 
         Random rand = new Random();
+
         int minSuma = Integer.MAX_VALUE;
         String najlepszeRozwiazanie = "";
         int start=-1;
