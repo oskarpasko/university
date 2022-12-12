@@ -7,18 +7,15 @@ public class Plecak_PD {
     final static int[] V = {6,2,3,2,3,1};  // objetości przedmiotów
     final static int[] W = {6,4,5,7,10,2}; // wartości przedmiotów
 
-
     public static void main(String[] args)
     {
-        int [][] tab = new int[N][MAX_V+1]; //Dla objetosci: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
-        // oraz dla przedmiotow 0, 1, 2, 3, 4, 5
+        int [][] tab = new int[N][MAX_V+1];
 
         for (int v=0; v<=MAX_V; v++) //Wypelnianie pierwszego wiersza
         {
             if (v<V[0]) tab[0][v] = 0;
             else tab[0][v] = W[0];
         }
-
         for (int i=1; i<N; i++) //Wypelnianie pozostalych wierszy
         {
             for (int v=0; v<=MAX_V; v++) //Po wszystkich objetosciach (kolumnach)
@@ -36,12 +33,13 @@ public class Plecak_PD {
 
 
         //Wypisanie tablicy z rozwiazaniami
-        /**/        System.out.println("v =\t0    1    2    3    4    5    6    7    8    9   10");
-        /**/        System.out.println("-----------------------------------------------------------");
+        System.out.println("v =\t0   1    2    3    4    5    6    7    8    9   10");
+        System.out.println("-----------------------------------------------------------");
 
         for (int i=0; i<N; i++)
         {
-            /**/            System.out.print("i = " + i + "|");
+            System.out.print("i = " + i + "|");
+
             for (int j=0; j<=MAX_V; j++)
             {
                 int val = tab[i][j];
@@ -51,7 +49,5 @@ public class Plecak_PD {
             }
             System.out.println();
         }
-
-
     }
 }
