@@ -27,6 +27,7 @@ public class Lody_AZ {
         int tempwiersz = wiersz;
 
         System.out.print("Kolejnosc: " + (wiersz+1) + " ");
+
         int suma = 0;
         int i = 0;
         while (true) {
