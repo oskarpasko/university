@@ -13,33 +13,30 @@ public class Plecak_PD {
 
         for (int v=0; v<=MAX_V; v++) //Wypelnianie pierwszego wiersza
         {
-            if (v<V[0]) tab[0][v] = 0;
-            else tab[0][v] = W[0];
+            if (v < V[0]) tab[0][v] = 0;
+            else          tab[0][v] = W[0];
         }
-        
+
         for (int i=1; i<N; i++) //Wypelnianie pozostalych wierszy
         {
             for (int v=0; v<=MAX_V; v++) //Po wszystkich objetosciach (kolumnach)
             {
-                if (v<V[i]) tab[i][v] = tab[i-1][v];
+                if (v < V[i]) tab[i][v] = tab[i-1][v];
                 else
                 {
-                    int p1 = tab[i-1][v];
-                    int p2 = W[i] + tab[i-1][v-V[i]];
-                    if (p1>p2) tab[i][v] = p1;
+                    int p1 = tab[i-1][v];// v, i = 5, p1 = 17
+                    int p2 = W[i] + tab[i-1][v-V[i]];// v, i = 5 , p2 = 12
+                    if (p1>p2) tab[i][v] = p1;// [5][5] = 17
                     else tab[i][v] = p2;
                 }
             }
         }
 
         System.out.println("Wartosc: " + tab[N-1][MAX_V]);
-
-
         System.out.println("/*################################################################*/");
 
-
         //Wypisanie tablicy z rozwiazaniami
-        System.out.println("v =\t0   1    2    3    4    5    6    7    8    9   10");
+        System.out.println("v =\t    0    1    2    3    4    5    6    7    8    9   10");
         System.out.println("-----------------------------------------------------------");
 
         for (int i=0; i<N; i++)
