@@ -7,56 +7,38 @@ public class Plecak_DZ {
     final static int[] V = {6,2,3,2,3,1};  // objetosci przedmiotow
     final static int[] W = {6,4,5,7,10,2}; // wartosci przedmiotow
 
-    static int plecak(int i, int v)
+    static int plecak(int przedmiot, int objetosc)
     {
         int w1; // wartosc, gdy nie bierzemy i-tego przedmiotu
         int w2; // wartosc, gdy bierzemy i-ty przedmiot
 
-//Jezeli do zapakowania mamy tylko przedmiot z numerem 0 i ...
+// Jeżeli pakujemy tylko pierwszy przedmiot (z indexu [0]) i on:...
 
-        //... nie miesci sie on do plecaka, to maksymalna wartosc plecaka o objetosci v jest rowna 0
-        if (i == 0 && v < V[0])
-        {
-            return 0;
-        }
-        //... miesci sie on do plecaka, to maksymalna wartosc plecaka o objetosci v
-        //jest rowna wartosci tego przedmiotu
-        if (i == 0 && v >= V[0])
-        {
-            return W[0];
-        }
+        // 1. nie miesci się w objętości plecaka
+        // zwracamy maksymalną wartość plecaka jako 0
+        // (poniewaz nic nie zapakowaliśmy)
+        if (przedmiot == 0 && objetosc < V[0]) return 0;
 
-// Jesli mamy wiecej niz jeden przedmiot (czyli nie tylko przedmiot z numerem 0) ...
+        // 2. Jeśli mieści się w objętości plecaka
+        // zwracamy wartość tego pierwszego przedmiotu
+        if (przedmiot == 0 && objetosc >= V[0]) return W[0];
 
-        w1 = plecak(i - 1, v);
+//Jeżeli pakujemy więcej niż jeden przedmiot czyli (przedmiot > 0)
 
-        //Jezeli i-ty przedmiot nie miesci sie do plecaka, to maksymalna wartosc plecaka
-        //o objetosci v, zapakowanego sposrod przedmiotow ponumerowanych od 0 do i
-        //jest równa maksymalnej wartosci plecaka o objetosci v, zapakowanego
-        //sposrod przedmiotow ponumerowanych od 0 do i-1.
-        if (i > 0 && v < V[i])
-        {
-            return w1;
-        }
+        // obliczenie wartości przedmiotu (o jeden do tyłu w tabelce)
+        w1 = plecak(przedmiot - 1, objetosc);
 
-        w2 = W[i] + plecak(i - 1, v - V[i]);
+        // Jeżeli przedmiot nie z pierwszego indexu nie mieści się w plecaku
+        // zwracamy wartość poprzedniego przedmiotu
+        if (przedmiot > 0 && objetosc < V[przedmiot]) return w1;
 
-        //Jezeli i-ty przedmiot miesci sie do plecaka, to maksymalna wartosc plecaka
-        //o objetosci v, zapakowanego sposrod przedmiotow ponumerowanych od 0 do i
-        //jest rowna wiekszej z dwu wartosci:
-        //maksymalnej wartosci plecaka o objetosci v - Vi, zapakowanego sposrod przedmiotow
-        // ponumerowanych od 0 do i - 1 plus wartosc i-tego przedmiotu,
-        //lub
-        //-maksymalnej wartosci plecaka o objetosci v, zapakowanego sposrod przedmiotow
-        //ponumerowanych od 0 do i - 1
-        if (w2 > w1) // gdy i > 0 && v >= V[i]
-        {
-            return w2;
-        }
-        else
-        {
-            return w1;
-        }
+        // obliczenie wartości aktualnego oraz poprzedniego przedmiotu
+        w2 = W[przedmiot] + plecak(przedmiot - 1, objetosc - V[przedmiot]);
+
+        // sprawdzenie która wartość przedmiotu jest wyższa
+        // gdy i > 0 && v >= V[i]
+        if (w2 > w1) return w2;
+        else return w1;
     }
 
     public static void main(String[] args)
