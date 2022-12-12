@@ -12,31 +12,13 @@ public class Plecak_DZ {
         int w1; // wartosc, gdy nie bierzemy i-tego przedmiotu
         int w2; // wartosc, gdy bierzemy i-ty przedmiot
 
-// Jeżeli pakujemy tylko pierwszy przedmiot (z indexu [0]) i on:...
-
-        // 1. nie miesci się w objętości plecaka
-        // zwracamy maksymalną wartość plecaka jako 0
-        // (poniewaz nic nie zapakowaliśmy)
         if (przedmiot == 0 && objetosc < V[0]) return 0;
-
-        // 2. Jeśli mieści się w objętości plecaka
-        // zwracamy wartość tego pierwszego przedmiotu
         if (przedmiot == 0 && objetosc >= V[0]) return W[0];
 
-//Jeżeli pakujemy więcej niż jeden przedmiot czyli (przedmiot > 0)
-
-        // obliczenie wartości przedmiotu (o jeden do tyłu w tabelce)
         w1 = plecak(przedmiot - 1, objetosc);
-
-        // Jeżeli przedmiot nie z pierwszego indexu nie mieści się w plecaku
-        // zwracamy wartość poprzedniego przedmiotu
         if (przedmiot > 0 && objetosc < V[przedmiot]) return w1;
 
-        // obliczenie wartości aktualnego oraz poprzedniego przedmiotu
         w2 = W[przedmiot] + plecak(przedmiot - 1, objetosc - V[przedmiot]);
-
-        // sprawdzenie która wartość przedmiotu jest wyższa
-        // gdy i > 0 && v >= V[i]
         if (w2 > w1) return w2;
         else return w1;
     }
