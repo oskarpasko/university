@@ -31,6 +31,11 @@ public class Plecak_PD {
             }
         }
 
+        System.out.println("Wartosc: " + tab[N-1][MAX_V]);
+
+
+        System.out.println("/*################################################################*/");
+
 
         //Wypisanie tablicy z rozwiazaniami
         System.out.println("v =\t0   1    2    3    4    5    6    7    8    9   10");
