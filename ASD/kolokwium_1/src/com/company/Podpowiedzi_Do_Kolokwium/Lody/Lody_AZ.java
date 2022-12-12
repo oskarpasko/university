@@ -52,9 +52,7 @@ public class Lody_AZ {
                 i++;
             }
         }
-
         suma += koszty[wiersz][tempwiersz];
-
         System.out.println(" " + tempwiersz + "\nSuma kosztow to " + suma);
     }
 }
