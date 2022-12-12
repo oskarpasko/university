@@ -16,6 +16,7 @@ public class Plecak_PD {
             if (v<V[0]) tab[0][v] = 0;
             else tab[0][v] = W[0];
         }
+        
         for (int i=1; i<N; i++) //Wypelnianie pozostalych wierszy
         {
             for (int v=0; v<=MAX_V; v++) //Po wszystkich objetosciach (kolumnach)

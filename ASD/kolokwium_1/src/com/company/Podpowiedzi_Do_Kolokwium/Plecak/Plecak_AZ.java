@@ -4,7 +4,7 @@ public class Plecak_AZ {
     final static int N = 6;                // liczba przedmiotow
     final static int MAX_V = 10;           // objetosc plecaka
 
-    final static int[] V = {1,2,3,2,3,1};  // objetosci przedmiotow
+    final static int[] V = {6,2,3,2,3,1};  // objetosci przedmiotow
     final static int[] W = {6,4,5,7,10,2}; // wartosci przedmiotow
 
     //Wersja 1: Wybieramy w kolejnosci rosnacych objetosci przedmiotow (od najmniejszego)
