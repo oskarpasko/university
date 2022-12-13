@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24b8dcdf-445b-462b-9042-abe4dfc76733" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../ASD/kolokwium_1/src/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Lody_MC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASD/kolokwium_1/out/production/kolokwium_1/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_DZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ASD/kolokwium_1/out/production/kolokwium_1/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_DZ.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASD/kolokwium_1/out/production/kolokwium_1/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_PD.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ASD/kolokwium_1/out/production/kolokwium_1/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_PD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASD/kolokwium_1/src/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_DZ.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ASD/kolokwium_1/src/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_DZ.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ASD/kolokwium_1/src/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_PD.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ASD/kolokwium_1/src/com/company/Podpowiedzi_Do_Kolokwium/Kody_Wlasne/Plecak_PD.java" afterDir="false" />
-    </list>
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
-  </component>
+
   <component name="ProjectId" id="2IrfOioFxgzn5sPB96kR2tEUr6q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,4 +29,5 @@
     </task>
     <servers />
   </component>
+
 </project>
