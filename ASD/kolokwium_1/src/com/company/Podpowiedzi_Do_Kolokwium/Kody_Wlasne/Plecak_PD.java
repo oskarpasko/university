@@ -8,21 +8,19 @@ public class Plecak_PD {
     final static int[] W = {6,4,5,7,10,2};
 
     public static void main(String[] args) {
-        int tab[][] = new int[N][MAX_V+1];
+        int[][] tab = new int[N][MAX_V+1];
 
-        //pierwszy wiersz
         for(int v=0;v<=MAX_V;v++)
         {
             if(v<V[0]) tab[0][v] = 0;
-            else       tab[0][v] = W[0];
+            else tab[0][v] = W[0];
         }
 
-        //reszta wierszy
         for(int i=1;i<N;i++)
         {
             for(int v=0;v<=MAX_V;v++)
             {
-                if(v<V[i]) tab[i][v] = tab[i-1][v];
+                if(v<V[i]) tab[i][v]=tab[i-1][v];
                 else
                 {
                     int p1 = tab[i-1][v];
@@ -32,6 +30,7 @@ public class Plecak_PD {
                 }
             }
         }
-        System.out.println("Wartość - "+tab[N-1][MAX_V]);
+
+        System.out.println("Wartość: "+tab[N-1][MAX_V]);
     }
 }
