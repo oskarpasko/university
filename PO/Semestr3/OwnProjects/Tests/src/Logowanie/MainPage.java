@@ -3,9 +3,9 @@ package Logowanie;
 public class MainPage {
     public static void main(String[] args) {
 
-        Login log = new Login();
+        Person p = new Person();
 
         System.out.println("Zalogowany!");
-        System.out.println("Twoje hasło to: " + log.password);
+        System.out.println("Witaj "+p.toString());
     }
 }
