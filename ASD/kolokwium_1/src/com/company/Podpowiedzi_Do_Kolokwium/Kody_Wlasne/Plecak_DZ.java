@@ -12,7 +12,7 @@ public class Plecak_DZ {
         if(przedmiot == 0 && objetosc < V[0]) return 0;
         if(przedmiot == 0 && objetosc >= V[0]) return W[0];
 
-        int w1 = plecak(przedmiot -1, objetosc);
+        int w1 = plecak(przedmiot-1, objetosc);
         if(przedmiot > 0 && objetosc < V[przedmiot]) return w1;
 
         int w2 = W[przedmiot] + plecak(przedmiot - 1, objetosc - V[przedmiot]);
@@ -21,7 +21,7 @@ public class Plecak_DZ {
     }
 
     public static void main(String[] args) {
-        System.out.println("Wartość: "+plecak(N-1,MAX_V));
+        System.out.println("Wartosc: "+plecak(N-1, MAX_V));
     }
 
 }
