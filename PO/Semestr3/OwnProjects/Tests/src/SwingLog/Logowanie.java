@@ -3,6 +3,10 @@ package SwingLog;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.sql.*;
 
 public class Logowanie extends JFrame{
@@ -11,10 +15,8 @@ public class Logowanie extends JFrame{
     private JButton button1;
     private JTextField textField2;
 
-    private static final String DRIVER = "com.mysql.jdbc.Driver";
     private static final String DB_URL = "jdbc:mysql://localhost:3306/test";
-    private static Connection connection;
-    private static Statement statement;
+
 
     public static void main(String[] args) {
         Logowanie panel = new Logowanie();
@@ -45,8 +47,24 @@ public class Logowanie extends JFrame{
                     st.setString(2, pass);
                     ResultSet rs = st.executeQuery();
                     if (rs.next()) {
-                        String id = rs.getString("id");
-                        JOptionPane.showMessageDialog(Logowanie.this, "Welcome "+id);
+                        // Działania po odnalezieniu usera z podanym loginem i hasłem
+                        MainPage mp = new MainPage();
+
+                        File file = new File("zalogowany.txt");
+
+                        // Zapis do pliku
+                        try {
+                            BufferedWriter myWriter = new BufferedWriter(new FileWriter("zalogowany.txt", true));
+                            myWriter.write(rs.getString("login"));
+                            myWriter.newLine();
+                            myWriter.write(rs.getString("password"));
+                            myWriter.close();
+                        } catch (IOException f) {
+                            System.out.println("An error occurred.");
+                            f.printStackTrace();
+                        }
+                        mp.setVisible(true);
+                        dispose();
                     } else {
                         JOptionPane.showMessageDialog(Logowanie.this, "Wrong Username & Password");
                     }
