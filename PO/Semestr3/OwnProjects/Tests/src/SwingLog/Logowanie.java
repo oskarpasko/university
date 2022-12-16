@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedWriter;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.sql.*;
@@ -50,8 +49,6 @@ public class Logowanie extends JFrame{
                         // Działania po odnalezieniu usera z podanym loginem i hasłem
                         MainPage mp = new MainPage();
 
-                        File file = new File("zalogowany.txt");
-
                         // Zapis do pliku
                         try {
                             BufferedWriter myWriter = new BufferedWriter(new FileWriter("zalogowany.txt", true));
@@ -61,7 +58,6 @@ public class Logowanie extends JFrame{
                             myWriter.close();
                         } catch (IOException f) {
                             System.out.println("An error occurred.");
-                            f.printStackTrace();
                         }
                         mp.setVisible(true);
                         dispose();

@@ -1,10 +1,11 @@
 package SwingLog;
 
 import javax.swing.*;
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.sql.Time;
+
 
 public class MainPage extends JFrame{
     private JPanel panel1;
@@ -15,7 +16,6 @@ public class MainPage extends JFrame{
     public static void main(String[] args) {
         MainPage panel = new MainPage();
         panel.setVisible(true);
-
     }
 
     public MainPage() {
@@ -24,13 +24,13 @@ public class MainPage extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(300, 300);
 
+
         try {
             label1.setText(Files.readAllLines(Paths.get("zalogowany.txt")).get(0));
             textField1.setText(Files.readAllLines(Paths.get("zalogowany.txt")).get(1));
         }catch (IOException f) {
-            System.out.println("An error occurred.");
+            System.out.println("An error occurred!");
             f.printStackTrace();
         }
-
     }
 }
