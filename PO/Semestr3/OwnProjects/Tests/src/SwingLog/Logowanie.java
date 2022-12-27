@@ -3,16 +3,13 @@ package SwingLog;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.sql.*;
 
 public class Logowanie extends JFrame{
     private JPanel panel1;
-    private JTextField textField1;
+    public JTextField textField1;
     private JButton button1;
-    private JTextField textField2;
+    public JTextField textField2;
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/test";
 
@@ -20,7 +17,6 @@ public class Logowanie extends JFrame{
     public static void main(String[] args) {
         Logowanie panel = new Logowanie();
         panel.setVisible(true);
-
     }
 
     public Logowanie(){
@@ -47,20 +43,9 @@ public class Logowanie extends JFrame{
                     ResultSet rs = st.executeQuery();
                     if (rs.next()) {
                         // Działania po odnalezieniu usera z podanym loginem i hasłem
-                        MainPage mp = new MainPage();
-
-                        // Zapis do pliku
-                        try {
-                            BufferedWriter myWriter = new BufferedWriter(new FileWriter("zalogowany.txt", true));
-                            myWriter.write(rs.getString("login"));
-                            myWriter.newLine();
-                            myWriter.write(rs.getString("password"));
-                            myWriter.close();
-                        } catch (IOException f) {
-                            System.out.println("An error occurred.");
-                        }
-                        mp.setVisible(true);
+                        MainPage mp = new MainPage(rs.getString("id"));
                         dispose();
+                        mp.setVisible(true);
                     } else {
                         JOptionPane.showMessageDialog(Logowanie.this, "Wrong Username & Password");
                     }
