@@ -31,6 +31,6 @@
 
 ## Odrabianie
 
-### Metody Numeryczne (egzamin)
-- 01.00.2023 10:00
+### ASD
+- 10.01.2023 10:00
 - 207 B4
