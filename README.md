@@ -5,7 +5,7 @@
 
 ## Kolokwia
 
-### Podstawy finansów ćw
+### Podstawy finansów (kolokwium)
 - 11.01.2023
 - 228 B1
 
@@ -25,7 +25,7 @@
 - 07.02.2023 od 8:30
 - Online
 
-### ASD Egzamin
+### ASD egzamin
 - 09.02.2023 9:00
 - 126 B1
 
