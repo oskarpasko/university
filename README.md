@@ -13,6 +13,10 @@
 - 16.01.2023 11:30
 - 126 B1
 
+### Metody Numeryczne
+- 17.01.2023
+- 
+
 ### ASD kolokwium 1 poprawa
 - 23.01.2023
 - 
