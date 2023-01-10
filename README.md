@@ -13,6 +13,10 @@
 - 16.01.2023 11:30
 - 126 B1
 
+### ASD kolokwium
+- 24.02.2023 
+- 
+
 ### Podstawy Finansów (egzamin)
 - 01.02.2023 9:00
 - 228 B1
