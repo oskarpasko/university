@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="test.css" ?>
+
+<ksiazki>
+    <H1>Zadanie 1</H1>
+    <ksiazka>
+    <imie>J.R.R. Tolkien</imie>
+    <tytul>Władca Pierścieni</tytul>
+    </ksiazka>
+
+    <ksiazka>
+    <imie>J.R.R. Tolkien</imie>
+    <tytul>Władca Pierścieni 2</tytul>
+    </ksiazka>
+
+    <H1>Zadanie 2</H1>
+
+    <osoba>
+        <imie>Oskar Pasko</imie>
+        <data>2000.01.02 Rzeszów</data>
+        <zatrudnie>Bezrobotny wyuczony</zatrudnie>
+    </osoba>
+
+    <H1>Zadanie 4</H1>
+
+    <tabela>
+        <header>
+            <odjazd>Odjazd</odjazd>
+            <przyjazd>Przyjazd</przyjazd>
+            <kursuje>Kursuje</kursuje>
+            <rodzaj>Rodzaj ciopągu</rodzaj>
+        </header>
+        <dane>
+            <odjazd>cos</odjazd>
+            <przyjazd>cos</przyjazd>
+            <kursuje>cos</kursuje>
+            <rodzaj>cos</rodzaj>
+        </dane>
+    </tabela>
+
+
+
+</ksiazki>

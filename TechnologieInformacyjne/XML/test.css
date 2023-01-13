@@ -1,0 +1,35 @@
+imie {
+    color: blue;
+}
+
+tytul
+{
+    color: green;
+    white-space: pre-line;
+}
+ksiazka
+{
+    display: block;
+}
+
+osoba > *
+{
+    display: block;
+}
+H1
+{
+    font-size: 20px;
+    color: red;
+}
+
+tabela, tabela > *
+{
+    display: block;
+}
+
+header > *, dane > *
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
