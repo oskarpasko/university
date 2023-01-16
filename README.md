@@ -5,10 +5,6 @@
 
 ## Kolokwia
 
-### Bazy Danych (zaliczenie)
-- 16.01.2023 11:30
-- 126 B1
-
 ### Metody Numeryczne
 - 17.01.2023
 - 
