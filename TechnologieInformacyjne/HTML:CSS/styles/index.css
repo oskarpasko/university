@@ -102,6 +102,36 @@ div.game-list{
     margin: 15px auto;
     background-color: #333333;
     width: 80%;
+    text-align: center;
+}
+
+div.game-list ul{
+    width: 500px;
+    margin: 50px auto;
+    text-align: left;
+    padding-top: 0.1px;
+    padding-bottom: 50px;
+}
+
+div.game-list ul li.list{
+    margin: 20px auto 5px auto;
+    width: 400px;
+    height: 120px;
+    list-style-type: none;
+    border-bottom: 0.5px solid black;
+}
+
+div.game-list ul li{
+    list-style-type: none;
+}
+
+div.game-list ul li.list ul li.title{
+    color: rgb(219, 133, 41);
+    font-size: 32px;
+}
+
+div.game-list ul li.list ul li.price{
+    color: rgb(255, 139, 124);
 }
 
 footer{
@@ -122,4 +152,8 @@ footer ul{
 footer img.logo{
     height: 80px;
     width: 200px;
+}
+
+a:visited{
+    color: inherit;
 }
