@@ -9,34 +9,32 @@ public class ArrayListQueue
 {
     private ArrayList<Integer> intQueue;
 
-    public ArrayListQueue()          // konstruktor
+    public ArrayListQueue()
     {
         intQueue = new ArrayList<Integer>();
     }
 
-    public void insert(int elem)   // wstawia element na koniec kolejki
+    public void insert(int elem)
     {
         intQueue.add(elem);
     }
 
-    public int remove()         // usuwa element z początku kolejki
+    public int remove()
     {
-        int firstElem = intQueue.get(0).intValue();
-        intQueue.remove(0);
-        return firstElem;
+        return intQueue.remove(0);
     }
 
-    public int peek()      // podgląda element na początku kolejki
+    public int peek()
     {
         return intQueue.get(0).intValue();
     }
 
-    public boolean isEmpty()    // zwraca true, jeżeli kolejka pusta
+    public boolean isEmpty()
     {
         return intQueue.isEmpty();
     }
 
-    public int size()           // zwraca liczbę elementów w kolejce
+    public int size()
     {
         return intQueue.size();
     }
