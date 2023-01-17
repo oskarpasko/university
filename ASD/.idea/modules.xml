@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ASD.iml" filepath="$PROJECT_DIR$/.idea/ASD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/AlgorytmyZachlanne/AlgorytmyZachlanne.iml" filepath="$PROJECT_DIR$/Skrypty/AlgorytmyZachlanne/AlgorytmyZachlanne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/FiboDyn/FiboDyn.iml" filepath="$PROJECT_DIR$/Skrypty/FiboDyn/FiboDyn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/MonteCarlo_Reszta/MonteCarlo_Reszta.iml" filepath="$PROJECT_DIR$/Skrypty/MonteCarlo_Reszta/MonteCarlo_Reszta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/NewtonDyn/NewtonDyn.iml" filepath="$PROJECT_DIR$/Skrypty/NewtonDyn/NewtonDyn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/NewtonDyn1/NewtonDyn1.iml" filepath="$PROJECT_DIR$/Skrypty/NewtonDyn1/NewtonDyn1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/ProblemPlecakowy/ProblemPlecakowy.iml" filepath="$PROJECT_DIR$/Skrypty/ProblemPlecakowy/ProblemPlecakowy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/Zgadywanka/Zgadywanka.iml" filepath="$PROJECT_DIR$/Skrypty/Zgadywanka/Zgadywanka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Skrypty/ciag_fibo/ciag_fibo.iml" filepath="$PROJECT_DIR$/Skrypty/ciag_fibo/ciag_fibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kolokwium_kody/kolokwium_1.iml" filepath="$PROJECT_DIR$/kolokwium_kody/kolokwium_1.iml" />
+    </modules>
+  </component>
+</project>
