@@ -1,23 +1,23 @@
-package StrukturyA.Zadanie1;
+package kolokwium2.StrukturyA.Zadanie1;
 
-// Implementacja tablicy dynamicznej obiektow typu Object
+// Implementacja tablicy dynamicznej obiektow typu Double
 
-public class DynArray
+public class DynArrayDouble
 {
-    private Object [] table;  //Referencja do tablicy
+    private Double [] table;  //Referencja do tablicy
     private int nElems;  //Aktualna liczba elementow w tablicy
 
-    public DynArray(int maxSize)  // Konstruktor
+    public DynArrayDouble(int maxSize)  // Konstruktor
     {
-        table = new Object[maxSize]; // Tworzymy tablice
+        table = new Double[maxSize]; // Tworzymy tablice
         nElems = 0;               // Na razie brak elementow w tablicy
     }
 
-    public void add(Object value)    	// Wstawienie elementu do tablicy
+    public void add(Double value)    	// Wstawienie elementu do tablicy
     {
         if (nElems >= table.length)
         {
-            Object [] locTable = new Object[table.length*2];
+            Double [] locTable = new Double[table.length*2];
             for (int i=0; i<table.length; i++) locTable[i]=table[i];
             table = locTable;
         }
@@ -26,7 +26,7 @@ public class DynArray
         nElems++;                      	// Zwiekszamy licznik elementow
     }
 
-    public Object get(int index) // Pozyskanie elementu o danym indeksie
+    public Double get(int index) // Pozyskanie elementu o danym indeksie
     {
         return table[index];
     }
@@ -38,7 +38,7 @@ public class DynArray
 
     public boolean remove(int index) 	// Usuniecie elementu o danym indeksie
     {
-        if (nElems==0 || index>=nElems || index<0) 
+        if (nElems==0 || index>=nElems || index<0)  
             return false;
         for (int j = index; j < nElems-1; j++) 	// Przesuwamy pozostale elementy w lewo
         {
@@ -48,11 +48,12 @@ public class DynArray
         return true;
     }
 
-    public int find(Object searchElem) // Szukanie okreslonego elementu
+    public int find(Double searchElem) // Szukanie okreslonego elementu
     {        
         for (int j = 0; j < nElems; j++)
         {
-            if (table[j].equals(searchElem)) return j; //Element znaleziono
+            if (table[j].doubleValue() == searchElem.doubleValue()) // porownujemy wartosci
+                return j; //Element znaleziono
         }
         return -1; // Elementu nie znaleziono
     }
@@ -67,23 +68,18 @@ public class DynArray
     public static void main(String[] args)
     {
         int maxSize = 5;
-        DynArray array = new DynArray(maxSize);
+        DynArrayDouble array = new DynArrayDouble(maxSize);
         
-        array.add("Ala");
-        array.add("Ola");
-        array.add("Tola");
+        array.add(new Double(123));
+        array.add(new Double(234.432));
+        array.add(new Double(345));
         array.print();
         array.remove(1);
         array.print();
-        array.add("Lolek");
+        array.add(new Double(555.55));
         array.print();
-        array.add(123);
+        array.add(new Double(666.666));
         array.print();
-        array.add(123.123);
-        array.print();
-        array.add(true);
-        array.print();
-        array.add('s');
-        array.print();
+        System.out.println(array.find(new Double(555.55)));
     }
 }

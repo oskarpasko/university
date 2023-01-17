@@ -1,4 +1,4 @@
-package StrukturyB;
+package kolokwium2.StrukturyB;
 
 //Implementacja zbioru liczb calkowitych za pomoca klasy TreeSet
 

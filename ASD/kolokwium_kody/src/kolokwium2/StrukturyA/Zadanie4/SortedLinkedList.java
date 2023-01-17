@@ -1,4 +1,4 @@
-package StrukturyA.Zadanie4;
+package kolokwium2.StrukturyA.Zadanie4;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package StrukturyA.Zadanie3;
+package kolokwium2.StrukturyA.Zadanie3;
 // lista powiazana dwustronna
 public class FirstLastLinkedList
 {
