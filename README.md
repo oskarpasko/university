@@ -5,10 +5,6 @@
 
 ## Kolokwia
 
-### Metody Numeryczne
-- 17.01.2023
-- 
-
 ### Technologie internetowe (kolokwium)
 - 20.01.2023
 - 
