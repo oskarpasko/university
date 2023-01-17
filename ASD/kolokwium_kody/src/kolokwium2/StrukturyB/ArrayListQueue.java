@@ -1,4 +1,4 @@
-package StrukturyB;
+package kolokwium2.StrukturyB;
 
 //Implementacja kolejki liczb calkowitych za pomoca klasy ArrayList przez OSADZANIE
 

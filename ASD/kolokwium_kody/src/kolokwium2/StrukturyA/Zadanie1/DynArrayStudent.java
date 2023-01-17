@@ -1,4 +1,4 @@
-package StrukturyA.Zadanie1;
+package kolokwium2.StrukturyA.Zadanie1;
 
 // Implementacja tablicy dynamicznej zlozonych obiektow (studentow) zdefiniowanych przez uzytkownika
 

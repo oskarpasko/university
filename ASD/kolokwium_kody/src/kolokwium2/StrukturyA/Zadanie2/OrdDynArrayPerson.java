@@ -1,4 +1,4 @@
-package StrukturyA.Zadanie2;
+package kolokwium2.StrukturyA.Zadanie2;
 
 //Implementacja uporzadkowanej tablicy dynamicznej zlozonych obiektow Person
 

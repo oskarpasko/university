@@ -1,4 +1,4 @@
-package Sortowanie;
+package kolokwium2.Sortowanie;
 
 import java.util.Random;
 
