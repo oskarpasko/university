@@ -6,15 +6,8 @@ public class SortedLinkedList
 {
     private ListElem first;  // Referencja do pierwszego elementu listy
 
-    public SortedLinkedList()  // Konstruktor
-    {
-        first = null;    // Lista nie ma jeszcze elementów
-    }
-
-    public boolean isEmpty()       // Zwraca true, jeżeli lista jest pusta
-    {
-        return (first == null);
-    }
+    public SortedLinkedList() {first = null;}
+    public boolean isEmpty() {return (first == null);}
 
     public void insertFirst(int value)
     {
