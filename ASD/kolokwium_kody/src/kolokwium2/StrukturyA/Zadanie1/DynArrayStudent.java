@@ -21,39 +21,25 @@ public class DynArrayStudent
             for (int i=0; i<table.length; i++) locTable[i]=table[i];
             table = locTable;
         }
-
         table[nElems] = value;       	// Wstawiamy element
         nElems++;                      	// Zwiekszamy licznik elementow
     }
 
-    public Student get(int index) // Pozyskanie elementu o danym indeksie
-    {
-        return table[index];
-    }
-
-    public int size() // Aktualna liczba elementow w tablicy
-    {
-        return nElems;
-    }
+    // Pozyskanie elementu o danym indeksie
+    public Student get(int index) {return table[index];}
+    public int size() {return nElems;}
 
     public boolean remove(int index) 	// Usuniecie elementu o danym indeksie
     {
-        if (nElems==0 || index>=nElems || index<0)  
-            return false;
-        for (int j = index; j < nElems-1; j++) 	// Przesuwamy pozostale elementy w lewo
-        {
-            table[j] = table[j + 1];
-        }
+        if (nElems==0 || index>=nElems || index<0) return false;
+        for (int j = index; j < nElems-1; j++) 	table[j] = table[j + 1];
         nElems--;                   		// Zmniejszamy licznik elementow
         return true;
     }
 
     public int find(Student searchElem) // Szukanie okreslonego elementu
     {        
-        for (int j = 0; j < nElems; j++)
-        {
-            if (table[j].equals(searchElem)) return j; //Element znaleziono
-        }
+        for (int j = 0; j < nElems; j++) if (table[j].equals(searchElem)) return j; //Element znaleziono
         return -1; // Elementu nie znaleziono
     }
     
@@ -72,14 +58,7 @@ public class DynArrayStudent
 
     public void print()
     {
-        for (int i = 0; i < nElems; i++) 
-            System.out.print(get(i).toString()+"\n");
-        System.out.println();
-    }
-    public void print2()
-    {
-        for (int i = 0; i < nElems; i++) 
-            System.out.print(get(i).getImie()+" "+get(i).getNazwisko()+" "+get(i).getAlbum());
+        for (int i = 0; i < nElems; i++) System.out.print(get(i).toString()+"\n");
         System.out.println();
     }
 
