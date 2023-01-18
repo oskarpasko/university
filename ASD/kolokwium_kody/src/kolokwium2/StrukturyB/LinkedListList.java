@@ -7,51 +7,15 @@ public class LinkedListList
 
     private LinkedList<Object> oList;
 
-    public LinkedListList()          // konstruktor
-    {
-        oList = new LinkedList<Object>();
-    }
-
-    public boolean isEmpty()  // spr. czy pusta
-    {
-        return oList.isEmpty();
-    }
-
-    public void insertFirst(Object elem)  // Wstawienie na poczatek listy
-    {
-        oList.addFirst(elem);
-    }
-
-    public void insertLast(Object elem)  // Wstawienie na koniec listy
-    {
-        oList.addLast(elem);
-    }
-
-    public Object deleteFirst()     // Usuniecie pierwszego elementu listy
-    {
-        return oList.removeFirst();
-    }
-
-    public Object deleteLast()     // Usuniecie ostatniego elementu listy
-    {
-        return oList.removeLast();
-    }
-
-    public Object getFirst()     // Pobranie pierwszego elementu listy
-    {
-        return oList.getFirst();
-    }
-
-    public Object getLast()     // Pobranie ostatniego elementu listy
-    {
-        return oList.getLast();
-    }
-
-    public int size()  // rozmiar listy
-    {
-        return oList.size();
-    }
-
+    public LinkedListList() {oList = new LinkedList<Object>();}
+    public boolean isEmpty() {return oList.isEmpty();}
+    public void insertFirst(Object elem) {oList.addFirst(elem);}
+    public void insertLast(Object elem) {oList.addLast(elem);}
+    public Object deleteFirst() {return oList.removeFirst();}
+    public Object deleteLast() {return oList.removeLast();}
+    public Object getFirst() {return oList.getFirst();}
+    public Object getLast() {return oList.getLast();}
+    public int size() {return oList.size();}
     public void print()
     {
         for (int i = 0; i < oList.size(); i++)
