@@ -38,20 +38,22 @@ public class ArrayListQueue
     {
         ArrayListQueue theQueue = new ArrayListQueue();
 
-        theQueue.insert(10);
-        theQueue.insert(20);
-        theQueue.insert(30);
-        theQueue.insert(40);
+        theQueue.insert(new Integer(10));
+        theQueue.insert(new Integer(20));
+        theQueue.insert(new Integer(40));
+        theQueue.insert(new Integer(50));
+
 
         int elem = theQueue.remove();
         System.out.println(elem);
         System.out.println(theQueue.remove());
         System.out.println(theQueue.remove());
 
-        theQueue.insert(50);
-        theQueue.insert(60);
-        theQueue.insert(70);
-        theQueue.insert(80);
+        theQueue.insert(new Integer(55));
+        theQueue.insert(new Integer(60));
+        theQueue.insert(new Integer(70));
+        theQueue.insert(new Integer(80));
+
 
         while (!theQueue.isEmpty())    // usuwamy i wypisujemy...
         {                            // ...wszystkie elementy
