@@ -4,7 +4,6 @@ package kolokwium2.StrukturyB;
 
 import java.util.ArrayList;
 
-
 public class ArrayListQueue
 {
     private ArrayList<Integer> intQueue;
