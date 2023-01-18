@@ -10,30 +10,18 @@ public class TreeSetSet
 {
     private TreeSet<Integer> treeSet;
 
-    public TreeSetSet()    // konstruktor
-    {
-        treeSet = new TreeSet<Integer>();
-    }
-
+    public TreeSetSet() {treeSet = new TreeSet<Integer>();}
     public TreeSet<Integer> getTreeSet()
     {
         return treeSet;
     }
-
-    public int size() //Zwraca liczbe elementow w zbiorze
-    {
-        return treeSet.size();
-    }
+    public int size() {return treeSet.size();}
+    public boolean member(Integer elem) {return treeSet.contains(new Integer(elem));}
 
     public void insert(int elem)    // wstawia element do zbioru
     {
         if (!member(elem)) // sprawdza, czy dany element nalezy do zbioru
             treeSet.add(new Integer(elem));
-    }
-
-    public boolean member(int elem)  // sprawdza, czy dany element nalezy do zbioru
-    {
-        return treeSet.contains(new Integer(elem));
     }
 
     public boolean delete(int elem)  // usuwa element ze zbioru
@@ -108,6 +96,8 @@ public class TreeSetSet
         }
         System.out.println();
     }
+
+    /** --------------------------------------------------------- **/
 
     public static void main(String[] args)
     {
