@@ -18,15 +18,13 @@ public class OrdDynArrayPerson
         if (nElems >= table.length)
         {
             Person [] locTable = new Person[table.length*2];
-            for (int i=0; i<table.length; i++) 
-                locTable[i]=table[i];
+            for (int i=0; i<table.length; i++) locTable[i]=table[i];
             table = locTable;
         }
 
         int j;
         for (j = 0; j < nElems; j++)   // Znajdujemy miejsce dla elementu
-            if (table[j].compareTo(value) > 0)
-                break;
+            if (table[j].compareTo(value) > 0) break;
 
         for (int k = nElems; k > j; k--)    // Przesuwamy większe elementy
             table[k] = table[k - 1];
@@ -35,15 +33,8 @@ public class OrdDynArrayPerson
         nElems++;                      	// Zwiekszamy licznik elementow
     }
 
-    public Person get(int index) // Pozyskanie elementu o danym indeksie
-    {
-        return table[index];
-    }
-
-    public int size() // Aktualna liczba elementow w tablicy
-    {
-        return nElems;
-    }
+    public Person get(int index) {return table[index];}
+    public int size() {return nElems;}
 
     public boolean remove(int index) 	// Usuniecie elementu o danym indeksie
     {
@@ -57,18 +48,6 @@ public class OrdDynArrayPerson
         }
         nElems--;                   		// Zmniejszamy licznik elementow
         return true;
-    }
-
-    public int find(Person searchElem) // Szukanie okreslonego elementu
-    {
-        for (int j = 0; j < nElems; j++)
-        {
-            if (table[j].getImie().equals(searchElem.getImie())
-                    && table[j].getNazwisko().equals(searchElem.getNazwisko())
-                    && table[j].getWiek()== (searchElem.getWiek()))
-                return j; //Element znaleziono
-        }
-        return -1; // Elementu nie znaleziono
     }
     
     public int find2(Person searchElem) // Szukanie okreslonego elementu
@@ -117,17 +96,6 @@ public class OrdDynArrayPerson
         Person p3 = new Person("Ala", "Alowiak", 44);
         array.add(p3);
         array.print();
-        
-        
-        int find = array.find(p2);
-        System.out.println(""+find);
-        
-        int find2 = array.find(new Person("Ula", "Alowska", 44));
-        System.out.println(""+find2);
-        
-        int find3 = array.find(new Person("Lolek", "Las", 18));
-        System.out.println(""+find3);
-        
         
         int findx = array.find2(p2);
         System.out.println(""+findx);

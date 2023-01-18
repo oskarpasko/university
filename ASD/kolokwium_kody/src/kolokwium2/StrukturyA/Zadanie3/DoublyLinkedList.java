@@ -11,10 +11,7 @@ public class DoublyLinkedList
         last = null;
     }
 
-    public boolean isEmpty()       // Zwraca true, jeżeli lista jest pusta
-    {
-        return (first == null);
-    }
+    public boolean isEmpty() {return (first == null);}
 
     public void insertFirst(int value) // Wstawienie na poczatek listy
     {
