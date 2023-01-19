@@ -1,0 +1,8 @@
+<!ELEMENT państwa (państwo*)>
+<!ELEMENT państwo (nazwa,stolica,obszar,ludność,główne_miasta+,główne_rzeki+)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT obszar (#PCDATA)>
+<!ELEMENT stolica (#PCDATA)>
+<!ELEMENT ludność (#PCDATA)>
+<!ELEMENT główne_miasta (#PCDATA)>
+<!ELEMENT główne_rzeki (#PCDATA)>

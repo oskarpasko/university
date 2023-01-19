@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<foldery>
+    <folder>
+        <nazwaf>Nazwa folderu</nazwaf>
+        <rozmiar>123 kv</rozmiar>
+        <czasu>13 września</czasu>
+        <iloscpp>1</iloscpp>
+        <pliki>
+            <plik>
+                <nazwa>Plik</nazwa>
+                <atrybuty>Atrybuty</atrybuty>
+            </plik>
+            <plik>
+                <nazwa>Plik2</nazwa>
+                <atrybuty>Atrybuty2</atrybuty>
+            </plik>
+        </pliki>        
+    </folder>
+</foldery>

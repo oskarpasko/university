@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<rozklad>
+    <tytulpociagi>Rozkład jazy pociągów</tytulpociagi>
+    <kierunek>Siedlce – Warszawa Zachodnia</kierunek>
+    <tabela>
+        <odjazdy>
+            <odjazd>Odjazd</odjazd>
+            <odjazd>04:45</odjazd>
+            <odjazd>05:20</odjazd>
+            <odjazd>05:49</odjazd>
+            <odjazd>07:29</odjazd>  
+        </odjazdy>
+        <przyjazdy>
+            <przyjazd>Przyjazd</przyjazd>
+            <przyjazd>06:30</przyjazd>
+            <przyjazd>07:13</przyjazd>
+            <przyjazd>07:30</przyjazd>
+            <przyjazd>08:55</przyjazd>
+        </przyjazdy>
+        <kursy>
+            <kurs>Kursuje</kurs>
+            <kurs>Codziennie</kurs>
+            <kurs>Soboty i niedziele</kurs>
+            <kurs>Codziennie</kurs>
+            <kurs>Codziennie</kurs>
+        </kursy>
+        <rodzaje>
+            <rodzaj>Rodzaj pociągu</rodzaj>
+            <rodzaj>Osobowy</rodzaj>
+            <rodzaj>Osobowy</rodzaj>
+            <rodzaj>Osobowy</rodzaj>
+            <rodzaj>Pośpieszny</rodzaj>
+        </rodzaje>
+    </tabela>
+</rozklad>

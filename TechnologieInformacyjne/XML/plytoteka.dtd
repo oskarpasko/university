@@ -1,0 +1,5 @@
+<!ELEMENT płytoteka (album*)>
+<!ELEMENT tytuł (#PCDATA)>
+<!ELEMENT wykonawca (#PCDATA)>
+<!ELEMENT album (tytuł, wykonawca,nagrania)>
+<!ELEMENT nagrania(tytuł+)>

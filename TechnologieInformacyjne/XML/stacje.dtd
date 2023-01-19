@@ -1,0 +1,5 @@
+<!ELEMENT stacje (radio*)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT radio (nazwa, (zakresStereo+, zakresMono?))>
+<!ELEMENT zakresStereo (#PCDATA)>
+<!ELEMENT zakresMono (#PCDATA)>

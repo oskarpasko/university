@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE stacje [
+<!ELEMENT stacje (radio*)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT radio (nazwa, (zakresStereo+, zakresMono?))>
+<!ELEMENT zakresStereo (#PCDATA)>
+<!ELEMENT zakresMono (#PCDATA)>
+]>
+<stacje>
+<radio>
+    <nazwa>RMF</nazwa>
+    <zakresStereo>91,3MhZ</zakresStereo>
+    <zakresMono>91,0Mhz</zakresMono>
+</radio>
+
+<radio>
+    <nazwa>Radiozet</nazwa>
+    <zakresStereo>101,3MhZ</zakresStereo>
+    <zakresMono>101,0Mhz</zakresMono>
+</radio>
+<radio>
+    <nazwa>Trójka</nazwa>
+    <zakresStereo>81,3MhZ</zakresStereo>
+    <zakresMono>81,0Mhz</zakresMono>
+</radio>
+</stacje>

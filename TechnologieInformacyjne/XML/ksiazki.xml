@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css"?>
+<ksiazki>
+    <ksiazka>
+        <tytul>The Love Hypothesis</tytul>
+        <inautora>Ali Hazelwood</inautora>
+        <wydawnictwo>Berkley Books</wydawnictwo>
+        <data>14 wrzesnia 2022</data>
+    </ksiazka>
+</ksiazki>
