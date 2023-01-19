@@ -4,28 +4,23 @@ import java.util.Random;
 
 public class IntArrayWithSort
 {
-    private static int[] table;  //Referencja do tablicy
+    private static int[] table;
     private static int nElems = 10;
 
-    public static void bubbleSort() //Sortowanie bąbelkowe
+    public static void bubbleSort()
     {
-        for (int i = nElems - 1; i > 0; i--)   // petla zewnetrzna (malejaca)
+        for (int i = nElems - 1; i > 0; i--)
         {
-            for (int j = 0; j < i; j++)        // petla wewnetrzna (rosnaca)
+            for (int j = 0; j < i; j++)
             {
-                if (table[j] > table[j + 1]) swap(j, j + 1);
+                if (table[j] > table[j + 1]){
+                    int temp = table[j];
+                    table[j] = table[j+1];
+                    table[j+1] = temp;
+                }
             }
         }
     }
-
-    //--------------------------------------------------------------
-    public static void swap(int one, int two) //Zamiana elementow tablicy
-    {
-        int temp = table[one];
-        table[one] = table[two];
-        table[two] = temp;
-    }
-//--------------------------------------------------------------
 
     public static void print()
     {
@@ -49,4 +44,3 @@ public class IntArrayWithSort
         print();
     }
 }
-
