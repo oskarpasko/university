@@ -5,11 +5,6 @@
 
 ## Kolokwia
 
-### Technologie internetowe (kolokwium)
-- 20.01.2023
-- 
-
-
 ### ASD kolokwium 1 poprawa
 - 23.01.2023
 - 
