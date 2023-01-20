@@ -9,8 +9,8 @@ public class ArrayListStack
 
     public ArrayListStack() {intStack = new ArrayList<Integer>();}
     public void push(Integer elem) {intStack.add(elem);}
-    public int pop() {return intStack.remove(intStack.size()-1);}
-    public int peek() {return intStack.get(intStack.size()-1);}
+    public Integer pop() {return intStack.remove(intStack.size()-1);}
+    public Integer peek() {return intStack.get(intStack.size()-1);}
     public boolean isEmpty() {return intStack.isEmpty();}
 
     public static void main(String[] args)

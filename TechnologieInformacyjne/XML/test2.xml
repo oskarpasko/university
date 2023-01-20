@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE osoby [
+<!ELEMENT osoby (osoba*)>
+<!ELEMENT osoba (imie, nazwisko, wiek, zwierze+)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT wiek (#PCDATA)>
+<!ELEMENT zwierze (#PCDATA)>
+]>
+<osoby>
+    <osoba>
+        <imie>Oskar</imie>
+        <nazwisko>Pasko</nazwisko>
+        <wiek>22</wiek>
+        <zwierze>Kot</zwierze>
+        <zwierze>Pies</zwierze>
+    </osoba>
+</osoby>

@@ -8,8 +8,8 @@ public class LinkedListStack
 
     public LinkedListStack() {intStack = new LinkedList<Integer>();}
     public void push(Integer elem) {intStack.push(elem);}
-    public int pop() {return intStack.pop();}
-    public int peek() {return intStack.peek();}
+    public Integer pop() {return intStack.pop();}
+    public Integer peek() {return intStack.peek();}
     public boolean isEmpty() {return intStack.isEmpty();}
 
     public static void main(String[] args)
