@@ -16,11 +16,11 @@ public class ArrayListQueue
     {
         intQueue.add(elem);
     }
-    public int remove()
+    public Integer remove()
     {
         return intQueue.remove(0);
     }
-    public int peek()
+    public Integer peek()
     {
         return intQueue.get(0).intValue();
     }
@@ -28,7 +28,7 @@ public class ArrayListQueue
     {
         return intQueue.isEmpty();
     }
-    public int size()
+    public Integer size()
     {
         return intQueue.size();
     }
