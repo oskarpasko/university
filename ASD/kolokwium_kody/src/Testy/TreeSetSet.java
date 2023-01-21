@@ -1,4 +1,6 @@
-package kolokwium2.StrukturyB;
+package Testy;
+
+import com.sun.source.tree.Tree;
 
 import java.util.Iterator;
 import java.util.TreeSet;
