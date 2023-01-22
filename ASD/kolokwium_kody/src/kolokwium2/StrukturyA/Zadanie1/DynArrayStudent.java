@@ -42,19 +42,6 @@ public class DynArrayStudent
         for (int j = 0; j < nElems; j++) if (table[j].equals(searchElem)) return j; //Element znaleziono
         return -1; // Elementu nie znaleziono
     }
-    
-    public int find2(Student searchElem) // Szukanie okreslonego elementu (porownywanie wartosci pol)
-    {        
-        for (int j = 0; j < nElems; j++)
-        {
-            if (table[j].getImie().equals(searchElem.getImie())
-                    && table[j].getNazwisko().equals(searchElem.getNazwisko())
-                    && table[j].getAlbum() == (searchElem.getAlbum())
-                    ) 
-                return j; //Element znaleziono
-        }
-        return -1; // Elementu nie znaleziono
-    }
 
     public void print()
     {
@@ -90,14 +77,6 @@ public class DynArrayStudent
         System.out.println(array.find(new Student("Ola2", "Nowak2", 123456)));
         Student s5 = s2;
         System.out.println(array.find(s5));
-        
-        System.out.println("------------- FIND 2 -------------------");
-        System.out.println(array.find2(s3));
-        System.out.println(array.find2(s2));
-        System.out.println(array.find2(new Student("Ola2", "Nowak2", 123456)));
-        Student s6 = s2;
-        System.out.println(array.find2(s6));
-        
         
     }
 }

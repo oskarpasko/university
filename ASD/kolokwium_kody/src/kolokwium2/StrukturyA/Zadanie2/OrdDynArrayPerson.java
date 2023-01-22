@@ -38,14 +38,9 @@ public class OrdDynArrayPerson
 
     public boolean remove(int index) 	// Usuniecie elementu o danym indeksie
     {
-        if (nElems==0 || index>=nElems || index<0)  
-        {
-            return false;
-        }
-        for (int j = index; j < nElems - 1; j++) 	// Przesuwamy pozostale elementy w lewo
-        {
-            table[j] = table[j + 1];
-        }
+        if (nElems==0 || index>=nElems || index<0) return false;
+
+        for (int j = index; j < nElems - 1; j++) table[j] = table[j + 1];
         nElems--;                   		// Zmniejszamy licznik elementow
         return true;
     }
@@ -53,15 +48,13 @@ public class OrdDynArrayPerson
     public int find2(Person searchElem) // Szukanie okreslonego elementu
     {
         for (int j = 0; j < nElems; j++)
-            if (table[j].compareTo(searchElem) == 0)
-                return j; //Element znaleziono
+            if (table[j].compareTo(searchElem) == 0) return j; //Element znaleziono
         return -1; // Elementu nie znaleziono
     }
 
     public void print()
     {
-        for (int i = 0; i < nElems; i++)
-            System.out.print(get(i).toString() + "\n");
+        for (int i = 0; i < nElems; i++) System.out.print(get(i).toString() + "\n");
         System.out.println();
     }
 

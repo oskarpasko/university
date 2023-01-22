@@ -52,10 +52,8 @@ class Person implements Comparable<Person>
 
         //osoba.compareTo(osoba2)
 
-        if(this.getWiek() < p.getWiek())
-            return -1;
-        if(this.getWiek() > p.getWiek())
-            return 1;
+        if(this.getWiek() < p.getWiek()) return -1;
+        if(this.getWiek() > p.getWiek()) return 1;
         if(this.getWiek() == p.getWiek() && this.getNazwisko().compareTo(p.getNazwisko()) != 0) // ten sam wiek, rozne nazwiska
             return this.getNazwisko().compareTo(p.getNazwisko());
         if(this.getWiek() == p.getWiek() && this.getNazwisko().compareTo(p.getNazwisko()) == 0) // ten sam wiek, takie same nazwiska
