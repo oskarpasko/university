@@ -5,11 +5,7 @@
 
 ## Kolokwia
 
-### ASD kolokwium 1 poprawa
-- 23.01.2023
-- 
-
-### ASD kolokwium 2
+### ASD kolokwium 1 poprawa, finanse poprawa
 - 24.01.2023 
 - 
 
