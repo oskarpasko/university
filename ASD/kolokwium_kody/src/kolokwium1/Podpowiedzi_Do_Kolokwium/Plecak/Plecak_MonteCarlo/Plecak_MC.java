@@ -1,68 +1,55 @@
 package kolokwium1.Podpowiedzi_Do_Kolokwium.Plecak.Plecak_MonteCarlo;
-
 import java.util.Random;
-
-public class Plecak_MC
-{
-
+public class Plecak_MC {
     static final int N = 6;                // liczba przedmiotow
     static final int MAX_V = 10;           // objetosc plecaka
-
     final static int[] V = {2,6,3,3,1,2};  // objetości przedmiotów
     final static int[] W = {4,6,5,10,2,7}; // wartości przedmiotów
 
     public static void main(String[] args)
     {
-        String optKonfig = new String();
-        int optV = -1;
-        int optW = 0;
-
         Random los = new Random();
+        String optRozw = new String();
+        int optV = -1, optW = 0;
 
-        for (int i = 0; i < 10; i++) // 10 prob losowania (10 wygenerowanych rozwiazan)
+        for (int i = 0; i < 10; i++)
         {
-            int[] ustaw = new int[N]; // inicjujemy wstepne ustawienie przedmiotow (od 0 do 5)
+            int[] ustaw = new int[N];
             for (int j = 0; j < N; j++) ustaw[j] = j;
 
-            for (int j = 0; j < N; j++) // tasowanie przedmiotow
+            for (int j = 0; j < N; j++)
             {
                 int rndIndex = los.nextInt(N);
                 if (rndIndex != j)
                 {
-                    int pom = ustaw[j]; // zamiana elementow
+                    int pom = ustaw[j];
                     ustaw[j] = ustaw[rndIndex];
                     ustaw[rndIndex] = pom;
                 }
             }
 
-            // parametry lokalnego rozwiazania
-            String locKonfig = new String();
-            int sumV = 0;
-            int sumW = 0;
-            int j = 0;
+            String locRozw = new String();
+            int sumV = 0, sumW = 0, j = 0;
 
-            // wkladamy do plecaka przedmioty rozpoczynajac od poczatku tablicy (przetasowanej) dopoki sie mieszcza
             while ((j < N) && (sumV + V[ustaw[j]] <= MAX_V))
             {
-                sumV = sumV + V[ustaw[j]];
-                sumW = sumW + W[ustaw[j]];
-                locKonfig = locKonfig + " " + ustaw[j];
+                sumV += V[ustaw[j]];
+                sumW += W[ustaw[j]];
+                locRozw += " " + ustaw[j];
                 j++;
             }
 
-            // jesli dane rozwiazanie (lokalne) jest lepsze od dotychczas najlepszego rozwiazania (globalnego)
             if (sumW > optW)
-            { // podmiana wartosci optymalnego rozwiazania
+            {
                 optW = sumW;
                 optV = sumV;
-                optKonfig = locKonfig;
+                optRozw = locRozw;
             }
-
         }
 
         System.out.println("Calkowita objetość: " + optV);
         System.out.println("Calkowita wartosc: " + optW);
-        System.out.println("Konfiguracja: " + optKonfig);
+        System.out.println("Konfiguracja: " + optRozw);
         System.out.println("Niewykorzystana objętość: " + (MAX_V - optV));
     }
 }
