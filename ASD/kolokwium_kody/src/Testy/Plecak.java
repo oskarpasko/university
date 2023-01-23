@@ -1,6 +1,6 @@
-package kolokwium1.Podpowiedzi_Do_Kolokwium.Plecak.Plecak_Zachlanny;
+package Testy;
 
-public class PlecakCenne {
+public class Plecak {
     final static int N = 6;
     final static int MAX_V = 10;
 
