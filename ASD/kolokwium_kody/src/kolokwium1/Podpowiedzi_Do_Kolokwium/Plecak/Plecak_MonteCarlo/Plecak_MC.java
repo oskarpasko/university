@@ -1,10 +1,10 @@
 package kolokwium1.Podpowiedzi_Do_Kolokwium.Plecak.Plecak_MonteCarlo;
 import java.util.Random;
 public class Plecak_MC {
-    static final int N = 6;                // liczba przedmiotow
-    static final int MAX_V = 10;           // objetosc plecaka
-    final static int[] V = {2,6,3,3,1,2};  // objetości przedmiotów
-    final static int[] W = {4,6,5,10,2,7}; // wartości przedmiotów
+    static final int N = 6;                
+    static final int MAX_V = 10;           
+    final static int[] V = {2,6,3,3,1,2}; 
+    final static int[] W = {4,6,5,10,2,7}; 
 
     public static void main(String[] args)
     {
