@@ -37,5 +37,7 @@ public class Plecak {
         }
 
         System.out.println("Optymalna wartość: " + sumW);
+        System.out.print("Indexy zabranych przedmiotów: ");
+        for(int i=0;i<N;i++)if(rozw[i]) System.out.print(i+", ");
     }
 }
