@@ -11,28 +11,20 @@ public class Lody_AZ {
                 {28, 24, 1, 17, 5, 0}
         };
 
-        //Zachlannie po najmnijeszym koszcie zmiany
         boolean[] wykorzystane = new boolean[koszty.length];
 
-        int wiersz=0;
-        int tempmin = Integer.MAX_VALUE;
+        int wiersz=0, tempmin = Integer.MAX_VALUE;
         for (int i=0;i<koszty.length;i++) {
-            for (int j=0;j<koszty.length;j++) {
-                if (koszty[i][j]<tempmin && koszty[i][j]>0) {
-                    wiersz=i;
-                }
-            }
-        }
+            for (int j=0;j<koszty.length;j++) if(koszty[i][j]<tempmin && koszty[i][j]>0) wiersz=i;
+            
         wykorzystane[wiersz] = true;
         int tempwiersz = wiersz;
 
         System.out.print("Kolejnosc: " + (wiersz+1) + " ");
 
-        int suma = 0;
-        int i = 0;
+        int suma = 0, i = 0;
         while (true) {
-            int pozycja = -1;
-            int min = Integer.MAX_VALUE;
+            int pozycja = -1, min = Integer.MAX_VALUE;
 
             if (i<koszty.length) {
                 for(int j=0;j<koszty[wiersz].length;j++) {
