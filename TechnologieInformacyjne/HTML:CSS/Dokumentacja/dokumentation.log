@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  27 JAN 2023 13:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  27 JAN 2023 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -81,20 +81,11 @@ l.14 \includegraphics
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-! LaTeX Error: File `ur_inf_logo' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \includegraphics[scale=0.2]{ur_inf_logo}
-                                             \\ \\ \\ \\
-I could not locate the file with any of these extensions:
-.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<images//ur_inf_logo.png, id=1, 1674.255pt x 461.725pt>
+File: images//ur_inf_logo.png Graphic file (type png)
+<use images//ur_inf_logo.png>
+Package pdftex.def Info: images//ur_inf_logo.png  used on input line 14.
+(pdftex.def)             Requested size: 334.84506pt x 92.34335pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
@@ -220,7 +211,8 @@ or  <return>  to continue without it.
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s//ur_inf_logo.png>])
 ! Emergency stop.
 <*> dokumentation.tex
                      
@@ -228,10 +220,10 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 1975 strings out of 478268
- 30544 string characters out of 5846346
+ 1948 strings out of 478268
+ 30186 string characters out of 5846346
  335794 words of memory out of 5000000
- 20212 multiletter control sequences out of 15000+600000
+ 20195 multiletter control sequences out of 15000+600000
  474676 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,5n,62p,214b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
