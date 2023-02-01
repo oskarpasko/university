@@ -5,10 +5,6 @@
 
 ## Kolokwia
 
-### Podstawy Finansów (egzamin)
-- 01.02.2023 9:00
-- 228 B1
-
 ### Metody Numeryczne (egzamin)
 - 02.02.2023 10:00
 - 228 B1
