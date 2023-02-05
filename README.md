@@ -3,11 +3,7 @@
 ## link to better collab 
 [collab](https://colab.to/r)
 
-## Kolokwia
-
-### Metody Numeryczne (egzamin)
-- 02.02.2023 10:00
-- 228 B1
+## Kolokwia / Egzaminy
 
 ### PO egzamin
 - 06.02.2023 od 12:00
