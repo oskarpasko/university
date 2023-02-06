@@ -4,13 +4,8 @@
 [collab](https://colab.to/r)
 
 ## Kolokwia / Egzaminy
-
-### PO egzamin
-- 06.02.2023 od 12:00
-- 177 B2
-
 ### PO (obrona projektu)
-- 07.02.2023 od 8:30
+- 07.02.2023 od 9:40
 - Online
 
 ### Bazy Danych
