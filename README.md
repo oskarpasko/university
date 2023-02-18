@@ -5,6 +5,6 @@
 
 ## Kolokwia / Egzaminy
 
-### ASD egzamin
-- 09.02.2023 9:00
+### ASD egzamin (powtorka)
+- 23.02.2023 9:00
 - 126 B1
