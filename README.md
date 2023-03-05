@@ -2,6 +2,11 @@
 Repository for projects and other stuff from university.
 
 ## TODO
+### Prezentacje
+- Sieci komputerowy
+- Język angielski
+- Problemy społeczne i zawodowe informatyki
+- Rozwój technik obliczeniowych
 
 ## Kolokwia / Egzaminy
 
