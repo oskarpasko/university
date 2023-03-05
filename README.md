@@ -1,8 +1,9 @@
 # University
 Repository for projects and other stuff from university.
 
+## Odrabianie zajęć
 
-Excel (odrabianie)
+### Excel (odrabianie)
 wt. 14.03
 godz 8:00
 s 207(B4)
