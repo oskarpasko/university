@@ -8,7 +8,7 @@ Repository for projects and other stuff from university.
 - Problemy społeczne i zawodowe informatyki
 - Rozwój technik obliczeniowych
 ### Prokekty
-- Bazy danych
+- Bazy danych (dowolne środowisko), kilka funkcji i kilka procedur
 
 ## Kolokwia / Egzaminy
 
