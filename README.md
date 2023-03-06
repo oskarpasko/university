@@ -7,6 +7,8 @@ Repository for projects and other stuff from university.
 - Język angielski
 - Problemy społeczne i zawodowe informatyki
 - Rozwój technik obliczeniowych
+### Prokekty
+- Bazy danych
 
 ## Kolokwia / Egzaminy
 
