@@ -2,4 +2,10 @@ How to learn programming in ... everything?
 
 1. Wyjaśnienie tematu, przekazaniu, że to są własne przemyślenia
 
-2.
+2. omówienie co jest ważniejsze algorytm vs język programowania
+
+3. omówienie jak sobie radzić z algorytmami na chłopski rozum
+
+4. przykład z tworzeniem ERD a później bazy danych
+
+5. przykład zadania z a > b
