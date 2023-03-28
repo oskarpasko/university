@@ -9,3 +9,5 @@ How to learn programming in ... everything?
 4. przykład z tworzeniem ERD a później bazy danych
 
 5. przykład zadania z a > b
+
+6. podsumowanie dlaczego nauczenie się programowania w 'umysle" jest ważniejsze niż nauka języka
