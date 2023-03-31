@@ -16,3 +16,4 @@ Repository for projects and other stuff from university.
 - Brak :)
 
 ## Odrabianie zajęć
+
