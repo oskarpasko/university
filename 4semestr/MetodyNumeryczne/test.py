@@ -1,8 +1,14 @@
-symbol = int(input("Enter Number of Symbols in the equation"))
-print(symbol)
-symbol_list=[]
-for i in range(0, symbol):
-    print("Enter",i+1," symbol name" )
-    item = (input())
-    symbol_list.append(symbols(item))
-print("symbol list is ", symbol_list)
+# ========== Liczenie pochodnych ========== #
+from sympy import *
+
+x = Symbol('x')
+f = (x+1)*(x-1)**4
+f_prime = f.diff(x)
+f_prime_prime = f_prime.diff(x)
+
+print(f)
+print(f_prime)
+print(f_prime_prime)
+print(f.evalf(subs={x:3}))
+print(f_prime.evalf(subs={x:3}))
+# ========== Koniec Pochodnych ========== #
