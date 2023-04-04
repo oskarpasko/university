@@ -38,6 +38,8 @@ if((fa * fb) < 0):
         fxp = d_first.evalf(subs={x:tab[n-1]})
         tab[n] = round((tab[n-1] - (fx/fxp)), 2)
 
+        # zatrzymanie wykonywania pętli pod konkretnum warunkiem
+
 else: print('f(a) * f(b) > 0')
 
 print(tab)
