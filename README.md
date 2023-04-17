@@ -11,6 +11,16 @@ Repository for projects and other stuff from university.
 
 ### Larvel
 
+## Tworzenie projektu
+
 ```
-  curl -s "https://laravel.build/example-app" | bash
+  curl -s "https://laravel.build/<nazwa>" | bash
+```
+
+## Uruchamianie projektu na serwerze
+```
+cd example-app
+```
+```
+./vendor/bin/sail up
 ```
