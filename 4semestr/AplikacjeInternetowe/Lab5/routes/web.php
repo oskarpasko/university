@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\TemperatureController;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +23,14 @@ Route::get('/greetings/jan', function () {
     return view('hello');
 });
 
-Route::get('/xd', function () {
-    return "<h1>Hello World</h1>";
+Route::get('/xd/{cos?}', function (string $cos = 'uknown') {
+    return "<h1>Hello World ".$cos."</h1>";
 });
+
+Route::get('/ctf/{c?}', [TemperatureController::class, 'ctf']);
+
+Route::get('/zad12', function (Request $request) {
+    $name = $request->name;
+    $arr = ['a', 'b', 'c', 'd', 'e'];
+    return view('zad12', ['name' => $name, 'arr' => $arr]);
+    });
