@@ -34,3 +34,7 @@ Route::get('/zad12', function (Request $request) {
     $arr = ['a', 'b', 'c', 'd', 'e'];
     return view('zad12', ['name' => $name, 'arr' => $arr]);
     });
+
+Route::get('/trips', function () {
+    return view('index');
+});
