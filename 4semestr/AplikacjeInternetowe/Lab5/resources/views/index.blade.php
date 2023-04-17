@@ -43,7 +43,7 @@
       <div class="row">
           <div class="col-12 col-sm-6 col-lg-3">
               <div class="card">
-                  <img src="img/colorado.jpg" class="card-img-top" alt="...">
+                  <img src="{{asset('storage/app/public/img/colorado.jpg')}}" class="card-img-top" alt="...">
                   <div class="card-body">
                       <h5 class="card-title">Kolorado</h5>
                       <p class="card-text">jest wyżynno-górzystym stanem, którego średnia wysokość nad poziomem morza
