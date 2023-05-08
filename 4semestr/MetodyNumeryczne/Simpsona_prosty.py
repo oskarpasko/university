@@ -68,4 +68,5 @@ def simp_zlozony():
     print(f"S = {s}")
     print(f"B = {b}")
 
+# simp_prosty()
 simp_zlozony()
