@@ -36,19 +36,36 @@ def simp_zlozony():
 
     a = -1
     b = 1
-    n = 5
+    n = 4
+    h = (b-a)/n
+
 
     if(a>b): max = a
     else: max = b
 
     fa = f.evalf(subs={x:a})
     fb = f.evalf(subs={x:b})
-    c = (a+b)/2
-    fc = f.evalf(subs={x:c})
     f4 = d_fourth.evalf(subs={x:max})
 
-    s = ((b-a)/6) * (fa+fb + 4 * c)
-    b = (1/90) * (pow((b-a), 5) * f4)
+    suma_parzysta = 0
+    suma_nieparzysta = 0
+    temp=a
+
+    for k in range(1, n):
+        temp+=h
+        if(k%2==0):
+            suma_parzysta+=f.evalf(subs={x:temp})
+        else:
+            suma_nieparzysta+=f.evalf(subs={x:temp})
+
+    suma_parzysta *= 2
+    suma_nieparzysta *= 4
+        
+
+    s = (1/3)*h * (fa+fb+suma_nieparzysta + suma_parzysta)
+    b = f4 * -1 * ((b-a)*pow(h, 4)/180)
 
     print(f"S = {s}")
     print(f"B = {b}")
+
+simp_zlozony()
