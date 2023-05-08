@@ -36,6 +36,7 @@ def simp_zlozony():
 
     a = -1
     b = 1
+    n = 5
 
     if(a>b): max = a
     else: max = b
