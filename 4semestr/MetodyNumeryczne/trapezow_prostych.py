@@ -55,4 +55,5 @@ def trapez_zlozony():
     print(f"Funkcja = {funkcja}")
     print(f"R = {R}")
 
+# trapez_prosty()
 trapez_zlozony()
