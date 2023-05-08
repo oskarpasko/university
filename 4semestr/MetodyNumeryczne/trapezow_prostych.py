@@ -30,7 +30,7 @@ def trapez_zlozony():
 
     a = -1
     b = 1
-    n = 5
+    n = 4
 
     h = (b-a)/n
 
@@ -41,9 +41,13 @@ def trapez_zlozony():
     fb = f.evalf(subs={x:b})
     f2 = d_second.evalf(subs={x:max})
     suma=0
+    temp = a
 
-    for k in range(1, (n-1)):
-        suma += f.evalf(subs={x:k})
+    for k in range(1, n):
+        temp += h
+        suma += f.evalf(subs={x:temp})
+
+    print(suma)
 
     funkcja = h * (((fa+fb)/2) + suma)
     R = -1 * (((b-a)*pow(h, 2))/12) * f2
