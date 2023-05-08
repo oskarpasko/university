@@ -39,7 +39,6 @@ def simp_zlozony():
     n = 4
     h = (b-a)/n
 
-
     if(a>b): max = a
     else: max = b
 
