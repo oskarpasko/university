@@ -46,8 +46,9 @@ def trapez_zlozony():
         suma += f.evalf(subs={x:k})
 
     funkcja = h * (((fa+fb)/2) + suma)
+    R = -1 * (((b-a)*pow(h, 2))/12) * f2
 
     print(f"Funkcja = {funkcja}")
-    print(f"B = {b}")
+    print(f"R = {R}")
 
 trapez_zlozony()
