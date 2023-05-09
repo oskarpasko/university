@@ -76,6 +76,8 @@ def _styczne():
         fx1 = fx2
         iteracje+=1
 
+def _styczne_test():
+    
 
 # _bisekcja()
-_styczne()
+# _styczne()
