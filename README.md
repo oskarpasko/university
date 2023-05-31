@@ -10,4 +10,4 @@ Repository for projects and other stuff from university.
 - Aplikacje Internetowe
 
 ### sieci
-1,3,4_5, 7
+1,2,4_5, 7
