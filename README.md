@@ -15,4 +15,5 @@ Repository for projects and other stuff
 - 28.06 AI (termin oddania projektu)
 
 ### sieci
-1,2,4_5, 7, 8
+- 1,2,4_5, 7, 8 
+- Instalacja Windows Serwer 2016, instalacja serwera WWW na Windows Serwer 2016 i odpalenie strony na komputerze klienckim. 
