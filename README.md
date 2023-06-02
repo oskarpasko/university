@@ -2,7 +2,6 @@
 Repository for projects and other stuff 
 
 ### Zaliczenia 
-- 1.06 Rachunkowość (kolokwium)
 - 5.06 Metody Numeryczne (kolokwium)
 - 6.06 Prezentacja cyferki
 - 7.06 Przedsiębiorczość (zaliczenie)
