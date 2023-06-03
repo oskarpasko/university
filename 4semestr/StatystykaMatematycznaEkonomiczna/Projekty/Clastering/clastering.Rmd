@@ -1,0 +1,148 @@
+---
+title: "Clastering"
+author: "Oskar Paśko"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Przygotowanie danych
+## Importowanie bibliotek
+``` {r}
+library(readxl)
+library(lmtest)
+library(cluster)
+library(fpc)
+library(MASS)
+```
+## Importowanie danych
+``` {r}
+data <- read_excel("data.xlsx")
+head(data)
+```
+## Tworzenie ramki
+Tworzymy ramkę oraz zapisujemy liczbę kolumn
+```{r}
+frame1 <- data.frame(data)
+k <- ncol(frame1)
+```
+Wykonujemy standaryzację Gaussa
+```{r}
+frame2 <- data.frame(scale(frame1[,2:k]))
+```
+Tworzymy drugą ramkę z przeskalowanymi danymi
+```{r}
+x <- data.frame(frame1[1], frame2)
+head(x)
+```
+# Grupowanie
+## Tworzenie macierzy
+Aby dokonać klasteryzacji musimy utworzyć macierz odlegości(metoda euklidesowa)
+```{r}
+dist.x <- dist(x[2:k], method="euclidean")
+round(dist.x,2)
+```
+Teraz przeanalizujemy klastry metodą ward.D2 i narysujemy wykres
+```{r}
+temp <- hclust(dist.x, method="ward.D2", member=NULL)
+a1 <- plot(temp, labels=x[,1], main="Dendogram prefektur")
+```
+# Tworzenie klastrów
+Po danych z wykresu możemy ustalić, że najlepiej podzielić dane na 7 lub 8 klastrów.
+
+## 7 klastrów
+```{r}
+clust7 <- cutree(temp, k=7)
+```
+## 8 klastrów
+```{r}
+clust8 <- cutree(temp, k=8)
+```
+
+## Sprawdzanie danych w klastrach
+
+Zobaczymy jakie prefektury zostały przypisane do klastrów
+Na początek 7 klastrów
+```{r}
+check7 <- lapply(1:7, function(which.group)frame1[1][clust7==which.group,])
+check7
+```
+Teraz sprawdzimy 8 klastrów
+## 7 klastrów
+```{r check8}
+check8 <- lapply(1:8, function(which.group)frame1[1][clust8==which.group,])
+check8
+```
+
+# Porównanie klastrów
+Dla klastrów możemy zaobserwować kilka danych/parametrów
+## DLa 7 klastrów
+### Rozmiar
+```{r}
+s7<-cluster.stats(dist.x, clust7)
+s7$cluster.size
+```
+
+### Zróżnicowanie wewnątrzgrupowe
+```{r}
+s7$average.distance
+```
+### Macierz separacji
+```{r}
+s7$separation.matrix
+```
+
+### Średni dystans pomiędzy grupami
+```{r}
+s7$average.between
+```
+
+### Średni dystans wewnątrz grup
+```{r}
+s7$average.within
+```
+
+## DLa 8 klastrów
+### Rozmiar
+```{r}
+s8<-cluster.stats(dist.x, clust8)
+s8$cluster.size
+```
+
+### Zróżnicowanie wewnątrzgrupowe
+```{r}
+s8$average.distance
+```
+### Macierz separacji
+```{r}
+s8$separation.matrix
+```
+
+### Średni dystans pomiędzy grupami
+```{r}
+s8$average.between
+```
+
+### Średni dystans wewnątrz grup
+```{r}
+s8$average.within
+```
+
+# Wybór lepszego klastrowania
+Aby sprawdzić, które klastrowanie jest lepszego sprawdzimy 3 rzeczy
+## Stosunek między średnią grupową, a różnicami międzgrupowymi
+```{r}
+ifelse(s7$wb.ratio<=s8$wb.ratio, "Pierwsze klastrowanie jest lepsze", "Drugie klastrowanie jest lepsze")
+```
+## Współczynnik gamma
+```{r}
+ifelse(s7$pearsongamma>=s8$pearsongamma, "Pierwsze klastrowanie jest lepsze", "Drugie klastrowanie jest lepsze")
+```
+
+## Index Dunna
+```{r}
+ifelse(s7$dunn2>=s8$dunn2, "Pierwsze klastrowanie jest lepsze", "Drugie klastrowanie jest lepsze")
+```
