@@ -5,7 +5,7 @@ Repository for projects and other stuff
 - 6.06 Prezentacja cyferki
 - 7.06 Przedsiębiorczość (zaliczenie)
 - 7.06 angielski (4D in games)
-- 12.06 VBA cwiczenia (kolokwium)
+- 12.06 VBA (praktyka + teoria)
 - 14.06 zerowka angielski
 - 14.06 sieci (sprawozdania i projekt)
 - 14.06 ERP i CRM (poprawka)
