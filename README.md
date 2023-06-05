@@ -2,7 +2,6 @@
 Repository for projects and other stuff 
 
 ### Zaliczenia 
-- 5.06 Metody Numeryczne (kolokwium)
 - 6.06 Prezentacja cyferki
 - 7.06 Przedsiębiorczość (zaliczenie)
 - 7.06 angielski (4D in games)
