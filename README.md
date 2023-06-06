@@ -2,7 +2,6 @@
 Repository for projects and other stuff 
 
 ### Zaliczenia 
-- 6.06 Prezentacja cyferki
 - 7.06 Przedsiębiorczość (zaliczenie)
 - 7.06 angielski (4D in games)
 - 12.06 VBA (praktyka + teoria)
