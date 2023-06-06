@@ -10,6 +10,7 @@ Repository for projects and other stuff
 - 14.06 ERP i CRM (poprawka)
 - 19.06 Statystyka (zerowka)
 - 28.06 AI (termin oddania projektu)
+- 3.07 zaliczenie AI
 
 ### sieci
 - 1,2,4_5, 7, 8 
