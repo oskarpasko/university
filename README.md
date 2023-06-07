@@ -2,7 +2,6 @@
 Repository for projects and other stuff 
 
 ### Zaliczenia 
-- 7.06 Przedsiębiorczość (zaliczenie)
 - 12.06 VBA (praktyka + teoria)
 - 14.06 zerowka angielski
 - 14.06 projekt sieci
