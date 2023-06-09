@@ -1,0 +1,135 @@
+---
+title: "Szeregi Czasowe"
+author: "Oskar Paśko"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Przygotowanie danych 
+
+## Importowanie bibliotek
+
+```{r, results='hide',warning=FALSE,message=FALSE}
+library(readxl)
+library(forecast)
+library(tseries)
+library(fBasics)
+library(timeSeries)
+library(lmtest)
+library(TTR)
+```
+## Importowanie danych
+
+```{r}
+raw_data <-read_excel("data.xlsx")
+head(raw_data)
+```
+
+# Analizowanie danych
+
+## przygotowanie danych pod analize
+
+```{r}
+data <- data.frame(raw_data)
+X <- ts(data[2], start = c(2018,7),frequency = 12)
+plot.ts(X)
+```
+
+## Sprawdzenie czy szereg jest statyczny
+```{r,warning=FALSE, results='hold'}
+ST <-adf.test(X,alternative = "stationary",k = 2)
+ifelse(ST$p.value<0.05,"Szereg jest stacjonarny","Szereg jest niestacjonarny")
+```
+
+## Sprawdzenie czy szewreg jesy eksplozywny
+```{r,warning=FALSE, results='hold'}
+EXPT <-adf.test(X,alternative = "explosive",k = 2)
+ifelse(EXPT$p.value<0.05,"Szereg jest eksplozywny","Szereg jest nieeksplozywny")
+```
+
+## Sprawdzenie czy szereg posiada trend
+
+```{r,warning=FALSE}
+TT <- kpss.test(X,null="Trend",lshort = TRUE)
+ifelse(TT$p.value<0.05,"Szereg ma trend","Szereg nie ma trendu")
+```
+
+## Sprawdzenie podstawowych statystyk
+Szereg nie posiada trendu więc możemy sprawdzić podstawowe statystyki
+
+```{r}
+BS<-basicStats(X,ci=0.95)
+BS
+```
+
+## Dekompozycja szeregu
+
+### Addytywny czy multiplikatywny?
+
+```{r}
+plot(X)
+```
+
+Amplituda wachań w naszym szeregu jest stała więc posiada on model addytywny
+
+## Dokonanie dekompozycji
+
+```{r}
+data_decomposed <- decompose(X,type="additive",filter = NULL)
+```
+
+### Sezonowość szeregu
+
+```{r, echo=FALSE}
+plot(data_decomposed$seasonal)
+```
+
+### Trend szeregu
+
+```{r, echo=FALSE}
+plot(data_decomposed$trend)
+```
+
+### Odchylenia losowe
+
+```{r, echo=FALSE}
+plot(data_decomposed$random)
+```
+
+### Podusmowanie wykresów
+
+Mamy widoczną sezowność, trend, oraz wachania losowe
+
+## Tworzenie modelu
+
+Patrząc na szereg można stwierdzić, że należy użyć metody Holta-Wintersa. Ponadto zauważamy, że należy użyć w tej metodzie parametró∑ alfa, beta oraz gamma.
+
+```{r}
+X2 <- HoltWinters(X,seasonal = "additive")
+plot(X2)
+```
+
+## Przewidywwany trend
+
+Teraz możemy spróbować przewidzieć zachowanie zjawiska na przykład w okresie 6 miesięcy.
+
+```{r}
+Xforecast <- forecast(X2,h=6)
+plot(Xforecast)
+```
+
+## Testowanie prognozy
+
+Mając prognozę możemy przeprowadzić na niej testy acf oraz test Ljung-Box na sprawdzenie autokorelacji
+
+```{r}
+acf(na.omit(Xforecast$residuals), lag.max=20)
+
+BT<-Box.test(Xforecast$residuals, lag=20, type="Ljung-Box")
+ifelse(BT$p.value<0.05,"Występuje istotna autokorelacja w błędch prognozy","zerowa autokorelacja w błędach prognozy")
+```
+
+## Wnioski
+
+Jak widać powyżej nie występują żadne autokorelacje oraz wszystkie testy wykonane do tej pory testy nie wykazały żadnych nieprawidłowości, wiec można stwierdzić że stworzona prognoza jest całkiem poprawna
+

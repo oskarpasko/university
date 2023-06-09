@@ -1,0 +1,107 @@
+---
+title: "Drzewa Klasyfikacyjne"
+author: "Oskar Paśko"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Przygotowanie danych
+## Importowanie bibliotek
+```{r}
+library(readxl)
+library(MASS)
+library(maptree)
+library(rpart)
+library(rpart.plot)
+library(party)
+library(class)
+```
+
+## Importowanie danych
+```{r}
+dane <- read_excel("data.xlsx")
+head(dane)
+```
+## Tworzenie ramki danych i usuwanie braków danych
+```{r}
+raw_data <- data.frame(dane)
+data <- na.omit(data.frame(raw_data))
+head(data)
+```
+
+## Tworzenie zbioru uczącego oraz testowego
+
+Aby utworzyć zbiory wybierami losowe rekordy z ramki danych i przydzielamy je do zbiorów
+```{r}
+indexes <- sample(1:nrow(dane),nrow(dane)/2,replace = FALSE)
+
+ZU = dane[indexes, ]
+ZT = dane[-indexes, ]
+
+head(ZU)
+head(ZT)
+```
+## Tworzenie modelu drzewa
+
+Tworzymy go za pomocą funkcji rpart, wykorzystyjąc zbiór uczący. Nasze zmienne są jakościowe więc wybieramy metodę "class"
+```{r}
+drzewo <- rpart(ZU$`Atrakcyjność`~.,ZU,method = "class")
+```
+## Sprawdzenie parametrów drzewa
+```{r}
+drzewo$parms
+drzewo$numresp
+```
+
+## 'Przycinanie drzewa'
+```{r}
+model.opt<-which.min(drzewo$cptable[,4])
+cp.opt<-drzewo$cptable[model.opt,1]
+drzewo2<-prune(drzewo,cp=model.opt)
+```
+
+## Weryfikacja naszych modeli
+
+```{r, results='hold'}
+Pred1<-predict(drzewo,ZU,type = "class")
+
+print("tabela dobroci klasyfikacji")
+table(predykacja=Pred1,prawdziwe=ZU$`Atrakcyjność`)
+
+print("obliczanie błędu predykcji")
+blad1<-mean(Pred1 != ZU$`Atrakcyjność`)
+blad1
+```
+## Weryfikacja dla przyciętego drzewa
+```{r, results='hold'}
+Pred2<-predict(drzewo2,ZU,type = "class")
+
+print("tabela dobroci klasyfikacji")
+table(predykacja=Pred2,prawdziwe=ZU$`Atrakcyjność`)
+
+print("obliczanie błędu predykcji")
+blad2<-mean(Pred2 != ZU$`Atrakcyjność`)
+blad2
+```
+Jak możemy zauważyć nasze przycięte drzewo daje wiekszy bład predykcji
+## Testowanie na zbiorze testowym
+```{r,results='hold'}
+TPred1<-predict(drzewo,ZT,type = "class")
+bladT1<-mean(TPred1 != ZT$`Atrakcyjność`)
+print("Błąd predykcji drzewa")
+bladT1
+
+TPred2<-predict(drzewo2,ZT,type = "class")
+bladT2<-mean(TPred2 != ZT$`Atrakcyjność`)
+print("Błąd predykcji przyciętego drzewa")
+bladT2
+```
+Teraz możemy ocenić który z naszych modeli mamy wybrać. Nalezy jednak pamiętać, że podział na zbior uczący i testowy jest losowy.
+
+## Rysowanie drzewa
+```{r}
+rpart.plot(drzewo,type = 4,extra="auto")
+rpart.plot(drzewo2,type = 4,extra="auto")
+```
+
+
