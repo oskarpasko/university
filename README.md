@@ -1,6 +1,9 @@
 # University
 Repository for projects and other stuff 
 
+### Plan zajęć
+<img width="1440" alt="Screenshot 2023-06-11 at 22 28 44" src="https://github.com/oskarpasko/university/assets/43753747/37a2512e-b6e6-46a9-9cd0-e132dcbdd8ab">
+
 ### Zaliczenia 
 - 12.06 VBA (praktyka + teoria)
 - 14.06 zerowka angielski
