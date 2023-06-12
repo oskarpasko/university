@@ -5,7 +5,6 @@ Repository for projects and other stuff
 <img width="1028" alt="Screenshot 2023-06-11 at 22 31 10" src="https://github.com/oskarpasko/university/assets/43753747/f1ea4d21-e35a-498a-be76-06a17390a2e0">
 
 ### Zaliczenia 
-- 12.06 VBA (praktyka + teoria)
 - 14.06 zerowka angielski
 - 14.06 projekt sieci
 - 14.06 ERP i CRM (poprawka)
