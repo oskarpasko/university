@@ -6,6 +6,7 @@ Repository for projects and other stuff
 
 ### Zaliczenia 
 - 19.06 Statystyka (zerowka)
+- 20.06 Sieci (zaliczenie)
 - 21.06 sprawka sieci
 - 28.06 AI (termin oddania projektu)
 - 3.07 zaliczenie AI
