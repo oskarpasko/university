@@ -7,6 +7,7 @@ Repository for projects and other stuff
 ### Zaliczenia 
 - 21.06 sprawka sieci
 - 28.06 AI (termin oddania projektu)
+- 30.06 Sieci (zaliczenie)
 - 3.07 zaliczenie AI
 
 ### sieci
