@@ -9,6 +9,3 @@ Repository for projects and other stuff
 - 28.06 AI (termin oddania projektu)
 - 30.06 Sieci (zaliczenie)
 - 3.07 zaliczenie AI
-
-### sieci
-- 1,2,4_5, 7, 8 
