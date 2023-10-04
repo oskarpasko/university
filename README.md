@@ -7,3 +7,6 @@ Repository for projects and other stuff
 
 ### Zaliczenia 
 Brak jak na razie <3
+
+
+baza danych z GUSu
