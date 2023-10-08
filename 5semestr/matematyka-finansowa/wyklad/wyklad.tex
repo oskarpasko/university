@@ -1,0 +1,311 @@
+\documentclass[•]{article}
+
+\begin{document}
+
+\textbf{Odestkami} - nazywa się kwotę, którą należy zapłacić za prawo użytkowania określonego kapitału. Odsetki są zatem ceną płaconą za wypożyczenie kapitału. Ustala się je w odniesieniu do pewnego ustalonego okresu. Stosunek odsetek do kapitału, który je wygenerował w ustalonym okresie, nazywa się \textbf{okresową stopą procentową.}\\
+
+W praktyce najczęściej mamy do czynienia ze stopami procentowymi ustalonymi dla okresy rocznego. Mówimy wtedy o \textbf{rocznej stopie procentowej}.\\
+
+Jeżeli np. odsetki za 1 rok od pożyczonego kapitału 60 000 PLN wynoszą 1 500 PLN, to roczna stopa procentowa jest równa $ r = \frac{1 500}{60 000} = 2,5 \% $.\\
+
+Powiększenie kapitału o odsetki, które zostały przez niego wygenerowane, nazywa się \textbf{kapitalizacją odsetek}. Czas, w którym odsetki są generowane, nazywa się okresem kapitalizacji. W dalszym ciągu rozważań ograniczymy się do przypadku, gdy odsetki są dopisywane na końcu okresów kapitalizacji. Mówimy wtedy o kapitalizacji z dołu.\\
+
+Wyróżniamy dwa podstawowe rodzaje kapitalizacji: \textbf{prostą i złożoną}.\\
+
+\section{Kapitalizacja prosta}
+
+W przypadku kapitalizacji prostej odsetki od kapitału oblicza się od kapitału początkowego proporcjonalnie od długości kresu oprocentowania. Oznaczamy przez $ W $ początkową wartość kapitału, przez $ r $ roczną stopę procentową, przez $ I_{n} $ należne za czas $ n $, zaś przez $ W_{n} $ oznaczamy końcową wartość kapitału w czasie $ n $ (w latach).\\
+
+\textbf{Reguła bankowa} – każdy rok ma 360 dni, zaś każdy miesiąc ma 30 dni.
+
+\begin{center}
+	\begin{equation}
+		I_n = Wnr
+	\end{equation}
+\end{center}\\
+
+Natomiast wartość końcowa kapitału:
+
+\begin{center}
+	\begin{equation}
+		W_n = W(1+nr)
+	\end{equation}
+\end{center}\\
+
+\newpage
+
+\subsection{Przykład 1}
+Przy kapitalizacji prostej i rocznej stopie procentowej $ r = 4\% $ wyznaczyć odsetki i końcową wartość kapitału 25 000 PLN po upływie a) 3lat, b) 142dni.\\
+
+\subsubsection{a)}
+$ I_n = 25 000 * 3 * 0,04 = 3 000 PLN $
+\subsubsection{b)}
+$ W_n = 25 000(1 + \frac{142}{360} + 0.04) = 25 394,44 PLN $\\
+
+Załóżmy że czas trwania inwestycji wynosi $ n $ lat i składa się z $ m $ następujących po sobie okresów o długości $ n_1, ...., n_m $. Przyjmijmy że w każdym z nich obowiązuje roczna stopa procentowa, odpowiednio, $ r_1, ..., r_m $. Wtedy wartość kapitału początkowego $ W $ po pierwszym okresie wyniesie: 
+
+\begin{center}
+	\begin{equation}
+		W_n = W(1 + \Sigma^m_{i=0}r_in_i)
+	\end{equation}
+\end{center}
+
+\begin{center}
+	\begin{equation}
+		I_n = W\Sigma^m_{i=0}r_in_i
+	\end{equation}
+\end{center}\\
+
+\textbf{Przeciętną roczną stopą procentową oprocentowania kapitału} $ W $ w czasie $ n $ nazywa się roczną stopę, przy której kapitał $ W $ generuje w czasie $ n $ odsetki o takiej samej wartości jak przy stopach zmiennych. Definicja ta dotyczy zarówno kapitalizacji prostej i złożonej.\\
+
+Oznaczając przez r(z kreską na górze) przeciętną roczną stopą oprocen, na podstawie wzorów (1) i (4) mamy
+
+\begin{center}
+	\begin{equation}
+		r = \frac{1}{n}\Sigma^m_{i=1}r_in_i
+	\end{equation}
+\end{center}\\
+
+Gdyby wszystkie okresy miały jednakową długość to wzór:
+
+\begin{center}
+	\begin{equation}
+		r = \frac{1}{m}\Sigma^m_{i=1}r_i
+	\end{equation}
+\end{center}\\
+
+\newpage
+
+\subsection{Przykład 2}
+Przez początkowe 4 miesiąca trwania obowiązywała roczna stopa procentowa 6%, przez następnych 5 miesięcy 7%, przez ostatnie 3 miesiące 7,5%.\\
+
+Dane:\\
+$ N_1 = \frac{4}{12} $\\
+$ N_2 = \frac{5}{12} $\\
+$ N_3 = \frac{3}{12} $\\
+
+$ R_1 = 0,06 $\\
+$ R_2 = 0,07 $\\
+$ R_3 = 0,075 $\\
+$ W = 20 000 PLN $
+
+\subsubsection{a)}
+Korzystając ze wzoru (3) mamy\\
+$ W_3 = 20000(1 + 0.06*\frac{4}{12} + 0.07*\frac{5}{12} + 0.075*\frac{3}{12}) = 21 358,40 PLN $
+
+\subsubsection{b)}
+Obliczyć wysokość przeciętnej rocznej stopy oprocentowania\\
+Korzystając ze wzory (5) mamy\\
+$ r =  0.06*\frac{4}{12} + 0.07*\frac{5}{12} + 0.075*\frac{3}{12} = 6,79\% $\\
+
+Często zdarza się, że stopa procentowa, przy której należy obliczyć odsetki nie jest stopa roczną lecz np. miesięczną lub kwartalną. Okres, po którym odsetki podlegają kapitalizacji nazywa się \textbf{podokresem kapitalizacji}. Stopa procentowa ustalona dla podokresu kapitalizacji nazywa się \textbf{stopą pod okresową. Częstotliwość kapitalizacji} oznacza ile razy odsetki są kapitalizowane w ciągu roku.\\
+
+W dalszym ciągu zakładamy że częstotliwość kapitalizacji wynosi $ m $. Wobec tego każdy rok jest podzielony na $ m $ równych podokresów kapitalizacji.\\
+
+$ m=1 $ – kapitalizacja roczna\\
+$ m=2 $ – kapitalizacja półroczna\\
+$ m=4 $ – kapitalizacja kwartalna\\
+$ m=12 $ – kapitalizacja miesięczna\\
+$ m=360 $ – kapitalizacja dobowa(dzienna)\\
+
+Jeżeli $ r_{okr} $ jest stopą podokresową, to zgodnie z zasadą oprocentowania prostego odsetki od kapitału $ W $ po upływie $ k $ podokresów wyznacza się ze wzoru
+
+\begin{center}
+	\begin{equation}
+		I_k = Wkr_{okr}
+	\end{equation}
+\end{center}\\
+
+Natomast końcowa wartość kapitału W po upływie $ k $:\\
+
+\begin{center}
+	\begin{equation}
+		W_k = W(1 + kr_{okr})
+	\end{equation}
+\end{center}\\
+
+Załóżmy że $ r_1 $ i $ r_2 $ są podokresowymi stopami procentowymi, zaś $ m_1 $ i $ m_2 $ są odpowiadającymi im częstotliwościami kapitalizacji. Stopy $ r_1 $ i $ r_2 $ nazywamy równoważnymi w czasie $ n $, jeżeli przy każdej z nich odsetki od ustalonego kapitału po czasie $ n $ są równe.\\
+
+Korzystająć z (7) mamy:\\
+
+\begin{center}
+	\begin{equation}
+		m_1 * r_1 = m_2 * r_2
+	\end{equation}
+\end{center}\\
+
+Z (9) stopy pod okresowe są wtedy i tylko wtedy ich stosunek jest równy stosunkowi długości odpowiadających im po okresów. Takie stopy pod okresowe nazywają się \textbf{proporcjonalnymi}.
+
+\subsection{Przykład 3}
+Kwartalna stopa oprocentowania prostego wynosi 6%. Wyznaczyć następujące równoważne stopy oprocentowania prostego: 
+
+\subsubsection{a) roczna}
+$ 6 * 4 = 24\% $
+\subsubsection{b) miesięczna}
+$ 6 / 3 = 2\% $
+\subsubsection{c) tygodniowa}
+$ 6 / 12 = 0,5\% $
+
+\newpage
+
+\section{Kapitalizacja złożona}
+W przypadku \textbf{kapitalizacji złożonej} odsetki oblicza się za każdy okres równy okresowi kapitalizacji i kapitalizuje się je na koniec tego okresu. Załóżmy, że kwota $ W $ została ulokowana na rachunku z roczną stopą procentową równą $ r $. W przypadku kapitalizacji złożonej dochód przynosi początkowy kapitał wraz z odsetkami uzyskanymi na koniec poprzedniego okresu kapitalizacji. Przez $ I_n $ oznaczmy odsetki należne po czasie $ n $, zaś przez $ W_n $ oznaczmy wartość kapitału po $ n $ latach. Wtedy: \\
+
+$ W_1 = w(1+r) $\\
+
+\begin{center}
+	\begin{equation}
+		W_n = W(1+r)^n
+	\end{equation}
+\end{center}\\
+
+Liczba $ (1+r)^n $ nazywa się \textbf{czynnikiem wartości przyszłej} w kapitalizacji złożonej.\\
+
+Odsetki po okresie n lat wynoszą:\\
+
+\begin{center}
+	\begin{equation}
+		I_n = W((1+r)^n - 1)
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 4}
+Przy założeniu kapitalizacji złożonej i rocznej stopie procentowej r = 5\%, wyznaczymy wartość kapitału 40 000 PLN i odsetki po upływie 4 lat.\\
+
+$ W_n = 40 000(1+ 0,05)^4 = 48 620 PLN $\\
+
+$ I_n = 48 620 - 40 000 - 8 620 PLN $\\
+
+$ I_n = 40 000((1 + 0,05)^4 - 1) = 8 620 PLN $\\
+
+Podobnie jak w przypadku kapitalizacji prostej w kapitalizacji złożonej, możemy dopuścić zmienne stopy procentowe w kolejnych latach trwania inwestycji. Przyjmijmy, że w kolejnych latach stopy procentowe są równe $ r_1, r_2, ..., 4_n $ gdzie $ n $ jest liczą lat trwania inwestycji. Wtedy wartość początkowego kapitału $ W $ po pierwszym roku wyniesie. $ W_1 = W(1+r_1) $, po drugim $ W_2 = W(1+r_1)(1+r_2) $\\
+
+Wartość kapitału po $ n $ latach: 
+
+\begin{center}
+	\begin{equation}
+		W_n = W\Pi^n_{i=1}(1 + r_i)
+	\end{equation}
+\end{center}\\
+
+\begin{center}
+	\begin{equation}
+		I_n = W(\Pi^n_{i=1}(1 + r_i) - 1)
+	\end{equation}
+\end{center}\\
+
+Przeciętna roczna stopa oprocentowania w przypadku kapitalizacji złożonej:\\
+
+\begin{center}
+	\begin{equation}
+		r = (\Pi^n_{i=1}(1 + r_1)^{\frac{1}{n}} - 1
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 5}
+Kapitał 20 000 PLN został ulokowany na okres 5 lat. Przy założeniu kapitalizacji złożonej i rocznej stopie procentowej równej w kolejnych latach, 5\%, 6\%, 5\%, 4\%, 7\%, wyznaczymy wartości kapitału na koniec kolejnych lat oraz przeciętną roczną stopę oprocentowania tego kapitału w czasie 5 lat. \\
+
+$ W_1 = 21 000 PLN $\\
+
+$ W_5 = 20 000(1+0.05)(1+0.06)(1+0.05)(1+0.04)(1+0.07) = 26 009.47 PLN $ \\
+
+$ r = ((1+0.05)(1+0.06)(1+0.05)(1+0.04)(1+0.07))^{\frac{1}{5}} – 1 = 5.40\% $\\
+
+Niech $ r_{okr} $ będzie stopą pod okresową. Przy założeniu kapitalizacji złożonej, przyszła wartość kwoty $ W $ po l latach i $ n $ spośród $ m $ pod okresów $ l+1 $ roku, gdzie $ 0 \leq n < m $ wynosi:
+
+\begin{center}
+	\begin{equation}
+		W^{(m)}_{(l, n)} = W(1 + r_{okr})^{l * m + n}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 6}
+Zakładając kapitalizację a) półroczną, b) kwartalną c) miesięczną i przyjmując stopę pod okresową $ r_{okr} $ = 2\% wyznaczyć przyszłą wartość kapitału 20 000 PLN po 2 latach i 6 miesiącach.
+
+\subsubsection{a)}
+$ W^{(2)}_{(2, 1)} = W(1 + 0,02)^{2 * 2 + 1} = 22 081,62 PLN $\\
+\subsubsection{b)}
+$ W^{(4)}_{(2, 2)} = W(1 + 0,02)^{10} = 24 379,89 PLN $\\
+\subsubsection{c)}
+$ W^{(12)}_{(2, 6)} = W(1 + 0,02)^{30} = 36 227,23 PLN $\\
+
+Roczna stopa procentowa $ r $ proporcjonalna do danej stopy pod okresowej $ r_{okr} $ nazywa się \textbf{stopą nominalną}. ( wyliczyć roczą stopę, np. jak miesięczna jest 1\% to roczna jest 12\% itp.)
+
+\begin{center}
+	\begin{equation}
+		W^{(m)}_{(l, n)} = W(1 + \frac{r}{m})^{l*m+n}
+	\end{equation}
+\end{center}\\
+
+Przyjmując n = 0 wtedy:\\
+
+\begin{center}
+	\begin{equation}
+		W^{(m)}_{l} = W(1 + \frac{r}{m})^{l*m}
+	\end{equation}
+\end{center}\\
+
+Liczbę:\\
+
+\begin{center}
+	\begin{equation}
+		R_m = (1 + \frac{r}{m})^m
+	\end{equation}
+\end{center}\\
+
+Nazywa się rocznym \textbf{czynnikiem oprocentowania}.
+
+\subsection{Przykład 7}
+Kapitał w wysokości 40 000 PN został ulokowany na rachunku z nominalną stopą procentową równą 12\%. Zakładając kapitalizację, roczną, półroczną, kwartalną, miesięczną oraz dzienna, wyznaczyć przyszłą wartość kapitału po 4 latach.\\
+
+Ze wzory (17)\\
+
+$ W(1)4 = 62 940,77 PLN $\\ 
+
+$ W(2)4 = 63 753.92 PLN $\\
+
+$ W(4)4 = 64 188.26 PLN $\\
+
+$ W(12)4 = 64 489.04 PLN $\\
+
+$ W(360)4 = 64 606.80 PLN $\\
+
+\subsection{Przykład 8}
+Wyznaczymy wartość kapitału 40 000 PLN po 5 ltach i 9 miesiącach przy założeniu że roczna stopa procentowa wynosi 6\%, a kapitalizacji odsetek jest a) kwartalna, b) miesięczna.\\
+
+Korzystając(16)\\
+
+\subsubsection{a)}
+$ W^4_{(5, 3)} = $
+\subsubsection{b)}
+$ W^{12}_{(5, 9)} = $
+
+\subsection{Przykład 9}
+Przy założeniu miesięcznej kapitalizacji odsetek i rocznych stopach procentowych równych 6\% w pierwszym i drugim roku. 9\% w trzecim i 12\% w czwartym roku wyznaczyć wartość kapitału 100 000 PLN po a)3 latach i 7 miesiącach b) 4 latach.\\
+
+X = kapitał po 3latach i 7 m\\ 
+
+Y = po 4 latach\\
+
+Wzór (16)\\
+
+$ X = 100 000 * (1+\frac{0,06}{12})^24 * (1+\frac{0,09}{12})^12 * (1+\frac{0,12}{12}/12)^7 = 132 183 PLN $\\
+
+$ Y = 100 000 * (1+\frac{0,06}{12})^24 * (1+\frac{0,09}{12})^12 * (1+\frac{0,12}{12}/12)^12 = 138 925,70  PLN $\\
+
+\subsection{Przykład 10}
+Przy miesięcznej kapitalizacji odsetek i nominalnej stopie procentowej równej 3\% po 1 roku i 7 miesiącach uzyskano z lokaty 100 PLN odsetek. Jaka była kwota lokaty?\\
+
+Odsetki uzyskane z inwestycji stanowią różnice między wartością kapitału po 1r i 7m a jego wartością początkową. W = ?\\
+
+$ W^{12}_{(1,7)} - W = 100  \Rightarrow  W = 2 058,29 PLN $\\
+
+\section{Równoważność stóp pod okresowych przy kapitalizacji złożonej}
+
+Załóżmy że $ r_1 $ i $ r_2 $ są pod okresowymi stopami procentowymi, zaś $ m_1 $ i $ m_2 $ są odpowiadającymi im częstotliwościami kapitalizacji. Stopy $ r_1 $ i $ r_2 $ \textbf{nazywamy równoważnymi w czasie $ l $ lat}, gdzie $ l \in N $, jeżeli przy każdej z nich odsetki od ustalonego kapitału po $ l $ latach są równe.
+
+
+
+
+
+\end{document}
