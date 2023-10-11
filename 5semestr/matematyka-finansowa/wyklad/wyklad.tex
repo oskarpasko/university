@@ -1,6 +1,12 @@
-\documentclass[•]{article}
+\documentclass{article}
 
 \begin{document}
+
+\tableofcontents
+
+\newpage
+
+\section{Wstęp}
 
 \textbf{Odestkami} - nazywa się kwotę, którą należy zapłacić za prawo użytkowania określonego kapitału. Odsetki są zatem ceną płaconą za wypożyczenie kapitału. Ustala się je w odniesieniu do pewnego ustalonego okresu. Stosunek odsetek do kapitału, który je wygenerował w ustalonym okresie, nazywa się \textbf{okresową stopą procentową.}\\
 
@@ -302,9 +308,251 @@ $ W^{12}_{(1,7)} - W = 100  \Rightarrow  W = 2 058,29 PLN $\\
 
 \section{Równoważność stóp pod okresowych przy kapitalizacji złożonej}
 
-Załóżmy że $ r_1 $ i $ r_2 $ są pod okresowymi stopami procentowymi, zaś $ m_1 $ i $ m_2 $ są odpowiadającymi im częstotliwościami kapitalizacji. Stopy $ r_1 $ i $ r_2 $ \textbf{nazywamy równoważnymi w czasie $ l $ lat}, gdzie $ l \in N $, jeżeli przy każdej z nich odsetki od ustalonego kapitału po $ l $ latach są równe.
+Załóżmy że $ r_1 $ i $ r_2 $ są pod okresowymi stopami procentowymi, zaś $ m_1 $ i $ m_2 $ są odpowiadającymi im częstotliwościami kapitalizacji. Stopy $ r_1 $ i $ r_2 $ \textbf{nazywamy równoważnymi w czasie $ l $ lat}, gdzie $ l \in N $, jeżeli przy każdej z nich odsetki od ustalonego kapitału po $ l $ latach są równe.\\
 
 
+Zauważmy, że równość odsetek po $ l $ latach oznacza równość wartości kapitału po tym czasie. Zatem, uwzględniając wzór (15) otrzymujemy, że podokresowe stopy proentowe $ r_1 $ i $ r_2 $ są równoważne w czaei $ l $ lat, wtedy i tylko wtedy, gdy:
+
+\begin{center}
+	\begin{equation}
+		(l + r_1)^{m_1} = (1 + r_2)^{m_2}
+	\end{equation}
+\end{center}\\
+
+Korzystając ze wzory (17) warunek (19) można przedstawić w nastepującej równoważnej postaci:
+
+\begin{center}
+	\begin{equation}
+		(1 + \frac{r_1}{m_1})^{m_1} = (1 + \frac{r_2}{m_2})^{m_2}
+	\end{equation}
+\end{center}\\
+
+gdzie $ r_1 $ i $ r_2 $ są nominanymi stopami procentowymi, odpowiednio $ r_1 $ i $ r_2 $.\\
+
+\subsection{Przykład 11}
+
+Wyznaczymy miesięczną stope procentową równoważną kwartalnej stopie procentowej $ r^{(1)}_{okr} = 4\% $.\\
+
+Ponieważ $ r_1 = \%, m_1 = 4 i m_2 = 12 $ na podstawie (1) mamy:\\
+
+$ (1 + 0,04)^4 = (1 + r_2)^{12} $.\\
+
+Stąd $ r_2 = (1 + 0,04)^{\frac{4}{12}}-1 = 1,3159 \% $
+
+\subsection{Przykład 12}
+
+Wyznaczymy nominalną stopę peocentową, która przy kapitalizacji kwarta;nej jest równoważna nomnalnej stopei $ r_1 = 5 \% $ przy kapitalizacji półrocznej.\\
+
+Korzystając ze wzoru (20) z $ r_1 = 5 \%, m_1 = 2 i m_2 = 4 $ dostajemy:\\
+
+$ (1 + \frac{0,05}{2})^2 = (1 + \frac{r_2}{4})^4 $.\\
+
+Wobec tego\\
+
+$ r_2 =  4,9691 \% $.\\
+
+\newpage
+
+
+\section{Efektywna stopa procentowa}
+
+\textbf{Efektywną stopą procentową} nazywa się roczną stopę procentową równoważną danej podokresowej stopie procentowej. Wobec tego, jeśli $ r_{okr} $ jest podokresową stopą procentową, zaś $ m $ jest częstotliwością kapitalizacji, to korzystając z (19) mamy:
+
+\begin{center}
+	\begin{equation}
+		r^{(m)}_{ef} = (1 + r_{okr})^m - 1
+	\end{equation}
+\end{center}\\
+
+Z kolei na podstawie (2), efektywną stopę procentową odpowiadającą nominalnej stopie procentowej $ r $ przy m-krotnej kapitalizacji w ciągu roku, wyznacza się z równania:
+
+\begin{center}
+	\begin{equation}
+		r^{(m)}_{ef} = (1 + \frac{r}{m})^m - 1
+	\end{equation}
+\end{center}\\
+
+Efektywna stopa procentowa pozwala na zmianę okresu stopy procentowej bez zmiany eektywności kapitalizacji.\\
+
+\subsection{Przykład 13}
+
+Wyznacyzmy efektywną stopę procentową odpowiadającą nominalnej stopie procentowej równiej $ 6 \% $ przy kapitalizacji: półrocznej, kwartalnej, miesięcznej, dziennej.\\
+
+Korzystając ze wzoru (22), otrzymujemy\\
+
+$ r^{(m)}_{ef} = (1 + \frac{0,06}{2})^2 - 1 = (1,03)^2 - 1 = 6,09 \% $\\
+
+$ r^{(m)}_{ef} = (1 + \frac{0,06}{4})^4 - 1 = (1,015)^4 - 1 = 6,14 \% $\\
+
+$ r^{(m)}_{ef} = (1 + \frac{0,06}{12})^12 - 1 = (1,005)^12 - 1 = 6,17 \% $\\
+
+$ r^{(m)}_{ef} = (1 + \frac{0,06}{360})^360 - 1 = (1,00016)^360 - 1 = 6,18 \% $\\
+
+Do wyznaczania efektywnej stopy procentowej stopy procentowej można zastosować formułę \textbf{EFEKTYWNA} wbudowaną w pakiecie MS Excel. Jej argumentami są stopa nominalna i liczba okresów.
+
+\subsubsection{Przykład 13 a)}
+
+$ EFEKTYWNA(6 \%, 2) = 6.0900 \% $\\
+
+\subsection{Przykład 14}
+
+Wyznaczymy nominalną stopę procentową, której przy: a) kwartalnej, b) miesięcznej kapitalizacji odsetek odpowiada efektywna stopa procentowa równa $ 5 \% $.\\
+
+Wyznaczając $ r $ ze wzoru (22), dostajemy:\\
+
+$ r = m(\sqrt{1 + r^{(m)}_{ef}} - 1) $
+
+\subsubsection{a)}
+
+$ r = 4,9089 \% $
+
+\subsubsection{b)}
+
+$ r = 4,8889 \% $\\
+
+Do wyznaczania nominalnej stopy procentowej można zastosować fomułę \textbf{NOMINALNA} z Excela. Jej argumentami są stopa efektywna i liczba okresów.\\
+
+\newpage
+
+\section{Kapitalizacja ciągła}
+
+Jeżeli przy m-krotnej kapitalizacji w ciągu roku powiększa się liczba okresów, to w granicy przy $ m \rightarrow \infty $ mamy do czynienia z ciąglą kapitalizacją odsetek. W takim przypadku na podstawie wzoru (17) wartość kapitału $ W $ po $ l $ latach można wyznaczyć w następujący sposób.\\
+
+\begin{center}
+	\begin{equation}
+		W^{(\infty)}_l = We^{l * r}
+	\end{equation}
+\end{center}\\
+
+Można pokazać, że wzór (23) jesy prawdiwy dla $ l> 0 $
+
+\subsection{Przykład 15}
+
+Przy założeniu ciągłej kapitalizacji odsetek i rocznej stopie procentowej $ r = 5 \% $ wyznaczymy wartość kwoty 10 000 PLN po: a) 8 latach, b) 4 latach i 7 miesiącach.
+
+\subsubsection{a)}
+
+ze wzoru (23), $ W = 10 000, l = 8, r = 5 \% $\\
+
+$ W = 10 000 * e^{8*0,05} = 10 000 * e^{0,04} = 14 918,25 $
+
+\subsubsection{b)}
+
+ze wzoru (23), $ W = 10 000, l = 4\frac{7}{12}, r = 5 \% $\\
+
+$ W = 10 000 * e^{4\frac{7}{12}*0,05} = 10 000 * e^{0,2292} = 12 575,94 $
+
+\newpage
+
+\section{Natężenie procentowe}
+
+W przypadku ciągłej kapitalizacji odsetek efektywną stopę procentową wyznacza się z równania:
+
+\begin{center}
+	\begin{equation}
+		l + r_{ef} = e^r
+	\end{equation}
+\end{center}\\
+
+gdzie $ r $ jest stopą nominalną. Zatem:
+
+\begin{center}
+	\begin{equation}
+		r_{ef} = e^r - 1
+	\end{equation}
+\end{center}\\
+
+Jeżeli natomiast dana jest efektywna stopa procentowa $ r_{ef} $ to z (24) otrzymujemy stopę nominalną:
+
+\begin{center}
+	\begin{equation}
+		r = ln(1 + r_{ef})
+	\end{equation}
+\end{center}\\
+
+Nazywa się natężeniem oprocentowania związanym z efektywną stopą procentową $ r_{ef} $.
+
+\subsection{Przykład 16}
+
+Wyznaczymy natężenie oprocentowania związane z efektywną stopą procentową równą $ 6 \% $.\\
+
+Stosując (26):\\
+
+$ r = ln(1 + 0,06) = Ln(1,06) = 5,83 \% $\\
+
+\newpage
+
+\section{Dyskonto proste i składane}
+
+Teraz zajmiemy się zagadnieniem ustalania początkowej wartości kapitału na podstawie jego wartości na końcu pewnego okresu. Proces ten nazywa się \textbf{dyskontowaniem}.\\
+
+Dyskonto proste, które jest bezpośrednio związane z prostą kapitalizacją oesetek. W przypadku kapitalizacji prostej na podstawie (2), wartość kapitału początkowego $ W $ po $ n $ latach.\\
+
+W przypadku dyskonta prostego, obecną wartość kapitału $ W $, którą mamy otrzymać (bądź zaplacić) za $ n $ lat wyznacz się na podstawie równości:
+
+\begin{center}
+	\begin{equation}
+		PV(W) = \frac{W}{1 + nr}
+	\end{equation}
+\end{center}\\
+
+\textbf{Dyskontem} nazywa się różnicę między wartością kapitału na koncu pewnego ustalonego okresu, a jego wartością na początku tego okresu. Oznaczająć dyskonta przed $ D $ i uwzlędniając (27) otrzymujemy:
+
+\begin{center}
+	\begin{equation}
+		D = \frac{nrW}{1 + nr}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 17}
+
+Zakładając dyskonto proste i przyjmując stopę procentową $ r = 4 \% $ wyznaczyć wartość oraz dyskonto kwoty 50 000 PLN którą mamy otrzymać za 8 lat.\\
+
+Korzystając z (27, 28) $ W = 50 000, r = 0,04, n = 8 $\\
+
+$ PV = \frac{50 000}{1 + 8 * 0,04} = 37 878,79 $ \\
+
+$ D = 50 000 - 37 878,79 = 12 121,21 $\\
+
+W przypadku \textbf{dyskonta składanego}, przy rocznej kapitalizacji odsetek wartość kapitału początkowego $ W $ po $ n $ latach, wyznaczona na podstawie wzoru (10).\\
+
+Zatem obeną wartość kapitału $ W $ która mamy otrzymać (bądź zapłacic) za $ n $ lat wwyznacza się z równości:
+
+\begin{center}
+	\begin{equation}
+		PV(W) = \frac{W}{(1 + r)^n}
+	\end{equation}
+\end{center}\\
+
+Wielkość $ \frac{1}{(1 + r)} $ nazywa się \textbf{rocznym czynnikiem dyskontującym}. Dyskonto wyraża się w tym przypadku wzorem:
+
+\begin{center}
+	\begin{equation}
+		PD = W(1 - \frac{1}{(1 + r)^n})
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 18}
+
+Zakładając dyskonto składane i przyjmując stopę procentową $ r = 4 \% $ wyznaczyć wartość oraz dyskonto kwoty 50 000 PLN którą mamy otrzymać za 8 lat.\\
+
+Korzystając z (29, 30) $ W = 50 000, r = 0,04, n = 8 $\\
+
+$ PV = \frac{50 000}{(1 + 0,04)^8}  = 36 534,51$\\
+
+$ D = 50 000 - 36 534,51 = 13 465,49$
+
+
+
+
+
+
+%      Wstawienie nowego wzory z liczbą porządkową
+%\begin{center}
+%	\begin{equation}
+%		
+%	\end{equation}
+%\end{center}\\
 
 
 

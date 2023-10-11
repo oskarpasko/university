@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.4)  4 OCT 2023 20:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  11 OCT 2023 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./wyklad.tex
-(wyklad.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
-(F:\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(F:\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+**wyklad.tex
+(./wyklad.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,20 +19,16 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-(F:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box51
+\l__pdf_internal_box=\box50
 )
-
-LaTeX Warning: Unused global option(s):
-    [•].
-
-(wyklad.aux)
+(./wyklad.aux)
 \openout1 = `wyklad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -49,6 +45,36 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+ (./wyklad.toc
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...sline {section}{\numberline {1}Wstęp}{3}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...n}{\numberline {2.3.2}b) miesięczna}{6}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
@@ -57,8 +83,55 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \textbf{Odestkami} - nazywa się
-                                     kwotę, którą należy zapłacić za p...
+l.35 ...umberline {6}Kapitalizacja ciągła}{15}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...umberline {7}Natężenie procentowe}{16}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write3
+\openout3 = `wyklad.toc'.
+
+
+[2]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.9 \section{Wstęp}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \textbf{Odestkami} - nazywa się
+                                      kwotę, którą należy zapłacić za ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -71,8 +144,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \textbf{Odestkami} - nazywa się kwotę
-                                           , którą należy zapłacić za p...
+l.11 \textbf{Odestkami} - nazywa się kwotę
+                                            , którą należy zapłacić za ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -85,7 +158,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...bf{Odestkami} - nazywa się kwotę, którą
+l.11 ...f{Odestkami} - nazywa się kwotę, którą
                                                    należy zapłacić za pra...
 
 Your command was ignored.
@@ -99,7 +172,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...kowania określonego kapitału. Odsetki są
+l.11 ...owania określonego kapitału. Odsetki są
                                                    zatem ceną płaconą za ...
 
 Your command was ignored.
@@ -113,7 +186,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...ślonego kapitału. Odsetki są zatem ceną
+l.11 ...�lonego kapitału. Odsetki są zatem ceną
                                                    płaconą za wypożyczeni...
 
 Your command was ignored.
@@ -127,7 +200,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...apitału. Odsetki są zatem ceną płaconą
+l.11 ...pitału. Odsetki są zatem ceną płaconą
                                                    za wypożyczenie kapitał...
 
 Your command was ignored.
@@ -141,7 +214,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...ną za wypożyczenie kapitału. Ustala się
+l.11 ...ą za wypożyczenie kapitału. Ustala się
                                                    je w odniesieniu do pewne...
 
 Your command was ignored.
@@ -155,7 +228,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...generował w ustalonym okresie, nazywa się
+l.11 ...enerował w ustalonym okresie, nazywa się
                                                    \textbf{okresową stopą ...
 
 Your command was ignored.
@@ -169,7 +242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...się \textbf{okresową stopą procentową.}
+l.11 ...ię \textbf{okresową stopą procentową.}
                                                   \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -182,7 +255,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...się \textbf{okresową stopą procentową.}
+l.11 ...ię \textbf{okresową stopą procentową.}
                                                   \\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -195,173 +268,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...się \textbf{okresową stopą procentową.}
+l.11 ...ię \textbf{okresową stopą procentową.}
                                                   \\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 5--6
-
- []
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 W praktyce najczę
-                      ściej mamy do czynienia ze stopami procentowymi ustal...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (13.83287pt too wide) in paragraph at lines 7--8
-[]\OT1/cmr/m/n/10 W prak-tyce na-jcze^^Ssciej mamy do czynienia ze stopami pro-
-cen-towymi ustalonymi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-
- []
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 ... pożyczonego kapitału 60 000 PLN wynoszą
-                                                   1 500 PLN, to roczna stop...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 9.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 9.
-
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-
- []
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 Powię
-           kszenie kapitału o odsetki, które zostały przez niego wygenero...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...ały przez niego wygenerowane, nazywa się
-                                                   \textbf{kapitalizacją od...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...azywa się \textbf{kapitalizacją odsetek}
-                                                  . Czas, w którym odsetki ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...cją odsetek}. Czas, w którym odsetki są
-                                                   generowane, nazywa się o...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...tórym odsetki są generowane, nazywa się
-                                                   okresem kapitalizacji. W ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...się okresem kapitalizacji. W dalszym cią
-                                                  gu rozważań ograniczymy ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...dalszym ciągu rozważań ograniczymy się
-                                                   do przypadku, gdy odsetki...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...niczymy się do przypadku, gdy odsetki są
-                                                   dopisywane na końcu okre...
-
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -378,24 +286,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...pitalizacji: \textbf{prostą i złożoną}
-                                                  .\\
+l.13 W praktyce najczę
+                       ściej mamy do czynienia ze stopami procentowymi usta...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.13 ...pitalizacji: \textbf{prostą i złożoną}
-                                                  .\\
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (13.83287pt too wide) in paragraph at lines 13--14
+[]\OT1/cmr/m/n/10 W prak-tyce na-jcze^^Ssciej mamy do czynienia ze stopami pro-
+cen-towymi ustalonymi
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
@@ -409,8 +311,27 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ... prostej odsetki od kapitału oblicza się
-                                                   od kapitału początkoweg...
+l.15 ...pożyczonego kapitału 60 000 PLN wynoszą
+                                                   1 500 PLN, to roczna stop...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 Powię
+           kszenie kapitału o odsetki, które zostały przez niego wygenero...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -423,8 +344,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...kapitału oblicza się od kapitału począ
-                                                  tkowego proporcjonalnie od...
+l.17 ...ały przez niego wygenerowane, nazywa się
+                                                   \textbf{kapitalizacją od...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -437,8 +358,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...rocentowania. Oznaczamy przez $ W $ począ
-                                                  tkową wartość kapitału...
+l.17 ...azywa się \textbf{kapitalizacją odsetek}
+                                                  . Czas, w którym odsetki ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -451,8 +372,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...owania. Oznaczamy przez $ W $ początkową
-                                                   wartość kapitału, prze...
+l.17 ...cją odsetek}. Czas, w którym odsetki są
+                                                   generowane, nazywa się o...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -465,8 +386,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...� wartość kapitału, przez $ r $ roczną
-                                                   stopę procentową, przez...
+l.17 ...tórym odsetki są generowane, nazywa się
+                                                   okresem kapitalizacji. W ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -479,8 +400,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...ść kapitału, przez $ r $ roczną stopę
-                                                   procentową, przez $ I_{n...
+l.17 ...się okresem kapitalizacji. W dalszym cią
+                                                  gu rozważań ograniczymy ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -493,8 +414,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...�u, przez $ r $ roczną stopę procentową
-                                                  , przez $ I_{n} $ należne...
+l.17 ...dalszym ciągu rozważań ograniczymy się
+                                                   do przypadku, gdy odsetki...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -507,8 +428,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ..., zaś przez $ W_{n} $ oznaczamy końcową
-                                                   wartość kapitału w cza...
+l.17 ...niczymy się do przypadku, gdy odsetki są
+                                                   dopisywane na końcu okre...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -526,7 +447,155 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...każdy rok ma 360 dni, zaś każdy miesią
+l.19 ...pitalizacji: \textbf{prostą i złożoną}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...pitalizacji: \textbf{prostą i złożoną}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ... prostej odsetki od kapitału oblicza się
+                                                   od kapitału początkoweg...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...kapitału oblicza się od kapitału począ
+                                                  tkowego proporcjonalnie od...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...rocentowania. Oznaczamy przez $ W $ począ
+                                                  tkową wartość kapitału...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...owania. Oznaczamy przez $ W $ początkową
+                                                   wartość kapitału, prze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...� wartość kapitału, przez $ r $ roczną
+                                                   stopę procentową, przez...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ść kapitału, przez $ r $ roczną stopę
+                                                   procentową, przez $ I_{n...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...�u, przez $ r $ roczną stopę procentową
+                                                  , przez $ I_{n} $ należne...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ..., zaś przez $ W_{n} $ oznaczamy końcową
+                                                   wartość kapitału w cza...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...każdy rok ma 360 dni, zaś każdy miesią
                                                   c ma 30 dni.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -539,7 +608,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 
+l.32 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -552,15 +621,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 
+l.40 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1
-
-{C:/Users/oskar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+[3]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -568,7 +635,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...$ r = 4\% $ wyznaczyć odsetki i końcową
+l.44 ...$ r = 4\% $ wyznaczyć odsetki i końcową
                                                    wartość kapitału 25 00...
 
 Your command was ignored.
@@ -576,12 +643,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
@@ -592,7 +659,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...inwestycji wynosi $ n $ lat i składa się
+l.51 ...inwestycji wynosi $ n $ lat i składa się
                                                    z $ m $ następujących p...
 
 Your command was ignored.
@@ -606,7 +673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...si $ n $ lat i składa się z $ m $ nastę
+l.51 ...si $ n $ lat i składa się z $ m $ nastę
                                                   pujących po sobie okresó...
 
 Your command was ignored.
@@ -620,7 +687,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...n $ lat i składa się z $ m $ następują
+l.51 ...n $ lat i składa się z $ m $ następują
                                                   cych po sobie okresów o d...
 
 Your command was ignored.
@@ -634,7 +701,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...$. Przyjmijmy że w każdym z nich obowią
+l.51 ...$. Przyjmijmy że w każdym z nich obowią
                                                   zuje roczna stopa procento...
 
 Your command was ignored.
@@ -648,7 +715,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.45 ...., r_m $. Wtedy wartość kapitału począ
+l.51 ...., r_m $. Wtedy wartość kapitału począ
                                                   tkowego $ W $ po pierwszym...
 
 Your command was ignored.
@@ -662,7 +729,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 
+l.64 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -675,7 +742,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...opą procentową oprocentowania kapitału}
+l.65 ...opą procentową oprocentowania kapitału}
                                                    $ W $ w czasie $ n $ nazy...
 
 Your command was ignored.
@@ -689,7 +756,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...opą procentową oprocentowania kapitału}
+l.65 ...opą procentową oprocentowania kapitału}
                                                    $ W $ w czasie $ n $ nazy...
 
 Your command was ignored.
@@ -703,7 +770,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...opą procentową oprocentowania kapitału}
+l.65 ...opą procentową oprocentowania kapitału}
                                                    $ W $ w czasie $ n $ nazy...
 
 Your command was ignored.
@@ -717,7 +784,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...opą procentową oprocentowania kapitału}
+l.65 ...opą procentową oprocentowania kapitału}
                                                    $ W $ w czasie $ n $ nazy...
 
 Your command was ignored.
@@ -731,7 +798,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...opą procentową oprocentowania kapitału}
+l.65 ...opą procentową oprocentowania kapitału}
                                                    $ W $ w czasie $ n $ nazy...
 
 Your command was ignored.
@@ -745,7 +812,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...apitału} $ W $ w czasie $ n $ nazywa się
+l.65 ...apitału} $ W $ w czasie $ n $ nazywa się
                                                    roczną stopę, przy któ...
 
 Your command was ignored.
@@ -759,7 +826,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ...} $ W $ w czasie $ n $ nazywa się roczną
+l.65 ...} $ W $ w czasie $ n $ nazywa się roczną
                                                    stopę, przy której kapi...
 
 Your command was ignored.
@@ -773,7 +840,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.59 ... w czasie $ n $ nazywa się roczną stopę
+l.65 ... w czasie $ n $ nazywa się roczną stopę
                                                   , przy której kapitał $ ...
 
 Your command was ignored.
@@ -781,7 +848,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
@@ -792,7 +859,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 Oznaczają
+l.67 Oznaczają
                c przez r(z kreską na górze) przeciętną roczną stopą op...
 
 Your command was ignored.
@@ -806,7 +873,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 Oznaczając przez r(z kreską
+l.67 Oznaczając przez r(z kreską
                                    na górze) przeciętną roczną stopą op...
 
 Your command was ignored.
@@ -820,7 +887,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...jąc przez r(z kreską na górze) przecię
+l.67 ...jąc przez r(z kreską na górze) przecię
                                                   tną roczną stopą oproce...
 
 Your command was ignored.
@@ -834,7 +901,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ... przez r(z kreską na górze) przeciętną
+l.67 ... przez r(z kreską na górze) przeciętną
                                                    roczną stopą oprocen, n...
 
 Your command was ignored.
@@ -848,7 +915,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...(z kreską na górze) przeciętną roczną
+l.67 ...(z kreską na górze) przeciętną roczną
                                                    stopą oprocen, na podsta...
 
 Your command was ignored.
@@ -862,7 +929,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...ką na górze) przeciętną roczną stopą
+l.67 ...ką na górze) przeciętną roczną stopą
                                                    oprocen, na podstawie wzo...
 
 Your command was ignored.
@@ -876,7 +943,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 
+l.74 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -889,7 +956,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 Gdyby wszystkie okresy miały jednakową
+l.75 Gdyby wszystkie okresy miały jednakową
                                               długość to wzór:
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -902,13 +969,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 
+l.82 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
+[4]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -916,7 +983,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 Przez począ
+l.86 Przez począ
                  tkowe 4 miesiąca trwania obowiązywała roczna stopa proce...
 
 Your command was ignored.
@@ -930,7 +997,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 Przez początkowe 4 miesią
+l.86 Przez początkowe 4 miesią
                                 ca trwania obowiązywała roczna stopa proce...
 
 Your command was ignored.
@@ -944,7 +1011,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 Przez początkowe 4 miesiąca trwania obowią
+l.86 Przez początkowe 4 miesiąca trwania obowią
                                                   zywała roczna stopa proce...
 
 Your command was ignored.
@@ -952,7 +1019,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--86
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 
  []
 
@@ -963,7 +1030,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 Korzystają
+l.99 Korzystają
                 c ze wzoru (3) mamy\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -976,8 +1043,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 Obliczyć wysokość przecię
-                                  tnej rocznej stopy oprocentowania\\
+l.103 Obliczyć wysokość przecię
+                                   tnej rocznej stopy oprocentowania\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -989,14 +1056,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 Korzystają
-                c ze wzory (5) mamy\\
+l.104 Korzystają
+                 c ze wzory (5) mamy\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 103--106
 
  []
 
@@ -1007,7 +1074,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 Czę
+l.107 Czę
           sto zdarza się, że stopa procentowa, przy której należy oblicz...
 
 Your command was ignored.
@@ -1021,7 +1088,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 Często zdarza się
+l.107 Często zdarza się
                          , że stopa procentowa, przy której należy oblicz...
 
 Your command was ignored.
@@ -1035,7 +1102,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ... obliczyć odsetki nie jest stopa roczną
+l.107 ... obliczyć odsetki nie jest stopa roczną
                                                    lecz np. miesięczną lub...
 
 Your command was ignored.
@@ -1049,7 +1116,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...i nie jest stopa roczną lecz np. miesię
+l.107 ...i nie jest stopa roczną lecz np. miesię
                                                   czną lub kwartalną. Okre...
 
 Your command was ignored.
@@ -1063,7 +1130,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ... jest stopa roczną lecz np. miesięczną
+l.107 ... jest stopa roczną lecz np. miesięczną
                                                    lub kwartalną. Okres, po...
 
 Your command was ignored.
@@ -1077,7 +1144,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...zną lecz np. miesięczną lub kwartalną
+l.107 ...zną lecz np. miesięczną lub kwartalną
                                                   . Okres, po którym odsetk...
 
 Your command was ignored.
@@ -1091,7 +1158,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...ną. Okres, po którym odsetki podlegają
+l.107 ...ną. Okres, po którym odsetki podlegają
                                                    kapitalizacji nazywa się...
 
 Your command was ignored.
@@ -1105,7 +1172,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...etki podlegają kapitalizacji nazywa się
+l.107 ...etki podlegają kapitalizacji nazywa się
                                                    \textbf{podokresem kapita...
 
 Your command was ignored.
@@ -1119,7 +1186,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...a dla podokresu kapitalizacji nazywa się
+l.107 ...a dla podokresu kapitalizacji nazywa się
                                                    \textbf{stopą pod okreso...
 
 Your command was ignored.
@@ -1133,7 +1200,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...kresową. Częstotliwość kapitalizacji}
+l.107 ...kresową. Częstotliwość kapitalizacji}
                                                    oznacza ile razy odsetki ...
 
 Your command was ignored.
@@ -1147,7 +1214,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...kresową. Częstotliwość kapitalizacji}
+l.107 ...kresową. Częstotliwość kapitalizacji}
                                                    oznacza ile razy odsetki ...
 
 Your command was ignored.
@@ -1161,7 +1228,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...kresową. Częstotliwość kapitalizacji}
+l.107 ...kresową. Częstotliwość kapitalizacji}
                                                    oznacza ile razy odsetki ...
 
 Your command was ignored.
@@ -1175,7 +1242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...pitalizacji} oznacza ile razy odsetki są
+l.107 ...pitalizacji} oznacza ile razy odsetki są
                                                    kapitalizowane w ciągu r...
 
 Your command was ignored.
@@ -1189,14 +1256,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 ...le razy odsetki są kapitalizowane w cią
+l.107 ...le razy odsetki są kapitalizowane w cią
                                                   gu roku.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
@@ -1207,7 +1274,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 W dalszym cią
+l.109 W dalszym cią
                     gu zakładamy że częstotliwość kapitalizacji wynosi ...
 
 Your command was ignored.
@@ -1221,7 +1288,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 W dalszym ciągu zakładamy że czę
+l.109 W dalszym ciągu zakładamy że czę
                                           stotliwość kapitalizacji wynosi ...
 
 Your command was ignored.
@@ -1229,7 +1296,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
@@ -1240,14 +1307,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108 $ m=12 $ – kapitalizacja miesię
+l.114 $ m=12 $ – kapitalizacja miesię
                                         czna\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--110
+Underfull \hbox (badness 10000) in paragraph at lines 111--116
 
  []
 
@@ -1258,7 +1325,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 Jeżeli $ r_{okr} $ jest stopą
+l.117 Jeżeli $ r_{okr} $ jest stopą
                                       podokresową, to zgodnie z zasadą opr...
 
 Your command was ignored.
@@ -1272,7 +1339,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 Jeżeli $ r_{okr} $ jest stopą podokresową
+l.117 Jeżeli $ r_{okr} $ jest stopą podokresową
                                                   , to zgodnie z zasadą opr...
 
 Your command was ignored.
@@ -1286,7 +1353,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 ...stopą podokresową, to zgodnie z zasadą
+l.117 ...stopą podokresową, to zgodnie z zasadą
                                                    oprocentowania prostego o...
 
 Your command was ignored.
@@ -1300,7 +1367,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 ... upływie $ k $ podokresów wyznacza się
+l.117 ... upływie $ k $ podokresów wyznacza się
                                                    ze wzoru
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1313,18 +1380,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 
+l.124 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[3]
+[5]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1332,7 +1399,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 
+l.132 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1345,7 +1412,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 Załóżmy że $ r_1 $ i $ r_2 $ są
+l.133 Załóżmy że $ r_1 $ i $ r_2 $ są
                                            podokresowymi stopami procentowym...
 
 Your command was ignored.
@@ -1359,7 +1426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ... procentowymi, zaś $ m_1 $ i $ m_2 $ są
+l.133 ... procentowymi, zaś $ m_1 $ i $ m_2 $ są
                                                    odpowiadającymi im częs...
 
 Your command was ignored.
@@ -1373,7 +1440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ..., zaś $ m_1 $ i $ m_2 $ są odpowiadają
+l.133 ..., zaś $ m_1 $ i $ m_2 $ są odpowiadają
                                                   cymi im częstotliwościam...
 
 Your command was ignored.
@@ -1387,7 +1454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ... $ i $ m_2 $ są odpowiadającymi im czę
+l.133 ... $ i $ m_2 $ są odpowiadającymi im czę
                                                   stotliwościami kapitaliza...
 
 Your command was ignored.
@@ -1401,14 +1468,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 ... ustalonego kapitału po czasie $ n $ są
+l.133 ... ustalonego kapitału po czasie $ n $ są
                                                    równe.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
@@ -1419,14 +1486,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 Korzystają
+l.135 Korzystają
                  ć z (7) mamy:\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
 
@@ -1437,7 +1504,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 
+l.142 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1450,7 +1517,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 Z (9) stopy pod okresowe są
+l.143 Z (9) stopy pod okresowe są
                                    wtedy i tylko wtedy ich stosunek jest ró...
 
 Your command was ignored.
@@ -1464,7 +1531,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 ...równy stosunkowi długości odpowiadają
+l.143 ...równy stosunkowi długości odpowiadają
                                                   cych im po okresów. Takie...
 
 Your command was ignored.
@@ -1478,7 +1545,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 ...esów. Takie stopy pod okresowe nazywają
+l.143 ...esów. Takie stopy pod okresowe nazywają
                                                    się \textbf{proporcjonal...
 
 Your command was ignored.
@@ -1492,7 +1559,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 .... Takie stopy pod okresowe nazywają się
+l.143 .... Takie stopy pod okresowe nazywają się
                                                    \textbf{proporcjonalnymi}.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1505,13 +1572,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 \subsubsection{b) miesięczna}
+l.150 \subsubsection{b) miesięczna}
                                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]
+[6]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1519,7 +1586,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ...alizacji złożonej} odsetki oblicza się
+l.158 ...alizacji złożonej} odsetki oblicza się
                                                    za każdy okres równy ok...
 
 Your command was ignored.
@@ -1533,7 +1600,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ...kresowi kapitalizacji i kapitalizuje się
+l.158 ...kresowi kapitalizacji i kapitalizuje się
                                                    je na koniec tego okresu....
 
 Your command was ignored.
@@ -1547,7 +1614,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ... została ulokowana na rachunku z roczną
+l.158 ... została ulokowana na rachunku z roczną
                                                    stopą procentową równ�...
 
 Your command was ignored.
@@ -1561,7 +1628,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ...�a ulokowana na rachunku z roczną stopą
+l.158 ...�a ulokowana na rachunku z roczną stopą
                                                    procentową równą $ r $...
 
 Your command was ignored.
@@ -1575,7 +1642,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ... na rachunku z roczną stopą procentową
+l.158 ... na rachunku z roczną stopą procentową
                                                    równą $ r $. W przypadk...
 
 Your command was ignored.
@@ -1589,7 +1656,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ...unku z roczną stopą procentową równą
+l.158 ...unku z roczną stopą procentową równą
                                                    $ r $. W przypadku kapita...
 
 Your command was ignored.
@@ -1603,7 +1670,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 ...izacji złożonej dochód przynosi począ
+l.158 ...izacji złożonej dochód przynosi począ
                                                   tkowy kapitał wraz z odse...
 
 Your command was ignored.
@@ -1611,12 +1678,12 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
@@ -1627,7 +1694,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 
+l.167 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1640,7 +1707,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 Liczba $ (1+r)^n $ nazywa się
+l.168 Liczba $ (1+r)^n $ nazywa się
                                      \textbf{czynnikiem wartości przyszłej...
 
 Your command was ignored.
@@ -1648,7 +1715,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--163
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
@@ -1659,14 +1726,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.164 Odsetki po okresie n lat wynoszą
+l.170 Odsetki po okresie n lat wynoszą
                                        :\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
@@ -1677,29 +1744,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 
+l.177 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
 
@@ -1710,7 +1777,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ...e w kolejnych latach stopy procentowe są
+l.187 ...e w kolejnych latach stopy procentowe są
                                                    równe $ r_1, r_2, ..., 4...
 
 Your command was ignored.
@@ -1724,7 +1791,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ..., r_2, ..., 4_n $ gdzie $ n $ jest liczą
+l.187 ..., r_2, ..., 4_n $ gdzie $ n $ jest liczą
                                                    lat trwania inwestycji. W...
 
 Your command was ignored.
@@ -1738,7 +1805,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.181 ...rwania inwestycji. Wtedy wartość począ
+l.187 ...rwania inwestycji. Wtedy wartość począ
                                                   tkowego kapitału $ W $ po...
 
 Your command was ignored.
@@ -1746,36 +1813,22 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (12.13963pt too wide) in paragraph at lines 181--182
+Overfull \hbox (12.13963pt too wide) in paragraph at lines 187--188
 []\OT1/cmr/m/n/10 Podobnie jak w przy-padku kap-i-tal-iza-cji prostej w kap-i-t
 al-iza-cji z lo_zonej, mo_zemy
  []
 
 
-Overfull \hbox (12.5191pt too wide) in paragraph at lines 181--182
+Overfull \hbox (12.5191pt too wide) in paragraph at lines 187--188
 \OT1/cmr/m/n/10 dopu^^Ssci^^Sc zmi-enne stopy pro-cen-towe w kole-jnych lat-ach
  tr-wa-nia in-west-y-cji. Przyjmi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.190 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[5]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1789,25 +1842,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 Przecię
-              tna roczna stopa oprocentowania w przypadku kapitalizacji zło...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
-
- []
-
+[7]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1815,7 +1850,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.204 
+l.202 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1828,7 +1863,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ...łu na koniec kolejnych lat oraz przecię
+l.203 Przecię
+              tna roczna stopa oprocentowania w przypadku kapitalizacji zło...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.212 ...łu na koniec kolejnych lat oraz przecię
                                                   tną roczną stopę oproce...
 
 Your command was ignored.
@@ -1842,7 +1909,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ...na koniec kolejnych lat oraz przeciętną
+l.212 ...na koniec kolejnych lat oraz przeciętną
                                                    roczną stopę oprocentow...
 
 Your command was ignored.
@@ -1856,7 +1923,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ...c kolejnych lat oraz przeciętną roczną
+l.212 ...c kolejnych lat oraz przeciętną roczną
                                                    stopę oprocentowania teg...
 
 Your command was ignored.
@@ -1870,7 +1937,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.206 ...nych lat oraz przeciętną roczną stopę
+l.212 ...nych lat oraz przeciętną roczną stopę
                                                    oprocentowania tego kapit...
 
 Your command was ignored.
@@ -1878,25 +1945,25 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 212.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+LaTeX Warning: Command \textendash invalid in math mode on input line 218.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
@@ -1907,7 +1974,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 Niech $ r_{okr} $ bę
+l.220 Niech $ r_{okr} $ bę
                            dzie stopą pod okresową. Przy założeniu kapit...
 
 Your command was ignored.
@@ -1921,7 +1988,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 Niech $ r_{okr} $ będzie stopą
+l.220 Niech $ r_{okr} $ będzie stopą
                                        pod okresową. Przy założeniu kapit...
 
 Your command was ignored.
@@ -1935,7 +2002,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214 ... $ r_{okr} $ będzie stopą pod okresową
+l.220 ... $ r_{okr} $ będzie stopą pod okresową
                                                   . Przy założeniu kapital...
 
 Your command was ignored.
@@ -1949,7 +2016,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.221 
+l.227 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1962,7 +2029,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 Zakładają
+l.229 Zakładają
                  c kapitalizację a) półroczną, b) kwartalną c) miesięc...
 
 Your command was ignored.
@@ -1976,7 +2043,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 Zakładając kapitalizację
+l.229 Zakładając kapitalizację
                                   a) półroczną, b) kwartalną c) miesięc...
 
 Your command was ignored.
@@ -1990,7 +2057,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 Zakładając kapitalizację a) półroczną
+l.229 Zakładając kapitalizację a) półroczną
                                                  , b) kwartalną c) miesięc...
 
 Your command was ignored.
@@ -2004,7 +2071,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...talizację a) półroczną, b) kwartalną
+l.229 ...talizację a) półroczną, b) kwartalną
                                                    c) miesięczną i przyjmu...
 
 Your command was ignored.
@@ -2018,7 +2085,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...a) półroczną, b) kwartalną c) miesię
+l.229 ...a) półroczną, b) kwartalną c) miesię
                                                   czną i przyjmując stopę...
 
 Your command was ignored.
@@ -2032,7 +2099,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...�łroczną, b) kwartalną c) miesięczną
+l.229 ...�łroczną, b) kwartalną c) miesięczną
                                                    i przyjmując stopę pod ...
 
 Your command was ignored.
@@ -2046,7 +2113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...) kwartalną c) miesięczną i przyjmują
+l.229 ...) kwartalną c) miesięczną i przyjmują
                                                   c stopę pod okresową $ r...
 
 Your command was ignored.
@@ -2060,7 +2127,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...lną c) miesięczną i przyjmując stopę
+l.229 ...lną c) miesięczną i przyjmując stopę
                                                    pod okresową $ r_{okr} $...
 
 Your command was ignored.
@@ -2074,7 +2141,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...�czną i przyjmując stopę pod okresową
+l.229 ...�czną i przyjmując stopę pod okresową
                                                    $ r_{okr} $ = 2\% wyznacz...
 
 Your command was ignored.
@@ -2088,7 +2155,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...� $ r_{okr} $ = 2\% wyznaczyć przyszłą
+l.229 ...� $ r_{okr} $ = 2\% wyznaczyć przyszłą
                                                    wartość kapitału 20 00...
 
 Your command was ignored.
@@ -2102,28 +2169,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...itału 20 000 PLN po 2 latach i 6 miesią
+l.229 ...itału 20 000 PLN po 2 latach i 6 miesią
                                                   cach.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--227
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--231
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-[6]
+[8]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2131,7 +2198,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ...opy pod okresowej $ r_{okr} $ nazywa się
+l.238 ...opy pod okresowej $ r_{okr} $ nazywa się
                                                    \textbf{stopą nominalną...
 
 Your command was ignored.
@@ -2145,7 +2212,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ... $ nazywa się \textbf{stopą nominalną}
+l.238 ... $ nazywa się \textbf{stopą nominalną}
                                                   . ( wyliczyć roczą stop�...
 
 Your command was ignored.
@@ -2159,7 +2226,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ... $ nazywa się \textbf{stopą nominalną}
+l.238 ... $ nazywa się \textbf{stopą nominalną}
                                                   . ( wyliczyć roczą stop�...
 
 Your command was ignored.
@@ -2173,7 +2240,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ...bf{stopą nominalną}. ( wyliczyć roczą
+l.238 ...bf{stopą nominalną}. ( wyliczyć roczą
                                                    stopę, np. jak miesięcz...
 
 Your command was ignored.
@@ -2187,7 +2254,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ...ą nominalną}. ( wyliczyć roczą stopę
+l.238 ...ą nominalną}. ( wyliczyć roczą stopę
                                                   , np. jak miesięczna jest...
 
 Your command was ignored.
@@ -2201,7 +2268,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.232 ... wyliczyć roczą stopę, np. jak miesię
+l.238 ... wyliczyć roczą stopę, np. jak miesię
                                                   czna jest 1\% to roczna je...
 
 Your command was ignored.
@@ -2215,7 +2282,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239 
+l.245 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2228,14 +2295,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.240 Przyjmują
+l.246 Przyjmują
                 c n = 0 wtedy:\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
@@ -2246,7 +2313,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.247 
+l.253 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2259,14 +2326,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.248 Liczbę
+l.254 Liczbę
              :\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
@@ -2277,7 +2344,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.255 
+l.261 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2290,7 +2357,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.256 Nazywa się
+l.262 Nazywa się
                   rocznym \textbf{czynnikiem oprocentowania}.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2303,7 +2370,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...ostał ulokowany na rachunku z nominalną
+l.265 ...ostał ulokowany na rachunku z nominalną
                                                    stopą procentową równ�...
 
 Your command was ignored.
@@ -2317,7 +2384,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...ulokowany na rachunku z nominalną stopą
+l.265 ...ulokowany na rachunku z nominalną stopą
                                                    procentową równą 12\%....
 
 Your command was ignored.
@@ -2331,7 +2398,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ... rachunku z nominalną stopą procentową
+l.265 ... rachunku z nominalną stopą procentową
                                                    równą 12\%. Zakładają...
 
 Your command was ignored.
@@ -2345,7 +2412,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...u z nominalną stopą procentową równą
+l.265 ...u z nominalną stopą procentową równą
                                                    12\%. Zakładając kapita...
 
 Your command was ignored.
@@ -2359,7 +2426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...pą procentową równą 12\%. Zakładają
+l.265 ...pą procentową równą 12\%. Zakładają
                                                   c kapitalizację, roczną,...
 
 Your command was ignored.
@@ -2373,7 +2440,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...równą 12\%. Zakładając kapitalizację
+l.265 ...równą 12\%. Zakładając kapitalizację
                                                   , roczną, półroczną, k...
 
 Your command was ignored.
@@ -2387,7 +2454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...2\%. Zakładając kapitalizację, roczną
+l.265 ...2\%. Zakładając kapitalizację, roczną
                                                   , półroczną, kwartalną...
 
 Your command was ignored.
@@ -2401,7 +2468,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...ąc kapitalizację, roczną, półroczną
+l.265 ...ąc kapitalizację, roczną, półroczną
                                                   , kwartalną, miesięczną...
 
 Your command was ignored.
@@ -2415,7 +2482,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...zację, roczną, półroczną, kwartalną
+l.265 ...zację, roczną, półroczną, kwartalną
                                                   , miesięczną oraz dzienn...
 
 Your command was ignored.
@@ -2429,7 +2496,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...oczną, półroczną, kwartalną, miesię
+l.265 ...oczną, półroczną, kwartalną, miesię
                                                   czną oraz dzienna, wyznac...
 
 Your command was ignored.
@@ -2443,7 +2510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...�, półroczną, kwartalną, miesięczną
+l.265 ...�, półroczną, kwartalną, miesięczną
                                                    oraz dzienna, wyznaczyć ...
 
 Your command was ignored.
@@ -2457,27 +2524,12 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.259 ...czną oraz dzienna, wyznaczyć przyszłą
+l.265 ...czną oraz dzienna, wyznaczyć przyszłą
                                                    wartość kapitału po 4 ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 265--266
@@ -2500,13 +2552,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 271--272
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 273--274
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.274 ...pitału 40 000 PLN po 5 ltach i 9 miesią
+l.280 ...pitału 40 000 PLN po 5 ltach i 9 miesią
                                                   cach przy założeniu że ...
 
 Your command was ignored.
@@ -2520,18 +2587,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.274 ...cji odsetek jest a) kwartalna, b) miesię
+l.280 ...cji odsetek jest a) kwartalna, b) miesię
                                                   czna.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-[7]
+[9]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2539,14 +2606,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 Korzystają
+l.282 Korzystają
                  c(16)\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
@@ -2557,7 +2624,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 Przy założeniu miesię
+l.290 Przy założeniu miesię
                               cznej kapitalizacji odsetek i rocznych stopach...
 
 Your command was ignored.
@@ -2571,31 +2638,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 ...łu 100 000 PLN po a)3 latach i 7 miesią
+l.290 ...łu 100 000 PLN po a)3 latach i 7 miesią
                                                   cach b) 4 latach.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (0.94502pt too wide) in paragraph at lines 284--285
+Overfull \hbox (0.94502pt too wide) in paragraph at lines 290--291
 \OT1/cmr/m/n/10 Przy za lo_zeniu miesiecznej kap-i-tal-iza-cji odsetek i roczny
 ch stopach pro-cen-towych
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
-
  []
 
 
@@ -2614,13 +2666,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 294--295
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
+
+ []
+
+
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 Przy miesię
+l.303 Przy miesię
                   cznej kapitalizacji odsetek i nominalnej stopie procentowe...
 
 Your command was ignored.
@@ -2634,7 +2701,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.297 ...entowej równej 3\% po 1 roku i 7 miesią
+l.303 ...entowej równej 3\% po 1 roku i 7 miesią
                                                   cach uzyskano z lokaty 100...
 
 Your command was ignored.
@@ -2642,7 +2709,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
@@ -2653,7 +2720,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 Odsetki uzyskane z inwestycji stanowią
+l.305 Odsetki uzyskane z inwestycji stanowią
                                               różnice między wartością ...
 
 Your command was ignored.
@@ -2667,7 +2734,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 ...ane z inwestycji stanowią różnice mię
+l.305 ...ane z inwestycji stanowią różnice mię
                                                   dzy wartością kapitału ...
 
 Your command was ignored.
@@ -2681,7 +2748,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 ...i stanowią różnice między wartością
+l.305 ...i stanowią różnice między wartością
                                                    kapitału po 1r i 7m a je...
 
 Your command was ignored.
@@ -2695,7 +2762,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 ...� kapitału po 1r i 7m a jego wartością
+l.305 ...� kapitału po 1r i 7m a jego wartością
                                                    początkową. W = ?\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2708,7 +2775,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 ...ału po 1r i 7m a jego wartością począ
+l.305 ...ału po 1r i 7m a jego wartością począ
                                                   tkową. W = ?\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2721,24 +2788,24 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.299 ...o 1r i 7m a jego wartością początkową
+l.305 ...o 1r i 7m a jego wartością początkową
                                                   . W = ?\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
 
-Overfull \hbox (1.62798pt too wide) in paragraph at lines 303--303
+Overfull \hbox (1.62798pt too wide) in paragraph at lines 309--309
 []\OT1/cmr/bx/n/14.4 R^^Sownowa_zno^^Ss^^Sc st^^Sop pod okre-sowych przy kap-
  []
 
@@ -2749,7 +2816,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 Załóżmy że $ r_1 $ i $ r_2 $ są
+l.311 Załóżmy że $ r_1 $ i $ r_2 $ są
                                            pod okresowymi stopami procentowy...
 
 Your command was ignored.
@@ -2763,7 +2830,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ... procentowymi, zaś $ m_1 $ i $ m_2 $ są
+l.311 ... procentowymi, zaś $ m_1 $ i $ m_2 $ są
                                                    odpowiadającymi im częs...
 
 Your command was ignored.
@@ -2777,7 +2844,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ..., zaś $ m_1 $ i $ m_2 $ są odpowiadają
+l.311 ..., zaś $ m_1 $ i $ m_2 $ są odpowiadają
                                                   cymi im częstotliwościam...
 
 Your command was ignored.
@@ -2791,7 +2858,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ... $ i $ m_2 $ są odpowiadającymi im czę
+l.311 ... $ i $ m_2 $ są odpowiadającymi im czę
                                                   stotliwościami kapitaliza...
 
 Your command was ignored.
@@ -2805,36 +2872,2171 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.305 ... ustalonego kapitału po $ l $ latach są
-                                                   równe.
+l.311 ... ustalonego kapitału po $ l $ latach są
+                                                   równe.\\
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8] [9] (wyklad.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
- ***********
- ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+[10]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 ...i kapitału po tym czasie. Zatem, uwzglę
+                                                  dniając wzór (15) otrzym...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 ...ału po tym czasie. Zatem, uwzględniają
+                                                  c wzór (15) otrzymujemy, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.314 ...owe stopy proentowe $ r_1 $ i $ r_2 $ są
+                                                   równoważne w czaei $ l ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.321 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 Korzystają
+                 c ze wzory (17) warunek (19) można przedstawić w nastepuj...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.322 ...nek (19) można przedstawić w nastepują
+                                                  cej równoważnej postaci:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.330 gdzie $ r_1 $ i $ r_2 $ są
+                                  nominanymi stopami procentowymi, odpowiedn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 Wyznaczymy miesię
+                        czną stope procentową równoważną kwartalnej sto...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 Wyznaczymy miesięczną
+                              stope procentową równoważną kwartalnej sto...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 Wyznaczymy miesięczną stope procentową
+                                                równoważną kwartalnej sto...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.334 ...sięczną stope procentową równoważną
+                                                   kwartalnej stopie procent...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 Stą
+          d $ r_2 = (1 + 0,04)^{\frac{4}{12}}-1 = 1,3159 \% $
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 Wyznaczymy nominalną
+                            stopę peocentową, która przy kapitalizacji kw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 Wyznaczymy nominalną stopę
+                                   peocentową, która przy kapitalizacji kw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.344 Wyznaczymy nominalną stopę peocentową
+                                              , która przy kapitalizacji kw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.346 Korzystają
+                 c ze wzoru (20) z $ r_1 = 5 \%, m_1 = 2 i m_2 = 4 $ dostaje...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+[11] [12]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \textbf{Efektywną stopą procentową}
+                                             nazywa się roczną stopę proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \textbf{Efektywną stopą procentową}
+                                             nazywa się roczną stopę proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 \textbf{Efektywną stopą procentową}
+                                             nazywa się roczną stopę proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...fektywną stopą procentową} nazywa się
+                                                   roczną stopę procentow�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...� stopą procentową} nazywa się roczną
+                                                   stopę procentową równo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...� procentową} nazywa się roczną stopę
+                                                   procentową równoważną...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...�} nazywa się roczną stopę procentową
+                                                   równoważną danej podok...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ... roczną stopę procentową równoważną
+                                                   danej podokresowej stopie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...ego, jeśli $ r_{okr} $ jest podokresową
+                                                   stopą procentową, zaś ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...śli $ r_{okr} $ jest podokresową stopą
+                                                   procentową, zaś $ m $ j...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...r} $ jest podokresową stopą procentową
+                                                  , zaś $ m $ jest częstot...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ... stopą procentową, zaś $ m $ jest czę
+                                                  stotliwością kapitalizac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...tową, zaś $ m $ jest częstotliwością
+                                                   kapitalizacji, to korzyst...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.359 ...tliwością kapitalizacji, to korzystają
+                                                  c z (19) mamy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.91754pt too wide) in paragraph at lines 359--360
+\OT1/cmr/bx/n/10 Efektywna stopa pro-cen-towa \OT1/cmr/m/n/10 nazywa sie roczna
+ stope pro-cen-towa r^^Sownowa_zna
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.366 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 Z kolei na podstawie (2), efektywną
+                                           stopę procentową odpowiadając�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 Z kolei na podstawie (2), efektywną stopę
+                                                  procentową odpowiadając�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...stawie (2), efektywną stopę procentową
+                                                   odpowiadającą nominalne...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...fektywną stopę procentową odpowiadają
+                                                  cą nominalnej stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...tywną stopę procentową odpowiadającą
+                                                   nominalnej stopie procent...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...$ r $ przy m-krotnej kapitalizacji w cią
+                                                  gu roku, wyznacza się z r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.367 ...apitalizacji w ciągu roku, wyznacza się
+                                                   z równania:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.374 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.375 ...tywna stopa procentowa pozwala na zmianę
+                                                   okresu stopy procentowej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 Wyznacyzmy efektywną
+                            stopę procentową odpowiadającą nominalnej st...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 Wyznacyzmy efektywną stopę
+                                   procentową odpowiadającą nominalnej st...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 Wyznacyzmy efektywną stopę procentową
+                                               odpowiadającą nominalnej st...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ...fektywną stopę procentową odpowiadają
+                                                  cą nominalnej stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ...tywną stopę procentową odpowiadającą
+                                                   nominalnej stopie procent...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.379 ...izacji: półrocznej, kwartalnej, miesię
+                                                  cznej, dziennej.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--380
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.381 Korzystają
+                 c ze wzoru (22), otrzymujemy\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 381--382
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 383--384
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 385--386
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 387--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 ... procentowej można zastosować formułę
+                                                   \textbf{EFEKTYWNA} wbudow...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 ...� formułę \textbf{EFEKTYWNA} wbudowaną
+                                                   w pakiecie MS Excel. Jej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.391 ... w pakiecie MS Excel. Jej argumentami są
+                                                   stopa nominalna i liczba ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 Wyznaczymy nominalną
+                            stopę procentową, której przy: a) kwartalnej,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 Wyznaczymy nominalną stopę
+                                   procentową, której przy: a) kwartalnej,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 Wyznaczymy nominalną stopę procentową
+                                              , której przy: a) kwartalnej,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.399 ..., której przy: a) kwartalnej, b) miesię
+                                                  cznej kapitalizacji odsete...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (19.00072pt too wide) in paragraph at lines 399--400
+\OT1/cmr/m/n/10 Wyznaczymy nom-i-nalna stope pro-cen-towa, kt^^Sorej przy: a) k
+wartal-nej, b) miesiecznej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+[13]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401 Wyznaczają
+                 c $ r $ ze wzoru (22), dostajemy:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--412
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 ...y procentowej można zastosować fomułę
+                                                   \textbf{NOMINALNA} z Exce...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 ...{NOMINALNA} z Excela. Jej argumentami są
+                                                   stopa efektywna i liczba ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (2.01749pt too wide) in paragraph at lines 413--414
+\OT1/cmr/bx/n/10 NOM-I-NALNA \OT1/cmr/m/n/10 z Ex-cela. Jej ar-gu-men-tami sa s
+topa efek-ty-wna i liczba okres^^Sow. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+[14]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.417 \section{Kapitalizacja ciągła}
+                                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 Jeżeli przy m-krotnej kapitalizacji w cią
+                                                 gu roku powiększa się lic...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...rotnej kapitalizacji w ciągu roku powię
+                                                  ksza się liczba okresów,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...pitalizacji w ciągu roku powiększa się
+                                                   liczba okresów, to w gra...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...htarrow \infty $ mamy do czynienia z cią
+                                                  glą kapitalizacją odsete...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...row \infty $ mamy do czynienia z ciąglą
+                                                   kapitalizacją odsetek. W...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...my do czynienia z ciąglą kapitalizacją
+                                                   odsetek. W takim przypadk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...o $ l $ latach można wyznaczyć w nastę
+                                                  pujący sposób.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ... $ latach można wyznaczyć w następują
+                                                  cy sposób.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--420
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.426 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 Przy założeniu cią
+                           głej kapitalizacji odsetek i rocznej stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 ... po: a) 8 latach, b) 4 latach i 7 miesią
+                                                  cach.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+ []
+
+[15]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.447 \section{Natężenie procentowe}
+                                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 W przypadku cią
+                      głej kapitalizacji odsetek efektywną stopę procento...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...iągłej kapitalizacji odsetek efektywną
+                                                   stopę procentową wyznac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...j kapitalizacji odsetek efektywną stopę
+                                                   procentową wyznacza się...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...cji odsetek efektywną stopę procentową
+                                                   wyznacza się z równania:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...ektywną stopę procentową wyznacza się
+                                                   z równania:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.456 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.457 gdzie $ r $ jest stopą
+                              nominalną. Zatem:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.457 gdzie $ r $ jest stopą nominalną
+                                        . Zatem:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.465 ...a $ r_{ef} $ to z (24) otrzymujemy stopę
+                                                   nominalną:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.465 ...$ to z (24) otrzymujemy stopę nominalną
+                                                  :
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.472 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 Nazywa się
+                  natężeniem oprocentowania związanym z efektywną stopą...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 Nazywa się natę
+                       żeniem oprocentowania związanym z efektywną stopą...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 ...wa się natężeniem oprocentowania zwią
+                                                  zanym z efektywną stopą ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 ...em oprocentowania związanym z efektywną
+                                                   stopą procentową $ r_{e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 ...centowania związanym z efektywną stopą
+                                                   procentową $ r_{ef} $.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.473 ...wiązanym z efektywną stopą procentową
+                                                   $ r_{ef} $.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 Wyznaczymy natę
+                      żenie oprocentowania związane z efektywną stopą pr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 Wyznaczymy natężenie oprocentowania zwią
+                                                 zane z efektywną stopą pr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ...nie oprocentowania związane z efektywną
+                                                   stopą procentową równ�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ...ocentowania związane z efektywną stopą
+                                                   procentową równą $ 6 \...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ...związane z efektywną stopą procentową
+                                                   równą $ 6 \% $.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ...e z efektywną stopą procentową równą
+                                                   $ 6 \% $.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 477--478
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.479 Stosują
+              c (26):\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 479--480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
+
+ []
+
+[16]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 Teraz zajmiemy się
+                          zagadnieniem ustalania początkowej wartości kapi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 ...jmiemy się zagadnieniem ustalania począ
+                                                  tkowej wartości kapitału...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 ...cu pewnego okresu. Proces ten nazywa się
+                                                   \textbf{dyskontowaniem}.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 487--488
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...o proste, które jest bezpośrednio zwią
+                                                  zane z prostą kapitalizac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...re jest bezpośrednio związane z prostą
+                                                   kapitalizacją oesetek. W...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...rednio związane z prostą kapitalizacją
+                                                   oesetek. W przypadku kapi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...podstawie (2), wartość kapitału począ
+                                                  tkowego $ W $ po $ n $ lat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 W przypadku dyskonta prostego, obecną
+                                             wartość kapitału $ W $, któ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 ...becną wartość kapitału $ W $, którą
+                                                   mamy otrzymać (bądź za...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 ...itału $ W $, którą mamy otrzymać (bą
+                                                  dź zaplacić) za $ n $ la...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.491 ...�dź zaplacić) za $ n $ lat wyznacz się
+                                                   na podstawie równości:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 \textbf{Dyskontem} nazywa się
+                                     różnicę między wartością kapitał...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 \textbf{Dyskontem} nazywa się różnicę
+                                                między wartością kapitał...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...bf{Dyskontem} nazywa się różnicę mię
+                                                  dzy wartością kapitału ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...azywa się różnicę między wartością
+                                                   kapitału na koncu pewneg...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...ego ustalonego okresu, a jego wartością
+                                                   na początku tego okresu....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...nego okresu, a jego wartością na począ
+                                                  tku tego okresu. Oznaczaj�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...cią na początku tego okresu. Oznaczają
+                                                  ć dyskonta przed $ D $ i ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...znaczająć dyskonta przed $ D $ i uwzlę
+                                                  dniając (27) otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.499 ...ąć dyskonta przed $ D $ i uwzlędniają
+                                                  c (27) otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.9321pt too wide) in paragraph at lines 499--500
+[]\OT1/cmr/bx/n/10 Dyskontem \OT1/cmr/m/n/10 nazywa sie r^^So_znice miedzy wart
+o^^Sscia kapita lu na koncu pewnego
+ []
+
+
+Overfull \hbox (7.99142pt too wide) in paragraph at lines 499--500
+\OT1/cmr/m/n/10 ustalonego okresu, a jego warto^^Sscia na pocza-tku tego okresu
+. Oz-naczaja^^Sc dyskonta
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.506 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 Zakładają
+                 c dyskonto proste i przyjmując stopę procentową $ r = 4 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 Zakładając dyskonto proste i przyjmują
+                                               c stopę procentową $ r = 4 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 ...jąc dyskonto proste i przyjmując stopę
+                                                   procentową $ r = 4 \% $ ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 ...o proste i przyjmując stopę procentową
+                                                   $ r = 4 \% $ wyznaczyć w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 ...ć oraz dyskonto kwoty 50 000 PLN którą
+                                                   mamy otrzymać za 8 lat.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 509--510
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.511 Korzystają
+                 c z (27, 28) $ W = 50 000, r = 0,04, n = 8 $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 513--514
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.517 ...izacji odsetek wartość kapitału począ
+                                                  tkowego $ W $ po $ n $ lat...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 Zatem obeną
+                   wartość kapitału $ W $ która mamy otrzymać (bądź z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...apitału $ W $ która mamy otrzymać (bą
+                                                  dź zapłacic) za $ n $ la...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.519 ...ź zapłacic) za $ n $ lat wwyznacza się
+                                                   z równości:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.526 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527 Wielkość $ \frac{1}{(1 + r)} $ nazywa się
+                                                   \textbf{rocznym czynnikie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527 ...textbf{rocznym czynnikiem dyskontującym}
+                                                  . Dyskonto wyraża się w ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.527 ...em dyskontującym}. Dyskonto wyraża się
+                                                   w tym przypadku wzorem:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.06276pt too wide) in paragraph at lines 527--528
+[]\OT1/cmr/m/n/10 Wielko^^Ss^^Sc $[]$ nazywa sie \OT1/cmr/bx/n/10 rocznym czyn-
+nikiem dyskon-tu-ja-cym\OT1/cmr/m/n/10 . Dyskonto
+ []
+
+[17]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.534 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 Zakładają
+                 c dyskonto składane i przyjmując stopę procentową $ r =...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 Zakładając dyskonto składane i przyjmują
+                                                  c stopę procentową $ r =...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 ...c dyskonto składane i przyjmując stopę
+                                                   procentową $ r = 4 \% $ ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 ...kładane i przyjmując stopę procentową
+                                                   $ r = 4 \% $ wyznaczyć w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537 ...ć oraz dyskonto kwoty 50 000 PLN którą
+                                                   mamy otrzymać za 8 lat.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.539 Korzystają
+                 c z (29, 30) $ W = 50 000, r = 0,04, n = 8 $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 539--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 541--542
+
+ []
+
+[18] (./wyklad.aux) ) 
 Here is how much of TeX's memory you used:
- 450 strings out of 475247
- 8489 string characters out of 5774207
- 1926801 words of memory out of 5000000
- 22054 multiletter control sequences out of 15000+600000
- 559587 words of font info for 41 fonts, out of 8000000 for 9000
+ 423 strings out of 478268
+ 7657 string characters out of 5846346
+ 309885 words of memory out of 5000000
+ 18708 multiletter control sequences out of 15000+600000
+ 470777 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,50p,584b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><F:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi7.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb
-><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><F:/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr7.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F
-:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on wyklad.pdf (9 pages, 143286 bytes).
+ 34i,6n,38p,582b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pf
+b>
+Output written on wyklad.pdf (18 pages, 164144 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
