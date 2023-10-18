@@ -390,7 +390,7 @@ $ r^{(m)}_{ef} = (1 + \frac{0,06}{360})^360 - 1 = (1,00016)^360 - 1 = 6,18 \% $\
 
 Do wyznaczania efektywnej stopy procentowej stopy procentowej można zastosować formułę \textbf{EFEKTYWNA} wbudowaną w pakiecie MS Excel. Jej argumentami są stopa nominalna i liczba okresów.
 
-\subsubsection{Przykład 13 a)}
+\subsubsection{a)}
 
 $ EFEKTYWNA(6 \%, 2) = 6.0900 \% $\\
 
@@ -541,6 +541,255 @@ Korzystając z (29, 30) $ W = 50 000, r = 0,04, n = 8 $\\
 $ PV = \frac{50 000}{(1 + 0,04)^8}  = 36 534,51$\\
 
 $ D = 50 000 - 36 534,51 = 13 465,49$
+
+\newpage
+
+\section{Dyskonto przy wieloktrotnej kapitalizacji w ciągu roku}
+
+Załóżmy że kapitalizaja odsetek odbywa się m-krotnie w ciągu roku (w równoległych odstępach czasu). Wówczas korzystając ze wzoru (16) obecną wartość $ PV(W) $ kwoty $ W $, którą mamy otrzymać w przyszłości po $ l $ latach i $ n $ spośród $ m $ podokresów $ l + 1  $ roku $ (0 <= n < m $ wyznaczamy wzór:
+
+ 
+\begin{center}
+	\begin{equation}
+		PV(W) - \frac{W}{(1 + \frac{r}{m})^{lm + n}}
+	\end{equation}
+\end{center}\\
+
+Wzór na dyskonto a postać:
+
+\begin{center}
+	\begin{equation}
+		D = W(1 - \frac{1}{(1 + \frac{r}{m})^{lm + n}})
+	\end{equation}
+\end{center}\\
+
+W szczególnym przypadku gdy $ n = 0 $ możemy wyznaczyć obecną wartość kwoty $ W $, którą mamy otrzymać po $ l $ latach:
+
+\begin{center}
+	\begin{equation}
+		PV(W) - \frac{W}{(1 + \frac{r}{m})^{lm}}
+	\end{equation}
+\end{center}\\
+
+Wzór na dyskonto ma w tym przypadku postać:
+
+\begin{center}
+	\begin{equation}
+		D = W(1 - \frac{1}{(1 + \frac{r}{m})^{lm}})
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 19}
+
+Przyjmując nominalną stopę procentową $ r = 6\% $ i zakładając kapitalizację a) kwartalną, b) miesięczną, wyznaczyć obecną wartość i dyskonto kwoty 50 000 PLN, którą mamy otrzymać za 2 lata i 3 miesiące.
+
+\subsubsection{a)}
+
+ze wzoru (31)\\
+
+$ PV = \frac{50 000}{(1 + \frac{0,06}{4})^9} = 43 729,61 PLN $\\
+
+$ D = 50 000 - 43 729,61 = 6 270,39 PLN $
+
+\subsubsection{b)}
+
+ze wzoru (31)\\
+
+$ PV = \frac{50 000}{(1 + \frac{0,06}{12})^27} = 43 700, 49 PLN $\\
+
+$ D = 50 000 - 43 700, 49 = 6 299, 51 PLN $
+
+\subsection{Przykład 20}
+
+Przyjmując nominalną stopę procentową równą $ r = 6\% $ i zakładając  kapitalizację a) półroczną, b) miesięczną, c) dzienną, wzyanczyć obecną wartość kwoty 100 000 PLN, którą mamy otrzymać za 3 lata. W kazdym przypadku wyznaczyć wartość dyskonta
+
+\subsubsection{a)}
+
+używamy wzoru (33)\\
+
+$ PV = \frac{100 000}{(1 + \frac{0,06}{2})^6} = 83 748,43 PLN $\\
+
+$ D = 100 000 - 83 748,43 = 16 251,57 PLN $
+
+\subsubsection{b)}
+
+$ PV = \frac{100 000}{(1 + \frac{0,06}{12})^{36}} = 83 564,49 PLN $\\
+
+$ D = 100 000 - 83 564,49 = 16 435,51 PLN $
+
+\subsubsection{c)}
+
+$ PV = \frac{100 000}{(1 + \frac{0,06}{360})^{1080}} = 83 528,27 PLN $\\
+
+$ D = 100 000 - 83 528,27 = 16 471,73 PLN $
+
+\subsection{Przykład 21}
+
+Przy założeniu miesięcznej kapitalizacji odsetek obecna wartość kwota 40 000 PLN, którą mamy otrzymać za 2 lata wynosci 36 500 PLN. Wyznaczyć wysokość nominalnej stopy procentowej.\\
+
+Przez $ r $ oznaczmy szukaną nominalną stopę procentową.\\
+
+Korzystając z (33) otrzymujemy równanie na r\\
+
+$ 36 500 = \frac{40 000}{(1 + \frac{r}{12})^{24}} $\\
+
+$  (1 + \frac{r}{12})^{24} = \frac{40 000}{36 500} $\\
+
+$ r = 12(1,0959^{\frac{1}{24}} - 1) = 4,59\% $
+
+\newpage
+
+\section{Dyskonto przy kapitalizacji ciągłes}
+
+W przypadku ciągłej kapitalizacji odsetek, obecną wartość kwoty $ W $, która mamy otrzymać za $ n $ lat, wyznacza się z równania $ W = PV(W) * e^{rn} $, gdzie $ r $ jest roczną stopą procentową. Stąd:
+
+\begin{center}
+	\begin{equation}
+		PV(W) = W * e^{-r*n}
+	\end{equation}
+\end{center}\\
+
+Wzór na dyskonto ma postać
+
+\begin{center}
+	\begin{equation}
+		D = W(1 = e^{-r * n})
+	\end{equation}
+\end{center}\\
+
+Wzory (35) i (36) pozostają prawdziwe dla dowolnego $ n > 0 $.
+
+\subsection{Przykład 22}
+
+Zakładając ciągłą kapitalizację odsetek i orzyjmując roczną stopę procentową równą $ r = 5\%  $, wyznaczyć obecną wartość i dyskonto kwoty 50 000 PLN, którą mamy otrzymać za 3 lata i 5 miesięcy.\\
+
+wzor (35)\\
+
+$ PV(W) =  50 000 \cdot e^{-3\frac{5}{12} \cdot 0,05} = 42 148,10 PLN$\\
+
+$ D = 50 000 - 42 148,10 = 7 851,90 PLN $
+
+\subsection{Przykład 23}
+
+Przy założeniu ciągłej kapitalizacji odsetek, obecna wartość kwoty 100 000 PLN, którą mamy otrzymać za 8 lat wynosi 80 000 PLN. Wyznaczyć efektywną stopę procentową.\\
+
+Przez $ r $ oznaczamy szukaną roczną stopę procentową\\
+
+Ze wzoru (35)\\
+
+$ 80 000 = 100 000 \cdot e^{-8r} $\\
+
+$ \frac{80 000}{100 000} = e^{-8r} $\\
+
+$ ln e^{-8r} = ln0,8 $\\
+
+$ -8r = ln 0,8 $\\
+
+$ r = -\frac{1}{8} ln 0,8 $\\
+
+$ r = 0,0279 $\\
+
+$ r = 2,79\% $\\
+
+Efektywna stopa wynosi ze wzoru (25):\\
+
+$ r_{ef} = e^r - 1 = e ^ {0,0279} - 1 = 2,93\% $
+
+\newpage
+
+\section{Dyskonto handlowe}
+
+Nasze dotychczasowe rozważania dotyczyły dyskonta rzeczywistego, tzn. dyskonta opartego na stopie procentowej. Teraz omówimy dyskonto handlowe. Ograniczymy się przy tym jedynie do dyskonta handlowego prosteg, gdyż dyskonto handlowe składane na ogół nie jest wykorzystywane w praktyce. \\
+
+\textbf{Dyskontem handlowym} nazywa sie opłatę za pożyczkę obliczoną na podstawie kwoty, którą dłużnik zwóci po ustalonym czasie, zapłaconą w chwili otrzymania pozyczki.\\
+
+Dyskonto handlowe jest również nazywane odsetkami płatnymi z góry, co trafnie oddaje istotę dyskonta, które należy zapłacić w momencie otrzymania pożyczki, a nie przy jej zwrocie.\\
+
+Zasada dyskonta prostego mówi, że dyskonto jest obliczane od kwoty, którą dłużnik zwróci po ustalonym czasie, jest proporcjonalne do tego czasu i jest odejmowane od tej kwoty w momencie udzielania pozyczki.\\
+
+Jeżeli przez $ D $ oznaczymy sykonto, przez $ P $ początkową wartość pozyczki (tzn. wartość, którą fizycznie dostajemy), a przez $ F $ nominalna wartość pozyczki (to co mamy oddać, na kartce), to otrzymujemy równość:
+
+\begin{center}
+	\begin{equation}
+		D = F - P
+	\end{equation}
+\end{center}\\
+
+W dalszym ciągu będziemy zakładać $ F > P > 0 $ 
+
+\newpage
+
+\section{Stopa dyskontowa}
+W przypadku dyskonta handlowego prostego \textbf{stopą dykonstową} nazywa się liczbę okresloną:
+
+\begin{center}
+	\begin{equation}
+		d = \frac{D - P}{nF}
+	\end{equation}
+\end{center}\\
+
+gdzie $ n $ ozncza liczbę lat, po której ma nastąpić zwrot poożyczki.
+
+\subsection{Przykład 24}
+Wyznaczyć stopę dyskontową piżyczki w kwocie 50 000 PLn udzielonej na 5 lat, jeżeli jej wartośc nominalna wynosi 70 000 PLN.\\
+
+Ze wzoru (38)\\
+
+$ d = \frac{70 000 - 50 000}{5 \cdot 70 000} = 5,71\% $
+
+\subsection{Przykład 25}
+Obliczyć nominalną wartośc 4-letniej pozyczki udzielonej w kwocie 100 000 PLN przy stopie dyskontowej równej $ 5\% $\\
+
+Ze wzoru (38)\\
+
+$ d = \frac{D - P}{nF} $\\
+
+$ dnF = F - P $\\
+
+$ P = F - dnF $\\
+
+$ P = F(1 - dn) $\\
+
+$ F = \frac{P}{1 - dn} $\\
+
+$ F = \frac{100 000}{1 - 4 \cdot 0,05} = 125 000 PLN $
+
+\subsection{Przykład 26}
+Przy stopie dyskontowej równej $ r\% $ wyznaczyć poczatkową wartość dziesięcioletniej pozyczki o nominalnej wartości 200 000 PLN.\\
+
+Ze wzoru (38)\\
+
+$ d = \frac{D - P}{nF} $\\
+
+$ dnF = F - P $\\
+
+$ P = F - dnF $\\
+
+$ P = F(1 - dnF) $\\
+
+$ P = 200 000 - 0,05 \cdot 10 \cdot 200 000 = 120 000 PLN $
+
+\subsection{Przykład 27}
+Pożyczka w wysokości 180 000 PLN udzielona na okres 5 lat ma nominalną wartość 240 000 PLN, Obliczyć stopę dyskontową i zbadać jaki wpływ na nominalną wartość pozyczki miałoby podniesienie stopy dyskontowej o 1 pkt procentowy.\\
+
+Ze wzory (38)\\
+
+$ d = \frac{240 000 - 180 000}{5 \cdot 240 000} = 5\% $\\
+
+$ F = \frac{P}{1 - dn} $\\
+
+$ F = \frac{180 000}{1 - 0,06 \cdot 5} = 257 142,90 PLN $\\
+
+Wzrost wartości stopy dyskontowej o 1 pkt procentowy spowodowałby wzrost nominalnej wartości pozyczki z 240 000 do 257 142,90.\\
+
+\newpage
+
+\section{Zasada równoważności stopy procentowej i stopy dyskontowej}
+Zarówno odsetki jak i dyskonto stanowią opłatę za udzieloną pożyczkę. Czyli za możliowść dysponowania okreslonym kapitałem przez ostalony czas. Ponieważ walkosci te wyznacza się z różnych modeli naturalne wydaje się pytanie, jaki związek między nimi gwarantuje równość oĻlat za pożyczkę.\\
+
+Roczna stopa procentowa $ r $ i stopa dyskontowa $ d $ nazywaja się \textbf{równoważnymi w czasie} $ n $ jeżeli dla dowolnej pozyczki odsetki i dyskonto handlowe wyznaczone przy tych stopach są równe. Tak sformułowana zasada nosi nazwę \textbf{zasady równoważności stopy procentowej i stopy dyskontowej}.
+
+
 
 
 
