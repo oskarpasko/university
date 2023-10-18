@@ -26,37 +26,37 @@
 \contentsline {section}{\numberline {4}Równoważność stóp pod okresowych przy kapitalizacji złożonej}{11}{}%
 \contentsline {subsection}{\numberline {4.1}Przykład 11}{11}{}%
 \contentsline {subsection}{\numberline {4.2}Przykład 12}{11}{}%
-\contentsline {section}{\numberline {5}Efektywna stopa procentowa}{13}{}%
-\contentsline {subsection}{\numberline {5.1}Przykład 13}{13}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}a)}{13}{}%
-\contentsline {subsection}{\numberline {5.2}Przykład 14}{14}{}%
-\contentsline {subsubsection}{\numberline {5.2.1}a)}{14}{}%
-\contentsline {subsubsection}{\numberline {5.2.2}b)}{14}{}%
-\contentsline {section}{\numberline {6}Kapitalizacja ciągła}{15}{}%
-\contentsline {subsection}{\numberline {6.1}Przykład 15}{15}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}a)}{15}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}b)}{15}{}%
-\contentsline {section}{\numberline {7}Natężenie procentowe}{16}{}%
-\contentsline {subsection}{\numberline {7.1}Przykład 16}{16}{}%
-\contentsline {section}{\numberline {8}Dyskonto proste i składane}{17}{}%
-\contentsline {subsection}{\numberline {8.1}Przykład 17}{17}{}%
-\contentsline {subsection}{\numberline {8.2}Przykład 18}{18}{}%
-\contentsline {section}{\numberline {9}Dyskonto przy wieloktrotnej kapitalizacji w ciągu roku}{19}{}%
-\contentsline {subsection}{\numberline {9.1}Przykład 19}{19}{}%
-\contentsline {subsubsection}{\numberline {9.1.1}a)}{19}{}%
-\contentsline {subsubsection}{\numberline {9.1.2}b)}{20}{}%
-\contentsline {subsection}{\numberline {9.2}Przykład 20}{20}{}%
-\contentsline {subsubsection}{\numberline {9.2.1}a)}{20}{}%
-\contentsline {subsubsection}{\numberline {9.2.2}b)}{20}{}%
-\contentsline {subsubsection}{\numberline {9.2.3}c)}{20}{}%
-\contentsline {subsection}{\numberline {9.3}Przykład 21}{20}{}%
-\contentsline {section}{\numberline {10}Dyskonto przy kapitalizacji ciągłes}{22}{}%
-\contentsline {subsection}{\numberline {10.1}Przykład 22}{22}{}%
-\contentsline {subsection}{\numberline {10.2}Przykład 23}{22}{}%
-\contentsline {section}{\numberline {11}Dyskonto handlowe}{24}{}%
-\contentsline {section}{\numberline {12}Stopa dyskontowa}{25}{}%
-\contentsline {subsection}{\numberline {12.1}Przykład 24}{25}{}%
-\contentsline {subsection}{\numberline {12.2}Przykład 25}{25}{}%
-\contentsline {subsection}{\numberline {12.3}Przykład 26}{25}{}%
-\contentsline {subsection}{\numberline {12.4}Przykład 27}{26}{}%
-\contentsline {section}{\numberline {13}Zasada równoważności stopy procentowej i stopy dyskontowej}{27}{}%
+\contentsline {section}{\numberline {5}Efektywna stopa procentowa}{12}{}%
+\contentsline {subsection}{\numberline {5.1}Przykład 13}{12}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}a)}{12}{}%
+\contentsline {subsection}{\numberline {5.2}Przykład 14}{13}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}a)}{13}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}b)}{13}{}%
+\contentsline {section}{\numberline {6}Kapitalizacja ciągła}{14}{}%
+\contentsline {subsection}{\numberline {6.1}Przykład 15}{14}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}a)}{14}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}b)}{14}{}%
+\contentsline {section}{\numberline {7}Natężenie procentowe}{15}{}%
+\contentsline {subsection}{\numberline {7.1}Przykład 16}{15}{}%
+\contentsline {section}{\numberline {8}Dyskonto proste i składane}{16}{}%
+\contentsline {subsection}{\numberline {8.1}Przykład 17}{16}{}%
+\contentsline {subsection}{\numberline {8.2}Przykład 18}{17}{}%
+\contentsline {section}{\numberline {9}Dyskonto przy wielokrotnej kapitalizacji w ciągu roku}{18}{}%
+\contentsline {subsection}{\numberline {9.1}Przykład 19}{18}{}%
+\contentsline {subsubsection}{\numberline {9.1.1}a)}{18}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}b)}{19}{}%
+\contentsline {subsection}{\numberline {9.2}Przykład 20}{19}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}a)}{19}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}b)}{19}{}%
+\contentsline {subsubsection}{\numberline {9.2.3}c)}{19}{}%
+\contentsline {subsection}{\numberline {9.3}Przykład 21}{19}{}%
+\contentsline {section}{\numberline {10}Dyskonto przy kapitalizacji ciągłej}{21}{}%
+\contentsline {subsection}{\numberline {10.1}Przykład 22}{21}{}%
+\contentsline {subsection}{\numberline {10.2}Przykład 23}{21}{}%
+\contentsline {section}{\numberline {11}Dyskonto handlowe}{23}{}%
+\contentsline {section}{\numberline {12}Stopa dyskontowa}{24}{}%
+\contentsline {subsection}{\numberline {12.1}Przykład 24}{24}{}%
+\contentsline {subsection}{\numberline {12.2}Przykład 25}{24}{}%
+\contentsline {subsection}{\numberline {12.3}Przykład 26}{24}{}%
+\contentsline {subsection}{\numberline {12.4}Przykład 27}{25}{}%
+\contentsline {section}{\numberline {13}Zasada równoważności stopy procentowej i stopy dyskontowej}{26}{}%

@@ -1,0 +1,157 @@
+\documentclass{article}
+
+\begin{document}
+\begin{center}
+
+\section{Kapitalizacja prosta}
+
+	\begin{equation}
+		I_n = Wnr
+	\end{equation}
+	\begin{equation}
+		W_n = W(1+nr)
+	\end{equation}
+	\begin{equation}
+		W_n = W(1 + \Sigma^m_{i=0}r_in_i)
+	\end{equation}
+	\begin{equation}
+		I_n = W\Sigma^m_{i=0}r_in_i
+	\end{equation}
+	\begin{equation}
+		r = \frac{1}{n}\Sigma^m_{i=1}r_in_i
+	\end{equation}
+	\begin{equation}
+		r = \frac{1}{m}\Sigma^m_{i=1}r_i
+	\end{equation}
+	\begin{equation}
+		I_k = Wkr_{okr}
+	\end{equation}
+	\begin{equation}
+		W_k = W(1 + kr_{okr})
+	\end{equation}
+	\begin{equation}
+		m_1 * r_1 = m_2 * r_2
+	\end{equation}
+	
+	\section{Kapitalizacja złożona}
+	
+	\begin{equation}
+		W_n = W(1+r)^n
+	\end{equation}
+	\begin{equation}
+		I_n = W((1+r)^n - 1)
+	\end{equation}
+	\begin{equation}
+		W_n = W\Pi^n_{i=1}(1 + r_i)
+	\end{equation}
+	\begin{equation}
+		I_n = W(\Pi^n_{i=1}(1 + r_i) - 1)
+	\end{equation}
+	\begin{equation}
+		r = (\Pi^n_{i=1}(1 + r_1))^{\frac{1}{n}} - 1
+	\end{equation}
+	\begin{equation}
+		W^{(m)}_{(l, n)} = W(1 + r_{okr})^{l * m + n}
+	\end{equation}
+	\begin{equation}
+		W^{(m)}_{(l, n)} = W(1 + \frac{r}{m})^{l*m+n}
+	\end{equation}
+	\begin{equation}
+		W^{(m)}_{l} = W(1 + \frac{r}{m})^{l*m}
+	\end{equation}
+	\begin{equation}
+		R_m = (1 + \frac{r}{m})^m
+	\end{equation}
+	
+	\newpage
+	
+	\section{Równoważność stóp pod okresowych przy kapitalizacji złożonej}
+	
+	\begin{equation}
+		(1 + r_1)^{m_1} = (1 + r_2)^{m_2}
+	\end{equation}
+	\begin{equation}
+		(1 + \frac{r_1}{m_1})^{m_1} = (1 + \frac{r_2}{m_2})^{m_2}
+	\end{equation}
+	
+	\section{Efektywna stopa procentowa}
+	
+	\begin{equation}
+		r^{(m)}_{ef} = (1 + r_{okr})^m - 1
+	\end{equation}
+	\begin{equation}
+		r^{(m)}_{ef} = (1 + \frac{r}{m})^m - 1
+	\end{equation}
+	
+	\section{Kapitalizacja ciągła}
+	
+	\begin{equation}
+		W^{(\infty)}_l = We^{l * r}
+	\end{equation}
+	
+	\section{Natężenie procentowe}
+	
+	\begin{equation}
+		l + r_{ef} = e^r
+	\end{equation}
+	\begin{equation}
+		r_{ef} = e^r - 1
+	\end{equation}
+	\begin{equation}
+		r = ln(1 + r_{ef})
+	\end{equation}
+	
+	\section{Dyskonto proste i składane}
+	
+	\begin{equation}
+		PV(W) = \frac{W}{1 + nr}
+	\end{equation}
+	\begin{equation}
+		D = \frac{nrW}{1 + nr}
+	\end{equation}
+	\begin{equation}
+		PV(W) = \frac{W}{(1 + r)^n}
+	\end{equation}
+	\begin{equation}
+		PD = W(1 - \frac{1}{(1 + r)^n})
+	\end{equation}
+	
+	\section{Dyskonto przy wielokrotnej kapitalizacji w ciągu roku}
+	
+	\begin{equation}
+		PV(W) - \frac{W}{(1 + \frac{r}{m})^{lm + n}}
+	\end{equation}
+	\begin{equation}
+		D = W(1 - \frac{1}{(1 + \frac{r}{m})^{lm + n}})
+	\end{equation}
+	\begin{equation}
+		PV(W) - \frac{W}{(1 + \frac{r}{m})^{lm}}
+	\end{equation}
+	\begin{equation}
+		D = W(1 - \frac{1}{(1 + \frac{r}{m})^{lm}})
+	\end{equation}
+	
+	\section{Dyskonto przy kapitalizacji ciągłej}
+	
+	\begin{equation}
+		PV(W) = W * e^{-r*n}
+	\end{equation}
+	\begin{equation}
+		D = W(1 = e^{-r * n})
+	\end{equation}
+	
+	\section{Dyskonto handlowe}
+	
+	\begin{equation}
+		D = F - P
+	\end{equation}
+	
+	\section{Stopa dyskontowa}
+	
+	\begin{equation}
+		d = \frac{D - P}{nF}
+	\end{equation}
+	
+	
+	
+\end{document}
