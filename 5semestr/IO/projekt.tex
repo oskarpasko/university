@@ -1,0 +1,116 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{graphicx}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+
+
+\graphicspath{{images/}}
+
+%--------------------------------------------------------------------------------------------------
+%       TITLE SECTION
+%--------------------------------------------------------------------------------------------------
+\begin{titlepage}
+
+\begin{center}
+	\includegraphics[scale=0.2]{ur_inf_logo}\\ \\ \\ \\
+\end{center}
+
+\begin{center}
+
+	{ \huge \bfseries Inżynieria oprogramowania}\\[0.4cm] 
+
+	\textsc{\Large PandaBank}\\[0.5cm] \\ \\ \\ \\ 
+	
+	\vspace{0.8cm}	
+	
+	\emph{Autor:} \\
+	\textbf{Oskar Paśko} (117987)\\
+	
+	
+	\vspace{0.8cm}
+	
+	\emph{Kierunek:} \\
+	Informatyka i ekonometria
+	
+	\vspace{8cm}
+	
+	\emph{Prowadzący:} \\
+	mgr inż. Ewa Żesławska\\ \\ \\ \\ 
+	
+	\vspace{2cm}
+	
+	Rzeszów, 2023
+\end{center}
+\end{titlepage}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=25mm,
+ top=25mm,
+ right=25mm,
+ bottom=25mm 
+ }
+ 
+%--------------------------------------------------------------------------------------------------
+%       BEGIN DOCUMENT
+%--------------------------------------------------------------------------------------------------
+
+\begin{document}
+\newpage
+
+%--------------------------------------------------------------------------------------------------
+%       TABLE OF CONTENTS
+%--------------------------------------------------------------------------------------------------
+\tableofcontents
+
+\newpage
+
+%--------------------------------------------------------------------------------------------------
+%       OPIS ŚWIATA RZECZYWISTEGO
+%--------------------------------------------------------------------------------------------------
+
+\section{Opis świata rzeczywistego}
+
+	\subsection{Opis zasobów ludzkich}
+
+	Aplikacja mobilna PandaBank jest aplikacją bankową, która ułatwia zarządzanie użytkownikom kontem bankowym. Użytkownik może korzystać z funkcjonalności w aplikacji jeśli posiada konto w banku oraz połączy je z aplikacją za pomocą numeru klienta oraz stworzonego wcześniej hasła. Aplikacja pozwala na kontrolowanie swojego stanu konta. Aplikacja pozwala na wykonywanie przelewów oraz płatności zbliżeniowych. Aplikacja dodatkowo pozwala na sprawdzenie lokalizacji najbliższych bankomatów za pomocą Google Maps. Użytkownik może wybrać czy chce sprawdzić bankomaty z naszego banku czy wszystkie. Aplikacja pozwala na zrobienie zdjęcia nowej kary kredytowej lub debetowej, za pomocą którego dane karty zostaną zapisane w bazie danych. W aplikacji dostępna jest kontrola rodzicielska, dzięki której użytkownik może utworzyć subkonto. Po utworzeniu takiego konta rodzic może kontrolować wydatki dziecka. Subkonto ma ograniczone możliwości do płacenia zbliżeniowo oraz wykonania przelewu na konto rodzica.
+
+	\subsection{Przepisy i strategia firmy}
+	
+	Strategią firmy jest jak najlepszy kontakt z klientami, dążymy do tego aby klienci mieli duży wpływ na rozwój aplikacji. Przewidywane są częste aktualizacje oprogramowania w celu poprawy działania aplikacji oraz dodawanie nowych funkcjonalności w przyszłości. Aplikacja dodatkowo będzie aktualizowana co tydzień dodając nowe oferty dla klientów banku. Priorytetem firmy będzie zadbanie o bezpieczeństwo wrażliwych danych osobowych oraz danych konta naszych klientów. 
+
+	\subsection{Dane techniczne}
+	
+	Użytkownicy mogą korzystać z aplikacji na urządzeniach mobilnych, dzięki czemu mają zawsze swoje konto bankowe pod ręką. Użytkownicy mogą się zalogować do aplikacji tylko wtedy gdy mają dostęp do internetu. Użytkownicy muszą posiadać konto w banku, aby połączyć konto bankowe z aplikacją mobilną. Do połączenia konta użytkownik potrzebuje numeru klienta oraz hasła. Aplikacja umożliwia założenie subkonta np. dziecku oraz kontrolowanie wydatków na owym subkoncie.
+
+	\subsection{Wymagania funkcjonalne i niefunkcjonalne}
+
+		\subsubsection{Wymagania funkcjonalne}
+		
+			\begin{itemize}
+				\item Logowanie do aplikacji za pomocą kodu PIN lub linii papilarnych,
+				\item Możliwość sprawdzenia stanu konta,
+				\item Wykonanie przelewu oraz płatność zbliżeniowa,
+				\item Możliwość sprawdzenia najbliższych bankomatów na mapie,
+				\item Możliwość stosowania kontroli rodzicielskiej na koncie dziecka
+				\item Zapisanie nowej karty za pomocą zdjęcia z aparatu
+			\end{itemize}
+			
+		\subsubsection{Wymagania niefunkcjonalne}
+		
+			\begin{itemize}
+				\item Aplikacja zapewnia bezpieczeństwo wrażliwych danych,
+				\item Aplikacja jest łatwa w użyciu,
+				\item Aplikacja zapewnia schludny i przejrzysty interface ,
+				\item Aplikacja działa na urządzeniach mobilnych z systemem Android 10 lub wyższym,
+				\item Aplikacja jest tworzona środowisku Android Studio,
+				\item Aplikacja wykorzystuje bazę danych 
+			\end{itemize}
+
+
+ 
+\end{document}
