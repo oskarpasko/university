@@ -845,8 +845,424 @@ Wzrost wartości stopy dyskontowej o 1 pkt procentowy spowodowałby wzrost nomin
 \section{Zasada równoważności stopy procentowej i stopy dyskontowej}
 Zarówno odsetki jak i dyskonto stanowią opłatę za udzieloną pożyczkę. Czyli za możliwość dysponowania określonym kapitałem przez ustalony czas. Ponieważ wielkość te wyznacza się z różnych modeli naturalne wydaje się pytanie, jaki związek między nimi gwarantuje równość opłat za pożyczkę.\\
 
-Roczna stopa procentowa $ r $ i stopa dyskontowa $ d $ nazywają się \textbf{równoważnymi w czasie} $ n $ jeżeli dla dowolnej pożyczki odsetki i dyskonto handlowe wyznaczone przy tych stopach są równe. Tak sformułowana zasada nosi nazwę \textbf{zasady równoważności stopy procentowej i stopy dyskontowej}.
+Roczna stopa procentowa $ r $ i stopa dyskontowa $ d $ nazywają się \textbf{równoważnymi w czasie} $ n $ jeżeli dla dowolnej pożyczki odsetki i dyskonto handlowe wyznaczone przy tych stopach są równe. Tak sformułowana zasada nosi nazwę \textbf{zasady równoważności stopy procentowej i stopy dyskontowej}.\\
 
+Załóżmy, że wartość pozyczki wynosi $ P $. Przy założeniu kapitalizacji prostej i rocznej stopie procentowej równej $ r $, na podstawie wzoru (2) wartość kwoty $ P $ po $ n $ latach wynosi: $ P_n = P(1 + nr) $. Zatem odsetki sa równe $ P_n - P = nrP $.\\
+
+Z drugiej storny ze wzoru (37) i (38) mamy $ D = F - P = ndF $. Na podstawie zasady równoważności stopy procentowej i stopy dyskonotej otrzymujemy więc równość $ ndF = nrP $. Stąd wynika, że $ dF = rP $. ze wzoru (38) dostajemy $ F = \frac{P}{1 - dn} $. Na końcu orzymujemy:
+
+\begin{center}
+	\begin{equation}
+		r = \frac{d}{1 - dn}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 28}
+Wyznaczymy stopę procentową równoważną w czasie 6 lat stopie dyskontowej 8\%.\\
+
+Ze wzoru (39) otrzymujemy $ r = \frac{0,08}{1 - 0.08 \cdot 6} = 15,38\% $
+
+\subsection{Przykład 29}
+Wyznaczymy stopę dyskontową równoważną w czasie 8 lat stopie procentowej 4\%.\\
+
+Ze wzoru (39) otrzymujemy $ d = \frac{r}{1 + rn} $, zatem $ d = \frac{0,04}{1 + 8 \cdot 0,04} = 3,03\% $
+
+\subsection{Przykład 30}
+Wyznaczymy czas, w którym stopa dyskontowa równa 5\% jest równoważna stopie procentowej równiej 8\%.\\
+
+Ze wzoru (39) otrzymujemy $ n = \frac{1}{d} - \frac{1}{r} $, zatem $ n = \frac{1}{0,05} - \frac{1}{0,08} = 7,5 $. Podane stopy są więc równoważne w czasie 7 lat i 6 miesięcy.\\
+
+%
+% Sekcja 14
+%
+
+\newpage
+
+\section{Weksle}
+
+Dyskonto handlowe znajduje zastosowanie w m.in. w rachunku weklski. \textbf{Weksel} to zobowiązanie do zapłaty określonej kwoty w ustalonym terminie. Ma on formę dokumentu sprecyzowaną odpowiednimi przepisami prawa. Kwota do zapłaty, której zobowiązuje weksel, nazywa się jego \textbf{wartością nominalną}. Termin, w którym weksel ma być spłacony nazywa się \textbf{terminem wykupu} weksla. Kwota nominalna pomniejszona o dyskonto nazywa sie \textbf{wartością aktualną} weksla. 
+
+\subsection{Przykład 31}
+Zobowiązanie do zapłaty za dostarczony towar o wartości 390 000 PLN ma formę weksla podpisanego w dniu 5 maja na sumę 400 000 PLN z terminem wykupu 5 sierpnia tego samego roku. Mamy zatem $ P = 390 000, F = 400 000, n = \frac{90}{360} $. Stąd $ D = F - P = 10 000 $(dyskonto), czyli na podstawie (39) stopa dyskontowa wynosi, $ d = \frac{10 000}{\frac{30}{360} - 400 000} = 0,1 = 10\% $
+
+\subsection{Przykład 32}
+Załóżmy że wyztawca eksla z przykładu 31 ma możliwość otrzymania w dniu 5 maja trzymiesięcznej pożyczki w kwocie 390 000 PLN dzięki której mógłby zapłacić za towar i nie musiałby podpisywać weksla. Możemy wyznaczyć wysokość oprocentowania pożyczki przy której jej zaciągnięcie byłoby korzystniejsze od podpisywanie weksla. Zatem $d = 10\%, n = \frac{90}{360} $, więc (39) $ r = \frac{0,1}{1 - 0,1 \cdot \frac{90}{360}} = 10,26% $. Zatem pożyczka byłaby korzystniejsza, o ile jej oprocentowanie w skali roku byłaby niższa od 10,26 \%.
+
+
+%
+% Sekcja 15
+%
+
+\newpage
+
+\section{Zasada równoważności kapitałów}
+Wartość kapitału zmienia się w casie, We wszystkich rodzajach inwestycji podstawowe mają dwa pojęcia\\
+
+- przyszła wartość kapitału - FV;\\
+
+- obecna wartość kapitału - PV;\\
+
+W poprzednich rozdziałach rozważaliśmy, w jaki sposób wyznaczyć obecną wartość kapitału,który mamy otrzymać lub zapłacić w przyszłości oraz przyszłą wartość kapitału, który posiadamy obecnie. Teraz rozszerzymy tę analizę na bardziej ogólne przypadki. Będziemy zakładać \textbf{złożoną kapitalizację odsetek}.\\
+
+Aktualizacja wartości kapitału dotyczy kapitału, którego wartość jest znana dla ustalonego momentu i polega na obliczeniu jego wartości na inny moment (późńiejszy lub wcześniejszy). Aby zilustrować to pojęcie załóżmy, że wartość kapitału w chwili $ n_0 $ wynosi $ K(n_0) $, gdzie $ n_0 $ jest liczbą całkowitą. Wtedy korzystając ze wzorów (10) i (29), możemy wyznaczyć wartość tego kapitału w dowolnym momencie $ n $. Mianowicie mamy\\
+
+\begin{center}
+	\begin{equation}
+		K(n) = K(n_0) \cdot (1 + r)^{n-n_0}
+	\end{equation}
+\end{center}\\
+
+Wielkość $ K(n) $ nazywa się \textbf{zaktualizowaną wartością kapitału $ K(n_0) $ na moment $ n $}\\
+
+Zasada rówmoważności kapitałów na dany moment: \textbf{kapitały $ K_1 $ i $ K_2 $ są rówoważne na moment $ n \epsilon Z $, jeżeli ich wartości zaktualizowane na moment $ n $ są równe}.\\
+
+Rozważmy model opisany wzorem (40). Załóżmy że znane są wartości kapitałów $ K_1 $ i $ K_2 $ w dwóch ustalonych momentach $ n_1 $ i $ n_2 \epsilon Z $, tzn, są znane wielkości $ K_1(n_1) $ i $ K_2(n_2) $. Wtedy zgodnie ze wzorem (40) dla dowolnie ustalonego momentu $ n \epsilon Z $ zaktualizowanie wartości kapitałów $ K_1 $ i $ K_2 $ na ten moment wynoszą odpowiednio: \\
+
+$ K_1(n) = K_1(n_1)(1 + r)^{n-n_1} $\\
+
+oraz\\
+
+$ K_2(n) = K_2(n_2)(1 + r)^{n-n_2} $\\
+
+Zatem kapitały $ K_1 $ i $ K_2 $ są równoważne na moment $ n $ wtedy i tylko wtedy gdy zachodzi równość:\\
+
+$ K_1(n_1)(1 + r)^{n-n_1} = K_2(n) = K_2(n_2)(1 + r)^{n-n_2} $\\
+
+\begin{center}
+	\begin{equation}
+		K_1(n_1)(1+r)^{-n_1} = K_2(n_2)(1+r)^{-n_2}
+	\end{equation}
+\end{center}\\
+
+Obserwacja prowadzi nas do następującego wniosku: \textbf{jeżeli dwa kapitały są równoważne na pewien moment, to są one równoważne na każdy moment.}\\
+
+Uwzględniając ten fakt, możemy sformułować zasadę równoważności kapitałów w następujący sposób: \textbf{dwa kapitały są równoważne, jeżeli ich zaktualizowane wartości na jakikolwiek moment są równe}\\
+
+\subsection{Przykład 33}
+Zbadamy czy przy rocznej stopie procentowej równej 5\% kwota 10 000 PLN zainwestowana 2 lata temu jest równoważna kwocie 11 800 PLN, która będzie zainwestowana za rok.\\
+
+Wystarczy sprawdzić czy spełniony jest warunek (41)\\
+
+Ponieważ $ n_1 = -2, n_2 = 1, r=5\% $ zatem:\\
+
+$ L = K_1(n_1)(1+r)^{-n_1} = 10 000(1 + 0,05)^2 = 11 025 $\\
+
+$ P = K_2(n_2)(1+r)^{-n_2} = 11 800(1 + 0,05)^{-1} = 11 238,10 $\\
+
+Zatem kapitały nie są równoważne.\\
+
+\subsection{Przykład 34}
+Przyjmując dane z poprzedniego przykładu. Wyznaczyć wartośc apitału, który zainwestowany za rok jest równoważny temu, który został zainwestowany przed dwoma laty. Korzystając z (41) otrzymujemy równość: $ 11 025 - K_2(n_2)(1+r)^{-n_2} $ stąd $ K_2(1) = 11 576,25  $\\
+
+\subsection{Przykład 35}
+W jakim monecie należy otrzymać kapisał 243 101,25 PLN, aby przy rocznej stopie procentowej r = 5\% był on równoważny kapitałowi 200 000 PLN uzyskanemu 3 lata temu.\\
+
+$ n_1 = -3, K_1(-3) = 200 000, K_2(n2) = 243 101,25, r = 5\% $\\
+
+Zatem warunek (41) prowadzi do równania:\\
+
+$ 200 000(1 + 0,05)^3 = 243 101,25(1 + 0,05)^{-n_2} $\\
+
+$ (1,05)^{n_2 + 3} = \frac{243 101,25}{200 000} $\\
+
+$ (n_2 + 3) ln(1,05) = ln(\frac{243 101,25}{200 000}) $\\
+
+$ n_2 + 3 = \frac{ln(1,05)}{ln(\frac{243 101,25}{200 000})} $\\
+
+$ n_2 + 3 = 4 => n_2 = 1 $\\
+
+Wykazaliśmy więc, że kapitały będą równoważne jeżeli pierwszy otrzymamy za rok.
+
+\newpage
+
+\section{Zasada równoważności przy kapitalizacji ciągłej}
+Równoważność kapitałów można również badać przy założeniu kapitalizacji ciągłej. Wówczas odpowiednikiem warunku (41) jest następujący warunek:
+
+\begin{center}
+	\begin{equation}
+		K_1(n_1) \cdot e ^{-r \cdot n_1} = K_2(n_2) \cdot e ^{-r \cdot n_2}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 36}
+Przy założeniu kapitalizacji ciągłej i rocznej stopie procentowej r = 5\% wyznaczymy taką wartośc kapitału, który mamy otrzymać za 4 lata aby był on równoważny kapitałowi o wartości 20 000 PLN, który mamy otrzymać za 2 lata.\\
+
+$ n_q = 4, n_2 = 2, K_2(n_2) = 20 000, r = 5\%  $\\
+
+ze wzoru (42)\\
+
+$ K_1(n_1) \cdot e ^{-0,05\cdot 4} = 20 000 \cdot e6^{-0,05 \cdot 2} $\\
+
+$ K_1(n_1)  = 20 000 \cdot e ^{0,1} = 22 103, 42 $
+
+\newpage
+
+\section{Stopa procenotwa a równoważność kapitału}
+
+Odpowiedź na pytanie o równoważność dwóch kapitałów zależy od wartości rocznej stopy procentowej. Jeżęli przy ustalonej stopie procentowej dwa kapitały sa równoważne, to po jej zmianie przestają być równoważne. Obserwacaja taka wynika bezpośrednio z warunku (41)
+
+\subsection{Przykład 37}
+
+W przykładzie 34 stwierdziliśmy, że przy rocznej stopie procentowej równiej 5\%, kapitał o wartości 10 000 PLN zainwestowany przed dwoma laty jest równoważny kapitałowi o wartośći 11 576,25 PLN, który ma być zainwestowany za rok. Przypuśćmy, że wysokość rocznej stopy procentowej zmieniła się i wynosi $ r' = 4\% $. Wówczas\\
+
+$ K_1(-2)(1+r')^{-(-2)} = 10 000 \cdot (1,04)^2 = 10 816 PLN $\\
+
+$ K_1(1)(1+r')^{-1} = 11 576,25 \cdot (1,04)^{-1} = 11 131,01 PLN $\\
+
+Zatem, po zmianie wysokości rocznej stopy procentowej, warunek (41) nie jest spełniony, wobec czego kapitały nie są równoważne.\\
+
+Zauważmy, że mając dane wartości kapitałów w dwóch róznych mmentach i zakładając kapitalizację złożoną, na podstawie warunku równoważności kapitałów (41) moęmzy wyznaczyć wysokość rocznej stopy procentowej, przy której są równoważne. Istotnie, z (41) wynika, że\\
+
+$ (1 + r)^{n_2 - n_1} = \frac{K_2(n_2)}{K_1(n_1)} $\\
+
+Stąd\\
+
+\begin{center}
+	\begin{equation}
+		r = (\frac{K_2(n_2)}{K_1(n_1)})^{\frac{1}{n_2-n_1}} - 1
+	\end{equation}
+\end{center}\\
+
+Podobnie, zakładając kapitalizację ciągłą, na podstawie warunku rówoważności kapitalów (42), dostajemy\\
+
+\begin{center}
+	\begin{equation}
+		r = \frac{1}{n_2 - n_1}ln(\frac{K_2(n_2)}{K_1(n_1)})
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 38 (kolos)}
+
+Wyznaczymy wysokość rocznej stopy procentowej przy której kapitał 10 000 PLN zainwestowany przed 3 laty jest równowazny kapitałowi 16 000 PLN, który będzie zainwestowany za dwa lata.\\
+
+Z warunku (41) zachodzi równość\\
+
+$ 10 000(1 + r)^3 = 16 000(1 + r)^{-2} $\\
+
+$ (1 + r)^5 = 1,6 $\\
+
+$ r = (1,6)^{\frac{1}{5}} - 1 = 8,15 \% $\\
+
+Wysokość rocznej stopy procentowej, przy tórej rozważane kapitały są równoważne, wynosi 8,15 \%.\\
+
+\subsection{Przykład 39}
+
+Zakładając kapitalizację ciągłą wyznaczymy wysokość rocznej stopy procentowej, przy której kapitał 15 000 PLN zainwestowany przed rokiem jest równoważny kapitałowi 19 800 PLN, który będzie zainwestowany za 5 lat.\\
+
+$ n_1 = -1, n_2 = 5, K_1(n_1) = 15 000, K_2(n_2) = 19 800 $\\
+
+Ze wzoru (44)\\
+
+$ r = \frac{1}{5 - (-1)} ln (\frac{19 800}{15 000}) = \frac{1}{6} ln(\frac{198}{150}) = 4,63 \% $\\
+
+\textbf{Uwaga} W przypadku kapitalizacji prostej dwa kapitały równoważne w jednym momencie mogą nie być równoważne w innym. Wobec trgo w tym przypadku nie istnieje pojęcie kapitałów równoważnych. 
+
+\newpage
+
+\section{Równoważność ciągów kapitałów}
+
+Dotychczas rozważaliśmy szereg zagadnień związanych z równoważnością kapitałów. Analizę tę przeniesiemy teraz na ciągi kapitałów. Jak poprzednio, stale zakładamy złożoną kapitalizację odsetek. roczną stopę procentową oznaczamy przez r, zaś za jednostkę czasu przyjmiemy 1 rok.\\
+
+Najpierw zajmiemy sie problemem równoważności kapitału i ciągu kapitałów. Rozważmy skończony ciąg kapitałów $ x_0, x_1, ..., x_n $. Każda z liczb $ x_i$, gdzie  $ i \epsilon {0,1,2, ..., n} $, może np. wyrażać nakład poniesiony przez inwestora w i-tym roku lub uzyskany przez niego w i-tym roku dochód. Nówimy, że dany kapitał jest \textbf{równoważny na mooment} $ k \epsilon Z $ ciągowi kapitałów $ x_0, x_1, ..., x_n $, jeżeli jego wartość zaktualizowana na moment k jest równa sumie zaktualizowanych na ten moment wartości wyrazów ciągu.\\
+
+Ustalmy $ k \epsilon Z $ i załóżmy, że wartość kapitału w chwili $ n_0 \epsilon Z $ wynosi $ K_n_0 $. PRzez K_n_0(k) oznaczmy wartość tego kapitału zaktualizowaną na moment k. Niech ponadto $ x_i(k) $ dla $ i \epsilon {0, 1, 2, ..., n} $ oznacza wartość kampitału $ x_i $ zaktualizowaną na moment k. Wówczas rozważamy kapitał jest równoważny ciągowi kapitałów $ x_0, x_1, ..., x_n $ na moment $ k \epsilon Z $ wtedy i tylko wtedy, gdy\\
+
+\begin{center}
+	\begin{equation}
+		K_n_0(k) = \Sigma ^n_{i=0}x_i(k)
+	\end{equation}
+\end{center}\\
+
+Na podstawie wzoru (40) warunek (45) można zapisać w nastepującej równoważnej postaci 
+
+\begin{center}
+	\begin{equation}
+		K_n_0 \cdot (1 + r)^{-n_0} = \Sigma ^n_{i=0}x_i \cdot (1 + r)^{-i}
+	\end{equation}
+\end{center}\\
+
+Zatem japitał $K_n_0$ jest równoważny na moment $ k \epsilon Z $ ciągowi kapitałów $ x_0, x_1, ..., x_n $ wtedy i tylko wtedy, gdy spełniony jest warunek (46).\\
+
+\textbf{Uwaga} Zauważmy, że jeżeli kapitał jest równoważny ciągowi kapitałów na pewien moment, to jest on równoważny temu ciągowi na każdy mooment.\\
+
+W oparciu o powyższą uwagę, kapitał będziemy nazywać \textbf{równoważnym} ciągowi kapitałów $ x_0, x_1, ..., x_n $, jeżeli jest mu równoważny na jakikolwiek moment $ k \epsilon Z $.\\
+
+\textbf{Uwaga} Mnożąc obie strony równoważności (46) przez $ (1+r)^{n_0} $, otrzymujemy 
+
+\begin{center}
+	\begin{equation}
+		K_n_0 = \Sigma ^n_{i=0} x_i \cdot (1 + r)^{n_0 - i}
+	\end{equation}
+\end{center}\\
+
+Wzór (47) pozwala wyznaczyć wartość, w chwili $ n_0 $ kapitału, który jest równoważny ciągowi kapitałów $ x_0, x_1, ..., x_n $. Przyjmując w (47) $ n_0 = 0 $ dostajemy w szcególności wzór na obecną wartość kapitału równoważnego ciągowi kapitałów $ x_0, x_1, ..., x_n $
+
+\begin{center}
+	\begin{equation}
+		K_n_0 = \Sigma ^n_{i=0} \frac{x_i}{(1 + r)^i}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 40}
+
+Sprawdzimy czy orzy rocznej stopie procentowej równej 8\%, kapitał 120 000 PLN, który mamy otrzymać za 2 lata, jest równoważny na moment k = 3 następującemu ciągowi kapitalów:\\
+
+$ x_0 = 10 000 PLN, x_1 = 5000 PLN, x_2 = 25000 PLN, x_3 = 30 000 PLN, x_4 = 20 000 PLN, x_5 = 35 000 PLN $\\
+
+Ponieważ r = 8\%, mamy\\
+
+$ \Sigma ^5_{i=0}\frac{x_i}{(1+r)^i} = 10 000 + \frac{5000}{1,8} + \frac{25000}{(1,08)^2} + \frac{30000}{(1,08)^3} + \frac{20000}{(10,8)^4} + \frac{35000}{(10,8)^5} = 98 399,07 $\\
+
+Z drugiej strony, obecna wartość kapitału 120 000 PLN, który mamy otrzymać za 2 lata wynosi\\
+
+$ K_n_0 = \frac{120 000}{(1,08)^2} = 102880,66 $ PLN\\
+
+Zatem warunek (48) nie jest spełniony, czyli kapitał 120 000 PLN, który mamy otrzymać za 2 lata, nie jest równoważny rozważanemu ciągowi kapitałów.
+
+\subsection{Przykład 41}
+
+Przy założeniu, że roczna stopa procentowa jest równa 8\%, wyznaczymy kapitał, który otrzymamy za 2 alta jest równoważny ciągowi kapitałów z przykładu 40.\\
+
+Stosując wzór (47) oraz korzystając z obliczeń z poprzedniego przykładu\\
+
+$ K_2 = \Sigma ^5_{i=0} x_i \cdot (1+r)^{2-i} = (1,08)^2 \cdot \Sigma ^5_{i=0}\frac{x_i}{(1,08)^i} = 114772,68 $ PLN
+
+\subsection{Przykład 42}
+
+Sprawdzimy, czy przy rocznej stopie procentowej równej 5\%, kapitał 79 790, który mamy otrzymac za 3 lata, jest równnoważny nastepującemu ciągowi kapitałów:\\
+
+$ x_0 = 20 000 PLN, x_1 = 15 000 PLN, x_2 = 12 000 PLN, x_3 = 27 500 PLN $\\
+
+Wystarcyz sprawdzić czy zachodzi równość (47), $ n_0 = 3, r = 5\% $\\
+
+$ \Sigma ^3_{i=0} x_i(1,05)^{3-i} = 79 790,00 = K_3 $\\
+
+Wobec tego, zachodzi równość (47), czyli kapitał 79 90, który mamy otrzymać za 3 lata, jest równoważny podanemu ciągowi kapitałów.\\
+
+Załóżmy, że mamy dwa ciągi kapitałów $ x_0, x_1, ..., x_n $ oraz $ y_0, y_1, ..., y_m $. Niech X będzie kapitałem równoważnym $ x_0, x_1, ..., x_n $, zaś Y niech będzie kapitałem równoważnym ciągowi $ y_0, y_1, ..., y_m $. Ciągi kapitałów nazywamy \textbf{równoważnymi} jeśli kapitały X i Y są równoważne. W przeciwnym padku mówimy, żę $ x_0, x_1, ..., x_n $ i $ y_0, y_1, ..., y_m $ są \textbf{nierównoważnymi} ciągami kapitałów.
+
+\textbf{Uwaga} Przypomnijmy, że dwa kapitały są równoważne wtedy i tylko wtedy gdy ich obecne wartości są równe. Wobec tego na podstwie (48) otrzymujemy, że ciągi kapitałów $ x_0, x_1, ..., x_n $ i $ y_0, y_1, ..., y_m $ są równoważne wtedy i tylko wtedy gdy 
+
+\begin{center}
+	\begin{equation}
+		\Sigma ^n_{i=0}\frac{x_i}{(1 + r)^i} = \Sigma ^m_{j=0}\frac{x_j}{(1 + r)^j}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 43}
+
+Przy założeniu, że roczna stopa procentowa r = 5\% sprawdzimy, czy podane ciągi kapitałów sa równowazne\\
+
+$ x_0 = -4000 PLN, x_1 = 10000 PLN, x_2=8000 PLN, x_3 = 12000 PLN $\\
+
+$ y_0 = 5000 PLM, y_1 = 2000 PLN, y_2 = 3000 PLM, y_4 = 7000 PLN, y_5 = 9000 PLN $\\
+
+Mamy\\
+
+$ \Sigma ^3_{i=0} \frac{x_i}{(1,05)^i} = 23 146,10 PLN $ \\
+
+$ \Sigma ^4_{j=0} \frac{y_j}{(1,05)^j} = 23 077,04 PLN $ \\
+
+Zatem równość (49) nie zachodzi, czyli ciągi nie sa równoważne.\\
+
+\textbf{Uwaga} Równoważność ciągów kapitałów zależy od wartości rocznej stopy procentowej.\\
+
+\textbf{Uwaga} Rówoważność ciągów kapitałów ma ścisły związek z badaniem efektywności inwestycji finansowych. Zagadnienem tym zajmiemy się szczegółowo w kolejnej części wykładu.\\
+
+\newpage
+
+\section{Mierniki oceny inwestycji finansowych}
+
+Pojęcie inwestycji finanswoej jest na ogół ojarzone z zakupem akcji lub innych papierów wartościowych. W istocie ma ono jednak bardziej ogólne znaczenie i obejmuje szeroki zakres przedsięwzeięć podejmowanych z wykorzystaniem posiadanego kapitału. Każda inwestycjia finansowa wymaga nakładu, czyli zaangażowania pewnych środków finansowych, który daje prawo do ewentualnych dochodów w przyszłości. W działalności gospodarczej inwestycja finansowa najczęściej wiąże się z powieśzkeniem lub modernizacją środków trwałych.\\
+
+Przez inwestycje finansową będziemy rozumieć ciąg płatności znany zarówno co do wielkości jak i momentów ich występowania. Płatności ujemna reprezentuje nakład inwestora, a dodatnia reprezentuje jego dochód. Jeżeli nakład i dochód występuje w tym samym momencie, to płatność w tym momencie jest suma tych dwóch wielkości. Stale będziemy zakładać żę pierwsza płatność jest nakładem (czyli jest ujemna), a moment jej wystąpienia jest początkiem okresu iwestycyjnego. Wśród pozostałych płatności co najmniej jedna powinna stanowaić dochód (czyli być dodatnia).\\
+
+\textbf{Horyzontem czasowym} inwestycji nazywamy długość okresu objętego inwestycji. W całym wykładzie jednostkę czasu przyjmiemy 1 rok. Przez n oznaczamy horyzont inwestycyjny wyrażpny w latach.ś Z kolei prze $ x_j $ dla $ j \epsilon {0,1,2,..,n} $ oznaczać będziemy wysokość płatność w momencie j.
+
+\subsection{Przykład 44}
+
+śIwestycja wymagająca nakładów w wysokości 100 000 PLN obecnie i 50 000 PLN za rok, po drugim roku prz7niesie dochód w wysokości 40 000 PLN. Zaś po trzecim i czwartym roku 120 000 PLN.\\
+
+W tym przypadku horyzont jest równy n = 4 lata. Ponadto płatności w kolejnych latach wynoszą: \\
+
+$ x_0 = -100 000 PLN, x_1 = -50 000 PLN, x_2 = 40 000 PLN, x_3 = 120 000 PLN, x_4 = 120 000 PLN $\\
+
+Istotnym problemem jest określenie celowości danej inwestycji finansowej. Służą do tego różne narzędzia, zwane miernikami oceny inwestycji finansowych. W tym wykładzie omówimy 3 najważniejsze z pośród nich:\\
+
+Wartość bieżąca netto inwestycji\\
+
+Wewnętrzna stopa zwrotu\\
+
+Średni czas trwania\\
+
+\newpage
+
+\section{Wartość bieżąca netto}
+
+Jedną z podstawowych miar służących do oceny decyzji inwestycji, jest \textbf{wartość bieżąca netto} ( w skrócie \textbf{NPV}). Jest to suma zdyskontoanych na moment 0 nakładów i dochodów z inwestycji przy ustalonej stopie procentowej. Przy założeniu kapitalizacji złożonej mamy:
+
+\begin{center}
+	\begin{equation}
+		\NPV = \Sigma ^n_{j=0} \frac{x_j}{(1 + r)^j}
+	\end{equation}
+\end{center}\\
+
+gdzie n jest czasem trwania inwestycji (w latach), $ x_j $ dla $ j \epsilon {0,1,..., n}} $ jest wartością płatności na koniec j-tego roku, zaś r oznacza roczną stopę procentową.
+
+\subsection{Przykład 45}
+
+Wyznaczymy wartość bieżącą netto inwestycji z przykładu 44. Przyjmiemy roczną stopę procentową r = 5\%.\\
+
+Ponieważ n = 4, stosując (50), dostajemy\\
+
+$ NPV = - 100 000 + \frac{-50 000}{1,05} + \frac{40 000}{1,05^2} + \frac{120 000}{1,05^3} + \frac{120 000}{10,5^4} = 91 046,94 PLN $\\
+
+Do wyznaczania wartości bieżącej netto można zastosować wbudowaną formułę NPV dostępną w pakiecie Excel.
+
+\subsection{Przykład 46}
+
+Dla danych z przyładu 44 mamy NPV = -100 000 + NPV();\\
+
+\textbf{Uwaga} Ze wzoru (50) wynika, że wysokość bieżąc netto inwestycji zależy od wysokości rocznej stopy procentowej. Fakt ten ilustruje kolejny przykład.
+
+\subsection{Przykład 47}
+
+Wyznaczymy wartość bieżącą netto inwestycji z przykładu 44, przy założeniu, że roczna stopa procentowa jest równa r = 6\%.\\
+
+Na podstawie wzoru (50) otrzymujemy:\\
+
+$ NPV = 84 235,60 PLN $\\
+
+\textbf{Uwaga} Wartość bieżąca netto inwestycji ma następującą interpretacje. W porównaniu z rachunkiem bankowym oprocentowanym według stopy procentowej r, dana inwestycjia jest bardziej opłacalna, jeżeli jej wartośc bieżąca netto jest dodatnia. Jeżeli wartość bueżąca netto inwestycji jest ujemna, to inwestycja jest mniej opłacalna w porównaniu z rachunkiem bankowym oprocentowanym według rocznej stopy procenotwej r. Jeżeli natomiast wartość bieżąca  netto inwestycji jest równa zerom to inwestycja jest tak samo opłacalna jak lokata bankowa oprocentowana według rocznej stopy procentowej r.\\
+
+\textbf{Uwaga} Wartość bieżąca netto inwestycji może y do porównania jej opłacalności nie tylko z lokatą bankową, lecz również z opłacalniścią innych inwestycji. Porównanie takie musi się jednak opierać na założeniu, że wartość bieżąca netto każdej z porównywanych inwestycji jest wyznaczona przy tej samej stopie procentowej. Zagadnienie to jest ściśle związane z pojęciem równoważności ciagów kapitałów, które omówiliśmy wcześniej.\\
+
+Przypomnijmy ze ciągi kapitałów 
+
+\begin{center}
+	\begin{equation}
+		\Sigma ^n_{i=0}\frac{x_i}{(1 + r)^i} = \Sigma ^m_{j=0}\frac{x_j}{(1 + r)^j} (nie pisać)
+	\end{equation}
+\end{center}\\
+
+Wynika stąd że ciągi kapitałów są równoważne wtedy i tylko wtedy gdy ich wartości bieżące netto są równe.
+
+\subsection{Przykład 48}
+Inwestor ma do wyboru dwie możliwości inwestycji kapitału, przynoszące w kolejnych latach następujące płatności\\
+
+inwestycja A: -5000, -10000, 0, 200000, 30000\\
+
+inwestycja B: -5000, 10000, 10000, 10000, 5000\\
+
+Sprawdzić czy inwestycje A i B sa równoważne przy rocznej stopie procentowej r = 5\%\\
+
+Dla obydwu wyznaczymy NPV\\
+
+A: $ NPV = 27 434,02 PLN $\\
+
+B: $ NPV = 26 345,99 PLN $\\
+
+Zatem NPV(B) < NPV(A), czyli inwestycje nie są równoważne przy rocznej stopie procentowej r = 5\%. Inwestycja A jest bardziej korzystna niż B.
 
 
 
