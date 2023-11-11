@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.4)  18 OCT 2023 15:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  8 NOV 2023 12:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./wyklad.tex
-(wyklad.tex
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
-(F:\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(F:\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+**wyklad.tex
+(./wyklad.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,15 +19,16 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
 )
-(F:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box51
-) (wyklad.aux)
+\l__pdf_internal_box=\box50
+)
+(./wyklad.aux)
 \openout1 = `wyklad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -44,7 +45,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (wyklad.toc
+ (./wyklad.toc
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -52,7 +53,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 ...sline {section}{\numberline {1}Wstęp}{3}{}
+l.1 ...sline {section}{\numberline {1}Wstęp}{4}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -69,7 +70,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...n}{\numberline {2.3.2}b) miesięczna}{6}{}
+l.11 ...n}{\numberline {2.3.2}b) miesięczna}{7}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -82,7 +83,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...umberline {6}Kapitalizacja ciągła}{14}{}
+l.35 ...umberline {6}Kapitalizacja ciągła}{15}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -95,7 +96,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...umberline {7}Natężenie procentowe}{15}{}
+l.39 ...umberline {7}Natężenie procentowe}{16}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -103,7 +104,7 @@ or  <return>  to continue without it.
 
 [1
 
-{C:/Users/oskar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -111,7 +112,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...trotnej kapitalizacji w ciągu roku}{18}{}
+l.44 ...krotnej kapitalizacji w ciągu roku}{19}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -124,7 +125,47 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...skonto przy kapitalizacji ciągłes}{21}{}
+l.53 ...skonto przy kapitalizacji ciągłej}{22}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ności przy kapitalizacji ciągłej}{33}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...�wnoważność ciągów kapitałów}{36}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...rline {20}Wartość bieżąca netto}{40}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -134,7 +175,7 @@ or  <return>  to continue without it.
 \tf@toc=\write3
 \openout3 = `wyklad.toc'.
 
- [2]
+ [3]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -652,7 +693,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3]
+[4]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1000,7 +1041,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]
+[5]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1388,7 +1429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[5]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
@@ -1652,7 +1693,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6]
+[7]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1943,7 +1984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-[7]
+[8]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2259,7 +2300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-[8]
+[9]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2667,7 +2708,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-[9]
+[10]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2966,7 +3007,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[10]
+[11]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3259,7 +3300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-[11]
+[12]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3843,7 +3884,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-[12]
+[13]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3906,7 +3947,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-[13]
+[14]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4085,7 +4126,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
-[14]
+[15]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4450,7 +4491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
-[15]
+[16]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4997,7 +5038,7 @@ Overfull \hbox (11.06276pt too wide) in paragraph at lines 565--566
 nikiem dyskon-tu-ja-cym\OT1/cmr/m/n/10 . Dyskonto
  []
 
-[16]
+[17]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -5108,7 +5149,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
-[17]
+[18]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5484,7 +5525,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
-[18]
+[19]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5805,7 +5846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
-[19] [20]
+[20] [21]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6298,7 +6339,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
@@ -6308,7 +6349,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--741
 
  []
 
-[22]
+[23]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6548,7 +6589,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[23]
+[24]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6805,7 +6846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-[24]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
@@ -6901,7 +6942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
  []
 
-[25]
+[26]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7095,31 +7136,4288 @@ Overfull \hbox (10.15393pt too wide) in paragraph at lines 848--849
 mr/bx/n/10 r^^Sownowa_znymi
  []
 
-[26] (wyklad.aux)
- ***********
-LaTeX2e <2023-06-01> patch level 1
-L3 programming layer <2023-08-29>
- ***********
- ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 848--849
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 850--851
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852 ...towej i stopy dyskonotej otrzymujemy wię
+                                                  c równość $ ndF = nrP $...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.852 ...jemy więc równość $ ndF = nrP $. Stą
+                                                  d wynika, że $ dF = rP $....
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.859 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 Wyznaczymy stopę
+                        procentową równoważną w czasie 6 lat stopie dysk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 Wyznaczymy stopę procentową
+                                    równoważną w czasie 6 lat stopie dysk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.861 Wyznaczymy stopę procentową równoważną
+                                                  w czasie 6 lat stopie dysk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 861--862
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.866 Wyznaczymy stopę
+                        dyskontową równoważną w czasie 8 lat stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.866 Wyznaczymy stopę dyskontową
+                                    równoważną w czasie 8 lat stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.866 Wyznaczymy stopę dyskontową równoważną
+                                                  w czasie 8 lat stopie proc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 866--867
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 871--872
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.873 ... \frac{1}{0,08} = 7,5 $. Podane stopy są
+                                                   więc równoważne w czas...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.873 ...c{1}{0,08} = 7,5 $. Podane stopy są wię
+                                                  c równoważne w czasie 7 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.873 ...c równoważne w czasie 7 lat i 6 miesię
+                                                  cy.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 873--874
+
+ []
+
+[27] [28]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...unku weklski. \textbf{Weksel} to zobowią
+                                                  zanie do zapłaty określo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ... kwoty w ustalonym terminie. Ma on formę
+                                                   dokumentu sprecyzowaną o...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...nie. Ma on formę dokumentu sprecyzowaną
+                                                   odpowiednimi przepisami p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...rawa. Kwota do zapłaty, której zobowią
+                                                  zuje weksel, nazywa się j...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ... której zobowiązuje weksel, nazywa się
+                                                   jego \textbf{wartością ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...się jego \textbf{wartością nominalną}
+                                                  . Termin, w którym weksel...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...się jego \textbf{wartością nominalną}
+                                                  . Termin, w którym weksel...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...�rym weksel ma być spłacony nazywa się
+                                                   \textbf{terminem wykupu} ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...nazywa sie \textbf{wartością aktualną}
+                                                   weksla.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.883 ...nazywa sie \textbf{wartością aktualną}
+                                                   weksla.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.886 Zobowią
+              zanie do zapłaty za dostarczony towar o wartości 390 000 PLN...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.886 ...y towar o wartości 390 000 PLN ma formę
+                                                   weksla podpisanego w dniu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.886 ...weksla podpisanego w dniu 5 maja na sumę
+                                                   400 000 PLN z terminem wy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.886 ..., F = 400 000, n = \frac{90}{360} $. Stą
+                                                  d $ D = F - P = 10 000 $(d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.889 ...ść otrzymania w dniu 5 maja trzymiesię
+                                                  cznej pożyczki w kwocie 3...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.889 ...znej pożyczki w kwocie 390 000 PLN dzię
+                                                  ki której mógłby zapła...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.889 ...towania pożyczki przy której jej zacią
+                                                  gnięcie byłoby korzystni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.889 ...ia pożyczki przy której jej zaciągnię
+                                                  cie byłoby korzystniejsze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.889 ...tem $d = 10\%, n = \frac{90}{360} $, wię
+                                                  c (39) $ r = \frac{0,1}{1 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.890 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (5.76909pt too wide) in paragraph at lines 889--890
+\OT1/cmr/m/n/10 zap laci^^Sc za to-war i nie mu-sia lby pod-pisywa^^Sc wek-sla.
+ Mo_zemy wyz-naczy^^Sc wysoko^^Ss^^Sc
+ []
+
+[29]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.899 Wartość kapitału zmienia się
+                                       w casie, We wszystkich rodzajach inwe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.899 ...ich rodzajach inwestycji podstawowe mają
+                                                   dwa pojęcia\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.899 ...ach inwestycji podstawowe mają dwa poję
+                                                  cia\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 899--900
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 901--902
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 903--904
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...liśmy, w jaki sposób wyznaczyć obecną
+                                                   wartość kapitału,któr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...apłacić w przyszłości oraz przyszłą
+                                                   wartość kapitału, któ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ... posiadamy obecnie. Teraz rozszerzymy tę
+                                                   analizę na bardziej ogó...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...y obecnie. Teraz rozszerzymy tę analizę
+                                                   na bardziej ogólne przyp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...alizę na bardziej ogólne przypadki. Bę
+                                                  dziemy zakładać \textbf{...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...textbf{złożoną kapitalizację odsetek}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.905 ...textbf{złożoną kapitalizację odsetek}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.72784pt too wide) in paragraph at lines 905--906
+\OT1/cmr/m/n/10 bardziej og^^Solne przy-padki. Bedziemy zak lada^^Sc \OT1/cmr/b
+x/n/10 z lo_zona kap-i-tal-iza-cje odsetek\OT1/cmr/m/n/10 . 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--906
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.907 ...wcześniejszy). Aby zilustrować to poję
+                                                  cie załóżmy, że warto�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.907 ...si $ K(n_0) $, gdzie $ n_0 $ jest liczbą
+                                                   całkowitą. Wtedy korzys...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.907 ...$, gdzie $ n_0 $ jest liczbą całkowitą
+                                                  . Wtedy korzystając ze wz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.907 ...st liczbą całkowitą. Wtedy korzystają
+                                                  c ze wzorów (10) i (29), ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 907--908
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.914 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.915 Wielkość $ K(n) $ nazywa się
+                                      \textbf{zaktualizowaną wartością ka...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.915 ...ią kapitału $ K(n_0) $ na moment $ n $}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.915 ...ią kapitału $ K(n_0) $ na moment $ n $}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 915--916
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.917 ...aktualizowane na moment $ n $ są równe}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.917 ...aktualizowane na moment $ n $ są równe}
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--918
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.919 ...any wzorem (40). Załóżmy że znane są
+                                                   wartości kapitałów $ K...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.919 ...ch $ n_1 $ i $ n_2 \epsilon Z $, tzn, są
+                                                   znane wielkości $ K_1(n_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.919 ... $ K_1 $ i $ K_2 $ na ten moment wynoszą
+                                                   odpowiednio: \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.10243pt too wide) in paragraph at lines 919--920
+[]\OT1/cmr/m/n/10 Rozwa_zmy model opisany wzorem (40). Za l^^So_zmy _ze znane s
+a warto^^Ssci kapita l^^Sow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 921--922
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--924
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 925--926
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.927 Zatem kapitały $ K_1 $ i $ K_2 $ są
+                                            równoważne na moment $ n $ wte...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 927--928
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 929--930
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.936 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.937 Obserwacja prowadzi nas do nastę
+                                       pującego wniosku: \textbf{jeżeli dw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.937 Obserwacja prowadzi nas do następują
+                                            cego wniosku: \textbf{jeżeli dw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.937 ...o są one równoważne na każdy moment.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.937 ...o są one równoważne na każdy moment.}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 937--938
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 Uwzglę
+             dniając ten fakt, możemy sformułować zasadę równoważnoś...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 Uwzględniają
+                    c ten fakt, możemy sformułować zasadę równoważnoś...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...c ten fakt, możemy sformułować zasadę
+                                                   równoważności kapitał...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...dę równoważności kapitałów w nastę
+                                                  pujący sposób: \textbf{d...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...ównoważności kapitałów w następują
+                                                  cy sposób: \textbf{dwa ka...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...rtości na jakikolwiek moment są równe}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.939 ...rtości na jakikolwiek moment są równe}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (6.83394pt too wide) in paragraph at lines 939--940
+[]\OT1/cmr/m/n/10 Uwzgledniajac ten fakt, mo_zemy sformu lowa^^Sc za-sade r^^So
+wnowa_zno^^Ssci kapita l^^Sow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 939--940
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.942 ...ównoważna kwocie 11 800 PLN, która bę
+                                                  dzie zainwestowana za rok.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 942--943
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 944--945
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 946--947
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 948--949
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.952 Zatem kapitały nie są
+                              równoważne.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 952--953
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.955 Przyjmują
+                c dane z poprzedniego przykładu. Wyznaczyć wartośc apita�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.955 ...inwestowany przed dwoma laty. Korzystają
+                                                  c z (41) otrzymujemy równ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.955 ...�: $ 11 025 - K_2(n_2)(1+r)^{-n_2} $ stą
+                                                  d $ K_2(1) = 11 576,25  $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 955--956
+
+ []
+
+
+Overfull \hbox (9.08289pt too wide) in paragraph at lines 958--959
+\OT1/cmr/m/n/10 stopie pro-cen-towej r = 5% by l on r^^Sownowa_zny kapita lowi 
+200 000 PLN uzyskanemu
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 958--959
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 960--961
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 962--963
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 964--965
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 966--967
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 968--969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 970--971
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 972--973
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.974 Wykazaliśmy wię
+                       c, że kapitały będą równoważne jeżeli pierwszy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.974 Wykazaliśmy więc, że kapitały bę
+                                           dą równoważne jeżeli pierwszy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.974 Wykazaliśmy więc, że kapitały będą
+                                               równoważne jeżeli pierwszy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[32]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.978 ...oważności przy kapitalizacji ciągłej}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (15.10452pt too wide) in paragraph at lines 978--978
+[]\OT1/cmr/bx/n/14.4 Zasada r^^Sownowa_zno^^Ssci przy kap-i-tal-iza-cji ciag le
+j 
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.979 ...adać przy założeniu kapitalizacji cią
+                                                  głej. Wówczas odpowiedni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.979 ...s odpowiednikiem warunku (41) jest nastę
+                                                  pujący warunek:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.979 ...owiednikiem warunku (41) jest następują
+                                                  cy warunek:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (8.86177pt too wide) in paragraph at lines 979--980
+\OT1/cmr/m/n/10 R^^Sownowa_zno^^Ss^^Sc kapita l^^Sow mo_zna r^^Sownie_z bada^^S
+c przy za lo_zeniu kap-i-tal-iza-cji ciag lej.
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.986 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.988 Przy założeniu kapitalizacji cią
+                                         głej i rocznej stopie procentowej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.988 ...opie procentowej r = 5\% wyznaczymy taką
+                                                   wartośc kapitału, któr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 988--989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 990--991
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 992--993
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 994--995
+
+ []
+
+[33]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1002 ...tości rocznej stopy procentowej. Jeżę
+                                                  li przy ustalonej stopie p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1002 ...�wnoważne, to po jej zmianie przestają
+                                                   być równoważne. Obserw...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1006 ...rocznej stopy procentowej zmieniła się
+                                                   i wynosi $ r' = 4\% $. W�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1006--1007
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1008--1009
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1011
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1012 ...pełniony, wobec czego kapitały nie są
+                                                   równoważne.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1012--1013
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 Zauważmy, że mają
+                           c dane wartości kapitałów w dwóch róznych mm...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 ...w dwóch róznych mmentach i zakładają
+                                                  c kapitalizację złożon�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 ...h mmentach i zakładając kapitalizację
+                                                   złożoną, na podstawie ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 ...i zakładając kapitalizację złożoną
+                                                  , na podstawie warunku ró...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 ...u równoważności kapitałów (41) moę
+                                                  mzy wyznaczyć wysokość ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1014 ...znej stopy procentowej, przy której są
+                                                   równoważne. Istotnie, z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (4.27849pt too wide) in paragraph at lines 1014--1015
+\OT1/cmr/m/n/10 zak ladajac kap-i-tal-iza-cje z lo_zona, na pod-stawie warunku 
+r^^Sownowa_zno^^Ssci kapita l^^Sow
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1014--1015
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1017
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1018 Stą
+           d\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1025 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1026 Podobnie, zakładają
+                            c kapitalizację ciągłą, na podstawie warunku...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1026 Podobnie, zakładając kapitalizację
+                                             ciągłą, na podstawie warunku...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1026 Podobnie, zakładając kapitalizację cią
+                                                 głą, na podstawie warunku...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1026 ...e, zakładając kapitalizację ciągłą
+                                                  , na podstawie warunku ró...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.9729pt too wide) in paragraph at lines 1026--1027
+[]\OT1/cmr/m/n/10 Podobnie, zak ladajac kap-i-tal-iza-cje ciag la, na pod-stawi
+e warunku r^^Sowowa_zno^^Ssci
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1027
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1033 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1036 ...wazny kapitałowi 16 000 PLN, który bę
+                                                  dzie zainwestowany za dwa ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
+
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1041
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1043
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1045
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1046 ...ej, przy tórej rozważane kapitały są
+                                                   równoważne, wynosi 8,15...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (26.16727pt too wide) in paragraph at lines 1046--1047
+[]\OT1/cmr/m/n/10 Wysoko^^Ss^^Sc rocznej stopy pro-cen-towej, przy t^^Sorej roz
+wa_zane kapita ly sa r^^Sownowa_zne,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1047
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 Zakładają
+                  c kapitalizację ciągłą wyznaczymy wysokość rocznej s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 Zakładając kapitalizację
+                                   ciągłą wyznaczymy wysokość rocznej s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 Zakładając kapitalizację cią
+                                       głą wyznaczymy wysokość rocznej s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 Zakładając kapitalizację ciągłą
+                                             wyznaczymy wysokość rocznej s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1050 ...ażny kapitałowi 19 800 PLN, który bę
+                                                  dzie zainwestowany za 5 la...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (11.86063pt too wide) in paragraph at lines 1050--1051
+\OT1/cmr/m/n/10 towej, przy kt^^Sorej kapita l 15 000 PLN zain-west-owany przed
+ rok-iem jest r^^Sownowa_zny
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1058 ...ły równoważne w jednym momencie mogą
+                                                   nie być równoważne w i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1058 ... trgo w tym przypadku nie istnieje poję
+                                                  cie kapitałów równoważ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[35]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1062 ...n{Równoważność ciągów kapitałów}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...s rozważaliśmy szereg zagadnień zwią
+                                                  zanych z równoważności�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...adnień związanych z równoważnością
+                                                   kapitałów. Analizę tę...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...równoważnością kapitałów. Analizę
+                                                   tę przeniesiemy teraz na...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...noważnością kapitałów. Analizę tę
+                                                   przeniesiemy teraz na ci�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ... Analizę tę przeniesiemy teraz na cią
+                                                  gi kapitałów. Jak poprze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ... poprzednio, stale zakładamy złożoną
+                                                   kapitalizację odsetek. r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...ale zakładamy złożoną kapitalizację
+                                                   odsetek. roczną stopę p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...�ożoną kapitalizację odsetek. roczną
+                                                   stopę procentową oznacz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...� kapitalizację odsetek. roczną stopę
+                                                   procentową oznaczamy prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...cję odsetek. roczną stopę procentową
+                                                   oznaczamy przez r, zaś z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1064 ...ą oznaczamy przez r, zaś za jednostkę
+                                                   czasu przyjmiemy 1 rok.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (14.61166pt too wide) in paragraph at lines 1064--1065
+\OT1/cmr/m/n/10 Dotychczas rozwa_zali^^Ssmy sz-ereg za-gad-nie^^Sn zwiazanych z
+ r^^Sownowa_zno^^Sscia kapita l^^Sow.
+ []
+
+
+Overfull \hbox (5.46364pt too wide) in paragraph at lines 1064--1065
+\OT1/cmr/m/n/10 Anal-ize te prze-niesiemy teraz na ciagi kapita l^^Sow. Jak pop
+rzed-nio, stale zak ladamy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...blemem równoważności kapitału i cią
+                                                  gu kapitałów. Rozważmy ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...u kapitałów. Rozważmy skończony cią
+                                                  g kapitałów $ x_0, x_1, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...ważny na mooment} $ k \epsilon Z $ cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1066 ...ch na ten moment wartości wyrazów cią
+                                                  gu.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+
+ []
+
+! Double subscript.
+l.1068 ... chwili $ n_0 \epsilon Z $ wynosi $ K_n_
+                                                  0 $. PRzez K_n_0(k) oznacz...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1068 ... \epsilon Z $ wynosi $ K_n_0 $. PRzez K_
+                                                  n_0(k) oznaczmy wartość ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Double subscript.
+l.1068 ...epsilon Z $ wynosi $ K_n_0 $. PRzez K_n_
+                                                  0(k) oznaczmy wartość te...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1068.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.1068 ...K_n_0 $. PRzez K_n_0(k) oznaczmy wartoś
+                                                  ć tego kapitału zaktuali...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1068.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.1068 ...n_0 $. PRzez K_n_0(k) oznaczmy wartość
+                                                   tego kapitału zaktualizo...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 1068.
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 1068.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 ...wartość tego kapitału zaktualizowaną
+                                                   na moment k. Niech ponadt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1068 ...izowaną na moment k. Niech ponadto $ x_
+                                                  i(k) $ dla $ i \epsilon {0...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 ...ość kampitału $ x_i $ zaktualizowaną
+                                                   na moment k. Wówczas roz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1068 ...zważamy kapitał jest równoważny cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (40.21251pt too wide) in paragraph at lines 1068--1069
+\OT1/cmr/m/n/10 PRzez K$[][](\OML/cmm/m/it/10 k\OT1/cmr/m/n/10 )\OML/cmm/m/it/1
+0 oznaczmywarto[][]tegokapitaluzaktualizowananamomentk:Niechponadto$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1068--1069
+
+ []
+
+! Double subscript.
+l.1072 		K_n_
+             0(k) = \Sigma ^n_{i=0}x_i(k)
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1075 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1076 ...arunek (45) można zapisać w nastepują
+                                                  cej równoważnej postaci
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (23.30617pt too wide) in paragraph at lines 1076--1077
+[]\OT1/cmr/m/n/10 Na pod-stawie wzoru (40) warunek (45) mo_zna za-pisa^^Sc w na
+stepu-jacej r^^Sownowa_znej
+ []
+
+! Double subscript.
+l.1080 		K_n_
+             0 \cdot (1 + r)^{-n_0} = \Sigma ^n_{i=0}x_i \cdot (1 + r)^{-i}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1083 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Double subscript.
+l.1084 Zatem japitał $K_n_
+                           0$ jest równoważny na moment $ k \epsilon Z $ c...
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1084 ...noważny na moment $ k \epsilon Z $ cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (25.24477pt too wide) in paragraph at lines 1084--1085
+[]\OT1/cmr/m/n/10 Zatem japita l $\OML/cmm/m/it/10 K[][]$ \OT1/cmr/m/n/10 jest 
+r^^Sownowa_zny na mo-ment $\OML/cmm/m/it/10 k^^OZ$ \OT1/cmr/m/n/10 ciagowi kapi
+ta l^^Sow $\OML/cmm/m/it/10 x[]; x[]; :::; x[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1086 ... jeżeli kapitał jest równoważny cią
+                                                  gowi kapitałów na pewien...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1086 ...oment, to jest on równoważny temu cią
+                                                  gowi na każdy mooment.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1088 W oparciu o powyższą
+                              uwagę, kapitał będziemy nazywać \textbf{r�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1088 W oparciu o powyższą uwagę
+                                    , kapitał będziemy nazywać \textbf{r�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1088 W oparciu o powyższą uwagę, kapitał bę
+                                                  dziemy nazywać \textbf{r�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1088 ...emy nazywać \textbf{równoważnym} cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1089
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1090 \textbf{Uwaga} Mnożą
+                             c obie strony równoważności (46) przez $ (1+...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Double subscript.
+l.1094 		K_n_
+             0 = \Sigma ^n_{i=0} x_i \cdot (1 + r)^{n_0 - i}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1097 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1098 ...kapitału, który jest równoważny cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1098 ...łów $ x_0, x_1, ..., x_n $. Przyjmują
+                                                  c w (47) $ n_0 = 0 $ dosta...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1098 ...tajemy w szcególności wzór na obecną
+                                                   wartość kapitału równ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1098 ... wartość kapitału równoważnego cią
+                                                  gowi kapitałów $ x_0, x_...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[36]
+! Double subscript.
+l.1102 		K_n_
+             0 = \Sigma ^n_{i=0} \frac{x_i}{(1 + r)^i}
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1105 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1108 ...jest równoważny na moment k = 3 nastę
+                                                  pującemu ciągowi kapital...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1108 ...równoważny na moment k = 3 następują
+                                                  cemu ciągowi kapitalów:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1108 ...�ny na moment k = 3 następującemu cią
+                                                  gowi kapitalów:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1108--1109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1112--1113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
+
+ []
+
+
+Overfull \hbox (2.69403pt too wide) in paragraph at lines 1116--1117
+[]\OT1/cmr/m/n/10 Z drugiej strony, obecna warto^^Ss^^Sc kapita lu 120 000 PLN,
+ kt^^Sory mamy otrzyma^^Sc
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1116--1117
+
+ []
+
+! Double subscript.
+l.1118 $ K_n_
+             0 = \frac{120 000}{(1,08)^2} = 102880,66 $ PLN\\
+I treat `x_1_2' essentially like `x_1{}_2'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1120 ... nie jest równoważny rozważanemu cią
+                                                  gowi kapitałów.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1124 ...rzymamy za 2 alta jest równoważny cią
+                                                  gowi kapitałów z przykł...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1126 Stosują
+               c wzór (47) oraz korzystając z obliczeń z poprzedniego prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1126 Stosując wzór (47) oraz korzystają
+                                            c z obliczeń z poprzedniego prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1126--1127
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1132 ...za 3 lata, jest równnoważny nastepują
+                                                  cemu ciągowi kapitałów:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1132 ..., jest równnoważny nastepującemu cią
+                                                  gowi kapitałów:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.08406pt too wide) in paragraph at lines 1132--1133
+\OT1/cmr/m/n/10 kt^^Sory mamy otrzy-mac za 3 lata, jest r^^Sownnowa_zny nastepu
+-jacemu ciagowi kapita l^^Sow: 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1132--1133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1140 ... 3 lata, jest równoważny podanemu cią
+                                                  gowi kapitałów.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (0.80623pt too wide) in paragraph at lines 1140--1141
+[]\OT1/cmr/m/n/10 Wobec tego, za-chodzi r^^Sowno^^Ss^^Sc (47), czyli kapita l 7
+9 90, kt^^Sory mamy otrzyma^^Sc
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 Załóżmy, że mamy dwa cią
+                                    gi kapitałów $ x_0, x_1, ..., x_n $ or...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...oraz $ y_0, y_1, ..., y_m $. Niech X bę
+                                                  dzie kapitałem równoważ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...$ x_0, x_1, ..., x_n $, zaś Y niech bę
+                                                  dzie kapitałem równoważ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...ch będzie kapitałem równoważnym cią
+                                                  gowi $ y_0, y_1, ..., y_m ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...ym ciągowi $ y_0, y_1, ..., y_m $. Cią
+                                                  gi kapitałów nazywamy \t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...�wnoważnymi} jeśli kapitały X i Y są
+                                                   równoważne. W przeciwny...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ...ważne. W przeciwnym padku mówimy, żę
+                                                   $ x_0, x_1, ..., x_n $ i ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ... ..., x_n $ i $ y_0, y_1, ..., y_m $ są
+                                                   \textbf{nierównoważnymi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1142 ..._m $ są \textbf{nierównoważnymi} cią
+                                                  gami kapitałów.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (4.17723pt too wide) in paragraph at lines 1142--1143
+\OT1/cmr/m/n/10 r^^Sownowa_znym ciagowi $\OML/cmm/m/it/10 y[]; y[]; :::; y[]$\O
+T1/cmr/m/n/10 . Ciagi kapita l^^Sow nazy-wamy \OT1/cmr/bx/n/10 r^^Sownowa_znymi
+
+ []
+
+
+Overfull \hbox (7.68817pt too wide) in paragraph at lines 1142--1143
+\OT1/cmr/m/n/10 je^^Ssli kapita ly X i Y sa r^^Sownowa_zne. W prze-ci-wnym padk
+u m^^Sowimy, _ze $\OML/cmm/m/it/10 x[]; x[]; :::; x[]$
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1144 ...aga} Przypomnijmy, że dwa kapitały są
+                                                   równoważne wtedy i tylk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1144 ...tylko wtedy gdy ich obecne wartości są
+                                                   równe. Wobec tego na pod...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1144 ...o na podstwie (48) otrzymujemy, że cią
+                                                  gi kapitałów $ x_0, x_1,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1144 ... ..., x_n $ i $ y_0, y_1, ..., y_m $ są
+                                                   równoważne wtedy i tylk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1151 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1154 ...towa r = 5\% sprawdzimy, czy podane cią
+                                                  gi kapitałów sa równowa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1165
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1166 ...równość (49) nie zachodzi, czyli cią
+                                                  gi nie sa równoważne.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1168 \textbf{Uwaga} Równoważność cią
+                                           gów kapitałów zależy od warto...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1168--1169
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1170 \textbf{Uwaga} Rówoważność cią
+                                          gów kapitałów ma ścisły zwią...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1170 ...� ciągów kapitałów ma ścisły zwią
+                                                  zek z badaniem efektywnoś...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1170 ...nansowych. Zagadnienem tym zajmiemy się
+                                                   szczegółowo w kolejnej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1170 ...miemy się szczegółowo w kolejnej czę
+                                                  ści wykładu.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
+
+ []
+
+[38]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 Poję
+            cie inwestycji finanswoej jest na ogół ojarzone z zakupem akcj...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ...enie i obejmuje szeroki zakres przedsię
+                                                  wzeięć podejmowanych z w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ... obejmuje szeroki zakres przedsięwzeię
+                                                  ć podejmowanych z wykorzy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ...ospodarczej inwestycja finansowa najczę
+                                                  ściej wiąże się z powi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ... inwestycja finansowa najczęściej wią
+                                                  że się z powieśzkeniem ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ...cja finansowa najczęściej wiąże się
+                                                   z powieśzkeniem lub mode...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1176 ... się z powieśzkeniem lub modernizacją
+                                                   środków trwałych.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1176--1177
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 Przez inwestycje finansową
+                                   będziemy rozumieć ciąg płatności zna...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 Przez inwestycje finansową bę
+                                      dziemy rozumieć ciąg płatności zna...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...ycje finansową będziemy rozumieć cią
+                                                  g płatności znany zarów...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...do wielkości jak i momentów ich wystę
+                                                  powania. Płatności ujemn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...ochód. Jeżeli nakład i dochód wystę
+                                                  puje w tym samym momencie,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...t suma tych dwóch wielkości. Stale bę
+                                                  dziemy zakładać żę pie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...lkości. Stale będziemy zakładać żę
+                                                   pierwsza płatność jest...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...(czyli jest ujemna), a moment jej wystą
+                                                  pienia jest początkiem ok...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1178 ...), a moment jej wystąpienia jest począ
+                                                  tkiem okresu iwestycyjnego...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1178--1179
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1180 ...estycji nazywamy długość okresu obję
+                                                  tego inwestycji. W całym ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1180 ...westycji. W całym wykładzie jednostkę
+                                                   czasu przyjmiemy 1 rok. P...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1180 ... j \epsilon {0,1,2,..,n} $ oznaczać bę
+                                                  dziemy wysokość płatno�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1184 śIwestycja wymagają
+                            ca nakładów w wysokości 100 000 PLN obecnie i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1184--1185
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1186 ... płatności w kolejnych latach wynoszą
+                                                  : \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
+
+ []
+
+
+Overfull \hbox (20.96507pt too wide) in paragraph at lines 1188--1189
+[]$\OML/cmm/m/it/10 x[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1
+00000\OML/cmm/m/it/10 PLN; x[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m
+/n/10 50000\OML/cmm/m/it/10 PLN; x[] \OT1/cmr/m/n/10 = 40000\OML/cmm/m/it/10 PL
+N; x[] \OT1/cmr/m/n/10 = 120000\OML/cmm/m/it/10 PLN; x[] \OT1/cmr/m/n/10 =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1189
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1190 ...ci danej inwestycji finansowej. Służą
+                                                   do tego różne narzędzi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1190 ...ansowej. Służą do tego różne narzę
+                                                  dzia, zwane miernikami oce...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1192 Wartość bieżą
+                        ca netto inwestycji\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1192--1193
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1194 Wewnę
+             trzna stopa zwrotu\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1194--1195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
+
+ []
+
+[39]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1200 \section{Wartość bieżąca netto}
+                                          
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1202 Jedną
+              z podstawowych miar służących do oceny decyzji inwestycji, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1202 Jedną z podstawowych miar służą
+                                          cych do oceny decyzji inwestycji, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1202 ... jest \textbf{wartość bieżąca netto}
+                                                   ( w skrócie \textbf{NPV}...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.1206 		\NPV
+              = \Sigma ^n_{j=0} \frac{x_j}{(1 + r)^j}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1209 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra }, or forgotten $.
+l.1210 ..., $ x_j $ dla $ j \epsilon {0,1,..., n}}
+                                                   $ jest wartością płatn...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1210 ...epsilon {0,1,..., n}} $ jest wartością
+                                                   płatności na koniec j-t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1210 ...niec j-tego roku, zaś r oznacza roczną
+                                                   stopę procentową.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1210 ...tego roku, zaś r oznacza roczną stopę
+                                                   procentową.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1210 ...aś r oznacza roczną stopę procentową
+                                                  .
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1214 Wyznaczymy wartość bieżą
+                                   cą netto inwestycji z przykładu 44. Prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1214 Wyznaczymy wartość bieżącą
+                                       netto inwestycji z przykładu 44. Prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1214 ...ycji z przykładu 44. Przyjmiemy roczną
+                                                   stopę procentową r = 5\...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1214 ...przykładu 44. Przyjmiemy roczną stopę
+                                                   procentową r = 5\%.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1214 ...4. Przyjmiemy roczną stopę procentową
+                                                   r = 5\%.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1214--1215
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1216 Ponieważ n = 4, stosują
+                                c (50), dostajemy\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1218--1219
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 Do wyznaczania wartości bieżą
+                                       cej netto można zastosować wbudowan...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 ...�cej netto można zastosować wbudowaną
+                                                   formułę NPV dostępną ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 ... można zastosować wbudowaną formułę
+                                                   NPV dostępną w pakiecie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 ...tosować wbudowaną formułę NPV dostę
+                                                  pną w pakiecie Excel.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1220 ...wać wbudowaną formułę NPV dostępną
+                                                   w pakiecie Excel.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.58388pt too wide) in paragraph at lines 1220--1221
+[]\OT1/cmr/m/n/10 Do wyz-nacza-nia warto^^Ssci bie_zacej netto mo_zna za-s-toso
+wa^^Sc wbu-dowana formu le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1224--1225
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1226 ...zoru (50) wynika, że wysokość bieżą
+                                                  c netto inwestycji zależy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1230 Wyznaczymy wartość bieżą
+                                   cą netto inwestycji z przykładu 44, prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1230 Wyznaczymy wartość bieżącą
+                                       netto inwestycji z przykładu 44, prz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1230--1231
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1234--1235
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 \textbf{Uwaga} Wartość bieżą
+                                       ca netto inwestycji ma następującą...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...�ć bieżąca netto inwestycji ma nastę
+                                                  pującą interpretacje. W ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...ieżąca netto inwestycji ma następują
+                                                  cą interpretacje. W poró...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...�ąca netto inwestycji ma następującą
+                                                   interpretacje. W porówna...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...opłacalna, jeżeli jej wartośc bieżą
+                                                  ca netto jest dodatnia. Je...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...jest dodatnia. Jeżeli wartość bueżą
+                                                  ca netto inwestycji jest u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1236 ...j r. Jeżeli natomiast wartość bieżą
+                                                  ca  netto inwestycji jest ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+
+ []
+
+[40]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 \textbf{Uwaga} Wartość bieżą
+                                       ca netto inwestycji może y do porów...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...a jej opłacalności nie tylko z lokatą
+                                                   bankową, lecz również ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...�acalności nie tylko z lokatą bankową
+                                                  , lecz również z opłaca...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...kową, lecz również z opłacalniścią
+                                                   innych inwestycji. Porów...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ... inwestycji. Porównanie takie musi się
+                                                   jednak opierać na zało�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...ć na założeniu, że wartość bieżą
+                                                  ca netto każdej z porówn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...owej. Zagadnienie to jest ściśle zwią
+                                                  zane z pojęciem równowa�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1238 ...ienie to jest ściśle związane z poję
+                                                  ciem równoważności ciag...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (10.37529pt too wide) in paragraph at lines 1238--1239
+[]\OT1/cmr/bx/n/10 Uwaga \OT1/cmr/m/n/10 Warto^^Ss^^Sc bie_zaca netto in-west-y
+-cji mo_ze y do por^^Sownania jej op lacalno^^Ssci
+ []
+
+
+Overfull \hbox (21.54692pt too wide) in paragraph at lines 1238--1239
+\OT1/cmr/m/n/10 nie tylko z lokata bankowa, lecz r^^Sownie_z z op lacalni^^Ssci
+a in-nych in-west-y-cji. Por^^Sownanie
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1238--1239
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1240 Przypomnijmy ze cią
+                           gi kapitałów
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 1244.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.1244 ...m_{j=0}\frac{x_j}{(1 + r)^j} (nie pisać
+                                                  )
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1247 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1248 Wynika stą
+                  d że ciągi kapitałów są równoważne wtedy i tylko wt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1248 Wynika stąd że cią
+                            gi kapitałów są równoważne wtedy i tylko wt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1248 Wynika stąd że ciągi kapitałów są
+                                               równoważne wtedy i tylko wt...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1248 ... i tylko wtedy gdy ich wartości bieżą
+                                                  ce netto są równe.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1248 ...dy gdy ich wartości bieżące netto są
+                                                   równe.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1251 ...iwości inwestycji kapitału, przynoszą
+                                                  ce w kolejnych latach nast...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1251 ..., przynoszące w kolejnych latach nastę
+                                                  pujące płatności\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1251 ...ynoszące w kolejnych latach następują
+                                                  ce płatności\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1259--1260
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1262
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1263--1264
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1265 ...PV(B) < NPV(A), czyli inwestycje nie są
+                                                   równoważne przy rocznej...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[41] (./wyklad.aux) ) 
 Here is how much of TeX's memory you used:
- 457 strings out of 475247
- 8627 string characters out of 5774207
- 1930801 words of memory out of 5000000
- 22058 multiletter control sequences out of 15000+600000
- 559587 words of font info for 41 fonts, out of 8000000 for 9000
+ 424 strings out of 478268
+ 7665 string characters out of 5846346
+ 309885 words of memory out of 5000000
+ 18709 multiletter control sequences out of 15000+600000
+ 470777 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,6n,50p,600b,178s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.p
-fb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmmi5.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pf
-b><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr5.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><F
-:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmsy7.pfb>
-Output written on wyklad.pdf (26 pages, 194553 bytes).
+ 34i,6n,38p,667b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+
+Output written on wyklad.pdf (41 pages, 226979 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
+ 198 PDF objects out of 1000 (max. 8388607)
+ 129 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
