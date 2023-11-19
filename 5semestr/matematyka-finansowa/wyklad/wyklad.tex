@@ -1264,6 +1264,201 @@ B: $ NPV = 26 345,99 PLN $\\
 
 Zatem NPV(B) < NPV(A), czyli inwestycje nie są równoważne przy rocznej stopie procentowej r = 5\%. Inwestycja A jest bardziej korzystna niż B.
 
+\subsection{Przykład 49}
+
+Rozważmy inwestycje z przykładu 48 założeniu że roczna stopa procentowa wynosi 7 \%. Wtedy wartości bieżące netto inwestycji wynoszą odpowiednio:\\
+
+$ NPV(A) = 24 867,02 $\\
+
+$ NPV(B) = 25 057,64 $\\
+
+Wobec tego inwestycje również nie są równoważne, ale tym razem NPV(A) < NPV(B), czyli przy rocznej stopie procentwej r = 7\% inwesrycja B jest korzystniejsza od inwestycji A.
+
+\textbf{Uwaga} Przykłady 48 i 49 pokazują zasadzniczą trudność związaną z ocena opłacalności poszczególnych inwestycji na podstawie ich wartości bieżącej netto. Ocena taka zależy bowiem od prawidłowego ustalenia wartości rocznej stopy procentowej.
+
+\subsection{Przykład 50 (Kolos)}
+
+Inwestor ma do wyboru dwie możliwości inwestycji kapitału, przynoszące w kolejnych latach następujące płatności\\
+
+inwestycja A: $ -4000, -10000, 0, 20000, 40000 $\\
+
+inwestycja B: $ -4000, 10000, 1000, 10000, W $\\
+
+Dla jakiej wartości parametru W inwestycje A i B są równoważne przy rocznej stopie procentowej równej 4\%.\\
+
+Dla obydwu inwestycji wyznaczamy bieżące wartości netto ciągów kapitałów\\
+
+$ NPV(A) = 38 356,71 $\\
+
+$ NPV(B) = .... + \frac{W}{(1 + 0,04)^4} = 23 750,91 + \frac{W}{(1 + 0,04)^4} $\\
+
+$ 38 356,71 = 23 750,91 + \frac{W}{(1 + 0,04)^4} $\\
+
+$ W = 17086,72 $\\
+
+\newpage
+
+\section{Wewnętrzna stopa zwrotu}
+
+Drugim ważnym narzędziem służącym do oceny inwestycji finansowych jest \textbf{wewnętrzna stopu zwrotu (IRR)}. Jest to roczna stopa procentowa, dla której wartość bieżąca netto inwestycji jest równa 0. Oznaczając wewnętrzną stopę zwrotu przez r, na podstawie (50) dostajemy następujące równanie na r
+
+\begin{center}
+	\begin{equation}
+		\Sigma ^n_{j=0}\frac{x_j}{(1 + r)^j} = 0
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga} Dla inwestycji o pojedynczym nakładzie wewnętrzna stopa zwrotu jest maksymalną stopą procentową przy której inwestycja jest opłacalna. Ściślej mówiąc jest to maksymalna stopa procentowa przy której inwestycja się zwraca.\\
+
+\textbf{Uwaga} Zauważmy, że wyznaczanie wewnętrznej stopę zwrotu sprowadza się do wyznaczenia rozwiązań pewnego równania. Wobec tego, dla niektórych inwestycji może ona nie istnieć, zaś dla innych może nie być wyznaczona jednoznacznie. Można jednak wykazać, że dla każdej inwestycji w której ciąg dochodów poprzedzony jest ciągiem nakładów, wewnętrzna stopa zwrotu istnieje i jest, wyznaczona jednoznacznie. 
+
+\subsection{Przykład 51 (kolos)}
+
+Inwestycja wymagajaca nakładów w wysokości 300 000 obecnie i 100 000 za rok, po drugim roku przyniesie dochód w wysokości 50 000, zaś po trzecim i czwartym roku 250 000.\\
+
+a) wyznaczyć wartość bieżącą netto tej inwestycji przy założeniu że roczna stopa procentowa jes równa 5\%.\\
+
+b) Wyznaczyć wewnętrzną stopę zwrotu z tej inwestycji\\
+
+a) $ NPV = 71 748,40 $\\
+
+B) ze wzoru (52)\\
+
+$ -300000 - \frac{100000}{1 + r} + \frac{50 000}{{1 + r}^2} + \frac{250 000}{(1 + r)^3} + \frac{250 000}{(1 + r)4} = 0 $\\
+
+Skorzystamy z formuły IRR -> IRR(-300000;-100000;5000;250000;250000) = 10,81\% \\
+
+\subsection{Przykład 52}
+
+Rozważmy inwestycje o stępujących płatnościach: -4000, 5000, -2000.
+
+Wewnętrzna stopa zwrotu dla tej inwestycji nie istnieje.
+
+\newpage
+
+\section{Średni czas trwania}
+
+Rozważmy inwestycje finansową o oryzoncie czasowym n i płatnościach $ x_1, x_2, ..., x_n $ Niech r* będzie wewnętrzną stopą zwrotu z tej inwestycji. Wtedy zgodnie ze wzorem (52), mamy
+
+	$	\Sigma ^n_{j=0}\frac{x_j}{(1 + r_*)^j} = 0 $
+
+Przyjmiemy oznaczenie
+
+\begin{center}
+	\begin{equation}
+		P_0 = \Sigma ^n_{j=1}\frac{x_j}{(1 + r_*)^j}
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga} Z (53) i (54) wynia, że
+
+\begin{center}
+	\begin{equation}
+		P_0 = -x_0
+	\end{equation}
+\end{center}\\
+
+\textbf{Średnim czasem trwania inwestycji} (ang. duration) nazywamy liczbę D określaną w następujacy sposób
+
+\begin{center}
+	\begin{equation}
+		D = \frac{1}{P_0}\Sigma ^n_{j=1} \frac{x_j}{(a + r^*)^j} \cdot j
+	\end{equation}
+\end{center}\\
+
+Średni czas trwania inwestycji jest zatem średnią ważoną momentów wystepowania płatności, przy czym wagami są zdyskontowane, przy założeniu wewnętrznej stopy zwrotu, udziały poszczególnych płatności w wartości bieżącej netto inwestycji. Przy wyborze inwestycji na podstwie średniego czasu trwania inwestor powinien kierować się jak najmniejszą wartością tego wskaźnika. \\
+
+\subsection{Przykład 53}
+
+Rozważmy inwestycje z przykładu 51. Wtedy r* = 10,81 \%. Pnadto $ P_0 = 300000 $, wobec tego stosując (55) otrzymujemy:
+
+$ D = \frac{1}{300000} (-\frac{100000}{1 + 0,1081} \cdot 1 + \frac{50000}{(1 + 0,1081)^2} \cdot 2 + \frac{250000}{(1 + 0,1081)^3} \cdot 3 + \frac{250000}{(1 + 0,1081)^4} \cdot 4) = 4,02 $\\
+
+Zatem średni czas trwania inwestycji wynosi 4,02 lat\\
+
+\newpage
+
+\section{Renty}
+
+\textbf{Rentą} nazywamy ciąg płatności w równych odstępach czasu. Kolejne kwoty wypłacane z tytułu renty nazywamy \textbf{ratami renty}. Okres między dwiema kolejnymi ratami nazywa się \textbf{okresem bazowym}. Rentę o skończonej liczbie lat nazywa się \textbf{rentą okresową}, zaśrentę o nieskończonej liczbie lat - \textbf{rentą wieczystą}. rente której raty wypłacane są na koniec okresów bzowych nazyw asię \textbf{rentą płatną z dołu}. Jeżeli raty renty wypłacane są na początku okrexów bazowych to nzaywamy ją \textbf{rentą płatną z góry} Raty renty mogą być stałe albo zmieniać się w czasie. W dalszym ciągu ograniczymy się do rent o stałych ratach. Głównym celem naszych rozważań będzie zagadnienie \textbf{wyceny renty} tzn. wyznaczenie kapitału równoważnego rencie. Wycenę renty można oczywiście przeprowadzić na dowolny moment. W praktyce najważniejsze są wycena renty na jej początek, czyli wyznaczenie \textbf{początkowej wartości renty} oraz wycena renty ja jej koniec czyli wyznaczenie \textbf{końcowej wartości renty}.\\
+
+- \textbf{Początkowa wartość renty} jest sumą wartości rat renty zaktualizowanycj na moment początkowy renty, \\
+
+- \textbf{Końcowa wartośc renty} jest sumą wartości ran renty zaktualizowany na moment końcowy renty\\
+
+Będziemy rozważać zarówno przypadek kapitalizacji rocznej, jak również model oparty na wielokrotnej kapitalizacji w ciągu roku.
+
+\newpage
+
+\section{Renty z roczną kapitalizacją odsetek}
+
+Załóżmy, że z tytułu renty przez n lat wypłacana będzie corocznie \textbf{z dołu} ustalana kwota W. Przez r oznaczmy roczną stopę procentową. Wówczas początkowa wartość takiej renty, będąca sumą wartości jej rat zaktualizowanych na moment początkowy, jest równa: 
+
+\begin{center}
+	\begin{equation}
+		P_D = W \Sigma ^n_{i=1}\frac{1}{(1+r)^i} (nie pracujemy na tym)
+	\end{equation}
+\end{center}\\
+
+Stosując wzór na sumę n pozątkowych wyrazów ciągu geometrzycznego o pierwszych wyrazach.... dostajemy stad:
+
+\begin{center}
+	\begin{equation}
+		P_D = \frac{W}{r}(1 - \frac{1}{(1 + r)^n})
+	\end{equation}
+\end{center}\\
+
+Z kolei wartość końcowa rozważanej renty jest równa,
+
+\begin{center}
+	\begin{equation}
+		F_D = P_D(1 + r)^n
+	\end{equation}
+\end{center}\\
+
+\begin{center}
+	\begin{equation}
+		F_D = \frac{W}{r}((1 + r)^n - 1)
+	\end{equation}
+\end{center}\\
+
+Oznaczając przez $ P_G $ początkową wartośc renty płatnej \textbf{z góry} mamy
+
+\begin{center}
+	\begin{equation}
+		P_G = W \Sigma ^{n-1} (aaa nie wartouz uwactego)
+	\end{equation}
+\end{center}\\ 
+
+\begin{center}
+	\begin{equation}
+		P_G = W\frac{1 + r}{r}(1 - \frac{1}{(1 + r)^n})
+	\end{equation}
+\end{center}\\ 
+
+Wartość końcowa takiej renty wynosi
+
+\begin{center}
+	\begin{equation}
+		tylko do liczenia
+	\end{equation}
+\end{center}\\ 
+
+Ze wzoru (60) i (62) otrzymujemy:
+
+\begin{center}
+	\begin{equation}
+		F_G = P_G(1 + r)^n
+	\end{equation}
+\end{center}\\ 
+
+Zatem uwzgledniając (61) otrzymujemy
+
+\begin{center}
+	\begin{equation}
+		F_G = W\frac{1 + r}{r} \cdot ((1 + r)^n - 1)
+	\end{equation}
+\end{center}\\ 
 
 
 

@@ -88,3 +88,12 @@
 \contentsline {subsection}{\numberline {20.2}Przykład 46}{40}{}%
 \contentsline {subsection}{\numberline {20.3}Przykład 47}{40}{}%
 \contentsline {subsection}{\numberline {20.4}Przykład 48}{41}{}%
+\contentsline {subsection}{\numberline {20.5}Przykład 49}{41}{}%
+\contentsline {subsection}{\numberline {20.6}Przykład 50 (Kolos)}{42}{}%
+\contentsline {section}{\numberline {21}Wewnętrzna stopa zwrotu}{43}{}%
+\contentsline {subsection}{\numberline {21.1}Przykład 51 (kolos)}{43}{}%
+\contentsline {subsection}{\numberline {21.2}Przykład 52}{43}{}%
+\contentsline {section}{\numberline {22}Średni czas trwania}{44}{}%
+\contentsline {subsection}{\numberline {22.1}Przykład 53}{44}{}%
+\contentsline {section}{\numberline {23}Renty}{45}{}%
+\contentsline {section}{\numberline {24}Renty z roczną kapitalizacją odsetek}{46}{}%
