@@ -1,0 +1,120 @@
+\contentsline {section}{\numberline {1}Wstęp}{2}{}%
+\contentsline {section}{\numberline {2}Kapitalizacja prosta}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Przykład 1}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}a)}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}b)}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Przykład 2}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}a)}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}b)}{4}{}%
+\contentsline {subsection}{\numberline {2.3}Przykład 3}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}a) roczna}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}b) miesięczna}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}c) tygodniowa}{5}{}%
+\contentsline {section}{\numberline {3}Kapitalizacja złożona}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Przykład 4}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Przykład 5}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Przykład 6}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}a)}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}b)}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.3}c)}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Przykład 7}{8}{}%
+\contentsline {subsection}{\numberline {3.5}Przykład 8}{9}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}a)}{9}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}b)}{9}{}%
+\contentsline {subsection}{\numberline {3.6}Przykład 9}{9}{}%
+\contentsline {subsection}{\numberline {3.7}Przykład 10}{9}{}%
+\contentsline {section}{\numberline {4}Równoważność stóp pod okresowych przy kapitalizacji złożonej}{10}{}%
+\contentsline {subsection}{\numberline {4.1}Przykład 11}{10}{}%
+\contentsline {subsection}{\numberline {4.2}Przykład 12}{10}{}%
+\contentsline {section}{\numberline {5}Efektywna stopa procentowa}{11}{}%
+\contentsline {subsection}{\numberline {5.1}Przykład 13}{11}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}a)}{11}{}%
+\contentsline {subsection}{\numberline {5.2}Przykład 14}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.1}a)}{12}{}%
+\contentsline {subsubsection}{\numberline {5.2.2}b)}{12}{}%
+\contentsline {section}{\numberline {6}Kapitalizacja ciągła}{13}{}%
+\contentsline {subsection}{\numberline {6.1}Przykład 15}{13}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}a)}{13}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}b)}{13}{}%
+\contentsline {section}{\numberline {7}Natężenie procentowe}{14}{}%
+\contentsline {subsection}{\numberline {7.1}Przykład 16}{14}{}%
+\contentsline {section}{\numberline {8}Dyskonto proste i składane}{15}{}%
+\contentsline {subsection}{\numberline {8.1}Przykład 17}{15}{}%
+\contentsline {subsection}{\numberline {8.2}Przykład 18}{16}{}%
+\contentsline {section}{\numberline {9}Dyskonto przy wielokrotnej kapitalizacji w ciągu roku}{17}{}%
+\contentsline {subsection}{\numberline {9.1}Przykład 19}{17}{}%
+\contentsline {subsubsection}{\numberline {9.1.1}a)}{17}{}%
+\contentsline {subsubsection}{\numberline {9.1.2}b)}{18}{}%
+\contentsline {subsection}{\numberline {9.2}Przykład 20}{18}{}%
+\contentsline {subsubsection}{\numberline {9.2.1}a)}{18}{}%
+\contentsline {subsubsection}{\numberline {9.2.2}b)}{18}{}%
+\contentsline {subsubsection}{\numberline {9.2.3}c)}{18}{}%
+\contentsline {subsection}{\numberline {9.3}Przykład 21}{18}{}%
+\contentsline {section}{\numberline {10}Dyskonto przy kapitalizacji ciągłej}{20}{}%
+\contentsline {subsection}{\numberline {10.1}Przykład 22}{20}{}%
+\contentsline {subsection}{\numberline {10.2}Przykład 23}{20}{}%
+\contentsline {section}{\numberline {11}Dyskonto handlowe}{22}{}%
+\contentsline {section}{\numberline {12}Stopa dyskontowa}{23}{}%
+\contentsline {subsection}{\numberline {12.1}Przykład 24}{23}{}%
+\contentsline {subsection}{\numberline {12.2}Przykład 25}{23}{}%
+\contentsline {subsection}{\numberline {12.3}Przykład 26}{23}{}%
+\contentsline {subsection}{\numberline {12.4}Przykład 27}{24}{}%
+\contentsline {section}{\numberline {13}Zasada równoważności stopy procentowej i stopy dyskontowej}{25}{}%
+\contentsline {subsection}{\numberline {13.1}Przykład 28}{25}{}%
+\contentsline {subsection}{\numberline {13.2}Przykład 29}{25}{}%
+\contentsline {subsection}{\numberline {13.3}Przykład 30}{25}{}%
+\contentsline {section}{\numberline {14}Weksle}{27}{}%
+\contentsline {subsection}{\numberline {14.1}Przykład 31}{27}{}%
+\contentsline {subsection}{\numberline {14.2}Przykład 32}{27}{}%
+\contentsline {section}{\numberline {15}Zasada równoważności kapitałów}{28}{}%
+\contentsline {subsection}{\numberline {15.1}Przykład 33}{29}{}%
+\contentsline {subsection}{\numberline {15.2}Przykład 34}{29}{}%
+\contentsline {subsection}{\numberline {15.3}Przykład 35}{30}{}%
+\contentsline {section}{\numberline {16}Zasada równoważności przy kapitalizacji ciągłej}{31}{}%
+\contentsline {subsection}{\numberline {16.1}Przykład 36}{31}{}%
+\contentsline {section}{\numberline {17}Stopa procenotwa a równoważność kapitału}{32}{}%
+\contentsline {subsection}{\numberline {17.1}Przykład 37}{32}{}%
+\contentsline {subsection}{\numberline {17.2}Przykład 38 (kolos)}{33}{}%
+\contentsline {subsection}{\numberline {17.3}Przykład 39}{33}{}%
+\contentsline {section}{\numberline {18}Równoważność ciągów kapitałów}{34}{}%
+\contentsline {subsection}{\numberline {18.1}Przykład 40}{35}{}%
+\contentsline {subsection}{\numberline {18.2}Przykład 41}{35}{}%
+\contentsline {subsection}{\numberline {18.3}Przykład 42}{35}{}%
+\contentsline {subsection}{\numberline {18.4}Przykład 43}{36}{}%
+\contentsline {section}{\numberline {19}Mierniki oceny inwestycji finansowych}{37}{}%
+\contentsline {subsection}{\numberline {19.1}Przykład 44}{37}{}%
+\contentsline {section}{\numberline {20}Wartość bieżąca netto}{38}{}%
+\contentsline {subsection}{\numberline {20.1}Przykład 45}{38}{}%
+\contentsline {subsection}{\numberline {20.2}Przykład 46}{38}{}%
+\contentsline {subsection}{\numberline {20.3}Przykład 47}{38}{}%
+\contentsline {subsection}{\numberline {20.4}Przykład 48}{39}{}%
+\contentsline {subsection}{\numberline {20.5}Przykład 49}{39}{}%
+\contentsline {subsection}{\numberline {20.6}Przykład 50 (Kolos)}{40}{}%
+\contentsline {section}{\numberline {21}Wewnętrzna stopa zwrotu}{41}{}%
+\contentsline {subsection}{\numberline {21.1}Przykład 51 (kolos)}{41}{}%
+\contentsline {subsection}{\numberline {21.2}Przykład 52}{41}{}%
+\contentsline {section}{\numberline {22}Średni czas trwania}{42}{}%
+\contentsline {subsection}{\numberline {22.1}Przykład 53}{42}{}%
+\contentsline {section}{\numberline {23}Renty}{43}{}%
+\contentsline {section}{\numberline {24}Renty z roczną kapitalizacją odsetek}{44}{}%
+\contentsline {subsection}{\numberline {24.1}Przykład 54}{45}{}%
+\contentsline {subsubsection}{\numberline {24.1.1}a)}{45}{}%
+\contentsline {subsubsection}{\numberline {24.1.2}b)}{45}{}%
+\contentsline {section}{\numberline {25}Renty z wielokrotną kapitalizacją odsetek w ciągu roku}{46}{}%
+\contentsline {subsection}{\numberline {25.1}Przykład 55}{46}{}%
+\contentsline {subsubsection}{\numberline {25.1.1}a)}{46}{}%
+\contentsline {subsubsection}{\numberline {25.1.2}b)}{46}{}%
+\contentsline {section}{\numberline {26}Wyznaczanie wartości końcowej i wartości początkowej w arkuszu MS Excel}{48}{}%
+\contentsline {subsection}{\numberline {26.1}Przykład 56}{48}{}%
+\contentsline {subsection}{\numberline {26.2}Przykład 57}{48}{}%
+\contentsline {subsection}{\numberline {26.3}Przykład 58}{48}{}%
+\contentsline {subsection}{\numberline {26.4}Przykład 59}{49}{}%
+\contentsline {subsection}{\numberline {26.5}Przykład 60}{49}{}%
+\contentsline {section}{\numberline {27}Spłata rat kredytu}{50}{}%
+\contentsline {section}{\numberline {28}Zasada równoważności długu i rat}{50}{}%
+\contentsline {subsection}{\numberline {28.1}Przykład 61}{51}{}%
+\contentsline {subsubsection}{\numberline {28.1.1}a)}{51}{}%
+\contentsline {subsubsection}{\numberline {28.1.2}b)}{51}{}%
+\contentsline {subsection}{\numberline {28.2}Przykład 62}{51}{}%
+\contentsline {subsection}{\numberline {28.3}Przykład 63}{52}{}%
+\contentsline {section}{\numberline {29}Schematy spłaty długu}{53}{}%
