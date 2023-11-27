@@ -1426,7 +1426,7 @@ Oznaczając przez $ P_G $ początkową wartośc renty płatnej \textbf{z góry} 
 
 \begin{center}
 	\begin{equation}
-		P_G = W \Sigma ^{n-1} (aaa nie wartouz uwactego)
+		P_G = W \Sigma ^{n-1} (aaa nie warto uzuwac tego)
 	\end{equation}
 \end{center}\\ 
 
@@ -1460,18 +1460,331 @@ Zatem uwzgledniając (61) otrzymujemy
 	\end{equation}
 \end{center}\\ 
 
+\textbf{Uwaga} Ze wzorów (57) i (58) otrzymujemy naatępujący związek między początkowymi wartościami renty płatnej z dołu i renty płatnej z góry
+
+\begin{center}
+	\begin{equation}
+		P_G = P_D(1 + r)
+	\end{equation}
+\end{center}\\ 
+
+\subsection{Przykład 54}
+
+Przyjmując roczną stopę procentową równą 5\% i zakładając roczną kapitalizację odsetek, wyznaczyć początkową wartość 8-letniej renty płatnej corocznie a) z dołu, b) z góry w kwocie 10 000 PLN. Ile wynosi końcowa wartość takiej renty?\\
+
+\subsubsection{a)}
+
+Korzystając ze wzoru (57)\\
+
+$ P_D = 64 632,13 PLN $\\
+
+Ponadto, na podstawie wzoru (58), mamy\\
+
+$ F_D = 95 491,09 PLN $\\
+
+\subsubsection{b)}
+
+Stosując wzór (65) i korzystając z obliczeń z wykonanych w punkcie a
+
+$ P_G = 67863,74 PLN $\\
+
+Uwzględniając (63) mamy\\
+
+$ F_G = 100 265,65 PLN $\\
+
+\newpage
+
+\section{Renty z wielokrotną kapitalizacją odsetek w ciągu roku}
+
+Załóżmy, że kapitalizacja odsetek odbywa się m-krotnine w ciągu roku (w równych odstępach czasu). Przyjmijmy, że raty renty w wysokości W wypłacane są m razy w ciągu roku przez okres l lat i n spośród m podokresów l + 1 roku ($ 0 <= n < m $). Niech r oznacza nominalną stopę procentową. Wtedy początkowa wartość renty płatnej z dołu, tzn. na końcu każdego podokresu, wynosi
+
+\begin{center}
+	\begin{equation}
+		P^{(m)}_D = \frac{W}{\frac{r}{m}} \cdot (1 - \frac{1}{(1 + \frac{r}{m})^{lm + n}}) 
+	\end{equation}
+\end{center}\\
+
+W przypadku renty płatnej z góry
+
+\begin{center}
+	\begin{equation}
+		P^{(m)}_G = W \cdot \frac{1 + \frac{r}{m}}{\frac{r}{m}} \cdot (1 - \frac{1}{(1 + \frac{r}{m})^{lm + n}}) 
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 55}
+
+Przyjmując nominalną stopę procentową równą 4\% i zakładając kwartalną kapitalizację odsetek wyznaczymy początkową wartość renty płatnej co kwartał: a) z dołu, b) z góry w wysokości 2 500 PLN przez 3 lata i 3 miesiące.\\
+
+Stosując wzory (66) i (67) otrzymujemy\\
+
+\subsubsection{a)}
+
+$ P^{(4)}_D = 30 334,35 PLN $\\
+
+\subsubsection{b)}
+
+$ P^{(4)}_G = 30 637,69 PLN $\\
+
+\textbf{Uwaga} W praktyce często mamy doczynienia z rentami o zmiennych ratach. W takim przypadju jeżeli raty renty płatnej z dołu wynosza w koeljnych latach $ W_1,...., W_n $, to jej wartość początkowa jest równa
+
+\begin{center}
+	\begin{equation}
+		P_D = \Sigma ^n_{i=1} \frac{W_i}{(1 + r)^i}
+	\end{equation}
+\end{center}\\
+
+zaś wartość końcowa jest równa\\
+
+\begin{center}
+	\begin{equation}
+		F_D = \Sigma ^n_{i=1} \frac{W_i}{(1 + r)^{n-i}}
+	\end{equation}
+\end{center}\\
+
+W przypadku renty płatnej z góry mamy 
+
+\begin{center}
+	\begin{equation}
+		P_D = \Sigma ^{n-1}_{i=0} \frac{W_i}{(1 + r)^i}
+	\end{equation}
+\end{center}\\
+
+oraz\\
+
+\begin{center}
+	\begin{equation}
+		F_D = \Sigma ^{n-1}_{i=0} \frac{W_i}{(1 + r)^{n-i}}
+	\end{equation}
+\end{center}\\
+
+\newpage 
+
+\section{Wyznaczanie wartości końcowej i wartości początkowej w arkuszu MS Excel}
+
+Do wyznaczani wartości końcowej można zastosować wbudowaną formułę \textbf{FV}. Jej argumentami są: stopa procentowa, liczba rat, wysokość raty, saldo początkowe i typ. Argument typ dotyczy momentu płatności i wynosi: 0 dla rat płatnych z dołu, zaś 1 dla rat płatnych z góry.\\
+
+\textbf{FV(stopa procentowa; liczba rat; rata; saldo początkowe; 0 lub 1}\\
+
+Dwa ostatnie argumenty można pominąć. Wtedy dla salda poczatkowego zostanie przyjęta domyślna wartość 0. Dla argumentu typ wartością domyślną również jest 0 tzn. uzyskany w ten sposób wynik dotyczy rat płatnych z dołu.\\
+
+\subsection{Przykład 56}
+
+Na rachunku bankowym zdeponowano 20 000 PLN. Roczna stopa procentowa jest równa 5\%. Wyznaczymy saldo rachunku po 3 latach, jeżeli na początku każdego kwartału wypłacana będzie z niego kwota 800 PLN.\\
+
+Mamy\\
+
+FV(5\%/4;12;800;-20000;1) = 12 798,20 PLN\\
+
+\subsection{Przykład 57}
+
+Obecne zadłużenie wynosi 100 000 PLN. Obliczymy poziom zadłużenia po 5 latach, jeżeli przy rocznej stopie procentowej równej 4\% na koniec kazdego miesiąca spłacana będzie rata w wysokości 1 000 PLN.\\
+
+FV(4\%/12;60;1000;-100000;0) = 55 800,68 PLN -> Zatem zadłużenie po 3 latach będzie wynisiło 55 800,68
+
+Do wyznaczania wartości początkowej można zastosować wdubowaną formułę \textbf{PV}. Formuła posiada te same argumenty co formuła FV oraz tą samą konwencję.\\
+
+\textbf{PV(stopa procentowa; liczba rat; rata; saldo początkowe; 0 lub 1}\\
+
+\subsection{Przykład 58}
+
+Przy założeniu, że roczna stopa procentowa jest równa 5\% wyznaczymy poczatkową wartość 24 rat płaconych w wysokości 500 PLN na koniec kolejnych miesięcy.\\
+
+Mamy\\
+
+PV(5\%/12;24;-500;0;0) = 11 396,95 PLN
+
+\subsection{Przykład 59}
+
+Przy założeniu, że roczna stopa procentowa jest równa 5\% wyznaczymy początkową wartość 15 rat płaconych w wysokości 800 PLN na początku kolejnych kwartałów.\\
+
+PV(5\%/4;15;-800;0;1) = 11 016,44 PLN
+
+\subsection{Przykład 60}
+
+Przy założeniu że roczna stopa procentowa jest równa 6\%, wyznaczymy kwotę kredytu spłacanego w 12 kwartalnych ratach płatnych z dołu w wysokości 2 000 PLN.\\
+
+PV(6\%/4;12;-2000;0;0) = 21 815,01 PLN
+
+\newpage	
+
+\section{Spłata rat kredytu}
+
+\textbf{Wprowadzenie}\\
+
+Przeprowadzimy teraz analizę spłaty rat kredytu. Udzielenie kredytu jest szczególnym przypadkiem inwestycji finansowej. Inwestorem jest strona udzielająca kredytu, zaś raty spłaty długu stanowią ciąg zwrotów z inwestycji. Takie spojrzenie na kredyt jest zgodne z praktyką. Instytucja finansowa lub osoba fizyczna podejmująca decyzję o przeznaczeniu środków na udzielenie kredytu pozbawia się innych możliwości ich zainwestowania. Prezentowane poniżej metody analizy dotyczace ratalnej spłaty kredtu pierają się na oprocentowaniu złożonym, na pojęciu wartości kapitału w czasie oraz na zasadzie równoważności ciagów kapitałów. 
+
+\section{Zasada równoważności długu i rat}
+
+Załóżmy, że w momencie n = 0 zaciągnięty zostal kredyt w wysokości $ K_0 $. Przyjmijmy, ze kredyt będzie spłacany w równych odstępach czasu, w n ratach o wartościach $ R_1, R_2, ..., R_n $. Kwota każdej raty zawiera zwrot części kapitału wraz z odsetkami, ale nie obejmuje kosztów takich jak np. prowizja czy ubezpieczenie. Analiza ratalnej spłaty kredytu opiera się na nastepującej zasadzie równoważności długu i rat. \\
+
+Kredyt o wartości $ K_0 $ jest \textbf{równoważny} na moment n = 0 ciągowi rat $ R_1, ..., R_n $ płatnych w momentach i = 1, ... n, jeżeli kapitały przekazane sobie nawzajem przez wierzyciela i dłużnika są równoważne na moment 0.
+
+Przy założeniu kapitalizacji złożonej zasada równoważności długu i rat prowadzi do warunku
+
+\begin{center}
+	\begin{equation}
+		K_0 = \Sigma ^n_{i=1} \frac{R_i}{(1 + r_{okr})^i}
+	\end{equation}
+\end{center}\\
+
+gdzie $ r_{okr} $ jest podokresową stopą procentową. Mnożoąc obie strony równania (72) przez $ \frac{R_i}{(1 + r_{okr})^n} $. dostajemy warunek równowaśności długu i rat na moment n.
+
+\begin{center}
+	\begin{equation}
+		K_0(1 + r_{okr})^n = \Sigma ^n_{i=1}R_i(1 + r_{okr})^{n-i}
+	\end{equation}
+\end{center}\\
+
+Jeżeli wszystkie raty kredytu są równe:
+
+to warunek (72) przymuje postać
+
+\begin{center}
+	\begin{equation}
+		K_0 = r \cdot \Sigma ^n_{i=1} \frac{1}{(1 + r_{okr})^i}
+	\end{equation}
+\end{center}\\
+
+Stosując wzór na sumę wyarzów szeregu geometrzycznego, dostajemy zatem
+
+\begin{center}
+	\begin{equation}
+		K_0 = \frac{R}{r_{okr}}(1 - \frac{1}{(1 + r_{okr})^n})
+	\end{equation}
+\end{center}\\
+
+Wyznaczając stąd R otrzymujemy:
+
+\begin{center}
+	\begin{equation}
+		R = \frac{K_0 \cdot r_{okr}}{1 - \frac{1}{(1 + r_{okr})^n}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 61}
+
+Kredyt w kwocie 40 000 PLN zaciągnięty na okres 5 lat ma być spłacany w równych ratach: a) rocznych, b) miesięcznych. Przy założeniu, że nominalna stopa procentowa jest równa 4\%, wyznaczymy wysokość raty.
+
+\subsubsection{a)}
+
+ze wzoru (75) $ K_0 = 40 000, n = 5 i r_{okr} = r = 4\% $\\
+
+$ R = (\frac{40 000 \cdot 0,04}{(1 - \frac{1}{1,04^5})}) = 8985,08 PLN $
+
+\subsubsection{b)}
+
+Najpierw wyznaczymy miesięczną stopę procentową równoważną rocznej stopie procentowej $ r = 4\% $.\\
+
+$ r_{okr} = 1,04^{\frac{1}{12}} - 1 = 0,3274% $ \\
+
+Zatem, stosując (75) mamy $ K_0 = 40000, n = 60, r_{okr} = 0,3274 $\\
+
+$ R = 735,38 PLN $
+
+\subsection{Przykład 62}
+
+Pięcioletni kredyt ma być spłacany w rocznych ratach płatnych na koniec kolejnych lat w wysokości: 6 000PLN po pierwszym i drugim roku, 7 200 PLN po trzecim roku, 8 000 PLN po czwartym roku i 9 000 PLN po piątym roku. Przyjmując, że roczna stopa procentowa wynosi 8\% wyznaczymy kwotę kredytu.\\
+
+Stosując wzór (72), n = 5, $ r_{okr} = r = 8\%, R_1 = R_2 = 6000, R_3 = 7200, R_4 = 8000, R_5 = 9000 $\\
+
+$ K_0 = \frac{6000}{1,08} + \frac{6000}{(1,08)^2} + \frac{72000}{(1,08)^3} + \frac{8000}{(1,08)^4} + \frac{9000}{(1,08)^5} = 28420,67PLN $\\
+
+\subsection{Przykład 63}
+
+Czteroletni kredyt ma być spłacany w kwartalnych ratach płatnych w następującej wysokości: 1 PLN na koniec pierwszych 5 kwartałów, 2 000 PLN na koniec kolejnych pięciu kwartałów i 2 500 PLN na koniec każdego z pozostałych kwartałów. Wiedząc, że roczna stopa procentowa wynosi 8\%, wyznaczyć kwotę kredytu.\\
+
+Rozpoczniemy od wyznaczenia kwartalnej stopy: $ r_{okr} = 1,08^{\frac{1}{4}} = 1,9427% $\\
+
+Zatem ze wzoru (72), n = 16, $ r_{okr} = 1,9427% $, $ R_1,..R_5 = 1000, R_6,...R_10 = 2000, R_11,...R_16 = 2500 $\\
+
+$ K_0 = 24 872,76 $\\
+
+\newpage
+
+\section{Schematy spłaty długu}
+
+Omówimy teraz zagadnienia związane  zzaldem zadłużenia w dowolnym momencie spłaty kredytu. Zauważmy najpierw, że mnożąc obie strony równości (72) przez $ (1 + r_{okr})^j $ gdzie $ j \epsilon (1,...,n) $, dostajemy aktualizację długu i wartości poszczególnych rat na moment j. Przedstawiając prawa stronę tej równości w postaci sumy rat już zapłaconych do momenty j (włącznie) i rat, które pozostały jeszcze do splacenia trzymujemy:
+
+\begin{center}
+	\begin{equation}
+		K_0(1 + r_{okr})^j = \Sigma ^j_{i=1}R_j(1 + r_{okr})^{j-i} + \Sigma ^n_{i=j-i}R_j(1 + r_{okr})^{j-i}
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga} Z punktu widzenia wierzyciela rówośc (76) pozwala na stwierdzenie, jaka wartość pożyczonego kapitału została odzyskana do momentu j, a jaka pozostała jeszcze do odzyskania, Z kolei, z punktu widzenia dłużnika, równość (76) informuje o tym, jaka wartość otrzymanego kapitału wraz z naliczonymi odsetkami została już oddana, a jaka pozostaje do oddania
+
+\textbf{Długiem bieżącym} $ K_j $ w momencie $ j \epsilon {0,,...n} $ nazywa się wartość kapitału pozostałego do spłacenia po zapłacenia raty $ R_j $. Z równości (76):
 
 
+\begin{center}
+	\begin{equation}
 
+	\end{equation}
+\end{center}\\
 
+\begin{center}
+	\begin{equation}
+		K_j = \Sigma ^n_{i=j+1} R_i(1 + r_{okr})^{j-1}
+	\end{equation}
+\end{center}\\
 
-%      Wstawienie nowego wzory z liczbą porządkową
-%\begin{center}
-%	\begin{equation}
-%		
-%	\end{equation}
-%\end{center}\\
+\textbf{Uwaga} We wzorach (77) i (78) przyjmujemy konwenscję, opdowiednio\\
 
+$ \Sigma ^0_{i=1} R_i()... = 0 oraz \Sigma ^n_{i=n+1}... = 0 $
+
+\textbf{Uwaga} Wzór (77) wyraża zależność długu bieżącego od długu początkowe i rat już zapłaconych, zaś wzór (78) wyraża zależność długu bieżącego od rat, które jeszcze nie zostały spłacone. Pierwsza z tych zalezności nazywa się \textbf{zależnością retrospetywną},  druga \textbf{zależnością prospektywną}. Zarówno z zależności retro czu prospektywnej wynika, że dług bieżący w momencie j = 0 wynosi $ K_0 $ , zaś dług bieżący w momencie j = n, czyli po zapłaceniu ostatniej raty wynosi 0
+
+\textbf{Uwaga} Wartość długu bieżącego w danym momencie spłaty kredytu jest ważną informacją zarówno dla wierzyciela jak i dłużnika. Można ona w szcególności stanowić podstawę do zmiany wartości przyszłych rat, np. z powodu zmiany wysokości stopy procentowej lub z powodu restrukturyzacji kredytu.\\
+
+Dla każdego $ j \epsilo {1,...,n} $ przez $ T_j $ oznaczmy część kwoty pożyczki spłaconą w j-tej racje, przez $ Z_j $ odsetki spłaconej w j-tej racie, zaś $ K_j $ resztę długu pozsotałą do spłacenia po spłaceniu j-tej raty. Dla każdego $ j \epsilon {1,...n} $: \\
+
+- wielkość $ T_j $ nazywa się \textbf{częścią kapitałową} j-tej raty;\\
+- wielkość $ Z_j $ nazywa się \textbf{częścią odsetkową} j-tej raty;\\
+
+Zauważmy że \\
+
+$ R_j = T_j + Z_j $\\
+
+Dla każdego $ j \epsilo {1,...,n} $, odsetki spłacone w j-tej racie są wyznaczone według okresowej stopy procentowej $ r_{okr} $ na podstawie stanu zadłużenia na poczatku j-tego okresu. Wynika stąd, że:
+
+\begin{center}
+	\begin{equation}
+		Z_j = K_{j-1} \cdot r_{okr}, dla j \epsilon{1,2,...,n}
+	\end{equation}
+\end{center}\\
+
+Z kolei kwota długu spłacenia w j-tej racie wynosi
+
+\begin{center}
+	\begin{equation}
+		T_j = R_j - Z_j, dla j \epsilon{1,2,...,n}
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga} Na podstawie zależności prospektywnej (78), dla każdego $ j \epsilon{1,2,...,n} $ mamy $ K_j = K_{j-1} + K_{j-1} \cdod r_{okr} - R_j $, uwzgledniając (79) dostajemy stąd
+
+\begin{center}
+	\begin{equation}
+		K_j = K_{j-1} - T_j, dla j \epsilon{1,2,...,n}
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga} Warto podkreślić, że część odsetkowa raty $ Z_j $ jest zdefiniowana jako wartość odsetek należnych za j-ty okres, a nie jako wartość odsetek spłacanych w tym okresie. W niektórych okresach rata może być niższa niż naliczone odsetki, w związku z czym nie mogą być one spłacone. Ponadto, gdyby w danej racie spłacony był jedynie kapitał, a odsetki nie, to dłużnik spłaciłby część kredytu, a jednocześnie zaciągnąłby nowy kredyt, o wartości równej odsetkom, którw nie zostały zapłacone. Aby uniknąć takiej sytuacji wygodniej jest założyć, że \\
+
+- jezeli $ R_j >= Z_j $ dla pewnego $ j \epsilon {1,...n} $ to w j-tej racie spłacane są odsetki $ Z_j $ a dług zmniejsza się o $ T_j = R_j - Z_j $\\
+- jeżeli $ R_j < Z_j $ dla pewnego $ j \epsilon {1,...n} $ to w j-tej racie spłacane są odsetki $ Z_j $ a dług zwiększa się o $ Z_j - R_j $\\
+
+Przestawione założenia nazywane sa \textbf{priorytetem spłaty odsetek}\\
+
+\textbf{Uwaga} Rozkład raty na część kapitałową i odsetkową pozwala prześledzić proces umarzania bieżących odsetek i długu przez kolejne raty. Do opisu tego procesu stosuje się tabelę zwaną \textbf{schematem spłaty długu}. Jej wiersze dotyczą koe=lejnych okresów spłaty długu, zaś w jej kolumnach znajdują się kolejno:\\
+
+- j - numer okresu bazowego\\
+- $ K_{j-1} $ - dług bieżący na poczatku j-tego okresu bazowego\\
+- $ R_j $ - rata spłacana w j-tym okresie bazowym\\
+- $ Z_j $ - część odsetkowa raty $ R_j $\\
+- $ T_j $ - część kapitałowa raty $ R_j $\\
+- $ K_j $ - dług bieżący na koniec j-tego okresu bazowego\\
 
 
 \end{document}

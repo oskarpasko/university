@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  15 NOV 2023 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  22 NOV 2023 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -45,176 +45,13 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (./wyklad.toc
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 ...sline {section}{\numberline {1}Wstęp}{4}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 ...n}{\numberline {2.3.2}b) miesięczna}{7}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...umberline {6}Kapitalizacja ciągła}{15}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ...umberline {7}Natężenie procentowe}{16}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.44 ...krotnej kapitalizacji w ciągu roku}{19}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.53 ...skonto przy kapitalizacji ciągłej}{22}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 ...ności przy kapitalizacji ciągłej}{33}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[2]
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 ...�wnoważność ciągów kapitałów}{36}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...rline {20}Wartość bieżąca netto}{40}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.93 ...erline {21}Wewnętrzna stopa zwrotu}{43}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 ...ty z roczną kapitalizacją odsetek}{46}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.99 ...ty z roczną kapitalizacją odsetek}{46}{}
-                                                  %
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-)
+ (./wyklad.toc)
 \tf@toc=\write3
 \openout3 = `wyklad.toc'.
 
- [3]
+ [1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -423,6 +260,10 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 19.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 19.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
@@ -732,7 +573,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]
+[2]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1080,7 +921,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5]
+[3]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1468,7 +1309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[6]
+[4]
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
@@ -1732,7 +1573,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[7]
+[5]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2023,7 +1864,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-[8]
+[6]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2339,7 +2180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-[9]
+[7]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2747,7 +2588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-[10]
+[8]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3046,7 +2887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[11]
+[9]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3339,7 +3180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-[12]
+[10]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3923,7 +3764,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-[13]
+[11]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3986,7 +3827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-[14]
+[12]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4165,7 +4006,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
-[15]
+[13]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4530,7 +4371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
-[16]
+[14]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5077,7 +4918,7 @@ Overfull \hbox (11.06276pt too wide) in paragraph at lines 565--566
 nikiem dyskon-tu-ja-cym\OT1/cmr/m/n/10 . Dyskonto
  []
 
-[17]
+[15]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -5188,7 +5029,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
-[18]
+[16]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5564,7 +5405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
-[19]
+[17]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5885,7 +5726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
-[20] [21]
+[18] [19]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6378,7 +6219,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
 
-[22]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
@@ -6388,7 +6229,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--741
 
  []
 
-[23]
+[21]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6628,7 +6469,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[24]
+[22]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6885,7 +6726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-[25]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
@@ -6981,7 +6822,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
  []
 
-[26]
+[24]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7371,7 +7212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
-[27] [28]
+[25] [26]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7650,7 +7491,7 @@ Overfull \hbox (5.76909pt too wide) in paragraph at lines 889--890
  Mo_zemy wyz-naczy^^Sc wysoko^^Ss^^Sc
  []
 
-[29]
+[27]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -8049,7 +7890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
-[30]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
@@ -8346,7 +8187,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
-[31]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 960--961
 
  []
@@ -8423,7 +8264,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[32]
+[30]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -8550,7 +8391,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
-[33]
+[31]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -8856,7 +8697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
-[34]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
@@ -9025,7 +8866,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[35]
+[33]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -9643,7 +9484,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[36]
+[34]
 ! Double subscript.
 l.1102 		K_n_
              0 = \Sigma ^n_{i=0} \frac{x_i}{(1 + r)^i}
@@ -9855,7 +9696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
 
  []
 
-[37]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
 
  []
@@ -10232,7 +10073,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
 
  []
 
-[38]
+[36]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -10632,7 +10473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
-[39]
+[37]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -11107,7 +10948,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 
  []
 
-[40]
+[38]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -11468,7 +11309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1271--1272
 
  []
 
-[41]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 
  []
@@ -11683,7 +11524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
 
  []
 
-[42]
+[40]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -12177,7 +12018,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43]
+[41]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -12478,7 +12319,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 
  []
 
-[44]
+[42]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -13002,7 +12843,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[45]
+[43]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -13382,32 +13223,1786 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[46] (./wyklad.aux) ) 
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ...e wzorów (57) i (58) otrzymujemy naatę
+                                                  pujący związek między p...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ...rów (57) i (58) otrzymujemy naatępują
+                                                  cy związek między począ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ...) i (58) otrzymujemy naatępujący zwią
+                                                  zek między początkowymi ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ... otrzymujemy naatępujący związek mię
+                                                  dzy początkowymi wartośc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1463 ...my naatępujący związek między począ
+                                                  tkowymi wartościami renty...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[44]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1470 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 Przyjmują
+                 c roczną stopę procentową równą 5\% i zakładając roc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 Przyjmując roczną
+                           stopę procentową równą 5\% i zakładając roc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 Przyjmując roczną stopę
+                                  procentową równą 5\% i zakładając roc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 Przyjmując roczną stopę procentową
+                                              równą 5\% i zakładając roc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...ując roczną stopę procentową równą
+                                                   5\% i zakładając roczn�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...ę procentową równą 5\% i zakładają
+                                                  c roczną kapitalizację o...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...tową równą 5\% i zakładając roczną
+                                                   kapitalizację odsetek, w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...\% i zakładając roczną kapitalizację
+                                                   odsetek, wyznaczyć pocz�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...apitalizację odsetek, wyznaczyć począ
+                                                  tkową wartość 8-letniej...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1473 ...izację odsetek, wyznaczyć początkową
+                                                   wartość 8-letniej renty...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1473--1474
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1477 Korzystają
+                  c ze wzoru (57)\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1477--1478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1479--1480
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1481--1482
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1483--1484
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1487 Stosują
+               c wzór (65) i korzystając z obliczeń z wykonanych w punkcie a
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1487 Stosując wzór (65) i korzystają
+                                         c z obliczeń z wykonanych w punkcie a
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1489--1490
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1491 Uwzglę
+              dniając (63) mamy\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1491 Uwzględniają
+                     c (63) mamy\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1491--1492
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1493--1494
+
+ []
+
+[45]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1497 ...ą kapitalizacją odsetek w ciągu roku}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1497 ...ą kapitalizacją odsetek w ciągu roku}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1497 ...ą kapitalizacją odsetek w ciągu roku}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...y, że kapitalizacja odsetek odbywa się
+                                                   m-krotnine w ciągu roku ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...ja odsetek odbywa się m-krotnine w cią
+                                                  gu roku (w równych odstę...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...rotnine w ciągu roku (w równych odstę
+                                                  pach czasu). Przyjmijmy, �...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...raty renty w wysokości W wypłacane są
+                                                   m razy w ciągu roku prze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...ysokości W wypłacane są m razy w cią
+                                                  gu roku przez okres l lat ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ... <= n < m $). Niech r oznacza nominalną
+                                                   stopę procentową. Wtedy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ... m $). Niech r oznacza nominalną stopę
+                                                   procentową. Wtedy począ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ... r oznacza nominalną stopę procentową
+                                                  . Wtedy początkowa warto�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1499 ...inalną stopę procentową. Wtedy począ
+                                                  tkowa wartość renty pła...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (4.30618pt too wide) in paragraph at lines 1499--1500
+\OT1/cmr/m/n/10 Za l^^So_zmy, _ze kap-i-tal-iza-cja odsetek odbywa sie m-krotni
+ne w ciagu roku (w r^^Sownych
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1506 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1514 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 Przyjmują
+                 c nominalną stopę procentową równą 4\% i zakładając ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 Przyjmując nominalną
+                              stopę procentową równą 4\% i zakładając ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 Przyjmując nominalną stopę
+                                     procentową równą 4\% i zakładając ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 Przyjmując nominalną stopę procentową
+                                                 równą 4\% i zakładając ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...�c nominalną stopę procentową równą
+                                                   4\% i zakładając kwarta...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...ę procentową równą 4\% i zakładają
+                                                  c kwartalną kapitalizacj�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...ą równą 4\% i zakładając kwartalną
+                                                   kapitalizację odsetek wy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...i zakładając kwartalną kapitalizację
+                                                   odsetek wyznaczymy począ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...kapitalizację odsetek wyznaczymy począ
+                                                  tkową wartość renty pł...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...lizację odsetek wyznaczymy początkową
+                                                   wartość renty płatnej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1517 ...ości 2 500 PLN przez 3 lata i 3 miesią
+                                                  ce.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1517--1518
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1519 Stosują
+               c wzory (66) i (67) otrzymujemy\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1519--1520
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1523--1524
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1527--1528
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1529 \textbf{Uwaga} W praktyce czę
+                                     sto mamy doczynienia z rentami o zmienn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1529 ...W_1,...., W_n $, to jej wartość począ
+                                                  tkowa jest równa
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1536 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1537--1538
+
+ []
+
+[46]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1544 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1552 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1553--1554
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1560 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[47]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1563 ...rtości początkowej w arkuszu MS Excel}
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (28.20457pt too wide) in paragraph at lines 1563--1563
+[]\OT1/cmr/bx/n/14.4 Wyznaczanie warto^^Ssci ko^^Sncowej i warto^^Ssci pocza-
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1565 ... końcowej można zastosować wbudowaną
+                                                   formułę \textbf{FV}. Je...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1565 ... można zastosować wbudowaną formułę
+                                                   \textbf{FV}. Jej argument...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1565 ...rmułę \textbf{FV}. Jej argumentami są
+                                                  : stopa procentowa, liczba...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1565 ...iczba rat, wysokość raty, saldo począ
+                                                  tkowe i typ. Argument typ ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1566
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1567 ...a rat; rata; saldo początkowe; 0 lub 1}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1567--1568
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1569 Dwa ostatnie argumenty można pominą
+                                            ć. Wtedy dla salda poczatkowego...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1569 ... dla salda poczatkowego zostanie przyję
+                                                  ta domyślna wartość 0. ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1569 ...rtość 0. Dla argumentu typ wartością
+                                                   domyślną również jest...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1569 ...Dla argumentu typ wartością domyślną
+                                                   również jest 0 tzn. uzy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1569--1570
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1573 ... rachunku po 3 latach, jeżeli na począ
+                                                  tku każdego kwartału wyp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1573 ...zątku każdego kwartału wypłacana bę
+                                                  dzie z niego kwota 800 PLN.\\
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1573--1574
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1576
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1577--1578
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1581 ...ej równej 4\% na koniec kazdego miesią
+                                                  ca spłacana będzie rata ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1581 ...a koniec kazdego miesiąca spłacana bę
+                                                  dzie rata w wysokości 1 0...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1581--1582
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1583 ...LN -> Zatem zadłużenie po 3 latach bę
+                                                  dzie wynisiło 55 800,68
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 Do wyznaczania wartości począ
+                                      tkowej można zastosować wdubowaną f...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 ...czątkowej można zastosować wdubowaną
+                                                   formułę \textbf{PV}. Fo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 ... można zastosować wdubowaną formułę
+                                                   \textbf{PV}. Formuła pos...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 ...e same argumenty co formuła FV oraz tą
+                                                   samą konwencję.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 ... argumenty co formuła FV oraz tą samą
+                                                   konwencję.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1585 ...co formuła FV oraz tą samą konwencję
+                                                  .\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.75056pt too wide) in paragraph at lines 1585--1586
+[]\OT1/cmr/m/n/10 Do wyz-nacza-nia warto^^Ssci pocza-tkowej mo_zna za-s-tosowa^
+^Sc wdubowana formu le
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1585--1586
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1587 ...a rat; rata; saldo początkowe; 0 lub 1}
+                                                  \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1591 ...a jest równa 5\% wyznaczymy poczatkową
+                                                   wartość 24 rat płacony...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1591 ...ści 500 PLN na koniec kolejnych miesię
+                                                  cy.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1591--1592
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1593--1594
+
+ []
+
+[48]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1599 ...entowa jest równa 5\% wyznaczymy począ
+                                                  tkową wartość 15 rat p�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1599 ... jest równa 5\% wyznaczymy początkową
+                                                   wartość 15 rat płacony...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1599 ...łaconych w wysokości 800 PLN na począ
+                                                  tku kolejnych kwartałów.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1599--1600
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1605 ...ntowa jest równa 6\%, wyznaczymy kwotę
+                                                   kredytu spłacanego w 12 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1605--1606
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 Przeprowadzimy teraz analizę
+                                     spłaty rat kredytu. Udzielenie kredytu...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...sowej. Inwestorem jest strona udzielają
+                                                  ca kredytu, zaś raty spł...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...dytu, zaś raty spłaty długu stanowią
+                                                   ciąg zwrotów z inwestyc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ... zaś raty spłaty długu stanowią cią
+                                                  g zwrotów z inwestycji. T...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...rzenie na kredyt jest zgodne z praktyką
+                                                  . Instytucja finansowa lub...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ... finansowa lub osoba fizyczna podejmują
+                                                  ca decyzję o przeznaczeni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...lub osoba fizyczna podejmująca decyzję
+                                                   o przeznaczeniu środków...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...ków na udzielenie kredytu pozbawia się
+                                                   innych możliwości ich z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...tyczace ratalnej spłaty kredtu pierają
+                                                   się na oprocentowaniu z�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...ce ratalnej spłaty kredtu pierają się
+                                                   na oprocentowaniu złożo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1615 ...� na oprocentowaniu złożonym, na poję
+                                                  ciu wartości kapitału w ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.18575pt too wide) in paragraph at lines 1615--1616
+\OT1/cmr/m/n/10 pozbawia sie in-nych mo_zliwo^^Ssci ich zain-west-owa-nia. Prez
+en-towane poni_zej metody
+ []
+
+
+Overfull \hbox (0.22287pt too wide) in paragraph at lines 1615--1616
+\OT1/cmr/m/n/10 anal-izy doty-czace ratal-nej sp laty kredtu pier-aja sie na op
+ro-cen-towa-niu z lo_zonym,
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 Załóżmy, że w momencie n = 0 zacią
+                                              gnięty zostal kredyt w wysoko...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...óżmy, że w momencie n = 0 zaciągnię
+                                                  ty zostal kredyt w wysoko�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...ości $ K_0 $. Przyjmijmy, ze kredyt bę
+                                                  dzie spłacany w równych ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...edyt będzie spłacany w równych odstę
+                                                  pach czasu, w n ratach o w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...$. Kwota każdej raty zawiera zwrot czę
+                                                  ści kapitału wraz z odse...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...iza ratalnej spłaty kredytu opiera się
+                                                   na nastepującej zasadzie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1619 ...płaty kredytu opiera się na nastepują
+                                                  cej zasadzie równoważno�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1619--1620
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1621 ...extbf{równoważny} na moment n = 0 cią
+                                                  gowi rat $ R_1, ..., R_n $...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1621 ...zajem przez wierzyciela i dłużnika są
+                                                   równoważne na moment 0.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (9.80615pt too wide) in paragraph at lines 1623--1624
+[]\OT1/cmr/m/n/10 Przy za lo_zeniu kap-i-tal-iza-cji z lo_zonej za-sada r^^Sown
+owa_zno^^Ssci d lugu i rat prowadzi
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1630 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1631 gdzie $ r_{okr} $ jest podokresową
+                                           stopą procentową. Mnożoąc obi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1631 gdzie $ r_{okr} $ jest podokresową stopą
+                                                  procentową. Mnożoąc obi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1631 ...} $ jest podokresową stopą procentową
+                                                  . Mnożoąc obie strony r�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1631 ...odokresową stopą procentową. Mnożoą
+                                                  c obie strony równania (7...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (1.99297pt too wide) in paragraph at lines 1631--1632
+[]\OT1/cmr/m/n/10 gdzie $\OML/cmm/m/it/10 r[]$ \OT1/cmr/m/n/10 jest podokre-sow
+a stopa pro-cen-towa. Mno_zoac obie strony r^^Sownania
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1638 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1639 Jeżeli wszystkie raty kredytu są
+                                          równe:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1648 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1649 Stosują
+               c wzór na sumę wyarzów szeregu geometrzycznego, dostajemy ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1649 Stosując wzór na sumę
+                                wyarzów szeregu geometrzycznego, dostajemy ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[50]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1656 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1657 Wyznaczają
+                  c stąd R otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1657 Wyznaczając stą
+                        d R otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+)
+Runaway argument?
+{1 - \frac {1}{(1 + r_{okr})^n} \end {equation} \end {center}\\ \par \ETC.
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+<*> wyklad.tex
+              
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> wyklad.tex
+              
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 424 strings out of 478268
- 7665 string characters out of 5846346
- 309885 words of memory out of 5000000
+ 422 strings out of 478268
+ 7643 string characters out of 5846346
+ 307885 words of memory out of 5000000
  18709 multiletter control sequences out of 15000+600000
  470777 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,38p,1143b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-
-Output written on wyklad.pdf (46 pages, 238425 bytes).
-PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+!  ==> Fatal error occurred, no output PDF file produced!
