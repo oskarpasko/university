@@ -1770,7 +1770,7 @@ Z kolei kwota długu spłacenia w j-tej racie wynosi
 	\end{equation}
 \end{center}\\
 
-\textbf{Uwaga} Warto podkreślić, że część odsetkowa raty $ Z_j $ jest zdefiniowana jako wartość odsetek należnych za j-ty okres, a nie jako wartość odsetek spłacanych w tym okresie. W niektórych okresach rata może być niższa niż naliczone odsetki, w związku z czym nie mogą być one spłacone. Ponadto, gdyby w danej racie spłacony był jedynie kapitał, a odsetki nie, to dłużnik spłaciłby część kredytu, a jednocześnie zaciągnąłby nowy kredyt, o wartości równej odsetkom, którw nie zostały zapłacone. Aby uniknąć takiej sytuacji wygodniej jest założyć, że \\
+\textbf{Uwaga} Warto podkreślić, że część odsetkowa raty $ Z_j $ jest zdefiniowana jako wartość odsetek należnych za j-ty okres, a nie jako wartość odsetek spłacanych w tym okresie. W niektórych okresach rata może być niższa niż naliczone odsetki, w związku z czym nie mogą być one spłacone. Ponadto, gdyby w danej racie spłacony był jedynie kapitał, a odsetki nie, to dłużnik spłaciłby część kredytu, a jednocześnie zaciągnąłby nowy kredyt, o wartości równej odsetkom, które nie zostały zapłacone. Aby uniknąć takiej sytuacji wygodniej jest założyć, że \\
 
 - jezeli $ R_j >= Z_j $ dla pewnego $ j \epsilon {1,...n} $ to w j-tej racie spłacane są odsetki $ Z_j $ a dług zmniejsza się o $ T_j = R_j - Z_j $\\
 - jeżeli $ R_j < Z_j $ dla pewnego $ j \epsilon {1,...n} $ to w j-tej racie spłacane są odsetki $ Z_j $ a dług zwiększa się o $ Z_j - R_j $\\
@@ -1785,6 +1785,111 @@ Przestawione założenia nazywane sa \textbf{priorytetem spłaty odsetek}\\
 - $ Z_j $ - część odsetkowa raty $ R_j $\\
 - $ T_j $ - część kapitałowa raty $ R_j $\\
 - $ K_j $ - dług bieżący na koniec j-tego okresu bazowego\\
+
+\textbf{Uwaga} Przedstawimy teraz 2 przykłady dotyczące schematów spłaty kredytu w równych ratach oraz kredytu o równych częściach kapitałowych. Warto wspomnieć, że innymi wystepującymi w praktyce schematami spłaty kredytów są spłata odsetek w jednej racie i równe raty kapitałowe oraz bieżąca spłata odsetek i zwrot kapitału w ostatniej racie.
+
+\subsection{Przykład 64}
+
+Zbudować schemat spłaty kredytu z przykładu 61a). Przypomnijmy, że rata wynosi 8 985,08
+
+\subsection{Przykład 65}
+
+Jak wspomnieliśmy wczesniej, poza kredytami o stałych ratach, często stosowanym rodzajem kredytów są kredyty o stałych częściach kapitałowych. Pokażemy schemat konstrukcji spłaty takiego kredytu. rozważać będziemy kredyt z przykładu 64. Zauważmy najpierw, że: $ T_j = \frac{40000}{5} = 8000PLN dla j \epsilon {1,2,3,4,5} $
+
+\section{Rzeszywista stopa opocentowania (RRSO)}
+
+Wcześniej zauważylismy, że udzielenie kredytu można w naturalny sposób traktować jako inwestycję finansową. Wobec tego do jej oceny należy używać mierników stosowanych w analizie efektywności inwestycji. Kilka z nich omówiliśmy na poprzednich przykladach.Do najważniejszych  mierników należy wewnętrzna stopa zwrotu (IRR), która w kontekście udzielania kredytu nazywa się rzeczywistą stioą oprocentowania. Opiera się ona na zasadzie równoważności długu i rat,\\
+
+Załóżmy, że kredyt w kwocie $ K_0 $ jest spłacany przez wieczyciela w n ratach równych $ R_1, ...R_n $ płatnych w wyrażonych w latach chwilach $T_1, ...,t_n $ od momentu t = 0 w którym kredyt został udzielony\\
+
+\textbf{Rzeczysitą roczną stopą oprocentowania RRSO} nazywamy roczną stopę procentową, która jest rozwiązaniem równania.
+
+\begin{center}
+		$ K_0 = \Sigma ^n_{i=1} R_i(1 + r)^{-t_i} $
+\end{center}\\
+
+Przyjmijmy, że istnieje jednostka czasu zwana okresem bazowym za pomoca której termin dowolnej raty kredytu można wyrażyć liczbą całkowitą. W praktyce założenie te jest spełnione, gdyż na ogół terminy spłat ustalane sa na koniec lat, kwartałów, czy miesięcy. W szczególności bazowy okres można przyjąć 1 dzień. Załóżmy, że rok składa się z m okresów bazowych, wtedy dla każdego $ i \epsilon {1,2,...,n} $\\
+
+\begin{center}
+	\begin{equation}
+		K_0 = \Sigma ^n_{i=1} R_i(1 + r)^{\frac{k_i}{m}}
+	\end{equation}
+\end{center}\\
+
+Niech $ r_{okr} $ będzie stopą podokresową równoważną rocznej stopie r. Wtedy
+
+\begin{center}
+	\begin{equation}
+		(1 + r_{okr})^m = 1 + r
+	\end{equation}
+\end{center}\\
+
+stąd wynika, że $ (1 + r)^{\frac{1}{m}} = 1 + r_{okr} $
+
+\begin{center}
+	\begin{equation}
+		K_0 = \Sigma ^{K_n}_{j=1} R_j(1 + r_{okr})^{-j}
+	\end{equation}
+\end{center}\\
+
+Stopa proentowa $ r_{okr} $ która jest rozwiązaniem równania (85) nazywa się \textbf{okresową strzeczystą stopą oprocenowania}\\
+
+\textbf{Uwaga} Z równości (84) wynika, że okresowa rzeczysita stopa oprocentowania jest równoważna rocznej rzeczysitej stopie oporcenotwania. \textbf{RRSO jest równoważnie ORSO}\\
+
+\textbf{Uwaga} W celu wyznaczenia rzeczywistej rocznej stopy oprocentowania należy rozwiązać równanie (82) ze względu na r. Podobnie, zeby wuznaczyć okresową rzeczysitą stop∑ oprocentowania, należy roziwązać równanie (85) ze względu na $ r_{okr} $. Można się posłużyć Excelem. Rzeczywistą stopę oprocentowania można wyznaczyć przy użyciu formuły \textbf{IRR}. Jeżeli raty są równe to do wyznaczenia rzeczysitej rocznej stopy oprocentowania można zastosować formułę \textbf{RATE}. Jej argumentami są liczba rat; wysokośc rat; wysokośc kredytu ; saldo początkowe ; typ.\\
+
+\subsection{Przykład 66}
+
+Wyznaczyć rzeczywistą roczną stopę oprocentowania kredytu w wysokości 100 000 PLN słacanego a) na początku b) na końcu kolejnych pięcii lat ratami w wysokości: 20 000PLN w pierwszym i drugim roku oraz 30 000 PLN w 3,4,5 roku.\\
+
+Mamy\\
+
+\subsubsection{a)}
+
+RRSO = IRR(-80000;20000;30000;30000;30000) = 13,22 \%
+
+\subsubsection{b)}
+
+RRSO = IRR(-100000;20000;20000;30000;30000;30000) = 8,68 \%
+
+\subsection{Przykład 67}
+
+Sześcioletni kredyt w kwocie 12 000 PLN jest spłacony w równych rocznych ratach płatnych z dołu w wysokości 2 400 PLN.\\
+
+IRR = 5,47 \%\\
+
+RATE = (6 ; -2400 ; 12 000)\\
+
+\subsection{Przykład 68}
+
+Rozważmy kredyt z przykładu 67, ale przy założeniu że raty płacone są z góry.\\
+
+IRR = 7,93 \% \\
+
+RATE = (5 ; -2400 ; 9600)\\
+
+\subsection{Przykład 69}
+
+Kredyt w wysokości 10 000 PLN będzie spłacony przez 2 lata w równych miesięcznych ratach. płatnych w wysokości 500 PLN na koniec kolejnych miesięcy. Wyznaczyć rzeczywistą roczną stopę oprocentowania tego kredytu.\\
+
+Stosująć RATE dostajemy wartość okresowej rzeczywistej stopy oprocentowania. \\
+
+RATE(24;-500;10000) = $ r_{okr} $ = 1,5131 \% \\
+
+RRSO jest roczną stopą oprocentowania równoważną stopie $ r_{okr} $ Mamy zatem: $ RRSO = (1 + r_{okr})^{12} - 1 = (1,015131)^{12} - 1 = 19,79 \% $
+
+\subsection{Przykład 70}
+
+Kredyt w wysokości 6 000 PLN będzie spłacany przez rok w miesięcznych ratach płatnych w wysokości 550 PLN na koniec pierwszych 4 miesięcy, 525 PLN na koniec kolejnych 4 miesięcy i 500 PLN na konie ostatnich 4 miesięcy, Wyznaczyć RRSO.\\
+
+$ r_{okr} = IRR(-6000;550;550;550;550;525;525;525;525;500;500;500;500) = 0,7741 \% $\\
+
+$ RRSO = (1 + 1,7741)^{12} - 1 = 9,70 \% $
+
+
+
+
+
 
 
 \end{document}
