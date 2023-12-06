@@ -128,3 +128,11 @@
 \contentsline {subsection}{\numberline {30.3}Przykład 68}{60}{}%
 \contentsline {subsection}{\numberline {30.4}Przykład 69}{60}{}%
 \contentsline {subsection}{\numberline {30.5}Przykład 70}{61}{}%
+\contentsline {section}{\numberline {31}Wyznaczanie wysokości raty kredytu o równych ratach w arkuszu kalkulacyjnym Excel}{62}{}%
+\contentsline {subsection}{\numberline {31.1}Przykład 71}{62}{}%
+\contentsline {section}{\numberline {32}Wyznaczanie części odsetkowej i części kapitałowej rat kredytu o równych ratach w arkuczu Excel}{63}{}%
+\contentsline {subsection}{\numberline {32.1}Przykład 72}{63}{}%
+\contentsline {section}{\numberline {33}Wyznaczanie rat kredytu przy zmianie oprocentowania}{64}{}%
+\contentsline {subsection}{\numberline {33.1}Przykład 73}{64}{}%
+\contentsline {section}{\numberline {34}Tablice trwania życia}{65}{}%
+\contentsline {section}{\numberline {35}Przyszły czas życia}{65}{}%
