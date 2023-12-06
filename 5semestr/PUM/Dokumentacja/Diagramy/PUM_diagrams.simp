@@ -17,7 +17,7 @@
       </counter>
       <counter>
         <item-type type-id="use-case" type="Use Case" />
-        <value>8</value>
+        <value>9</value>
       </counter>
       <counter>
         <item-type type-id="frame" type="Frame" />
@@ -39,7 +39,7 @@
       </counter>
       <counter>
         <item-type type-id="use-case" type="Use Case" />
-        <value>9</value>
+        <value>10</value>
       </counter>
       <counter>
         <item-type type-id="relationship" type="Association" />
@@ -104,6 +104,16 @@
         <phone-number />
         <description />
         <color>#00000000</color>
+        <working-schedule uid="ws-2a3988c066e545d895418bce29a84ab5" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Oskar</first-name>
+        <last-name>Pasko</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
       </person>
     </persons>
     <teams />
@@ -124,27 +134,27 @@
     </custom-types>
   </types>
   <items>
-    <item id="6d6d67a21466460f89958b4967c1564b" cid="PROP011" type="property" owner="77b043c37acf4da3b9680c25338d068b" creator="" creation-date="12/04/2023 21:46:05" visibility="private" />
-    <item id="ae0c6c466c6349c99eb5cb352ed7b0ca" cid="PROP010" type="property" owner="d6e1f2785abe451dbdd40e8a1399c70e" creator="" creation-date="12/04/2023 21:44:47" visibility="private" />
-    <item id="c0a013f9fa214143a765cf742ab7ed55" cid="PROP008" type="property" owner="e05c61259fd1497ebe72ff84ae76b1b7" creator="" creation-date="12/04/2023 21:44:04" visibility="private" />
+    <item id="4233022d97584243a685926e131766c3" cid="PROP016" type="property" owner="9e6adc73fd8640a990b0558f93cb84d7" creator="" creation-date="12/04/2023 21:46:11" visibility="private" />
+    <item id="d84660765e014878bb341707ba40fcea" cid="PROP017" type="property" owner="1a2c6fad8d48484fb4175474a1b6d961" creator="" creation-date="12/04/2023 21:49:19" visibility="private" />
     <item id="62e440a27d424b50ad54eb13044d7894" cid="PROP018" type="property" owner="1a2c6fad8d48484fb4175474a1b6d961" creator="" creation-date="12/04/2023 21:49:19" visibility="private" />
-    <item id="ec0053dc9e424ab4bfefd281646e8bbb" cid="PROP004" type="property" owner="868615bac2dd4086b6cf72f5fa724304" creator="" creation-date="12/04/2023 21:41:19" visibility="private" />
-    <item id="c118555a65fd4eee8df93fe7135c8ce4" cid="PROP002" type="property" owner="37b454a59e544b2489d4f8bad9b84859" creator="" creation-date="12/04/2023 21:39:12" visibility="private" />
-    <item id="5b4dbbb7ed5b47c29fee646b762e88ad" cid="PROP001" type="property" owner="37b454a59e544b2489d4f8bad9b84859" creator="" creation-date="12/04/2023 21:39:12" visibility="private" />
     <item id="3c895de068f54e4a9983616d985b0679" cid="PROP007" type="property" owner="e05c61259fd1497ebe72ff84ae76b1b7" creator="" creation-date="12/04/2023 21:44:04" visibility="private" />
-    <item id="43945ccb730a451c988b1db4591e741f" cid="PROP005" type="property" owner="f0b38fe57ab0440b936d856885f2cfe3" creator="" creation-date="12/04/2023 21:44:01" visibility="private" />
     <item id="f594b9cc0bad42478c75e3d7527e07f6" cid="PROP015" type="property" owner="9e6adc73fd8640a990b0558f93cb84d7" creator="" creation-date="12/04/2023 21:46:11" visibility="private" />
+    <item id="ae0c6c466c6349c99eb5cb352ed7b0ca" cid="PROP010" type="property" owner="d6e1f2785abe451dbdd40e8a1399c70e" creator="" creation-date="12/04/2023 21:44:47" visibility="private" />
+    <item id="255077e24f654a26aca0d92bbc53c3dd" cid="PROP003" type="property" owner="868615bac2dd4086b6cf72f5fa724304" creator="" creation-date="12/04/2023 21:41:19" visibility="private" />
+    <item id="c0a013f9fa214143a765cf742ab7ed55" cid="PROP008" type="property" owner="e05c61259fd1497ebe72ff84ae76b1b7" creator="" creation-date="12/04/2023 21:44:04" visibility="private" />
+    <item id="31105e2e6bb143eb845d2f853f59f79a" cid="PROP009" type="property" owner="d6e1f2785abe451dbdd40e8a1399c70e" creator="" creation-date="12/04/2023 21:44:47" visibility="private" />
+    <item id="di2842ce4da4654683adfaa24ad65942d32869" cid="CN001" type="comment-connector" creator="" creation-date="12/04/2023 21:50:08" from="3a0ef8c44de546a58c858b7c8d2cc586" to="245402ff886b4132883ece5f28342aca" />
+    <item id="c118555a65fd4eee8df93fe7135c8ce4" cid="PROP002" type="property" owner="37b454a59e544b2489d4f8bad9b84859" creator="" creation-date="12/04/2023 21:39:12" visibility="private" />
+    <item id="ec0053dc9e424ab4bfefd281646e8bbb" cid="PROP004" type="property" owner="868615bac2dd4086b6cf72f5fa724304" creator="" creation-date="12/04/2023 21:41:19" visibility="private" />
+    <item id="8465ca1add604baf98a243b262de143a" cid="PROP006" type="property" owner="f0b38fe57ab0440b936d856885f2cfe3" creator="" creation-date="12/04/2023 21:44:01" visibility="private" />
     <item id="ab1581b19bf34371a688be274e918805" cid="PROP012" type="property" owner="77b043c37acf4da3b9680c25338d068b" creator="" creation-date="12/04/2023 21:46:05" visibility="private" />
+    <item id="43945ccb730a451c988b1db4591e741f" cid="PROP005" type="property" owner="f0b38fe57ab0440b936d856885f2cfe3" creator="" creation-date="12/04/2023 21:44:01" visibility="private" />
+    <item id="5b4dbbb7ed5b47c29fee646b762e88ad" cid="PROP001" type="property" owner="37b454a59e544b2489d4f8bad9b84859" creator="" creation-date="12/04/2023 21:39:12" visibility="private" />
     <item id="3a0ef8c44de546a58c858b7c8d2cc586" cid="CMT001" type="comment" name="Comment" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:50:08">
       <comment>REST API posiada baze danych oraz kontrolery enpointów obsługujące requesty od użytkowników
 </comment>
     </item>
-    <item id="8465ca1add604baf98a243b262de143a" cid="PROP006" type="property" owner="f0b38fe57ab0440b936d856885f2cfe3" creator="" creation-date="12/04/2023 21:44:01" visibility="private" />
-    <item id="255077e24f654a26aca0d92bbc53c3dd" cid="PROP003" type="property" owner="868615bac2dd4086b6cf72f5fa724304" creator="" creation-date="12/04/2023 21:41:19" visibility="private" />
-    <item id="di2842ce4da4654683adfaa24ad65942d32869" cid="CN001" type="comment-connector" creator="" creation-date="12/04/2023 21:50:08" from="3a0ef8c44de546a58c858b7c8d2cc586" to="245402ff886b4132883ece5f28342aca" />
-    <item id="4233022d97584243a685926e131766c3" cid="PROP016" type="property" owner="9e6adc73fd8640a990b0558f93cb84d7" creator="" creation-date="12/04/2023 21:46:11" visibility="private" />
-    <item id="31105e2e6bb143eb845d2f853f59f79a" cid="PROP009" type="property" owner="d6e1f2785abe451dbdd40e8a1399c70e" creator="" creation-date="12/04/2023 21:44:47" visibility="private" />
-    <item id="d84660765e014878bb341707ba40fcea" cid="PROP017" type="property" owner="1a2c6fad8d48484fb4175474a1b6d961" creator="" creation-date="12/04/2023 21:49:19" visibility="private" />
+    <item id="6d6d67a21466460f89958b4967c1564b" cid="PROP011" type="property" owner="77b043c37acf4da3b9680c25338d068b" creator="" creation-date="12/04/2023 21:46:05" visibility="private" />
   </items>
   <models>
     <model id="pf239900099ea4d62a4d7b19a8618357c_894278580" name="Model1" namespace="" order-index="1">
@@ -160,7 +170,7 @@
       </meta>
       <abstract-items />
       <sub-models />
-      <diagram type="uml-usecase" id="pf4d810ecebaf4b57835ca9e64d49d7e8_581728633" name="UseCaseDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="366,48">
+      <diagram type="uml-usecase" id="pf4d810ecebaf4b57835ca9e64d49d7e8_581728633" name="UseCaseDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="0,48">
         <style>
           <background-color index="1" color="#FFFFFFFF" />
           <background-color index="2" color="#FFFFFFFF" />
@@ -172,128 +182,29 @@
           </authors>
           <description />
           <creation-date>12/04/2023 21:36:12</creation-date>
-          <change-date>12/04/2023 21:54:10</change-date>
+          <change-date>12/05/2023 16:55:38</change-date>
           <revision-count>0</revision-count>
           <version />
         </meta>
         <abstract-items>
-          <item id="96cc6aaa61e54534851452c411ff51b0" cid="UC002" type="use-case" name="Przeglądanie stanu konta" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:41:05" visibility="undefined">
-            <use-case>
-              <stakeholders />
-              <special-requirements />
-              <issues />
-            </use-case>
-          </item>
-          <item id="245402ff886b4132883ece5f28342aca" cid="SYS002" type="system-boundary" name="REST API" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:48:20" />
-          <item id="e05c61259fd1497ebe72ff84ae76b1b7" cid="REL004" type="relationship" creator="" creation-date="12/04/2023 21:44:04" from="8a777da39ebd4d43bb1a1dc9c16384df" to="da9f115ec19b4e3eb1bda27ee9200a77" visibility="package">
-            <owned-items />
-            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="da9f115ec19b4e3eb1bda27ee9200a77" derived="false">
-              <start-role id="umlar-62dcd6e7-b58f-421a-8367-33246a6ee4ab" name="" navigability="" association-type="association" visibility="private" property-ref="3c895de068f54e4a9983616d985b0679" />
-              <end-role id="umlar-67ab9ee8-8fe0-419f-9fc1-2dead2cf8116" name="" navigability="" association-type="association" visibility="private" property-ref="c0a013f9fa214143a765cf742ab7ed55" />
-            </relation>
-          </item>
-          <item id="f0b38fe57ab0440b936d856885f2cfe3" cid="REL003" type="relationship" creator="" creation-date="12/04/2023 21:44:01" from="8a777da39ebd4d43bb1a1dc9c16384df" to="10d657bb7dd9445186ce23d7b0542029" visibility="package">
-            <owned-items />
-            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="10d657bb7dd9445186ce23d7b0542029" derived="false">
-              <start-role id="umlar-2cfdeef9-7ada-42e3-8d59-17e35143b989" name="" navigability="" association-type="association" visibility="private" property-ref="43945ccb730a451c988b1db4591e741f" />
-              <end-role id="umlar-79687b5b-107b-46cc-bdc6-63168b77a536" name="" navigability="" association-type="association" visibility="private" property-ref="8465ca1add604baf98a243b262de143a" />
-            </relation>
-          </item>
           <item id="14e072822d184d12ae0c1a3d4b539b0d" cid="SYS001" type="system-boundary" name="PandaBank" creator="" creation-date="12/04/2023 21:36:30">
             <owned-items />
-          </item>
-          <item id="16f8f2c4c44a491e800cb0725cd5fa9e" cid="INC002" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:52:57" from="10d657bb7dd9445186ce23d7b0542029" to="245402ff886b4132883ece5f28342aca" visibility="package">
-            <stereotypes>
-              <stereotype name="include" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="16f8f2c4c44a491e800cb0725cd5fa9e_include_c" type="include" creation-date="12/04/2023 21:52:57" ref="" />
-            </stereotype-instances>
-          </item>
-          <item id="37b454a59e544b2489d4f8bad9b84859" cid="REL001" type="relationship" creator="" creation-date="12/04/2023 21:39:12" from="21b3e5a77cc34cfb9abfb4a9a6f384b0" to="ac12cbf9ee4d49b685768b094edc4720" visibility="package">
-            <owned-items />
-            <relation from="21b3e5a77cc34cfb9abfb4a9a6f384b0" to="ac12cbf9ee4d49b685768b094edc4720" derived="false">
-              <start-role id="umlar-1380e218-cddf-478f-a150-4e964833aabe" name="" navigability="" association-type="association" visibility="private" property-ref="5b4dbbb7ed5b47c29fee646b762e88ad" />
-              <end-role id="umlar-c5ebc460-e926-4b35-8555-7c806e99dde9" name="" navigability="" association-type="association" visibility="private" property-ref="c118555a65fd4eee8df93fe7135c8ce4" />
-            </relation>
           </item>
           <item id="868615bac2dd4086b6cf72f5fa724304" cid="REL002" type="relationship" creator="" creation-date="12/04/2023 21:41:19" from="8a777da39ebd4d43bb1a1dc9c16384df" to="96cc6aaa61e54534851452c411ff51b0" visibility="package">
             <owned-items />
             <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="96cc6aaa61e54534851452c411ff51b0" derived="false">
-              <start-role id="umlar-0597bcd6-b710-4541-8cb8-3cc6f5717afe" name="" navigability="" association-type="association" visibility="private" property-ref="255077e24f654a26aca0d92bbc53c3dd" />
-              <end-role id="umlar-a7e45ff8-0a0b-4d1b-ba68-751a0c17b759" name="" navigability="" association-type="association" visibility="private" property-ref="ec0053dc9e424ab4bfefd281646e8bbb" />
+              <start-role id="umlar-a2f1265b-73e3-485d-81fd-cb9b3586d14b" name="" navigability="" association-type="association" visibility="private" property-ref="255077e24f654a26aca0d92bbc53c3dd" />
+              <end-role id="umlar-06410537-c9c4-456e-a08a-787f320930a9" name="" navigability="" association-type="association" visibility="private" property-ref="ec0053dc9e424ab4bfefd281646e8bbb" />
             </relation>
           </item>
-          <item id="10d657bb7dd9445186ce23d7b0542029" cid="UC004" type="use-case" name="Wykonanie przelewu" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:22" visibility="undefined">
+          <item id="d9cdd861ff0b4ff495c917d9a52cfcd8" cid="AC004" type="actor" name="Administrator" creator="" creation-date="12/04/2023 21:49:09" visibility="undefined" />
+          <item id="4dfb30066f054efcb87cc5b6161f399c" cid="UC006" type="use-case" name="Sprawdzenie danych osobowych" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:44:35" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
               <issues />
             </use-case>
           </item>
-          <item id="1a2c6fad8d48484fb4175474a1b6d961" cid="REL009" type="relationship" creator="" creation-date="12/04/2023 21:49:19" from="d9cdd861ff0b4ff495c917d9a52cfcd8" to="245402ff886b4132883ece5f28342aca" visibility="package">
-            <owned-items />
-            <relation from="d9cdd861ff0b4ff495c917d9a52cfcd8" to="245402ff886b4132883ece5f28342aca" derived="false">
-              <start-role id="umlar-e4540c9a-aaa9-4bde-8eea-d19317b43974" name="" navigability="" association-type="association" visibility="private" property-ref="d84660765e014878bb341707ba40fcea" />
-              <end-role id="umlar-5ba7973a-9876-496c-b6db-fc125edcf299" name="" navigability="" association-type="association" visibility="private" property-ref="62e440a27d424b50ad54eb13044d7894" />
-            </relation>
-          </item>
-          <item id="77b043c37acf4da3b9680c25338d068b" cid="REL006" type="relationship" creator="" creation-date="12/04/2023 21:46:05" from="40245d3feae6420eb82e04e4f0dec4bf" to="9bd85a60ac874041a0b0a2ded0221d74" visibility="package">
-            <owned-items />
-            <relation from="40245d3feae6420eb82e04e4f0dec4bf" to="9bd85a60ac874041a0b0a2ded0221d74" derived="false">
-              <start-role id="umlar-bd2a72cd-3974-4a70-abaa-4896c2828df8" name="" navigability="" association-type="association" visibility="private" property-ref="6d6d67a21466460f89958b4967c1564b" />
-              <end-role id="umlar-e537072a-eb7c-4276-8cb0-9170f47a0800" name="" navigability="" association-type="association" visibility="private" property-ref="ab1581b19bf34371a688be274e918805" />
-            </relation>
-          </item>
-          <item id="da9f115ec19b4e3eb1bda27ee9200a77" cid="UC005" type="use-case" name="Wyszukanie bankomatów" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:35" visibility="undefined">
-            <use-case>
-              <stakeholders />
-              <special-requirements />
-              <issues />
-            </use-case>
-          </item>
-          <item id="e67e69e788e54c7795de33319a10e8ac" cid="UC008" type="use-case" name="Zapisanie nowej karty debetowej" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:45:53" visibility="undefined">
-            <use-case>
-              <stakeholders />
-              <special-requirements />
-              <issues />
-            </use-case>
-          </item>
-          <item id="c152d8ef832c4711aa554138851f5f7a" cid="INC004" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:53:08" from="9bd85a60ac874041a0b0a2ded0221d74" to="245402ff886b4132883ece5f28342aca" visibility="package">
-            <stereotypes>
-              <stereotype name="include" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="c152d8ef832c4711aa554138851f5f7a_include_c" type="include" creation-date="12/04/2023 21:53:08" ref="" />
-            </stereotype-instances>
-          </item>
-          <item id="21b3e5a77cc34cfb9abfb4a9a6f384b0" cid="AC001" type="actor" name="Gość" creator="" creation-date="12/04/2023 21:38:04" visibility="undefined" />
-          <item id="ac12cbf9ee4d49b685768b094edc4720" cid="UC001" type="use-case" name="Logowanie" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:38:57" visibility="undefined">
-            <use-case>
-              <stakeholders />
-              <special-requirements />
-              <issues />
-            </use-case>
-          </item>
-          <item id="40245d3feae6420eb82e04e4f0dec4bf" cid="AC003" type="actor" name="Konto rodzica" creator="" creation-date="12/04/2023 21:44:50" visibility="undefined" />
-          <item id="1479143b32d946f2a45d0e7347c4593d" cid="EX001" type="extend" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:12" from="e5f1cdb25fb24414adb6ce6321d21253" to="ac12cbf9ee4d49b685768b094edc4720" visibility="package">
-            <stereotypes>
-              <stereotype name="extend" />
-            </stereotypes>
-            <stereotype-instances>
-              <stereotype id="1479143b32d946f2a45d0e7347c4593d_extend_c" type="extend" creation-date="12/04/2023 21:43:12" ref="" />
-            </stereotype-instances>
-            <extend extension-point="" condition="" />
-          </item>
-          <item id="8a777da39ebd4d43bb1a1dc9c16384df" cid="AC002" type="actor" name="Konto dziecka" creator="" creation-date="12/04/2023 21:39:39" visibility="undefined" />
-          <item id="e5f1cdb25fb24414adb6ce6321d21253" cid="UC003" type="use-case" name="Przypomnienie hasła" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:42:59" visibility="undefined">
-            <use-case>
-              <stakeholders />
-              <special-requirements />
-              <issues />
-            </use-case>
-          </item>
-          <item id="ab27494be4284c1290185e54a5a65c30" cid="GNR002" type="generalization" creator="" creation-date="12/04/2023 21:45:09" from="40245d3feae6420eb82e04e4f0dec4bf" to="8a777da39ebd4d43bb1a1dc9c16384df" visibility="package" />
           <item id="9d4aca17ea8045efaf5639ec90c95558" cid="INC001" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:48:55" from="ac12cbf9ee4d49b685768b094edc4720" to="245402ff886b4132883ece5f28342aca" visibility="package">
             <stereotypes>
               <stereotype name="include" />
@@ -301,6 +212,13 @@
             <stereotype-instances>
               <stereotype id="9d4aca17ea8045efaf5639ec90c95558_include_c" type="include" creation-date="12/04/2023 21:48:55" ref="" />
             </stereotype-instances>
+          </item>
+          <item id="e05c61259fd1497ebe72ff84ae76b1b7" cid="REL004" type="relationship" creator="" creation-date="12/04/2023 21:44:04" from="8a777da39ebd4d43bb1a1dc9c16384df" to="da9f115ec19b4e3eb1bda27ee9200a77" visibility="package">
+            <owned-items />
+            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="da9f115ec19b4e3eb1bda27ee9200a77" derived="false">
+              <start-role id="umlar-b76b7513-23a7-4228-a574-f6b5d56dfd9f" name="" navigability="" association-type="association" visibility="private" property-ref="3c895de068f54e4a9983616d985b0679" />
+              <end-role id="umlar-a30636de-0635-497b-813b-9aa2a176a15d" name="" navigability="" association-type="association" visibility="private" property-ref="c0a013f9fa214143a765cf742ab7ed55" />
+            </relation>
           </item>
           <item id="bb824eaf71eb485b87781d2e18a4c13b" cid="INC003" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:53:04" from="e67e69e788e54c7795de33319a10e8ac" to="245402ff886b4132883ece5f28342aca" visibility="package">
             <stereotypes>
@@ -310,14 +228,29 @@
               <stereotype id="bb824eaf71eb485b87781d2e18a4c13b_include_c" type="include" creation-date="12/04/2023 21:53:04" ref="" />
             </stereotype-instances>
           </item>
-          <item id="d6e1f2785abe451dbdd40e8a1399c70e" cid="REL005" type="relationship" creator="" creation-date="12/04/2023 21:44:47" from="8a777da39ebd4d43bb1a1dc9c16384df" to="4dfb30066f054efcb87cc5b6161f399c" visibility="package">
+          <item id="1a2c6fad8d48484fb4175474a1b6d961" cid="REL009" type="relationship" creator="" creation-date="12/04/2023 21:49:19" from="d9cdd861ff0b4ff495c917d9a52cfcd8" to="245402ff886b4132883ece5f28342aca" visibility="package">
             <owned-items />
-            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="4dfb30066f054efcb87cc5b6161f399c" derived="false">
-              <start-role id="umlar-ec9e513f-3eef-4664-a9e1-4118173ca096" name="" navigability="" association-type="association" visibility="private" property-ref="31105e2e6bb143eb845d2f853f59f79a" />
-              <end-role id="umlar-bf4c1d0c-b93f-4247-b4c6-911e559be742" name="" navigability="" association-type="association" visibility="private" property-ref="ae0c6c466c6349c99eb5cb352ed7b0ca" />
+            <relation from="d9cdd861ff0b4ff495c917d9a52cfcd8" to="245402ff886b4132883ece5f28342aca" derived="false">
+              <start-role id="umlar-0ffc78c7-68b3-4bce-adbf-130080839a49" name="" navigability="" association-type="association" visibility="private" property-ref="d84660765e014878bb341707ba40fcea" />
+              <end-role id="umlar-72f689e1-55d8-497c-9041-275797f69650" name="" navigability="" association-type="association" visibility="private" property-ref="62e440a27d424b50ad54eb13044d7894" />
             </relation>
           </item>
-          <item id="4dfb30066f054efcb87cc5b6161f399c" cid="UC006" type="use-case" name="Sprawdzenie danych osobowych" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:44:35" visibility="undefined">
+          <item id="c152d8ef832c4711aa554138851f5f7a" cid="INC004" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:53:08" from="9bd85a60ac874041a0b0a2ded0221d74" to="245402ff886b4132883ece5f28342aca" visibility="package">
+            <stereotypes>
+              <stereotype name="include" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="c152d8ef832c4711aa554138851f5f7a_include_c" type="include" creation-date="12/04/2023 21:53:08" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="245402ff886b4132883ece5f28342aca" cid="SYS002" type="system-boundary" name="REST API" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:48:20">
+            <owned-items />
+          </item>
+          <item id="ab27494be4284c1290185e54a5a65c30" cid="GNR002" type="generalization" creator="" creation-date="12/04/2023 21:45:09" from="40245d3feae6420eb82e04e4f0dec4bf" to="8a777da39ebd4d43bb1a1dc9c16384df" visibility="package" />
+          <item id="8a777da39ebd4d43bb1a1dc9c16384df" cid="AC002" type="actor" name="Konto dziecka" creator="" creation-date="12/04/2023 21:39:39" visibility="undefined" />
+          <item id="21b3e5a77cc34cfb9abfb4a9a6f384b0" cid="AC001" type="actor" name="Gość" creator="" creation-date="12/04/2023 21:38:04" visibility="undefined" />
+          <item id="40245d3feae6420eb82e04e4f0dec4bf" cid="AC003" type="actor" name="Konto rodzica" creator="" creation-date="12/04/2023 21:44:50" visibility="undefined" />
+          <item id="e5f1cdb25fb24414adb6ce6321d21253" cid="UC003" type="use-case" name="Przypomnienie hasła" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:42:59" visibility="undefined">
             <use-case>
               <stakeholders />
               <special-requirements />
@@ -331,15 +264,101 @@
               <issues />
             </use-case>
           </item>
+          <item id="da9f115ec19b4e3eb1bda27ee9200a77" cid="UC005" type="use-case" name="Wyszukanie bankomatów" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:35" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="77b043c37acf4da3b9680c25338d068b" cid="REL006" type="relationship" creator="" creation-date="12/04/2023 21:46:05" from="40245d3feae6420eb82e04e4f0dec4bf" to="9bd85a60ac874041a0b0a2ded0221d74" visibility="package">
+            <owned-items />
+            <relation from="40245d3feae6420eb82e04e4f0dec4bf" to="9bd85a60ac874041a0b0a2ded0221d74" derived="false">
+              <start-role id="umlar-9cfcc8ac-f595-4b52-b4b4-4f66628ed7ea" name="" navigability="" association-type="association" visibility="private" property-ref="6d6d67a21466460f89958b4967c1564b" />
+              <end-role id="umlar-b867a450-241d-48a8-a09d-07be04fdd901" name="" navigability="" association-type="association" visibility="private" property-ref="ab1581b19bf34371a688be274e918805" />
+            </relation>
+          </item>
+          <item id="37b454a59e544b2489d4f8bad9b84859" cid="REL001" type="relationship" creator="" creation-date="12/04/2023 21:39:12" from="21b3e5a77cc34cfb9abfb4a9a6f384b0" to="ac12cbf9ee4d49b685768b094edc4720" visibility="package">
+            <owned-items />
+            <relation from="21b3e5a77cc34cfb9abfb4a9a6f384b0" to="ac12cbf9ee4d49b685768b094edc4720" derived="false">
+              <start-role id="umlar-9a75fbfa-9f96-40f4-b45a-8ea4f15f1974" name="" navigability="" association-type="association" visibility="private" property-ref="5b4dbbb7ed5b47c29fee646b762e88ad" />
+              <end-role id="umlar-a4d2e51d-096f-48c8-b89f-c83a765a3ff5" name="" navigability="" association-type="association" visibility="private" property-ref="c118555a65fd4eee8df93fe7135c8ce4" />
+            </relation>
+          </item>
+          <item id="ac12cbf9ee4d49b685768b094edc4720" cid="UC001" type="use-case" name="Logowanie" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:38:57" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="d9114c056d8b4930b8ac6dc747b8b341" cid="GNR001" type="generalization" creator="" creation-date="12/04/2023 21:39:50" from="8a777da39ebd4d43bb1a1dc9c16384df" to="21b3e5a77cc34cfb9abfb4a9a6f384b0" visibility="package" />
+          <item id="c02d32b09df441138b8d056c1ea4121f" cid="UC009" type="use-case" name="Baza Danych" owner="245402ff886b4132883ece5f28342aca" creator="" creation-date="12/05/2023 16:55:38">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
           <item id="9e6adc73fd8640a990b0558f93cb84d7" cid="REL008" type="relationship" creator="" creation-date="12/04/2023 21:46:11" from="40245d3feae6420eb82e04e4f0dec4bf" to="e67e69e788e54c7795de33319a10e8ac" visibility="package">
             <owned-items />
             <relation from="40245d3feae6420eb82e04e4f0dec4bf" to="e67e69e788e54c7795de33319a10e8ac" derived="false">
-              <start-role id="umlar-42932b34-c41a-4d1a-b6e9-e684d8bb48c4" name="" navigability="" association-type="association" visibility="private" property-ref="f594b9cc0bad42478c75e3d7527e07f6" />
-              <end-role id="umlar-59e48d6e-101c-49ac-a539-899d6fe42b90" name="" navigability="" association-type="association" visibility="private" property-ref="4233022d97584243a685926e131766c3" />
+              <start-role id="umlar-41f2ab84-381f-4748-a3ad-d4d8f7a9b691" name="" navigability="" association-type="association" visibility="private" property-ref="f594b9cc0bad42478c75e3d7527e07f6" />
+              <end-role id="umlar-c1fc1dce-1571-4b80-b63d-fe157221ff7b" name="" navigability="" association-type="association" visibility="private" property-ref="4233022d97584243a685926e131766c3" />
             </relation>
           </item>
-          <item id="d9cdd861ff0b4ff495c917d9a52cfcd8" cid="AC004" type="actor" name="Administrator" creator="" creation-date="12/04/2023 21:49:09" visibility="undefined" />
-          <item id="d9114c056d8b4930b8ac6dc747b8b341" cid="GNR001" type="generalization" creator="" creation-date="12/04/2023 21:39:50" from="8a777da39ebd4d43bb1a1dc9c16384df" to="21b3e5a77cc34cfb9abfb4a9a6f384b0" visibility="package" />
+          <item id="10d657bb7dd9445186ce23d7b0542029" cid="UC004" type="use-case" name="Wykonanie przelewu" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:22" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="f0b38fe57ab0440b936d856885f2cfe3" cid="REL003" type="relationship" creator="" creation-date="12/04/2023 21:44:01" from="8a777da39ebd4d43bb1a1dc9c16384df" to="10d657bb7dd9445186ce23d7b0542029" visibility="package">
+            <owned-items />
+            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="10d657bb7dd9445186ce23d7b0542029" derived="false">
+              <start-role id="umlar-421682bb-2b98-4fb7-bfb9-f5ba95d1850d" name="" navigability="" association-type="association" visibility="private" property-ref="43945ccb730a451c988b1db4591e741f" />
+              <end-role id="umlar-e2f1d412-135d-4f46-96d6-c3e74296f969" name="" navigability="" association-type="association" visibility="private" property-ref="8465ca1add604baf98a243b262de143a" />
+            </relation>
+          </item>
+          <item id="16f8f2c4c44a491e800cb0725cd5fa9e" cid="INC002" type="include" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:52:57" from="10d657bb7dd9445186ce23d7b0542029" to="245402ff886b4132883ece5f28342aca" visibility="package">
+            <stereotypes>
+              <stereotype name="include" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="16f8f2c4c44a491e800cb0725cd5fa9e_include_c" type="include" creation-date="12/04/2023 21:52:57" ref="" />
+            </stereotype-instances>
+          </item>
+          <item id="d6e1f2785abe451dbdd40e8a1399c70e" cid="REL005" type="relationship" creator="" creation-date="12/04/2023 21:44:47" from="8a777da39ebd4d43bb1a1dc9c16384df" to="4dfb30066f054efcb87cc5b6161f399c" visibility="package">
+            <owned-items />
+            <relation from="8a777da39ebd4d43bb1a1dc9c16384df" to="4dfb30066f054efcb87cc5b6161f399c" derived="false">
+              <start-role id="umlar-a73073a2-0299-423c-a728-e6486eddca37" name="" navigability="" association-type="association" visibility="private" property-ref="31105e2e6bb143eb845d2f853f59f79a" />
+              <end-role id="umlar-0eb13204-4529-4ac6-8dd7-374784a8e80d" name="" navigability="" association-type="association" visibility="private" property-ref="ae0c6c466c6349c99eb5cb352ed7b0ca" />
+            </relation>
+          </item>
+          <item id="e67e69e788e54c7795de33319a10e8ac" cid="UC008" type="use-case" name="Zapisanie nowej karty debetowej" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:45:53" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
+          <item id="1479143b32d946f2a45d0e7347c4593d" cid="EX001" type="extend" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:43:12" from="e5f1cdb25fb24414adb6ce6321d21253" to="ac12cbf9ee4d49b685768b094edc4720" visibility="package">
+            <stereotypes>
+              <stereotype name="extend" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="1479143b32d946f2a45d0e7347c4593d_extend_c" type="extend" creation-date="12/04/2023 21:43:12" ref="" />
+            </stereotype-instances>
+            <extend extension-point="" condition="" />
+          </item>
+          <item id="96cc6aaa61e54534851452c411ff51b0" cid="UC002" type="use-case" name="Przeglądanie stanu konta" owner="14e072822d184d12ae0c1a3d4b539b0d" creator="" creation-date="12/04/2023 21:41:05" visibility="undefined">
+            <use-case>
+              <stakeholders />
+              <special-requirements />
+              <issues />
+            </use-case>
+          </item>
         </abstract-items>
         <layer id="53648ce9bfd9434f9763b893e8987beb" name="Default" visible="true" enabled="true" locked="false">
           <item id="14e072822d184d12ae0c1a3d4b539b0d" iid="5ecdbe8e00304d27879966d63dcc3560" creation-date="12/04/2023 21:36:30" order-index="0" type="entity">
@@ -444,6 +463,10 @@
               </points>
             </layout>
             <relation from="ac12cbf9ee4d49b685768b094edc4720" from-iid="bd70704f9d5f4beea0f373247c9be510" to="245402ff886b4132883ece5f28342aca" to-iid="5cbc7545f4eb41d1a8469f404f5c3797" />
+          </item>
+          <item id="c02d32b09df441138b8d056c1ea4121f" iid="89894be3e4254a469591173d28d31d4d" container="245402ff886b4132883ece5f28342aca" container-iid="5cbc7545f4eb41d1a8469f404f5c3797" creation-date="12/05/2023 16:55:38" order-index="30" type="entity">
+            <layout ax="1074.5" ay="387.56543" awidth="120" aheight="75" x="1074.5" y="387.56543" width="120" height="75" />
+            <use-case />
           </item>
           <item id="1a2c6fad8d48484fb4175474a1b6d961" iid="3210391de3314b57b3bcf3dff4c04cf6" creation-date="12/04/2023 21:49:19" order-index="25" type="relation">
             <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-to-fields="false" auto-path="" x1="1431" y1="408" x2="1241" y2="415" start-border-pos="0.8730516815185547" end-border-pos="0.3700648770473971" name-position="0,20">
