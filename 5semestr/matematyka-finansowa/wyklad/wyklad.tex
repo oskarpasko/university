@@ -1886,8 +1886,137 @@ $ r_{okr} = IRR(-6000;550;550;550;550;525;525;525;525;500;500;500;500) = 0,7741 
 
 $ RRSO = (1 + 1,7741)^{12} - 1 = 9,70 \% $
 
+\newpage
 
+\section{Wyznaczanie wysokości raty kredytu o równych ratach w arkuszu kalkulacyjnym Excel}
 
+Do wyznacznia wysokości raty kredytu o równych ratach można zastosować wbudowaną formułę \textbf{PMT}\\
+
+\textbf{PMT(stopa procentowa ; liczba rat ; wysokość kredytu ; saldo początkowe ; 0 lub 1)}\\
+
+\subsection{Przykład 71}
+Przy zaŻiżeniu, że nominalna stopa procentowa równa jest 6\% wyznaczyć wysokość raty kredytu w wysokości 100 000 PLN zaciągniętego na okres 5 lat, spacanego w miesięcznych ratach płatnych a> z dołu, b) z góry\\
+
+\newpage
+
+\section{Wyznaczanie części odsetkowej i części kapitałowej rat kredytu o równych ratach w arkuczu Excel}
+
+Do wyznaczenia cześci odsetkowej rat kredytu o równych ratach można zastosować wbudowaną formułę \textbf{IPMT}. Jej argumentami są: stopa procentowa, numer raty, liczba rat, wysokość kredytu, saldo początkowe i typ.\\
+
+\textbf{IPMT(stopa  procentowa ; numer raty ; liczba rat ; wysokość kredytu ; saldo początkowe ; 0 lub 1)}\\
+
+Do wyznaczenia części kapitałowej rat kredytu o równych ratach można zastosować formułę \textbf{PPMT}. Jej argumenty sa identyczne jak w IPMT.\\
+
+\subsection{Przykład 72}
+Przy założeniu, że nominalna stopa procentowa jest rowna 8\%, wyznaczyć wartość raty kredytu w wysokości 15 000 PLN zaciągniętego na okres 2 lat i spłacanego w równych miesięcznych ratach płatnych z dołu.Następnie wyznaczyć wartość części odsetkowej, części kapitałowej dziewiątej raty tego kredytu.\\
+
+PMT(8\%/12 ; 24 ; -15000) = 678,41\\
+
+IPMT(8\%/12 ; 9 ; 24 ; -15000) = 68,42\\
+
+PPMT(8\%/12 ; 9 ; 24 ; -15000) = 609,99\\
+
+\newpage
+
+\section{Wyznaczanie rat kredytu przy zmianie oprocentowania}
+
+Załóżmy, że w trakcie spłaty kredytu stopa procentowa uległa zmianie. Wówczas zachodzi konieczność wyznaczenia nowej wysokości pozostałych do spłaty rat kredytu. \\
+
+\subsection{Przykład 73}
+
+Kredyt w wysokości 50 000 PLN zaciągnięty na okres 4 lat był spłacany równymi ratami, płatnymi na koniec kolejnych kwartałów. Nominalna stopa procentowa, która początkowa była równa 5\%, od początku czwartego roku wzrosła do 6\%. Wyznaczyć wysokość pozostałych do spłaty rat kredytu.\\
+
+1. Najpierw obliczymy wysokośc raty przed podniesieniem stopy procentowej. Mamy: PMT(5\%/4 ; 16 ; -50000) = 3 467,34 PLN\\
+
+2. Następnie obliczamy, do jakiego poziomu zmaleje dług po trzech latach splaty rat.Stosujać FV lub wzór: FV(5\%/4 ; 12 ; 3467,34 ; -50000) = 13 446,53\
+
+3. Na kkoniec wyznaczymy wysokość rat po zianie stopy proentowej. W tym celu zastosujemy formułę PMT: PMT(6\%/4 ; 4 ; -13466,53) = 3488,63\\
+
+\newpage
+
+\section{Tablice trwania życia}
+
+\section{Przyszły czas życia}
+
+\textbf{Przyszły czas życia} x-latka, tzn. czas który pozostał mu do smierci, będziemy oznaczać przez $ T_x $. Oczywiście $ T_x $ na ogół nie jest dokładnie znana. Wobec tego bedziemy traktować $ T_x $ jako zmienną losową. Przyjmuje ona wyłącznie wartości nieujemne, choć nie koniecznie calkowite. Przez $ F_x $ oznaczmy dystrybuantę zmiennej $ T_x $ tzn.
+
+\begin{center}
+	\begin{equation}
+		F_x(t) = P(T_x <= t) dla t>= 0,
+	\end{equation}
+\end{center}\\
+
+gdzie P oznacza prawdopodobieństwo. Dalsze rozważania będziemy prwadzić przy staśłym założeniu, że dla kaz∂ego $ x >= 0 $, dystrybuanta $ F_x $ jest funkcją ciągłą.\\
+
+Wprowadzimy teraz oznaczenia które, podobnie jak notacja aktuarialna w dalszej części wykładu, są zgodne z Międzynarodowym Systemem Oznaczeń AKtuarialnych, obowiązujących od 1898 roku. Zgodnie z tym systemem:\\
+
+(i) $ _tq_x $ oznacza pradopodobieństwo śmierci x-latka przed upływem czastu t,\\
+
+\begin{center}
+	\begin{equation}
+		_tq_x = F_x(t)
+	\end{equation}
+\end{center}\\
+
+(ii) $ _tp_x $ oznacza pradopodobieństwo zdarzenia polegającego na tym, że x-latek przeżyje więcej niż czas t,\\
+
+\begin{center}
+	\begin{equation}
+		_tp_x = P(T_x > t) = 1 - F_x(t)
+	\end{equation}
+\end{center}\\
+
+(iii) $ _{s|t}q_x $ oznacza pradopodobieństwo zdarzenia polegającego na tym, że x-latek przeżyje jeszcze s lat, a nastepnie umrze przed upływem czasu t,
+
+\begin{center}
+	\begin{equation}
+		_{s|t}q_x = P(s < T_x <= s + t) = F_x(s + t) - F_x(s)
+	\end{equation}
+\end{center}\\
+
+(iv) $ _tp_{[x] + s} $ oznacza pradopodobieństwo warunkowe przeżycia przez x-latka kolejnych t lat pod warunkiem, że wcześniej przeżyje on s lat,
+
+\begin{center}
+	\begin{equation}
+		_tp_{[x] + s} = P(T_x > s + t|T_x > s)
+	\end{equation}
+\end{center}\\
+
+(v) $ _tq_{[x]+s} $ oznacza prowdopodobieństwo, że x-latek umrze przed upływem czasu s + t pod warunkie, że wczesniej przeżyje czas s,
+
+\begin{center}
+	\begin{equation}
+		_tq_{[x] + s} = P(T_x <= s + t|T_x > s)
+	\end{equation}
+\end{center}\\
+
+Ponadto, przyjmujemy konwencje, że jeżeli jakiś indeks jest równy 1, to pomijamy go w odpowiednim symbolu, np. zamiast $ _1p_x $ będziemy pisać $ p_x $.\\
+
+Można sprawdzić, że dla dowolnych $ x,s,t >= 0 $ zachodza równości
+
+\begin{center}
+	\begin{equation}
+		_{s|t}q_x = _sp_x - _{s+t}p_x = _{s+t}q_x - _sq_x
+	\end{equation}
+\end{center}\\
+
+Zauważmy, że dla dowolnych $ x,t >= 0  $ mamy $ _tp_x + _tq_x = 1 $\\
+
+Niech $ < x > $ oznacza część całkowitą liczby rzeczywistej x. Zmienną losową $ K_x = < T_x > $ nazywamy \textbf{obciętym przyszłym czasem życia} x-latka. Zmienna $ K_x $ przyjmuje wyłącznie wartości całkowite nieujemne i wyraża liczę ukończonych przez x-latka pełnych lat życia. \\
+
+\newpage
+
+\section{Hipoteza agregacji}
+
+W praktyce ubezpieczeniowej przyjmuje się, że dla kazdego $ x \epsilon N_0 $ dany jest rozkład zmiennej $ K_x $. Jednakże budowanie tablic dla każdego $  x \epsilon N_0$ byłoby w pkratyce bardzo kłopotliwe i w istocie nie zawsze sensowne.\\
+
+Wobec tego przyjmuje się tzw. hipotezę agregacji, które pozwala wyrazić każdy z rozkładów $ K_x $ za pomocą rozkładu zmiennej $ K_0 $. Mówimy mianowicie, że rodzina rozkładów $ (K_x : x \epsilon N_0) $ spełnia \textbf{hipotezę agregacji} jeżeli, dla dowolnych $ x,k \epsilon N_0 $ spełniających warunek $ P(K_x >= k) > 0 $, zachodzi równość
+
+\begin{center}
+	\begin{equation}
+		P(K_x >= k) = P(K_0 >= x + k|K_0 >= x), (HA)
+	\end{equation}
+\end{center}\\
 
 
 
