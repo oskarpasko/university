@@ -11,5 +11,5 @@ Repository for projects and other stuff
 
 ### Zaliczenia 
 10.01 - zaliczenie z puma </br>
-17.01 - kolos z solvera
-23.01 - zerówka z solvera
+17.01 - kolos z solvera </br>
+23.01 - zerówka z solvera </br>
