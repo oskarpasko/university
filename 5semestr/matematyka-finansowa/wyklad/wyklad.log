@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  13 DEC 2023 13:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  3 JAN 2024 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -45,13 +45,266 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (./wyklad.toc)
+ (./wyklad.toc
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 ...sline {section}{\numberline {1}Wstęp}{6}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 ...n}{\numberline {2.3.2}b) miesięczna}{9}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 ...umberline {6}Kapitalizacja ciągła}{17}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 ...umberline {7}Natężenie procentowe}{18}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1
+
+{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.44 ...krotnej kapitalizacji w ciągu roku}{21}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.53 ...skonto przy kapitalizacji ciągłej}{24}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.73 ...ności przy kapitalizacji ciągłej}{35}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 ...�wnoważność ciągów kapitałów}{38}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...rline {20}Wartość bieżąca netto}{42}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ...erline {21}Wewnętrzna stopa zwrotu}{45}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...ty z roczną kapitalizacją odsetek}{48}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.99 ...ty z roczną kapitalizacją odsetek}{48}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...ci początkowej w arkuszu MS Excel}{52}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (8.39128pt too wide) in paragraph at lines 107--107
+ [] []\OT1/cmr/bx/n/10 Wyznaczanie warto^^Ssci ko^^Sncowej i warto^^Ssci pocza-
+tkowej w arkuszu 
+ []
+
+[3]
+Overfull \hbox (7.16214pt too wide) in paragraph at lines 131--131
+ [] []\OT1/cmr/bx/n/10 Wyznaczanie wysoko^^Ssci raty kredytu o r^^Sownych rat-a
+ch w arkuszu 
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ... o równych ratach w arkuczu Excel}{64}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ... o równych ratach w arkuczu Excel}{64}{}
+                                                  %
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4])
 \tf@toc=\write3
 \openout3 = `wyklad.toc'.
 
- [1
-
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+ [5]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -260,10 +513,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
@@ -573,7 +822,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
+[6]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -921,7 +1170,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3]
+[7]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1309,7 +1558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
 
-[4]
+[8]
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
@@ -1573,7 +1822,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5]
+[9]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -1864,7 +2113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
-[6]
+[10]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -2180,7 +2429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
 
-[7]
+[11]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2588,7 +2837,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-[8]
+[12]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -2887,7 +3136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-[9]
+[13]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3180,7 +3429,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-[10]
+[14]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3764,7 +4013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
-[11]
+[15]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -3827,7 +4076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-[12]
+[16]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4006,7 +4255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 471--472
 
  []
 
-[13]
+[17]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4371,7 +4620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 515--516
 
  []
 
-[14]
+[18]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -4918,7 +5167,7 @@ Overfull \hbox (11.06276pt too wide) in paragraph at lines 565--566
 nikiem dyskon-tu-ja-cym\OT1/cmr/m/n/10 . Dyskonto
  []
 
-[15]
+[19]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -5029,7 +5278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 579--580
 
  []
 
-[16]
+[20]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5405,7 +5654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
-[17]
+[21]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -5726,7 +5975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 678--679
 
  []
 
-[18] [19]
+[22] [23]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6219,7 +6468,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
 
-[20]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 738--739
 
  []
@@ -6229,7 +6478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--741
 
  []
 
-[21]
+[25]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6469,7 +6718,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22]
+[26]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -6726,7 +6975,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-[23]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 820--821
 
  []
@@ -6822,7 +7071,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
  []
 
-[24]
+[28]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7212,7 +7461,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 873--874
 
  []
 
-[25] [26]
+[29] [30]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7491,7 +7740,7 @@ Overfull \hbox (5.76909pt too wide) in paragraph at lines 889--890
  Mo_zemy wyz-naczy^^Sc wysoko^^Ss^^Sc
  []
 
-[27]
+[31]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -7890,7 +8139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--928
 
  []
 
-[28]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 929--930
 
  []
@@ -8187,7 +8436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 958--959
 
  []
 
-[29]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 960--961
 
  []
@@ -8264,7 +8513,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[30]
+[34]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -8391,7 +8640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 994--995
 
  []
 
-[31]
+[35]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -8697,7 +8946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1036--1037
 
  []
 
-[32]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 1038--1039
 
  []
@@ -8866,7 +9115,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[33]
+[37]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -9484,7 +9733,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[34]
+[38]
 ! Double subscript.
 l.1102 		K_n_
              0 = \Sigma ^n_{i=0} \frac{x_i}{(1 + r)^i}
@@ -9696,7 +9945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
 
  []
 
-[35]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 1138--1139
 
  []
@@ -10073,7 +10322,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
 
  []
 
-[36]
+[40]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -10473,7 +10722,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1196--1197
 
  []
 
-[37]
+[41]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -10948,7 +11197,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
 
  []
 
-[38]
+[42]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -11309,7 +11558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1271--1272
 
  []
 
-[39]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 1273--1274
 
  []
@@ -11524,7 +11773,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
 
  []
 
-[40]
+[44]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -12018,7 +12267,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[41]
+[45]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -12319,7 +12568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 
  []
 
-[42]
+[46]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -12843,7 +13092,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[43]
+[47]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -13293,7 +13542,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[44]
+[48]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -13554,7 +13803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1493--1494
 
  []
 
-[45]
+[49]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -13983,7 +14232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1537--1538
 
  []
 
-[46]
+[50]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -14028,7 +14277,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[47]
+[51]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -14423,7 +14672,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1593--1594
 
  []
 
-[48]
+[52]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -14489,7 +14738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1605--1606
 
  []
 
-[49]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 1613--1614
 
  []
@@ -14938,7 +15187,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[50]
+[54]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -15297,7 +15546,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1695--1696
 
  []
 
-[51]
+[55]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -15319,7 +15568,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1701--1702
 
  []
 
-[52]
+[56]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -15950,7 +16199,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1742--1744
 
  []
 
-[53]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 1745--1746
 
  []
@@ -16393,7 +16642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1780--1781
 
  []
 
-[54]
+[58]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -16812,7 +17061,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[55]
+[59]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -17371,7 +17620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1845--1846
 
  []
 
-[56]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 1857--1858
 
  []
@@ -17649,7 +17898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1883--1884
 
  []
 
-[57]
+[61]
 Overfull \hbox (0.60596pt too wide) in paragraph at lines 1885--1886
 []$\OML/cmm/m/it/10 r[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 IRR\OT1/cmr/m/n/10 (
 \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 6000; 550; 550; 550; 550; 525; 525; 525; 52
@@ -17661,7 +17910,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1885--1886
 
  []
 
-[58]
+[62]
 Overfull \hbox (18.62128pt too wide) in paragraph at lines 1891--1891
 []\OT1/cmr/bx/n/14.4 Wyznaczanie wysoko^^Ssci raty kredytu o r^^Sownych
  []
@@ -17768,7 +18017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1898--1899
 
  []
 
-[59]
+[63]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -18034,7 +18283,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1917--1918
 
  []
 
-[60]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 1923--1924
 
  []
@@ -18138,7 +18387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1933--1934
 
  []
 
-[61]
+[65]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -18477,7 +18726,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[62]
+[66]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -18636,7 +18885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2005--2006
 
  []
 
-[63]
+[67]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -18799,7 +19048,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[64]
+[68]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -19014,7 +19263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2059--2060
 
  []
 
-[65]
+[69]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -19655,7 +19904,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2105--2106
 
  []
 
-[66]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 2107--2108
 
  []
@@ -19780,31 +20029,1681 @@ Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
 
  []
 
-)
-Runaway argument?
-{l_{65}{l_{20}} + 0,25 \cdot \frac {l_{66}}{l_{20}}) = 0,0410 $\\ \par \ETC.
-! File ended while scanning use of \frac .
+
+Underfull \hbox (badness 10000) in paragraph at lines 2133--2134
+
+ []
+
+[71]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2139 ...owym świadczeniem dodatkowym jest obję
+                                                  cie ochroną ubezpieczenio...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2139 ...zeniem dodatkowym jest objęcie ochroną
+                                                   ubezpieczeniową utraty z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2139 ... jest objęcie ochroną ubezpieczeniową
+                                                   utraty zdolności do prac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (8.36163pt too wide) in paragraph at lines 2139--2140
+\OT1/cmr/m/n/10 - przed-miotem jest ^^Ssmier^^Sc ubez-piec-zonego w trak-cie tr
+-wa-nia okresu ubez-pieczenia..
+ []
+
+
+Overfull \hbox (7.6673pt too wide) in paragraph at lines 2139--2140
+\OT1/cmr/m/n/10 Ty-powym ^^Sswiadczeniem do-datkowym jest ob-je-cie ochrona ube
+z-pieczeniowa utraty
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2139--2140
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2144 ...nych dochodów przez okres umożliwiają
+                                                  cy rodzinie zmarłego znal...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2145 	\item zapewnienie spłaty zobowią
+                                          zań, które stanowiłyby nadmiern...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2147 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2148 Wyróżnia się
+                       dwa warianty ubezpieczenia na życie:\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2148--2149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2150--2151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2152--2153
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2154 ... sumie ubezpieczenie lub przy obniżają
+                                                  cą się sumą ubezpieczen...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2154 ...mie ubezpieczenie lub przy obniżającą
+                                                   się sumą ubezpieczenia,...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2154 ...bezpieczenie lub przy obniżającą się
+                                                   sumą ubezpieczenia, rów...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2154 ...czenie lub przy obniżającą się sumą
+                                                   ubezpieczenia, równą ni...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2154 ...jącą się sumą ubezpieczenia, równą
+                                                   niespłaconej kwocie kred...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (14.66725pt too wide) in paragraph at lines 2154--2155
+\OT1/cmr/m/n/10 sumie ubez-piecze-nie lub przy obni_zajaca sie suma ubez-piecze
+nia, r^^Sowna niesp laconej
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2154--2155
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ... życie} w kazdym przypadku kończy się
+                                                   wypłatą świadczenie z ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ... kazdym przypadku kończy się wypłatą
+                                                   świadczenie z tytułu ś...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...a albo do ustalonego czasu (np. do osią
+                                                  fnięcia przez ubezpieczon...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...o do ustalonego czasu (np. do osiąfnię
+                                                  cia przez ubezpieczonego w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...y stałej składce, albo przy wzrastają
+                                                  cej skłądce (i wzrastaj�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...składce, albo przy wzrastającej skłą
+                                                  dce (i wzrastającej odpow...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...zy wzrastającej skłądce (i wzrastają
+                                                  cej odpowiednio sumie ubez...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...onym okresie trwania umowy ubezpiezcają
+                                                  cy ma prawo zaprzestać ub...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2156 ...przestać ubezpieczenia i odzyskać czę
+                                                  ść składki. Ubezpieczen...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2160 ...est ubezpieczeniem o charakterze oszczę
+                                                  dnościwym. Suma ubezpiecz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2160 ...bezpieczenie ustaje, a wpłacone pienią
+                                                  dze przepadają. Jest to t...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2160 ...taje, a wpłacone pieniądze przepadają
+                                                  . Jest to typowe ubezpiecz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2160 ...w postaci renty. Ubezpieczenie to wystę
+                                                  puje samodzielnie bardzo r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (17.94498pt too wide) in paragraph at lines 2160--2161
+\OT1/cmr/m/n/10 Jest to ty-powe ubez-piecze-nie dla os^^Sob samot-nych nie zain
+-tere-sowanych ^^Sswiadczeniom
+ []
+
+[72]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...zabezpieczenia finansowego umożliwiają
+                                                  cego utrzymanie poziomu zy...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...wa ubepzieczenia mieszanego kończy się
+                                                   wypłaceniem świadczenia...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...go wieku z umowy. Składki opłacane są
+                                                   przez cały okres ubezpie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...owo lub w formie renty. Jako opja wystę
+                                                  puje niekiedy objęcie och...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...nty. Jako opja występuje niekiedy obję
+                                                  cie ochroną ubezpieczenia...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...ja występuje niekiedy objęcie ochroną
+                                                   ubezpieczenia trwałej ut...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2164 ...esza pobieranie składek nie przerywają
+                                                  c ochrony ubezpieczonego.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (15.0562pt too wide) in paragraph at lines 2164--2165
+\OT1/cmr/m/n/10 Jako opja wys-tepuje niekiedy ob-je-cie ochrona ubez-pieczenia 
+trwa lej utraty zdolno^^Ssci
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2168 Wyróżnia się
+                       dwa podstawowe rodzaje ubezpieceń rentowych.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2168--2169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2170--2171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2172--2173
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2174 ...ona w całości z góry, przed rozpoczę
+                                                  ciem wypłacania świadcze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2174 ...zaju renty jest zakupienie jej za kwotę
+                                                    uzyskaną przez ubezpiec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2174 ...jest zakupienie jej za kwotę  uzyskaną
+                                                   przez ubezpieczonego w wi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2174 ...m w przypadku dożycia do końca obowią
+                                                  zywania ubezpieczenia mies...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2174 ...ntobiorcy. Pozwala starszym osobom zwię
+                                                  kszyć dochody przy jednoc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2174--2175
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...j} wypłata świadczenia rozpoczyna się
+                                                   po okresie odroczenia. Sk...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...się po okresie odroczenia. Składki są
+                                                   opłacane regularnie prze...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...zez cały okres odroczenia lub jego czę
+                                                  ść. Możliwy jest wykup ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ... nie jest zaprożony i może być podję
+                                                  ty wraz z odsetkami przez ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...dsetkami przez ubezpieczonego (po potrą
+                                                  ceniu kosztów administrac...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...istracyjnych), ale tylko przed rozpoczę
+                                                  ciem płatności renty. Po...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...częciem płatności renty. Po rozpoczę
+                                                  ciu płatności zarówno j...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...k ubezpieczeniowy jak i zakład ponoszą
+                                                   ryzyko wynikające z kró...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ... jak i zakład ponoszą ryzyko wynikają
+                                                  ce z krótszego lub dłuż...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...go (i pobierania renty). Niekiedy wystę
+                                                  puje połączenie renty ż...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...rania renty). Niekiedy występuje połą
+                                                  czenie renty życiowej z r...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...je połączenie renty życiowej z rentą
+                                                   pewną, płatną przez us...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...ączenie renty życiowej z rentą pewną
+                                                  , płatną przez ustalony ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...enty życiowej z rentą pewną, płatną
+                                                   przez ustalony okres, wte...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...i ubezpieczonego. Ma to na celu uniknię
+                                                  cie zzbyt dużych strat os...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...at osoby ubezpieczonej w przypadku wyją
+                                                  tku wczesnej śmierci, nie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...zesnej śmierci, niedługo po rpozpoczę
+                                                  ciu płatności renty. Ube...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...ności renty. Ubezpieczenie rentowe czę
+                                                  sto połączone jest z inn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2176 ...ty. Ubezpieczenie rentowe często połą
+                                                  czone jest z innymi typami...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[73]
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 Zgodnie z umową
+                        ubezpieczeniową, ubezpieczony zobowiązany jest zap...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 Zgodnie z umową ubezpieczeniową
+                                        , ubezpieczony zobowiązany jest zap...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ... ubezpieczeniową, ubezpieczony zobowią
+                                                  zany jest zapłacić skła...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...y zobowiązany jest zapłacić składkę
+                                                   ubezpieczeniową jednoraz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...st zapłacić składkę ubezpieczeniową
+                                                   jednorazowo w chwili zawa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...ematycznie w trakcie jej trwania. Skłą
+                                                  dka powinna być sklalkulo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ... mu określony zysk. W tym rozdziale bę
+                                                  dziemy rozważać jednoraz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ... będziemy rozważać jednorazowe skłą
+                                                  dki netto tzn. takie skł�...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...razowe skłądki netto tzn. takie skłą
+                                                  dki które sa płacone jed...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...zowo w momencie zawierania umowy i mają
+                                                   pokryć środki na wypła...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...owy i mają pokryć środki na wypłatę
+                                                   sumy ubezpieczenia. Będz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...dki na wypłatę sumy ubezpieczenia. Bę
+                                                  dziemy przy tym zakładać...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...suma ubezpieczenia wynosi 1, zaś stopę
+                                                   procentową jest stała i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...czenia wynosi 1, zaś stopę procentową
+                                                   jest stała i rówmna $ i...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2180 ...iedniej polisy. Ponadto ograniczymy się
+                                                   do uvezpieczeń płatnych...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2180--2181
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ...rtość ubezpieczenia} do kwota, którą
+                                                   ubezpieczyciel powinien z...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ... umowy aby uzyskać środki na wypłatę
+                                                   sumy ubezpieczenia. Obecn...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ... Obecna wartośc ubezpieczenia jest wię
+                                                  c zmienną losową, gdyż ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ...rtośc ubezpieczenia jest więc zmienną
+                                                   losową, gdyż moment ewe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ...bezpieczenia jest więc zmienną losową
+                                                  , gdyż moment ewentualnej...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ...ili zawarcia umowy. Oznaczmy te zmienną
+                                                   losową przez $ Z $. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2182 ...rcia umowy. Oznaczmy te zmienną losową
+                                                   przez $ Z $. \\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (2.27832pt too wide) in paragraph at lines 2182--2183
+\OT1/cmr/m/n/10 kwota, kt^^Sora ubez-pieczy-ciel powinien zain-west-owa^^Sc w m
+o-men-cie za-war-cia umowy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2182--2183
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2184 \textbf{Jednorazową składką netto}
+                                             (w skrócie JSN) nazywa się wa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2184 \textbf{Jednorazową składką netto}
+                                             (w skrócie JSN) nazywa się wa...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2184 ...dką netto} (w skrócie JSN) nazywa się
+                                                   wartość oczekiwaną zmi...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2184 ...e JSN) nazywa się wartość oczekiwaną
+                                                   zmiennej losowej $ Z $ tz...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2184 ...$ tzn. \textbf{JSN=E(Z)}. W dalszym cią
+                                                  gu yznaczymy jednorazowe s...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2188 Zmienna losowa $ Z $ a nastę
+                                    pujący rozkład (tabelka z rozkładem w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2188 Zmienna losowa $ Z $ a następują
+                                         cy rozkład (tabelka z rozkładem w...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
 <inserted text> 
-                \par 
-<*> wyklad.tex
-              
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+                $
+l.2188 ... rozkładem w pliku Excel o nazwie "JSN_
+                                                  ub_na_cale_zycie").\\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-! Emergency stop.
-<*> wyklad.tex
-              
-*** (job aborted, no legal \end found)
+! Missing $ inserted.
+<inserted text> 
+                $
+l.2189 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
- 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2188--2189
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 Zgodnie z Mię
+                     dzynarodowym Systemem Oznaczeń Aktuarialnych, JSN ubez...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 ...e życie zawartego przez z-latka z sumą
+                                                   1 płatną na koniec roku...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 ...wartego przez z-latka z sumą 1 płatną
+                                                   na koniec roku smierci ub...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 ...roku smierci ubezpieczonego oznacza się
+                                                   przez \textbf{$ A_z $} Wo...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 ...rzez \textbf{$ A_z $} Wobec tego uwzglę
+                                                  dniając (93) otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2190 ...extbf{$ A_z $} Wobec tego uwzględniają
+                                                  c (93) otrzymujemy:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2197 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2198 Warto zwrócić uwagę
+                             , że jeśli założymy istnienie maksymalnego ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2202 ...SN ubezpieczenia na całe życie z sumą
+                                                   ubezpiczenia równą 100 ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2202 ...ałe życie z sumą ubezpiczenia równą
+                                                   100 000 PN. Przyjmiemy ż...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2202 ... \% zaś ubezpieczonym jest 50-latek mę
+                                                  żczyzna.
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[74]
+Underfull \hbox (badness 10000) in paragraph at lines 2204--2205
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2206--2207
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2210 Przyjmują
+                 c że okres ubezpieczenia wynosi n-lat, otrzymujemy następ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2210 ...eczenia wynosi n-lat, otrzymujemy nastę
+                                                  pujący rozkład zmiennej ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2210 ...ia wynosi n-lat, otrzymujemy następują
+                                                  cy rozkład zmiennej losow...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (7.58401pt too wide) in paragraph at lines 2210--2211
+\OT1/cmr/m/n/10 Przyjmujac _ze okres ubez-pieczenia wynosi n-lat, otrzy-mu-jemy
+ nastepu-jacy rozk lad
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2210--2211
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2212 ...żucie zawieranego przez x-latka z sumą
+                                                   1, płatną na koniec rok...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2212 ...ranego przez x-latka z sumą 1, płatną
+                                                   na koniec roku śmierci u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2212 ...roku śmierci ubezpieczonego używa się
+                                                   symbolu $ A^1_{x:n} $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2212--2213
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2219 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2222 ...-letniego ubezpieczenie na zycie z sumą
+                                                   ubezpieczenia równą 250...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2222 ...e na zycie z sumą ubezpieczenia równą
+                                                   250 000 PLN. Przyjmiemy, ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2222 ... \% a ubezoieczonym jest a) 35-letni mę
+                                                  żczyzna, b) 45-letnia kob...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (3.22281pt too wide) in paragraph at lines 2222--2223
+\OT1/cmr/m/n/10 250 000 PLN. Przyjmiemy, _ze i = 5 % a ube-zoiec-zonym jest a) 
+35-letni me_zczyzna,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2222--2223
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2224--2225
+
+ []
+
+[75] (./wyklad.aux) ) 
 Here is how much of TeX's memory you used:
- 425 strings out of 478268
- 7663 string characters out of 5846346
- 307885 words of memory out of 5000000
- 18712 multiletter control sequences out of 15000+600000
- 470777 words of font info for 33 fonts, out of 8000000 for 9000
+ 430 strings out of 478268
+ 7721 string characters out of 5846346
+ 309885 words of memory out of 5000000
+ 18714 multiletter control sequences out of 15000+600000
+ 471112 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,38p,1143b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-sup
+er/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on wyklad.pdf (75 pages, 306517 bytes).
+PDF statistics:
+ 314 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
