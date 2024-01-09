@@ -13,3 +13,5 @@ Repository for projects and other stuff
 10.01 - zaliczenie z puma </br>
 17.01 - kolos z solvera </br>
 23.01 - zerówka z solvera </br>
+30.01 10:00 - egzamin matma </br>
+19.02 10:00 - poprakwowy egzamin matma
