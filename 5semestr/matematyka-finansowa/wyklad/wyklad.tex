@@ -2013,12 +2013,223 @@ W praktyce ubezpieczeniowej przyjmuje się, że dla kazdego $ x \epsilon N_0 $ d
 Wobec tego przyjmuje się tzw. hipotezę agregacji, które pozwala wyrazić każdy z rozkładów $ K_x $ za pomocą rozkładu zmiennej $ K_0 $. Mówimy mianowicie, że rodzina rozkładów $ (K_x : x \epsilon N_0) $ spełnia \textbf{hipotezę agregacji} jeżeli, dla dowolnych $ x,k \epsilon N_0 $ spełniających warunek $ P(K_x >= k) > 0 $, zachodzi równość
 
 \begin{center}
-	\begin{equation}
 		P(K_x >= k) = P(K_0 >= x + k|K_0 >= x), (HA)
+\end{center}\\
+
+Przy założeniu hipotzy agregacji, dla dowolnych $ x >= 0 i k \epsilon N_0 $ zachodzi równość
+
+\begin{center}
+	\begin{equation}
+		P(K_x = k) = _kP_x\cdot q_{x+k}
 	\end{equation}
 \end{center}\\
 
+\newpage
 
+\section{Hipotezja jednostajności}
+
+Zakladając hipotezę agregacji możemy wyznaczyć wartośi $ _nP_x $ dla wszystkich $ n, x \epsilon N_0 $, mając dae jedynie wartości $ _nP_0 $. W celu opisania zachowania się funkcji $ t -> t p_x dla x \epsilon N_0 $, między punktami $ t = 0,1.....,$, stosuje się tzw. \textbf{hipoetzy interpolacyjne}. Omówimy jedynie hipotezę jednostajności.\\
+
+Mówimy, że rozkład $ T_x $ spełnia \textbf{hipotezę jednostajności} jeżeli, dla dowolnych $ n \epsilon N_0 $ oraz $ \lambda \epsilon [0,1) $ zachodzi równość\\
+
+\begin{center}
+	\begin{equation}
+		_{n+\lambda}p_x = (1-\lambda)__np_x + \lambda_{n+_1p_x}, (HU)
+	\end{equation}
+\end{center}\\
+
+Zauważmy, że (HU) oznacza, że dla każdego $ x \epsilon N_0 $ funckja $ t->_t p_x $ jest iniowa na każdym z przedziałów $ [n, n+1] $, gdzie $ n \epsilon n_0 $//
+
+ \begin{center}
+	\begin{equation}
+		_{\lambda}p_x = 1 - \lambda q_x
+	\end{equation}
+\end{center}\\
+
+\begin{center}
+	\begin{equation}
+		_{\lambda}q_x = \lambda q_x
+	\end{equation}
+\end{center}\\
+
+Istotnie ustalamy $ x \epsilon N_0 $ i $ \lambda \epsilon [0,1) $. Stosując (HU) z $ n=0 $ otrzymjemy\
+
+$ _{\lambda}p_x = (1 - \lambda) + \lambda p_x = 1 - \lambda (1 - p_x) = 1 - \lambda q_x $\\
+
+co dowodzi (94).\\
+
+\newpage
+
+\section{Tablice trwania życia}
+
+Tablica trwania życia jest powszechnie stosowaną metodą zestawienia informacji dotyczących rozkładu czasu życia. W naszych rozważaniach ograniczymy sie do tablic trwania życia związanych ze zmienną losową $ K_0 $ tzn. z obciętym przyszłym czasem życia 0-latka.\\
+
+Przez \textbf{tablicę trwania życia} (w skrócie TTŻ) zmiennej $ K_0 $ będziemy rozumieć ciąg liczb nieujemnych $ (l_k : k \epsilon N_0) $ spełniających zależność: 
+
+\begin{center}
+	\begin{equation}
+		P(K_0 >= k) = \frac{l_k}{l_0, dla k \epsilon N_0}
+	\end{equation}
+\end{center}\\
+
+Liczby $ l_k $ mają następującą interpretację. Liczba $ l_0 $ jest pozcątkową liczebnością generacji (w praktyce najczęściej przyjmuje się $ l_0 = 100000 $). Dla każdego $ k >= l $. $ l_k $ wyraża średnią liczbę członków generacji, dożywających powyżej wieku k. Z definicji TTŻ wynika, że jeżeli $ l_k = 0 $ dla pewnwego $ k \epsilon N_0 $ to dla każdego $ n \epsilon N_0 $ takiego że $ n >= k $, zachodzi $ l_n = 0 $.Zwykle w TTŻ zakłada się istnienie maksymalnego wieku $ \omega = min{k \epsilon N_0 : l_k = 0} $. \\
+
+Okazuje się, że mając daną tablicę trwania życia związaną ze zmienna $ K_0 $ i zakładając hipotezę agregacji, można zbudować tablice trwania życia dla wszystkich $ K_x $, gdzie $ x \epsilon N_0 $. Są to tzw. \textbf{tablice zagregowane}. Opierając się one na równości
+
+\begin{center}
+	\begin{equation}
+		_kp_x = P(K_x >= k) = \frac{l_x + k}{l_x}, dla k \epsilon N_0
+	\end{equation}
+\end{center}\\
+
+Z równości (97) wynika, że dla kazdego $ x \epsilon N $ takiego, że $ l_x > 0 $zachodzą równości:
+
+\begin{center}
+	\begin{equation}
+		p_x = \frac{l_{x+1}}{l_x}
+	\end{equation}
+\end{center}\\
+
+oraz\\
+
+\begin{center}
+	\begin{equation}
+		q_x = 1 - p_x = \frac{l_x - l_{x+1}}{l_x}
+	\end{equation}
+\end{center}\\
+
+Zwykle, poza wartościami $ lx, x = 0,1,...., \omega - 1 $ w tablicach zamieszczone są inne wielkości które można otrzymać za pomoca $ l_x $. Są to np. $ p_x, q_x $ czy też średnia liczba osób z początkowej generacji, które zmarły w wieku x lat, tzn. $ d_x := l_x - l_{x+1} $. \\
+
+\subsection{Przykład 74}
+
+Obliczymy prawdopodobieństwo, że 50-letnia kobieta przeżyje co najmniej 5 lat. tzn $ P(K_{50} >= 5) $\\
+
+wzór (97)\\
+
+$ P(K_{50} >= 5) = _5p_{50} = \frac{l_{55}}{l_{50}}} = 0,9841 $
+
+\subsection{Przykład 75}
+
+Obliczymy prawdopodobieństwo że 85-letni mężczyzna przeżyje co najmniej 0,75 roku.\\
+
+Korzystając z hipotezy jednostajności (94)\\
+
+$ P(T_{85} >= 0,75) = _{0,75}p_{85} = 1 - 0,75 \cdot q_{85} = 0,9145 $
+
+\subsection{Przykład 76}
+
+Obliczymy prawdopodobieństwo że 50-letni mężczyzna przeżyje jeszcze co najmniej 2,5 roku.\\
+
+stosujemy (HU)\\
+
+$ P(T_{50} >= 2,5) = _{2,5}p_{50} = 0,5 \cdot _2p_{50} + 0,5 \cdot _3p_{50} = 0,5\frac{l_52 + l_{53}}{2 \cdot l_{50}} = 0,9815 $
+
+\subsection{Przykład 77}
+
+Obliczymy prawdopodobieństwo, że 20-letnia kobieta przeżyje jeszcze co najmniej 40 lat ale nie więcej niż 45,25 roku.\\
+
+tzn, $ P(40 < T_{20} <= 45,25) $, zatem stosując hipoteżę (HU) i (92) otrzymujemy:\\
+
+$ P(40 < T_{20} <= 45,25) = _{40|5,25}q_{20} = _{40}p_{20} - _{45,25}p_{20} = _{40}p_{20} - ((1 - 0,25)_{45}p_{20} + 0,25 \cdot _{46}p_{20}) = \frac{l_{60}}{l_{20}} - (0,75\frac{l_{65}}{l_{20}} + 0,25 \cdot \frac{l_{66}}{l_{20}}) = 0,0410 $\\
+
+\newpage
+
+\section{Podstawowe rodzaje ubezpieczeń życiowych}
+
+\subsection{Ubezpieczenie na życie} - przedmiotem jest śmierć ubezpieczonego w trakcie trwania okresu ubezpieczenia.. Typowym świadczeniem dodatkowym jest objęcie ochroną ubezpieczeniową utraty zdolności do pracy lub wypłata podwyższonej sumy ubezpieczenia, gdy smierć nastapiła wskutek wypadku.\\
+
+Celem tego ubezpieczenia jest:
+
+\begin{itemize}
+	\item zrekopensowanie utraconych dochodów przez okres umożliwiający rodzinie zmarłego znalezienie nowych źródeł utrzymania;
+	\item zapewnienie spłaty zobowiązań, które stanowiłyby nadmierny wydatek dla rodziny zmarłego;
+\end{itemize}\\
+
+Wyróżnia się dwa warianty ubezpieczenia na życie:\\
+
+1. Ubezpieczenie terminowe\\
+
+2. Ubezpieczenie na całe życie\\
+
+\textbf{Ubezpieczenie terminowe na życie} może być prowadzone przy stałej sumie ubezpieczenie lub przy obniżającą się sumą ubezpieczenia, równą niespłaconej kwocie kredytu. Składka wpłacana jest jednorazowo lub okresowo, przeważnie w równych ratach. Jest to ubezpieczenie o charakterze typowo ochronnym.\\
+
+\textbf{Ubezpieczenie na całe życie} w kazdym przypadku kończy się wypłatą świadczenie z tytułu śmierci ubezpieczonego. Składka opłacana jest okresowo do końca trwania okresu ubepzieczenia albo do ustalonego czasu (np. do osiąfnięcia przez ubezpieczonego wieku emerytalnego). Ubezpieczenie jest [rowadzone albo przy stałej składce, albo przy wzrastającej skłądce (i wzrastającej odpowiednio sumie ubezpieczenia) w celu zneutralizowania negatywnego wpływu inflacji i utrzymania realnej wartości sumy ubezpieczenia na stałym poziomie. W zależności od zapisów umowy, po ustalonym okresie trwania umowy ubezpiezcający ma prawo zaprzestać ubezpieczenia i odzyskać część składki. Ubezpieczenie może być również zamienione na bezskładkowe.
+
+\section{Ubezpieczenie na dożycie}
+
+Ubezpieczenie na dożycie jest ubezpieczeniem o charakterze oszczędnościwym. Suma ubezpieczeniowa jest wypłacana w przypadku dożycia przez ubezpieczonego d okońca okresu ubezpieczenia. W przypadku śmierci ubezpieczonego przed końcem okresu ubezpieczenie ustaje, a wpłacone pieniądze przepadają. Jest to typowe ubezpieczenie dla osób samotnych nie zainteresowanych świadczeniom w przypadku śmierci. Świadczenie jest wypłacane jednorazowe lub w postaci renty. Ubezpieczenie to występuje samodzielnie bardzo rzadko.
+
+\section{Ubezpieczenie mieszane (na życie i dożycie)}
+
+Celem ubezpieczenia mieszanego jest stworzenie ubezpieczonemu zabezpieczenia finansowego umożliwiającego utrzymanie poziomu zycia w wieku emerytalnym, przy jednoczensym zapewnieniu wsparcia rodzinie ubezpieczonego w przypadku jego śmierci w okresie ubezpieczenia. Każda umowa ubepzieczenia mieszanego kończy się wypłaceniem świadczenia w przypadku śmierci ubezpieczonego jak i przeżycia okreslonego wieku z umowy. Składki opłacane są przez cały okres ubezpieczenia, zaś świadczenia wypłacane jest jednorazowo lub w formie renty. Jako opja występuje niekiedy objęcie ochroną ubezpieczenia trwałej utraty zdolności do pracy zarobkowej. W takim przypadku ubezpieczycziel zawiesza pobieranie składek nie przerywając ochrony ubezpieczonego.
+
+\section{Ubezpieczenie rentowe}
+
+Wyróżnia się dwa podstawowe rodzaje ubezpieceń rentowych.\\
+
+1. Renty płatne natychmiast\\
+
+2. Renty odroczone\\
+
+W przypadku \textbf{renty płatnej natychmiast} pierwsza wypłata dokonywana jest bezpośrednio po zakupieniu renty, zaś składka jest opłacona w całości z góry, przed rozpoczęciem wypłacania świadczenia. Typoiwym zastosowaniem takiego rodzaju renty jest zakupienie jej za kwotę  uzyskaną przez ubezpieczonego w wieku emerytalnym w przypadku dożycia do końca obowiązywania ubezpieczenia mieszanego. Innym przykładem jest zakupienie renty płatnej natychmiast w zamian za przeniesienie na ubezpieczyciela prawa własności domu jamowanego przez przyszłego rentobiorcy. Pozwala starszym osobom zwiększyć dochody przy jednoczesnym zachowaniu prawa do dożywotniego zamieszkania.\\
+
+W przypadku \textbf{renty odroczonej} wypłata świadczenia rozpoczyna się po okresie odroczenia. Składki są opłacane regularnie przez cały okres odroczenia lub jego część. Możliwy jest wykup polisy lub przekształcenie w ubezpieczenie bezskładkowe. Wpłacony kapitał nie jest zaprożony i może być podjęty wraz z odsetkami przez ubezpieczonego (po potrąceniu kosztów administracyjnych), ale tylko przed rozpoczęciem płatności renty. Po rozpoczęciu płatności zarówno jak ubezpieczeniowy jak i zakład ponoszą ryzyko wynikające z krótszego lub dłuższego życia ubezpieczonego (i pobierania renty). Niekiedy występuje połączenie renty życiowej z rentą pewną, płatną przez ustalony okres, wtedy niezależnie od śmierci ubezpieczonego. Ma to na celu uniknięcie zzbyt dużych strat osoby ubezpieczonej w przypadku wyjątku wczesnej śmierci, niedługo po rpozpoczęciu płatności renty. Ubezpieczenie rentowe często połączone jest z innymi typami ubezpieczeń (no. mieszanym), gdzie wypłata może być dokonywana w formie renty.
+
+\section{Jednorazowa składka netto}
+
+Zgodnie z umową ubezpieczeniową, ubezpieczony zobowiązany jest zapłacić składkę ubezpieczeniową jednorazowo w chwili zawarcia umowy albo systematycznie w trakcie jej trwania. Skłądka powinna być sklalkulowana w ten sposób, aby też pozwolić na pokrycie kosztów działalności ubezpieczyciela i dać mu określony zysk. W tym rozdziale będziemy rozważać jednorazowe skłądki netto tzn. takie skłądki które sa płacone jednorazowo w momencie zawierania umowy i mają pokryć środki na wypłatę sumy ubezpieczenia. Będziemy przy tym zakładać że suma ubezpieczenia wynosi 1, zaś stopę procentową jest stała i rówmna $ i $. Jednorazowe składki netto dla ubezpieczeń z wyższymy sumami obliczamu jako wielokrotności składki odpowiedniej polisy. Ponadto ograniczymy się do uvezpieczeń płatnych na koniec roku śmierci ubezpieczonego.\\
+
+W przypadku ubezpieczeń żīciowych \textbf{obecna wartość ubezpieczenia} do kwota, którą ubezpieczyciel powinien zainwestować w momencie zawarcia umowy aby uzyskać środki na wypłatę sumy ubezpieczenia. Obecna wartośc ubezpieczenia jest więc zmienną losową, gdyż moment ewentualnej wypłaty nie jest znany w chwili zawarcia umowy. Oznaczmy te zmienną losową przez $ Z $. \\
+
+\textbf{Jednorazową składką netto} (w skrócie JSN) nazywa się wartość oczekiwaną zmiennej losowej $ Z $ tzn. \textbf{JSN=E(Z)}. W dalszym ciągu yznaczymy jednorazowe składki netto dla kilku wybranych obezpieczeń i rent życiowych.
+
+\subsection{Ubezpieczenie na całe życie}
+
+Zmienna losowa $ Z $ a następujący rozkład (tabelka z rozkładem w pliku Excel o nazwie "JSN_ub_na_cale_zycie").\\
+
+Zgodnie z Międzynarodowym Systemem Oznaczeń Aktuarialnych, JSN ubezpieczenia na całe życie zawartego przez z-latka z sumą 1 płatną na koniec roku smierci ubezpieczonego oznacza się przez \textbf{$ A_z $} Wobec tego uwzględniając (93) otrzymujemy:
+
+\begin{center}
+	\begin{equation}
+		A_x = \Sigma ^{\infty}_i=0 v^{k+1} _kp_x q_{x+k}
+	\end{equation}
+\end{center}\\
+
+Warto zwrócić uwagę, że jeśli założymy istnienie maksymalnego wieku to w sumie po prawej stronie (100) jest tylko pozorna nieskończoność.
+
+\subsubsection{Przykład 78}
+
+Obliczymy JSN ubezpieczenia na całe życie z sumą ubezpiczenia równą 100 000 PN. Przyjmiemy że roczna stop aprocentowa i = 5 \% zaś ubezpieczonym jest 50-latek mężczyzna.
+
+Zgodnie z (100) mamy:\\
+
+$ A_{50} = \Sigma ^{\inf}_{k=0}(\frac{1}{1,05})^{k+1} _kp_{50}q_{50+k} = \Sigma ^{50}_{k=0}(\frac{1}{1,05})^{k+1} \frac{l_{50}+k}{l_{50}}1_{50+k} =  31 120,27 PLN $\\
+
+\subsection{Ubezpieczenie terminowe na życie}
+
+Przyjmując że okres ubezpieczenia wynosi n-lat, otrzymujemy następujący rozkład zmiennej losowej Z.\\
+
+Na oznaczenie JSN n-letniego ubezpiezcenia terminowego na żucie zawieranego przez x-latka z sumą 1, płatną na koniec roku śmierci ubezpieczonego używa się symbolu $ A^1_{x:n \rceil} $\\
+
+\begin{center}
+	\begin{equation}
+		A^1_{}x:n \rceil = \Sigma ^{n}_i=0 v^{k+1} _kp_x q_{x+k}
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 79}
+
+Obliczymy JSN 10-letniego ubezpieczenie na zycie z sumą ubezpieczenia równą 250 000 PLN. Przyjmiemy, że i = 5 \% a ubezoieczonym jest a) 35-letni mężczyzna, b) 45-letnia kobieta\\
+
+\textbf{a)}\\
+
+$ A^1_{35:10 \rceil} = $\\
+
+\textbf{b)}\\
+
+$ A^1_{45:10 \rceil} =  $\\
+
+\subsection{Ubezpieczenie na dożycie}
 
 
 \end{document}
