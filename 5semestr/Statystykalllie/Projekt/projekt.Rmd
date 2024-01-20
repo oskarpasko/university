@@ -1,0 +1,340 @@
+---
+title: "Projekt"
+author: "Oskar Pasko"
+date: "2024-01-13"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Przygotowanie danych
+
+## Importowanie bibliotek
+
+```{r}
+library(readxl)
+library(MASS)
+library(ROCR)
+library(klaR)
+library(ipred)
+library(e1071)
+library(maptree)
+library(rpart)
+library(party)
+library(class)
+library(nnet)
+
+```
+
+## Importowanie danych
+```{r}
+data <- read_excel("baza.xlsx")
+head(data, n=20)
+attach(data)
+```
+
+## Przekształcanie danych 
+
+### Tworzenie ramki danych
+```{r}
+dataFrame<-data.frame(data)
+head(dataFrame, n=20)
+```
+
+### Usuwanie braków danych 
+```{r}
+dataClear<-na.omit(data.frame(dataFrame))
+head(dataClear, n=20)
+```
+
+### Tworzymy bazę ilościowych i naszej rozróżnialnej
+```{r}
+dataFrame<-data.frame(dataClear[,1:6],dataClear[9])
+head(dataFrame, n=20)
+
+```
+
+### Sprawdzamy ilości kolumn i wierszy
+```{r}
+cols<-ncol(dataFrame)
+rows<-nrow(dataFrame)
+```
+
+#### Kolumny
+```{r}
+cols
+```
+
+#### Wiersze
+```{r}
+rows
+```
+
+## Skalowanie wyników
+### Metoda Gaussa - dla KNN
+```{r}
+dataFrameScaled<-scale(dataFrame[,1:(cols-1)])
+head(dataFrameScaled)
+dataFrameScaled2<-cbind(dataFrameScaled, dataClear[9])
+
+head(dataFrameScaled2, n=20)
+```
+
+### Pakiet Mass
+
+Nasz podział - np. wybieramy losowo połowę wyników dla KNN
+
+```{r}
+indexes<-sample(1:nrow(dataFrameScaled2), nrow(dataFrameScaled2)/2, replace = FALSE)
+```
+
+p-procent do wyboru
+
+```{r}
+ZU = dataFrameScaled2[indexes,]
+head(ZU, n=20)
+```
+
+```{r}
+ZT = dataFrameScaled2[-indexes,]
+head(ZT, n=20)
+```
+
+## Metoda SVM (Support Vector Machines)
+
+```{r}
+svm.dataFrame<-svm(ZU$grupa.na3~., data = ZU,type="C-classification", kernel="radial",scale = TRUE,gamma=(1/ncol(ZU)),cost=10,cross=2, probability=TRUE)
+
+svm.dataFrame
+```
+
+Możemy zauważyć, że liczba wektorów wynosi 176
+
+```{r}
+data<-summary(svm.dataFrame)
+data
+```
+
+Liczba klas wynosi 3 na naszym zbiorze
+
+### Teoretyczne przypisanie grup na zbiorze uczącym
+```{r}
+svm.dataFrame$fitted
+```
+
+### Ocena jakości klasyfikacji
+```{r}
+y.teor<-fitted(svm.dataFrame)
+y.teor
+```
+
+### Tablica zgodności klasyfikacji
+```{r}
+T<-table(ZU$grupa.na3,y.teor)
+T
+```
+
+### Wektory
+```{r}
+svm.dataFrame
+```
+
+## Predykcja
+
+```{r}
+NOW<-predict(svm.dataFrame, ZT, decision.values = TRUE, probability = TRUE)
+NOW
+```
+
+```{r}
+A<-data.frame(NOW)
+B<-data.frame(ZT[7])
+C<-cbind(A,B)
+head(C, n=20)
+```
+
+```{r}
+T1<-table(C$NOW,C$grupa.na3)
+```
+
+### Zgodność na zbiorze treningowym
+
+```{r}
+T1
+```
+
+Możemy zauważyć, że zgodność sięga nawet do 92%
+
+### Zgodność na biorze uczącym
+
+```{r}
+T
+```
+
+Na zbiorze uczącym zgodność rośnie do nawet 97%
+
+## Estymowanie najlepszych modeli
+
+### Model Gaussa
+
+```{r}
+svm.dataClear<-tune.svm(ZU[,1:6],ZU[,7], data=ZU,kernel="radial",gamma=c(0.5,1),cost=10^(-2:2),tunecontrol=tune.control(sampling = "cross",cross=3, best.model = TRUE))
+summary(svm.dataClear)
+```
+
+#### Najlepsze z parametrów
+
+```{r}
+svm.dataClear$best.parameters
+```
+
+#### Najmniejszy błąd klasyfikacji dla funkcji jądrowej gaussa
+
+```{r}
+signif(svm.dataClear$best.performance,digits = 2)
+quote=FALSE
+```
+
+```{r}
+svm.dataClear$best.model
+```
+#### Zapamiętujemy najlepszy model
+
+```{r}
+best.model1<-svm.dataClear$best.model
+best.model1
+```
+
+```{r}
+min.err<-svm.dataClear$best.performance
+min.err
+```
+
+### Wielomianowy
+
+### Najlepsze parametry
+
+```{r}
+svm.dataFrame<-tune.svm(ZU[,1:6],ZU[,7], data=ZU, kernel="radial",degree = 2, gamma=c(0.5,1),coef0=10,cost=10^(-2:2),tunecontrol=tune.control(sampling = "cross",cross=3,best.model = TRUE))
+
+signif(svm.dataFrame$best.performance, digits =2)
+quote = FALSE
+```
+
+#### Parametry modelu svm-wielomian
+
+```{r}
+svm.dataFrame$best.parameters
+```
+
+## Podsumowanie modeli - Model Gaussa vs. Model wielomianowy
+
+### Wybór lepszego z tych dwóch modeli - zapamiętanue go jako najlepszy
+
+```{r}
+if(svm.dataClear$best.performance<min.err)
+{
+  best.model1<-svm.dataClear$best.model;
+  min.err<-svm.dataClear$best.performance
+  print("Lepszym modelem jest model Gaussa")
+}
+
+if(svm.dataFrame$best.performance<min.err)
+{
+  best.model1<-svm.dataFrame$best.model;
+  min.err<-svm.dataFrame$best.performance
+  print("Lepszym modelem jest model wielomianowy")
+}
+
+best.model1
+```
+
+### Sigmoidalne jądro - wybór parametrów dla najlepszego
+
+```{r}
+svm.dataClear<-tune.svm(ZU[,1:6],ZU$grupa.na3, data=ZU, kernel="sigmoid", gamma=c(0.5,1),coef0=10,cost=10^(-2:2),tunecontrol=tune.control(sampling = "cross",cross=3))
+```
+
+### Najmniejszy błąd klasyfikacji dla funkcjijądrowej wielomianowej
+
+```{r}
+signif(svm.dataClear$best.performance,digits = 2)
+quote=FALSE
+```
+
+### Parametry modelu svm-wielomian
+
+```{r}
+svm.dataClear$best.parameters
+```
+
+### Wybór lepszego z tych dwóch modeli - zapamiętanue go jako najlepszy
+
+```{r}
+if(svm.dataClear$best.performance<min.err)
+{
+  best.model1<-svm.dataClear$best.model;
+  min.err<-svm.dataClear$best.performance
+  print("Lepszym modelem jest model Gaussa")
+}
+
+if(svm.dataFrame$best.performance<min.err)
+{
+  best.model1<-svm.dataFrame$best.model;
+  min.err<-svm.dataFrame$best.performance
+  print("Lepszym modelem jest model wielomianowy")
+}
+
+best.model1
+```
+
+### Liniowe jądro - wybór parametrów dla najlepszego bez gammy
+
+```{r}
+svm.dataClear<-tune.svm(ZU[,1:6],ZU$grupa.na3, data=ZU, kernel="linear",coef0=10,cost=10^(-2:2),tunecontrol=tune.control(sampling = "cross",cross=3))
+```
+
+### Najmniejszy błąd klasyfikacji dla funkcji jądrowej wielomianowej
+```{r}
+signif(svm.dataClear$best.performance,digits = 2)
+quote = FALSE
+```
+
+### Parametry modelu svm-wielomian
+
+```{r}
+svm.dataClear$best.parameters
+```
+
+### Wybór lepszego z tych dwóch modeli - zapamiętanue go jako najlepszy
+
+```{r}
+if(svm.dataClear$best.performance<min.err)
+{
+  best.model1<-svm.dataClear$best.model;
+  min.err<-svm.dataClear$best.performance
+  print("Lepszym modelem jest model Gaussa")
+}
+
+if(svm.dataFrame$best.performance<min.err)
+{
+  best.model1<-svm.dataFrame$best.model;
+  min.err<-svm.dataFrame$best.performance
+  print("Lepszym modelem jest model wielomianowy")
+}
+
+best.model1
+```
+
+## Parametry najlepszego modelu
+```{r}
+summary(best.model1)
+```
+
+## Podsumowanie
+
+Jak widać z przeprowadzonych testów, najlepszym modelem dla zimplemetnowanej bazy jest model wielomianowy
