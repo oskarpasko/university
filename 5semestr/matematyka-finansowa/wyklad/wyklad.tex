@@ -2213,7 +2213,7 @@ Na oznaczenie JSN n-letniego ubezpiezcenia terminowego na żucie zawieranego prz
 
 \begin{center}
 	\begin{equation}
-		A^1_{}x:n \rceil = \Sigma ^{n}_i=0 v^{k+1} _kp_x q_{x+k}
+		A^1_{x:n} \rceil = \Sigma ^{n}_i=0 v^{k+1} _kp_x q_{x+k}
 	\end{equation}
 \end{center}\\
 
@@ -2229,7 +2229,323 @@ $ A^1_{35:10 \rceil} = $\\
 
 $ A^1_{45:10 \rceil} =  $\\
 
+\newpage
+
 \subsection{Ubezpieczenie na dożycie}
 
+W przypadku n-letniego ubezpieczenia na dożycie, suma ubezpieczenia wypłacana jest po n latach od chwili zawarcia umowy, o ile ubezpieczony dożył tego momentu. W przeciwnym wypadku wypłata nie następuje Stąd zmienna losowa Z ma rozkład dwupunktowy
+
+Oznaczając przez $ A_{x:n|} ^1 $ jednorazoą składkę netto n- letniego ubezpieczenia na dożycie zawieranego przez x-latka z sumą 1 mamy:
+
+\begin{center}
+	\begin{equation}
+		A^1_{x:n} \rceil = x^n _nP_x
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 80}
+
+Załóży że 28-latek zamierza zakupić polisę ubezpieczeniową na dożycie, gwarantującą wypłatę 100 000 po osiągnięciu przez ubezpieczonego wieku emerytalnego. Przyjmujemy, że wiek ten wynosi 60k i 65m, zaś stopa procentowa jest równa 5 \%. \\
+
+dla kobiety:\\
+
+$ A_{28:32 \rceil}^1 = {\frac{1}{1,05})^32 \cdot \frac{l_{60}}{l_{28}} = 0,197079 $\\
+
+$ JSN = 100 000 \cdot 0,197079 = 19707,90 $\\
+
+$ A_{28:37 \rceil}^1 = 0,125650 $\\
+
+$ JSN = 12 565,90 $\\
+
+\subsection{Ubezpieczenie mieszane}
+
+Ubezpieczenie mieszane n-letnie gwarantuje wypłatę sumy ubezpieczenie w następujących sytuacjach:
+
+- na koniec roku śmierci ubezpieczonego jeżeli nastąpi ona przed upływem okresu ubezpieczenia;\\
+
+- na koniec okresu ubezpieczenia jeżeli ubezpieczony dożyje tego momentu\\
+
+Zmienna losowa Z ma więc w tym przypadku rozkład:\\
+
+JSN n-letneigo ubezpieczenia mieszanego zakupionego przez x-latka z sumą 1, płatną na koniec roku śmierci ubezpieczonego oznaczać będziemy przez $ A_{x:n \rceil} $. Korzystając z (88) i (93):
+
+\begin{center}
+	\begin{equation}
+		A_{x:n \rceil} = \Sigma _{k-0}^{n-1} v^{k+1} _kp_x \cdot q_{x+k} + v^n_np_x
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przyjład 81}
+
+Obliczymy JSN 15-letniego ubezpieczenia mieszanego z sumą ubezpieczenia równą 250 000 PLN. Przyjmiemy, że roczna stopa procentowa i = 5 \% zaś ubezpieczonym jest a) 50-letni mężczyzna, b) 40-letnia kobieta\\
+
+ze wzoru (103)
+
+a)\\
+
+$ A_{50:15} = 0,511092 $\\
+
+$ JSN = 250 000 \cdot 0,511092 = 127 773,00 $\\
+
+b)\\
+
+$ A_{40:15} = 0,485254 $\\
+
+$ JSN = 121 321,00 $\\
+
+\newpage
+
+\section{Renta na całe życie}
+
+Z tytułu renty na całe życie ubezpieczonemu wypłacane sa określone w umowie kwoty w ustalonych chwiilach, o ile ubezpieczony żyje. Wysokość rat nie musi być stała, lecz moze zależeć od chwili wypłaty. Ograniczymy się przy tym do przypadku jednakowych rat równych 1 wypłacanych co rok. W zależności od tego czy pierwsza rata jest wypłacana już w chwili podpisaia umowy czy dpiero po roku wyróżnia się renty płatne z góry i z dołu. W pierwszym przypadku zmienna losowa Z ma rozkład:\\
+
+Przyjmijmy oznaczenie:
+
+$ {\"a}\frac{}{k+1|} = 1 + v + v^2 + ... + v^k dla k \epsilon N_0 $\\
+
+Niech $ {\"a}\frac{}{x|} $ oznacza jsn renty na całe życie dla x-latka płatnej corocznie z góry w wysokości 1.\\
+
+ \begin{center}
+	\begin{equation}
+		{\"a}\frac{}{x|} = \Sigma _{k=0} ^{\infty} {\"a}\frac{}{k+1|} _kp_x \cdot q_{x+k}
+	\end{equation}
+\end{center}\\
+
+Przejdźmy do renty na całe życie płatnej z dołu. W tym przypadku rozkład zmiennej losowej Z ma postać:\\
+
+JSN renty na całe żucie dla x-latka płatnej corocznie z dołu w wysokości 1 oznaczamy przez $ a_x $\\
+
+\begin{center}
+	\begin{equation}
+		a_k = v + v^2 + ... + v^k dla k \epsilon N
+	\end{equation}
+\end{center}\\
+
+\begin{center}
+	\begin{equation}
+		a_x = \Sigma _{k=0} ^{\infty} a_{k|} _kp_x \cdot q_{x+k}
+	\end{equation}
+\end{center}\\
+
+\textbf{Uwaga}\\
+
+$ {\"a}\frac{}{k+1|} = 1 + a_{k|} $ dla $ k \epsilon N $\\
+
+zgodnie z (105) i (107)\\
+
+\begin{center}
+	\begin{equation}
+		{\"a}_x = 1 + a_x
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 82}
+
+Zakładając, że roczna stopa procentowa i = 5 \% wyznaczymy jsn renty na całe życie dla 55-latka (m) gwarantującej wypłatę 25 000 PLN na począrku każdego roku życia.\\
+
+ze wzoru (105)\\
+
+$ {\"a}_55 =  $\\
+
+(w TTŻ rozwiązanie)\\
+
+\newpage
+
+\section{Renta terminowa na życie}
+
+Renta terminowa n-letnia na życie wypłacana jest od momentu zawarcia umowy do końca życia ubezpieczonego, jednak nie więcej iz n-krotnie. Podobnie jak rent na całe życie wyróżnia się renty płatne z góry i z dołu. Dla n-letniej renty na życie płatnej z góry zienna losowa Z ma rozkłąd:\\
+
+Niech $ {\"a}_{x:n|} $ oznacza jsn n-letnej renty na życie dla x-latka płatnej corocznie z góry w wysokości 1.\\
+
+\begin{center}
+	\begin{equation}
+		{\"a}_{x:n|} = \Sigma _{k=0} ^{n-1} {\"a}_{k+1|} _kp_x \cdot q_{x+k} + {\"a}_{n} _np_x
+	\end{equation}
+\end{center}\\
+
+Niech teraz $ a_{x:n|} $ oznacza jsn n-letniej renty na życie dla x-latka płatnej corocznie z dołu w wysokości 1.\\
+
+Zmienna losowa Z ma w tym przypadju rozkład:\\
+
+$ a_{x:n|} = \Sigma _{k=0}^{n-1} a_{k|} _kp_x \cdot q_{x+k} + a_{n}} n_p_x $
+
+\subsection{Przykład 83}
+
+Obliczymy jsn 20-letniej renty na życie dla 60-letniej kobiety, wiedząc że tenta będzie płatna corocznie z góry w wyokości 20 000 PLN, nastepnie obliczymy jsn analogicznej renty płatnej z dołu. Przyjmiemy że i = 5 \%.
+
+ze wzoru (109)\\
+
+$ {\"a}_{60:20} = 11,943565 $\\
+
+$ jsn = 238 871,36 $\\
+
+W przypadku renty płatnej z dołu stosujemy (110)\\
+
+$jsn = 224 115,35$
+
+
+\section{Renta Odroczona}
+
+Zarówno renty na całe życie jak i renty terminowe mogą występować jako odroczone. W tym wariancie pierwsza wypłata  (z góry) następuje po upływie określonego okresu, o ile ubezpieczony dożył tej chwili. Zajmiemy sie jedynie przypadkiem renty na całe życie, odroconej o m lat. Zmienna losowa Z ma wówcza nastepujący rozkład:\\
+
+Oznaczmy przez $ _{m|}{\"a}_x $ - jsn renty na całe życie odroczonej o m lat, z ratą 1, zakupionej przez x-latka.\\
+
+\begin{center}
+	\begin{equation}
+		_{m|}{\"a}_x = {\"a}_x = {\"a}_{x:m|}
+	\end{equation}
+\end{center}\\
+
+\subsection{Przykład 84}
+
+Obliczymy jednorazową składkę netto renty na całe życie odroczonej o 20 lat. Założymy że ubezpieczoną jest 48-letnia kobiera a rata renty wynosząca 15 000 ma być wypłacana na początku każdego roku życia ubezpieczonej. i = 5 \%.\\
+
+(111)\\
+
+w oparciu o (105) i (109)\\
+
+$ {\"a}_{48} = 16,203369 $\\
+
+$ {\"a}_{48:20|} = 12,696035 $\\
+
+$ {20|}{\"a}_{48} = 3,507334 $\\
+
+$ JSN = 15000 \cdot 3,507334 = 52610,01 $\\
+
+\section{Roczne składki netto ubezpieczeń i rent życiowych}
+
+Rozwżając wybrane ubezpieczenia i renty życiowe zakładaliśmy domtychczas, że składka ubezpieczenia netto opłacana jest jednorazowo w chwili zawierania umowy. Jdnak w praktyce polisa ubezpieczeniowa okresla z jednej storny korzyści dla ubezpieczonego, z drugiej strony zaś okresla wiekość składek i czas, w którym ubezpieczony powinien je zapłacić ubezpieczającemu. W zależności od umowy mogą być placone jednorazowo, przez cały okres ubezpieczenia lub przez jego część. Mogą one być stałe lub zmienne. Natomiast w żadnym przypadku składki nie są płacone po zakończniu okresu, w którym obezpieczonemu przysługują świadczenia ze strony ubezpieczenia.  W naszych rozważaniach ograniczymy się do przypadku, gdy raty skladki są równe, płacone są corocznie z góry, zaś wypłata świadczenia następuje na koniec roku śmierci ubezpieczonego.
+
+\section{Składka netto}
+
+Dla danej umowy ubezpieczeniowej, \textbf{całkowitą stratą} (ubezpieczyciela) nazywa się różnicę obecnych wartości wypłay z tytułu tej umowy i wpływów ze składki płaconej przez ubezpieczonego. Zatem oznaczając całkowitą stratę przez L, mamy:\\
+
+$ L = OW(wypłat) - OW(składka) $\\
+
+Wielkość L jest zmienną losową zarówno ze względu na wypłaty jak i składkę. Składkę nazywamy \textbf{składką netto} jezeli zmienna losowa L spełnia nastepujący \textbf{warunek równoważności}:\\
+
+\begin{center}
+	\begin{equation}
+		E(L) = 0
+	\end{equation}
+\end{center}\\
+
+Z definicji zmiennej losowej L wynika:
+
+\begin{center}
+	\begin{equation}
+		E(OW(wypłat)) = E(OW(składki))
+	\end{equation}
+\end{center}\\
+który nosi nazwę \begin{center}
+	\begin{equation}
+		_{m|}{\"a}_x = {\"a}_x = {\"a}_{x:m|}
+	\end{equation}
+\end{center}\\
+
+który nosi nazwę \textbf{równania wartości składki netto.} Zauważmy że zgodznie z definicją JSN mamy:
+
+
+$		JSN = E(OW(wypłay)) $\\
+
+
+Wobec tego równanie wartości składki netto (113) można zapisąc w następujący sposób:\\
+
+\begin{center}
+	\begin{equation}
+		JSN = E(OW(składki))
+	\end{equation}
+\end{center}\\
+
+W oparciu o warunek (114) wyprowadzimy teraz kilka wzorów na roczne składki netto dla ubezpieczeń i rent życiowych.\\
+
+\subsection{ubezpieczenie na całe życie}
+
+Oznaczmy przez $ P_x $ RSN ubezpieczenia na całe życie zawartego przez x-latka z sumą 1 płatną na koniec roku śmierci ubezpieczonego. Zauważmy że zmienna losowa OW składki ma taki rozkład:\\
+
+$ E(OW(skladki)) = P_x[\"}_x $\\
+
+$ A_x = P_x[\"}_x $\\
+
+\begin{center}
+	\begin{equation}
+		P_x = \frac{A_x}{{\"a}_x}
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 85}
+
+Obliczymy roczną skłądkę netto ubezpieczenia na całe życie dla 55-letniego mężczyzny, ktore gwarantuje wypłatę 40 000 na koniec roku smierci ubezpiezconego. i = 5 \%.\\
+
+$ {\"a}_55 = 13.089175 $\\
+
+$ A_{55} = 0,368978 $\\
+
+$ P_{55} = 0,028190 $\\
+
+$ RSM = 40000 \cdot 0,028190 = 1127,58 $\\
+
+\subsection{Ubezpieczenie terminowe na życie}
+
+Niech $ P^1_{x:n|} $ oznacza roczną składkę netto n-letniego ubezpieczenia terminowego na życie zawartego przez x-latka z suma 1 płatną na koniec roku śmierci ubezpieczonego.\\
+
+\begin{center}
+	\begin{equation}
+		P^1_{x:n|} = \frac{A^1_{x:n|}{{\"a}_{x:n|}
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 86}
+
+Wyznaczymy roczną składke netto 20-letniego ubezpieczenia terminowego na życie dla 60-letniej kobiety, gwarantyjącego wypłatę 50 000 na koniec roku śmierci ubezpieczonej. i = 5\%\\
+
+$ {\"a}_{60:20|} = 11,943565 $\\
+
+\subsubsection{Ubezpieczenie na dożycie}
+
+Oznaczmy przez $ P_{x:n|} ^1 roczną składkę netto n-letniego ubezpieczenia na dożycie zawieranego przez x-latka z sumą równą 1. $\\
+
+\begin{center}
+	\begin{equation}
+		P_{x:n|} ^1 = \frac{A_{x:n|} ^1}{{\"a}_{x:n|}}
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 87}
+
+Przyjmując roczną stopę procentową 5\% obliczymy RSN 15-letniego ubezpieczonego na dozycie z sumąrówną 120 000 zakupionego przez 50-letniego mężczyzne.\\
+
+$ {\"a}_{50:15| = 10,267180 $\\
+
+$ A_{x:n|} ^1 = 0,393083 $\\
+
+$ P_{50:15|} ^1 = 0,038353 $\\
+
+$ RSN = 4594,24 $\\
+
+\subsection{Ubezpieczenie mieszane}
+
+Niech $ P_{x:n|} $ oznacza roczną składkę netto n-letniego ubezpieczenia mieszanego, zawartego przez x-latka z suma 1 płatną na koniec roku śmierci ubezpieczonego.\\
+
+\begin{center}
+	\begin{equation}
+		P_{x:n|} = \frac{A-{x:n|}}{{\"a_{x:n|}}
+	\end{equation}
+\end{center}\\
+
+\subsubsection{Przykład 88}
+
+Wyznaczymy RSK 25-lwtniego ubezpieczenia mieszanego dla 50-letniego ężczyzny z sumą równą 150000 płatną na koniec roku śmierci ubezpieczoengo. i = 5 \%\\
+
+$ {\"a}_{50:25| = 13,097379 $\\
+
+$ A_{50:25|} = 0,376316 $\\
+
+$ P_{50:25} = 0,028732 $\\
+
+$ RSN = 4309,82 $
+
+
+% {\"a} %
 
 \end{document}
