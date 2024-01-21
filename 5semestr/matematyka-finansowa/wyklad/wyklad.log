@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.11.24)  17 JAN 2024 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9) (preloaded format=pdflatex 2023.10.4)  20 JAN 2024 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**wyklad.tex
-(./wyklad.tex
-LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24>
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+**./wyklad.tex
+(wyklad.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(F:\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(F:\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
 \c@section=\count186
@@ -19,16 +19,15 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \c@subparagraph=\count190
 \c@figure=\count191
 \c@table=\count192
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+(F:\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box50
-)
-(./wyklad.aux)
+\l__pdf_internal_box=\box51
+) (wyklad.aux)
 \openout1 = `wyklad.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -45,7 +44,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
- (./wyklad.toc
+ (wyklad.toc
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -53,7 +52,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 ...sline {section}{\numberline {1}Wstęp}{6}{}
+l.1 ...sline {section}{\numberline {1}Wstęp}{2}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -70,7 +69,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...n}{\numberline {2.3.2}b) miesięczna}{9}{}
+l.11 ...n}{\numberline {2.3.2}b) miesięczna}{5}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -83,7 +82,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...umberline {6}Kapitalizacja ciągła}{17}{}
+l.35 ...umberline {6}Kapitalizacja ciągła}{13}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -96,7 +95,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 ...umberline {7}Natężenie procentowe}{18}{}
+l.39 ...umberline {7}Natężenie procentowe}{14}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -104,7 +103,7 @@ or  <return>  to continue without it.
 
 [1
 
-{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+{C:/Users/oskar/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
 ! LaTeX Error: Command \k unavailable in encoding OT1.
 
@@ -112,7 +111,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 ...krotnej kapitalizacji w ciągu roku}{21}{}
+l.44 ...krotnej kapitalizacji w ciągu roku}{17}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -125,7 +124,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53 ...skonto przy kapitalizacji ciągłej}{24}{}
+l.53 ...skonto przy kapitalizacji ciągłej}{20}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -138,7 +137,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 ...ności przy kapitalizacji ciągłej}{35}{}
+l.73 ...ności przy kapitalizacji ciągłej}{31}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -152,7 +151,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 ...�wnoważność ciągów kapitałów}{38}{}
+l.79 ...�wnoważność ciągów kapitałów}{34}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -165,7 +164,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 ...rline {20}Wartość bieżąca netto}{42}{}
+l.86 ...rline {20}Wartość bieżąca netto}{38}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -178,7 +177,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 ...erline {21}Wewnętrzna stopa zwrotu}{45}{}
+l.93 ...erline {21}Wewnętrzna stopa zwrotu}{41}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -191,7 +190,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...ty z roczną kapitalizacją odsetek}{48}{}
+l.99 ...ty z roczną kapitalizacją odsetek}{44}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -204,7 +203,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 ...ty z roczną kapitalizacją odsetek}{48}{}
+l.99 ...ty z roczną kapitalizacją odsetek}{44}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -217,7 +216,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+l.103 ...pitalizacją odsetek w ciągu roku}{46}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -230,7 +229,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+l.103 ...pitalizacją odsetek w ciągu roku}{46}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -243,7 +242,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ...pitalizacją odsetek w ciągu roku}{50}{}
+l.103 ...pitalizacją odsetek w ciągu roku}{46}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -256,7 +255,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.107 ...ci początkowej w arkuszu MS Excel}{52}{}
+l.107 ...ci początkowej w arkuszu MS Excel}{48}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -281,7 +280,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ... o równych ratach w arkuczu Excel}{64}{}
+l.133 ... o równych ratach w arkuczu Excel}{60}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -294,7 +293,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ... o równych ratach w arkuczu Excel}{64}{}
+l.133 ... o równych ratach w arkuczu Excel}{60}{}
                                                   %
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -15733,8 +15732,8 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! You can't use `\eqno' in vertical mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
+\eqno ->\@kernel@eqno 
+                      \aftergroup \ignorespaces 
 l.1723 	\end{equation}
                       
 Sorry, but I'm not programmed to handle this case;
@@ -19181,8 +19180,8 @@ so that I will find a matching right brace soon.
 (If you're confused by all this, try typing `I}' now.)
 
 ! You can't use `\eqno' in math mode.
-\endequation ->\eqno 
-                     \hbox {\@eqnnum }$$\@ignoretrue 
+\eqno ->\@kernel@eqno 
+                      \aftergroup \ignorespaces 
 l.2038 	\end{equation}
                       
 Sorry, but I'm not programmed to handle this case;
@@ -22209,7 +22208,7 @@ LaTeX Warning: Command \" invalid in math mode on input line 2304.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
 l.2304 $ {\"a
-             }\frac{}{k+1|} = 1 + v + v^2 + ... + v^k dla k \epsilon N_0 $\\
+             }\frac{-}{k+1|} = 1 + v + v^2 + ... + v^k dla k \epsilon N_0 $\\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -22241,7 +22240,7 @@ LaTeX Warning: Command \" invalid in math mode on input line 2310.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
 l.2310 		{\"a
-             }\frac{}{x|} = \Sigma _{k=0} ^{\infty} {\"a}\frac{}{k+1|} _kp_x...
+             }\frac{-}{x|} = \Sigma _{k=0} ^{\infty} {\"a}\frac{-}{k+1|} _kp...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -22251,8 +22250,8 @@ LaTeX Warning: Command \" invalid in math mode on input line 2310.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.2310 ...rac{}{x|} = \Sigma _{k=0} ^{\infty} {\"a
-                                                  }\frac{}{k+1|} _kp_x \cdot...
+l.2310 ...ac{-}{x|} = \Sigma _{k=0} ^{\infty} {\"a
+                                                  }\frac{-}{k+1|} _kp_x \cdo...
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -22322,7 +22321,7 @@ LaTeX Warning: Command \" invalid in math mode on input line 2332.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
 l.2332 $ {\"a
-             }\frac{}{k+1|} = 1 + a_{k|} $ dla $ k \epsilon N $\\
+             }\frac{-}{k+1|} = 1 + a_{k|} $ dla $ k \epsilon N $\\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -22590,20 +22589,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2368--2369
 
 ! Double subscript.
 l.2370 $ a_{x:n|} = \Sigma _{k=0}^{n-1} a_{k|} _
-                                                kp_x \cdot q_{x+k} + a_{n}} ...
+                                                kp_x \cdot q_{x+k} + a_{n} n...
 I treat `x_1_2' essentially like `x_1{}_2'.
 
-! Extra }, or forgotten $.
-l.2370 ...n-1} a_{k|} _kp_x \cdot q_{x+k} + a_{n}}
-                                                   n_p_x $
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 ! Double subscript.
-l.2370 ...a_{k|} _kp_x \cdot q_{x+k} + a_{n}} n_p_
+l.2370 ... a_{k|} _kp_x \cdot q_{x+k} + a_{n} n_p_
                                                   x $
 I treat `x_1_2' essentially like `x_1{}_2'.
 
@@ -22839,7 +22829,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.2401 ...j o 20 lat. Założymy że ubezpieczoną
-                                                   jest 48-letnia kobiera a ...
+                                                   jest 48-letnia kobieta a ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -22852,7 +22842,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2401 ... 48-letnia kobiera a rata renty wynoszą
+l.2401 ... 48-letnia kobieta a rata renty wynoszą
                                                   ca 15 000 ma być wypłaca...
 
 Your command was ignored.
@@ -22926,8 +22916,8 @@ LaTeX Warning: Command \" invalid in math mode on input line 2411.
 ! Please use \mathaccent for accents in math mode.
 \add@accent ... \let \ignorespaces \relax \accent 
                                                   #1 #2\egroup \ifmmode \els...
-l.2411 $ {20|}{\"a
-                  }_{48} = 3,507334 $\\
+l.2411 $ _{20|}{\"a
+                   }_{48} = 3,507334 $\\
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
@@ -23555,51 +23545,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2464--2465
 
 LaTeX Warning: Command \" invalid in math mode on input line 2466.
 
-! Argument of \OT1\" has an extra }.
-<inserted text> 
-                \par 
-l.2466 $ E(OW(skladki)) = P_x[\"}
-                                 _x $\\
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \OT1\" was complete.
-<to be read again> 
-                   \par 
-l.2466 $ E(OW(skladki)) = P_x[\"}
-                                 _x $\\
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2466 $ E(OW(skladki)) = P_x[\"}
-                                 _x $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Too many }'s.
-<recently read> }
-                 
-l.2466 $ E(OW(skladki)) = P_x[\"}
-                                 _x $\\
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2466 $ E(OW(skladki)) = P_x[\"}_
-                                  x $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2466 $ E(OW(skladki)) = P_x{\"a
+                                 }_x $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2466--2467
@@ -23609,58 +23561,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 2466--2467
 
 LaTeX Warning: Command \" invalid in math mode on input line 2468.
 
-! Argument of \OT1\" has an extra }.
-<inserted text> 
-                \par 
-l.2468 $ A_x = P_x[\"}
-                      _x $\\
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \OT1\" was complete.
-<to be read again> 
-                   \par 
-l.2468 $ A_x = P_x[\"}
-                      _x $\\
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2468 $ A_x = P_x[\"}
-                      _x $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Too many }'s.
-<recently read> }
-                 
-l.2468 $ A_x = P_x[\"}
-                      _x $\\
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.2468 $ A_x = P_x[\"}_
-                       x $\\
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2468 $ A_x = P_x{\"a
+                      }_x $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 2468--2469
 
  []
 
-[82]
 
 LaTeX Warning: Command \" invalid in math mode on input line 2472.
 
@@ -23672,6 +23585,7 @@ l.2472 		P_x = \frac{A_x}{{\"a}_x}
 I'm changing \accent to \mathaccent here; wish me luck.
 (Accents are not the same in formulas as they are in text.)
 
+[82]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -23693,7 +23607,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.2478 Obliczymy roczną
-                         skłądkę netto ubezpieczenia na całe życie dla ...
+                         składkę netto ubezpieczenia na całe życie dla 5...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -23706,22 +23620,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2478 Obliczymy roczną skłą
-                               dkę netto ubezpieczenia na całe życie dla ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Command \k unavailable in encoding OT1.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2478 Obliczymy roczną skłądkę
-                                    netto ubezpieczenia na całe życie dla ...
+l.2478 Obliczymy roczną składkę
+                                   netto ubezpieczenia na całe życie dla 5...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -23838,32 +23738,551 @@ Underfull \hbox (badness 10000) in paragraph at lines 2490--2491
 
  []
 
-)
-Runaway argument?
-{A^1_{x:n|}{{\"a}_{x:n|} \end {equation} \end {center}\\ \par \subsubsection \E
-TC.
-! File ended while scanning use of \frac .
-<inserted text> 
-                \par 
-<*> wyklad.tex
-              
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
 
-! Emergency stop.
-<*> wyklad.tex
-              
-*** (job aborted, no legal \end found)
+LaTeX Warning: Command \" invalid in math mode on input line 2494.
 
- 
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2494 ...{x:n|} = \frac{A^1_{x:n|}}{{\"a}_{x:n|}}
+                                                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2497 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 Wyznaczymy roczną
+                          składke netto 20-letniego ubezpieczenia terminowe...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 ...ycie dla 60-letniej kobiety, gwarantyją
+                                                  cego wypłatę 50 000 na k...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2500 ...tniej kobiety, gwarantyjącego wypłatę
+                                                   50 000 na koniec roku śm...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2500--2501
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 2502.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2502 $ {\"a
+             }_{60:20|} = 11,943565 $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2502--2503
+
+ []
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 2506.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2506 Oznaczmy przez $ P_{x:n|} ^1 roczną
+                                            składkę netto n-letniego ubezp...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \l invalid in math mode on input line 2506.
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 2506.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2506 ...my przez $ P_{x:n|} ^1 roczną składkę
+                                                   netto n-letniego ubezpiec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \. invalid in math mode on input line 2506.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2506 ...� netto n-letniego ubezpieczenia na doż
+                                                  ycie zawieranego przez x-l...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 2506.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2506 ...życie zawieranego przez x-latka z sumą
+                                                   równą 1. $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 2506.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2506 ...ie zawieranego przez x-latka z sumą ró
+                                                  wną 1. $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+LaTeX Warning: Command \k invalid in math mode on input line 2506.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2506 ...awieranego przez x-latka z sumą równą
+                                                   1. $\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (85.31236pt too wide) in paragraph at lines 2506--2507
+\OT1/cmr/m/n/10 Oznaczmy przez $\OML/cmm/m/it/10 P[]rocznaskladkenetton \OMS/cm
+sy/m/n/10 ^^@ \OML/cmm/m/it/10 letniegoubezpieczenianado[]yciezawieranegoprzezx
+ \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2506--2507
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 2510.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2510 ...|} ^1 = \frac{A_{x:n|} ^1}{{\"a}_{x:n|}}
+                                                  
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+[83]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2513 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 Przyjmują
+                 c roczną stopę procentową 5\% obliczymy RSN 15-letniego ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 Przyjmując roczną
+                           stopę procentową 5\% obliczymy RSN 15-letniego ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 Przyjmując roczną stopę
+                                  procentową 5\% obliczymy RSN 15-letniego ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 Przyjmując roczną stopę procentową
+                                              5\% obliczymy RSN 15-letniego ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 ...tniego ubezpieczonego na dozycie z sumą
+                                                  równą 120 000 zakupioneg...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 ...ubezpieczonego na dozycie z sumąrówną
+                                                   120 000 zakupionego przez...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2516 ...20 000 zakupionego przez 50-letniego mę
+                                                  żczyzne.\\
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (5.38948pt too wide) in paragraph at lines 2516--2517
+\OT1/cmr/m/n/10 zonego na dozy-cie z sumar^^Sowna 120 000 za-ku-pi-onego przez 
+50-letniego me_zczyzne. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2516--2517
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 2518.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2518 $ {\"a
+             }_{50:15|} = 10,267180 $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2518--2519
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2520--2521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2522--2523
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2524--2525
+
+ []
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2528 Niech $ P_{x:n|} $ oznacza roczną
+                                          składkę netto n-letniego ubezpie...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2528 ...h $ P_{x:n|} $ oznacza roczną składkę
+                                                   netto n-letniego ubezpiec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2528 ...awartego przez x-latka z suma 1 płatną
+                                                   na koniec roku śmierci u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2528--2529
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 2532.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2532 		P_{x:n|} = \frac{A-{x:n|}}{{\"a}_{x:n|}}
+                                                 
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2535 
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2538 ...zpieczenia mieszanego dla 50-letniego ę
+                                                  żczyzny z sumą równą 1...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2538 ...anego dla 50-letniego ężczyzny z sumą
+                                                   równą 150000 płatną n...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2538 ...a 50-letniego ężczyzny z sumą równą
+                                                   150000 płatną na koniec...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Command \k unavailable in encoding OT1.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2538 ...żczyzny z sumą równą 150000 płatną
+                                                   na koniec roku śmierci u...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (6.58284pt too wide) in paragraph at lines 2538--2539
+\OT1/cmr/m/n/10 Wyznaczymy RSK 25-lwtniego ubez-pieczenia mieszanego dla 50-let
+niego e_zczyzny
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2538--2539
+
+ []
+
+
+LaTeX Warning: Command \" invalid in math mode on input line 2540.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \ifmmode \els...
+l.2540 $ {\"a
+             }_{50:25|} = 13,097379 $\\
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2540--2541
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2542--2543
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2544--2545
+
+ []
+
+[84] (wyklad.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 429 strings out of 478268
- 7707 string characters out of 5846346
- 309885 words of memory out of 5000000
- 18715 multiletter control sequences out of 15000+600000
- 471112 words of font info for 34 fonts, out of 8000000 for 9000
+ 467 strings out of 475247
+ 8757 string characters out of 5774207
+ 1930801 words of memory out of 5000000
+ 22067 multiletter control sequences out of 15000+600000
+ 559922 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,38p,1143b,176s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 35i,6n,50p,1145b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\oskar\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx12.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmmi5.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+mi7.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr5.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb><F:/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb>
+Output written on wyklad.pdf (84 pages, 350124 bytes).
+PDF statistics:
+ 337 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
