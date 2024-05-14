@@ -1,11 +1,189 @@
 ---
-title: "Projekt"
+title: "Ekonometria - Projekt"
 author: "Oskar Paśko"
-date: "`r Sys.Date()`"
+date: "2024-05-14"
 output: html_document
 ---
 
-# Wczytujemy potrzebne bilbioteki
+# Przygotowanie zestawu danych
+
+Nasze dane to zbiór danych 1 475 pacjentów zebrane z okresu ostatnich 12 miesięcy przez Amerykańskie Centrum Kontroli Chorobom i Zapobiegania i wyglądają następująco:
+
 ```{r}
+library(readr)
+```
+
+```{r}
+health <- read_csv("D:/university/6semestr/Ekonometria/projekt/health.csv")
+```
+
+```{r}
+View(health)
 library(tidyverse)
+```
+
+```{r}
+glimpse(health)
+```
+
+```{r}
+health <- health %>% mutate(diabetes=as.factor(diabetes)) %>% 
+mutate(smoker=as.factor(smoker))
+```
+
+# Analiza danych
+
+Podsumowanie podstawowych statystyk dla zmiennych.
+
+```{r}
+summary(health)
+```
+
+Używając histogramu możemy wizualnie zobaczyć dystrybucję naszej zmiennej.
+
+```{r}
+health %>%
+  ggplot() +
+  geom_histogram(mapping = aes(x=systolic), fill= "lightblue", color= "black")+
+  theme_minimal()
+```
+
+Używając zestawienia histogramów możemy spojrzeć na dystrybucję naszych innych zmiennych.
+
+```{r}
+health %>%
+  select(-systolic) %>%
+  keep(is.numeric) %>%
+  gather() %>%
+  ggplot() +
+  geom_histogram(mapping = aes(x=value, fill=key), color="black") + facet_wrap(~ key, scales = "free") +
+  theme_minimal()
+```
+
+W następnym kroku sprawdzimy korelację pomiędzy zmiennymi.
+
+```{r}
+cor(health[, c("systolic", "weight", "height", "bmi", "waist", "age", "fastfood")])
+```
+
+# Dopasowanie modelu regresji liniowej
+
+Używamy zmiennej 'age', która ma największe powiązanie z zmienna decyzyjną, jako predykator oraz 'systolic'.
+
+```{r}
+health_mod1 <- lm(data = health, systolic~age)
+summary(health_mod1)
+```
+
+Dodajemy wszystkie zmienne do naszego modelu.
+
+```{r}
+health_mod2 <- lm(data = health, systolic~.)
+summary(health_mod2)
+```
+
+Pierwszym testem jest test na zerowe średnie reszt.
+
+```{r}
+mean(health_mod2$residuals)
+```
+
+Nasza średnia jest bliska 0, wieć przechodzimy do testu normalności reszt.
+
+```{r}
+library(olsrr)
+```
+
+```{r}
+ols_plot_resid_hist(health_mod2)
+```
+
+Teraz test heteroskedatyczności naszych reszt.
+
+```{r}
+ols_plot_resid_fit(health_mod2)
+```
+
+Następny test to autokorelacja reszt.
+
+```{r}
+library(car)
+```
+
+```{r}
+durbinWatsonTest(health_mod2)
+```
+
+Test na wysąpienie punktów wplywowych w naszych danych.
+
+```{r}
+cooks_plot <- ols_plot_cooksd_chart(health_mod2)
+```
+
+```{r}
+cooks_plot$outliers[,"obserbation"]
+```
+
+Według wykresu obserwacja 1358 odstaje od reszty, więc się jej przyjrzymy.
+
+```{r}
+health[1358,]
+```
+
+Porównanie do całego zestawu statystyk.
+
+```{r}
+summary(health)
+```
+
+Tworzymy listę wszystkich odstających obserwacji.
+
+```{r}
+cooksd <- cooks.distance(health_mod2)
+outliers_index <- as.numeric(unlist(which(cooksd > 4/length(cooksd))))
+outliers_index
+```
+
+Porównujemy odstające obserwacje z pozostałymi wartościami.
+
+```{r}
+summary(health[outliers_index,])
+```
+
+```{r}
+summary(health[-outliers_index,])
+```
+
+Teraz aby ulepszyć nasz model usuwamy nasze wartości odstające ze zbioru danych. Jednak aby odnosić się do oryginalnych danych musimy zrobić nowy zbiór.
+
+```{r}
+health2 <- health[-outliers_index,]
+ols_vif_tol(health_mod2)
+```
+
+Budujemy nowy model regresji liniowej.
+
+```{r}
+health_mod3 <- lm(data=health2, systolic ~ weight+age+diabetes)
+summary(health_mod3)
+```
+
+```{r}
+health2 <- health2 %>%
+mutate(age=age,
+lage=log(age))
+```
+
+Budujemy nasz kolejny model używając poniższej funkcji.
+
+```{r}
+ols_step_both_p(
+model = lm(
+data = health2,
+systolic ~ weight * diabetes + age * diabetes + age * diabetes + lage * diabetes
+),
+pent = 0.2,
+prem = 0.01,
+details = FALSE
+)
 ```
