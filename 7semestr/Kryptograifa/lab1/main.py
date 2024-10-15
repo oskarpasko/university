@@ -46,6 +46,7 @@ Sorekara, nihon ryouri o tabete mitai,
 tokuni sushi to ramen wa zettai ni tameshitai desu. 
 Nihonjin wa totemo shinsetsu da to kiita node, soko de takusan 
 no tomodachi o tsukuritai desu. Anata wa nihon ni ikitai to omoimasu ka?
+
 '''
 
 #
@@ -62,3 +63,9 @@ print(temp)
 print()
 
 print(decrypt_ceasar(temp))
+
+def solve(crypto_text):
+    for shift in range(25):
+        print(f"{shift}\t{encrypt_ceasar(crypto_text, shift)[:30]}")
+
+solve(text)
