@@ -59,4 +59,6 @@ print(text)
 # tekst po
 print(temp)
 
+print()
+
 print(decrypt_ceasar(temp))
