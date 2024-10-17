@@ -1,4 +1,5 @@
 import re
+import ngram
 
 # funkcja szyfrowania cezara z przesunięciem o 3 w prawo
 
@@ -49,7 +50,6 @@ no tomodachi o tsukuritai desu. Anata wa nihon ni ikitai to omoimasu ka?
 
 '''
 
-#
 processed_text = re.sub(r'[^A-Za-z]', '', text).upper()
 
 temp = encrypt_ceasar(processed_text)
@@ -68,4 +68,20 @@ def solve(crypto_text):
     for shift in range(25):
         print(f"{shift}\t{encrypt_ceasar(crypto_text, shift)[:30]}")
 
-solve(text)
+def solve2(crypto_text, Scorer):
+    best_score, result = -999999, ''
+    for shift in range(25):
+        decryptedText = decrypt_ceasar(crypto_text, shift)
+        sc = Scorer.score(decryptedText)
+        if sc > best_score:
+            best_score, result = sc, decryptedText
+            print(best_score, result[:30], shift)
+    return best_score, result
+
+with open('cos.txt', 'r', encoding='utf-8') as file:
+    zawartosc = file.read()
+Scorer = ngram.ngram_score(zawartosc, sep=' ')
+
+print(f"Rozwiązany teskst: {solve2(text, Scorer)}")
+
+#solve(text)
