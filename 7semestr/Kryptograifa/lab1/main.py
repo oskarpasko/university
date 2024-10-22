@@ -1,5 +1,5 @@
 import re
-import ngram
+from ngram import NgramScore
 
 # funkcja szyfrowania cezara z przesunięciem o 3 w prawo
 
@@ -78,9 +78,9 @@ def solve2(crypto_text, Scorer):
             print(best_score, result[:30], shift)
     return best_score, result
 
-with open('cos.txt', 'r', encoding='utf-8') as file:
+with open('/Users/oskarpasko/Documents/GitHub/University/7semestr/Kryptograifa/lab1/cos.txt', 'r', encoding='utf-8') as file:
     zawartosc = file.read()
-Scorer = ngram.ngram_score(zawartosc, sep=' ')
+Scorer = NgramScore.score(zawartosc)
 
 print(f"Rozwiązany teskst: {solve2(text, Scorer)}")
 
