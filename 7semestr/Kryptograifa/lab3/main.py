@@ -1,6 +1,7 @@
 import random
 
-alf = 'abcdefghijklmnopqrstuvwxyz'
+# Generate the alphabet and a random key
+alf = 'abcdefghijklmnopqrstuvwxyz'.lower()
 key2 = ''.join(random.sample(alf, len(alf)))
 
 print("Alphabet:", alf)
@@ -28,9 +29,18 @@ def decrypt(ct, klucz, alf):
             decrypted_text += c
     return decrypted_text
 
+# Example text to encrypt and decrypt
 text_to_encrypt = 'Jakis tam tekst'
 encrypted_text = encrypt(text_to_encrypt, key2, alf)
 print("Encrypted:", encrypted_text)
 
 decrypted_text = decrypt(encrypted_text, key2, alf)
 print("Decrypted:", decrypted_text)
+
+stalychLiter = s1 = 17
+
+# Generate and print variations of the key
+for i in range(5):
+    klucz00 = ''.join(list(alf[:s1])) + ''.join(random.sample(alf[s1:], len(alf[s1:])))
+    
+    print(klucz00)
