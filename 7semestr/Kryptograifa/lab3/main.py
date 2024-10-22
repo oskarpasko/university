@@ -1,4 +1,5 @@
 import random
+from time import time as tm
 
 # Generate the alphabet and a random key
 alf = 'abcdefghijklmnopqrstuvwxyz'.lower()
@@ -37,10 +38,22 @@ print("Encrypted:", encrypted_text)
 decrypted_text = decrypt(encrypted_text, key2, alf)
 print("Decrypted:", decrypted_text)
 
-stalychLiter = s1 = 17
-
-# Generate and print variations of the key
-for i in range(5):
-    klucz00 = ''.join(list(alf[:s1])) + ''.join(random.sample(alf[s1:], len(alf[s1:])))
+def random_key(stala=0):
+    return ''.join(list(alf[:stala])) + ''.join(random.sample(alf[stala:], len(alf[stala:])))
     
+for i in range(5):
+    klucz00 = random_key(17)
     print(klucz00)
+
+def attack(stala=17):
+    temp = random_key(stala)
+    ct = encrypt(decrypted_text, temp, alf)  # Include 'alf' as the third argument
+    return ct
+
+# Measure the time taken for the attack
+t0 = tm()
+ct = attack()  # Call the attack function
+t1 = tm()
+
+print(f'Encrypted text during attack: {ct}')
+print(f'Time taken for the attack: {t1-t0:.6f} s')
