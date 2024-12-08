@@ -1,59 +1,97 @@
+
 import random
+from copy import deepcopy
+import ngram
 from time import time as tm
 
-# Generate the alphabet and a random key
-alf = 'abcdefghijklmnopqrstuvwxyz'.lower()
-key2 = ''.join(random.sample(alf, len(alf)))
+alf = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-print("Alphabet:", alf)
-print("Key:", key2)
+key = ''.join(random.sample(alf,len(alf)))
 
-def encrypt(tj, klucz, alf):
-    slownik = {c: klucz[i] for i, c in enumerate(alf)}
-    ct = ''
-    for c in tj:
-        c_lower = c.lower()
-        if c_lower in slownik:
-            ct += slownik[c_lower]
-        else:
-            ct += c
-    return ct
+# print(alf,len(alf))
+# print(key)
 
-def decrypt(ct, klucz, alf):
-    reverse_slownik = {klucz[i]: c for i, c in enumerate(alf)}
+def encrypt(text, key,alf = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'):
+    dictionary = {c: key[i] for i,c in enumerate(alf)}
+    encrypted_text = ''
+
+    for c in text:
+        encrypted_text += dictionary[c]
+    return encrypted_text
+
+en_text = encrypt('TESTSTRING',key,alf)
+print(en_text)
+
+def decrypt(text, key, alf = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'):
+    dictionary = {c: alf[i] for i,c in enumerate(key)}
+
     decrypted_text = ''
-    for c in ct:
-        c_lower = c.lower()
-        if c_lower in reverse_slownik:
-            decrypted_text += reverse_slownik[c_lower]
-        else:
-            decrypted_text += c
+
+    for c in text:
+        decrypted_text += dictionary[c]
     return decrypted_text
 
-# Example text to encrypt and decrypt
-text_to_encrypt = 'Jakis tam tekst'
-encrypted_text = encrypt(text_to_encrypt, key2, alf)
-print("Encrypted:", encrypted_text)
+dn_text = decrypt(en_text,key)
+print(dn_text)
 
-decrypted_text = decrypt(encrypted_text, key2, alf)
-print("Decrypted:", decrypted_text)
+def get_rand_key(shift, alf = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'):
+    key = ''.join(list(alf[:shift]) + random.sample(alf[shift:],len(alf[shift:])))
+    return key
 
-def random_key(stala=0):
-    return ''.join(list(alf[:stala])) + ''.join(random.sample(alf[stala:], len(alf[stala:])))
-    
-for i in range(5):
-    klucz00 = random_key(17)
-    print(klucz00)
 
-def attack(stala=17):
-    temp = random_key(stala)
-    ct = encrypt(decrypted_text, temp, alf)  # Include 'alf' as the third argument
-    return ct
 
-# Measure the time taken for the attack
+Scorer = ngram.ngram_score('/Users/oskarpasko/Documents/GitHub/University/7semestr/Kryptograifa/lab3/english_bigrams.txt', sep= ' ')
+
+# Lab version (almost :p)
+def attack_auto(crypto_text,stalych_liter = 17):
+    best_score = -99999
+    result = ''
+    tt0 = tm()
+    while tm() - tt0 <20:
+        rand_key = get_rand_key(stalych_liter)
+        decrypted_text = decrypt(crypto_text,rand_key)
+        sc = Scorer.score(decrypted_text)
+        if sc > best_score:
+            best_score, result = sc, decrypted_text
+    return best_score, result
+
+# My version
+def attack_auto2(crypto_text,stalych_liter = 17, attempts = 1000):
+    best_score = -99999
+    result = ''
+    for i in range(attempts):
+        rand_key = get_rand_key(stalych_liter)
+        decrypted_text = decrypt(crypto_text,rand_key)
+        sc = Scorer.score(decrypted_text)
+        if sc > best_score:
+            best_score, result = sc, decrypted_text
+    return best_score, result
+
+def change_of_key(old_key, stalych_liter=17):
+    i,j = sorted(random.sample(list(range(stalych_liter,26)),2))
+    key_new = old_key[:i] + old_key[j] + old_key[i+1:j] + old_key[i] + old_key[j+1:]
+    return key_new
+
+def attackHillClimbing(crypto_text, stalych_liter = 17):
+    best_score = -99999
+    old_key = get_rand_key(stalych_liter)
+    result = ''
+    tt0 = tm()
+    while tm() - tt0 <5:
+        rand_key = change_of_key(old_key,stalych_liter)
+        decrypted_text = decrypt(crypto_text,rand_key)
+        sc = Scorer.score(decrypted_text)
+        if sc > best_score:
+            best_score, result, old_key = sc, decrypted_text, rand_key
+    return best_score, result
+
+key1 = get_rand_key(20,alf)
+
+
+en_text_1 = encrypt('THISISATESTSTRINGTHATISREALLYAWESOME',key1)
+
 t0 = tm()
-ct = attack()  # Call the attack function
+print(attackHillClimbing(en_text_1,20))
 t1 = tm()
 
-print(f'Encrypted text during attack: {ct}')
-print(f'Time taken for the attack: {t1-t0:.6f} s')
+print(f'czas {t1-t0} sekund')
